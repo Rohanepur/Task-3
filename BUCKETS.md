@@ -1,10 +1,36 @@
 # Action Buckets — 860 submissions
 
-**621 clean** (pass criteria 1-3) · **239 need work** · factual accuracy (#5) still
-to be verified across all 860.
+## Totals — where we stand
+| | Count | % of 860 |
+|---|---|---|
+| **Total submissions** | 860 | 100% |
+| **Client-ready now** (pass criteria 1-3) | **621** | 72.2% |
+| **Need remediation** (fail ≥1 of criteria 1-3) | **239** | 27.8% |
 
-Segmented by defect tag **and** the sub-state that picks the remediation path.
-A submission needs *every* defect in its set fixed (see the combination matrix).
+> ⚠️ **621 is an upper bound.** Criteria #4 (units/scale/ambiguity), #5 (factual
+> accuracy) and #6 (AI-tells) are **not yet verified** for any submission. The
+> factual pass (#5) in particular can only move the number **down** — some of the
+> 621 will fail once their figures are checked against the filings.
+
+### Defect incidence across the 239 (a submission can carry several)
+| Defect tag | Submissions | Verified? |
+|---|---|---|
+| logic (`logic_validation_failed`) | 146 | exact |
+| AI (`ai_probability > 0.50`) | 118 | exact |
+| page_numbers missing (empty) | 4 | exact |
+| structure (<4 steps / bad `\n`) | 2 | exact |
+| page incorrect / factual errors (#5) | TBD | needs filing pass |
+
+- **Single-defect** submissions: **210** (117 logic-only + 93 AI-only) — cleaner fixes.
+- **Multi-defect** submissions: **29** (need 2-3 fixes each) — see matrix.
+- Tag overlaps: logic ∩ AI = **25**; all 4 page-missing and the 3 no-answer
+  entries are **also** logic-tagged (defects cluster, they don't spread evenly).
+
+Factual accuracy (#5) still to be verified across all 860.
+
+Below: segmented by defect tag **and** the sub-state that picks the remediation
+path. A submission needs *every* defect in its set fixed (see the combination
+matrix).
 
 ---
 
