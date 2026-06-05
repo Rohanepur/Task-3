@@ -1796,5 +1796,33 @@
       "answer": "65.34%"
     },
     "verification": "logic_issue cost-of-revenue/opex figures contradict the filing MD&A (p42); original solution consistent with filing. (Entry remains in AI track.)"
+  },
+  {
+    "id": "PRU_2024",
+    "rec": 688,
+    "ann": 0,
+    "agent": "salvage",
+    "before": {
+      "answer": "(quarantined)"
+    },
+    "after": {
+      "answer": "-$2.4 billion"
+    },
+    "verification": "Note 23 reconciliation table on physical page 217 (printed page 216) shows total segment adjusted operating revenues of $68,053M in the 'Total Revenues' column of the 'Total segment adjusted operating",
+    "gptzero": "ai/1"
+  },
+  {
+    "id": "CVX_2004",
+    "rec": 480,
+    "ann": 0,
+    "agent": "salvage",
+    "before": {
+      "answer": "(quarantined)"
+    },
+    "after": {
+      "answer": "$13.55 per barrel"
+    },
+    "verification": "Table III on physical page 58 (printed page FS-54 area) shows 'Results before income taxes' for YEAR ENDED DECEMBER 31, 2003 as $12,475M in the Worldwide column (sum: consolidated $11,563M + TCO $867M",
+    "gptzero": "human/0.368"
   }
 ]

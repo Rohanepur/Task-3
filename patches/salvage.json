@@ -1,0 +1,283 @@
+[
+  {
+    "rec": 37,
+    "ann": 0,
+    "id": "SCHW_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: dividing total company revenue by new accounts does not measure revenue per new client. Existing client revenue is included in total revenue, and accounts are not the same as clients. The figure is methodologically invalid."
+  },
+  {
+    "rec": 37,
+    "ann": 1,
+    "id": "SCHW_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: Schwab's 2024 reportable segments are Investor Services and Advisor Services, not Investment Management. Physical page 13 confirms the two-segment structure. No Investment Management segment exists in this filing."
+  },
+  {
+    "rec": 70,
+    "ann": 0,
+    "id": "UAA_2022",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the table on page 32 shows indexed total return values (base $100), not actual share prices. The values 146.85 and 117.94 are performance-index values, not per-share stock prices. Projecting a future stock price from these index values is invalid."
+  },
+  {
+    "rec": 81,
+    "ann": 0,
+    "id": "VVPR_2023",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the filing is VivoPower's annual report for the year ended 30 June 2023. Search shows no December 31 balance sheet dates anywhere in the filing. The 2024 figures cited in the logic_issue (current assets 17,660; inventory 1,646; current liabilities 54,125) do not appear in this document. The filing shows only 2023 and 2022 year-end figures."
+  },
+  {
+    "rec": 85,
+    "ann": 0,
+    "id": "AGFY_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: searches for 'Adjusted EBITDA', 'adjusted EBITDA', 'Non-GAAP', and 'non-GAAP' all return zero pages in the filing. No Adjusted EBITDA reconciliation or definition exists. The solution computes standard EBITDA, not the company-defined Adjusted EBITDA."
+  },
+  {
+    "rec": 56,
+    "ann": 0,
+    "id": "HAYW_2021",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: physical page 46 of the filing contains only the graph image with y-axis labels ($80, $100, $120, $140, $160) and two x-axis dates (March 12, 2021 and December 31, 2021). No numeric data table accompanies the graph. The precise S&P 500 endpoint value cannot be verified from the document text."
+  },
+  {
+    "rec": 116,
+    "ann": 0,
+    "id": "EXPE_2021",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: physical page 31 contains only prose describing the performance comparison graph with no numeric data table. The text 'S&P 500' does not appear as extractable text on this page. The end-period $150 and $235 values are visual estimates only."
+  },
+  {
+    "rec": 115,
+    "ann": 0,
+    "id": "WDAY_2022",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the income statement on physical page 55 shows three fiscal years ending January 31, 2023, 2022, and 2021. Fiscal year ending January 31, 2020 (FY2020) is not in this filing. The 2021 operating income growth rate (FY2021 vs FY2020) cannot be computed because FY2020 operating income is absent."
+  },
+  {
+    "rec": 97,
+    "ann": 0,
+    "id": "NEP_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the document is NextEra Energy, Inc. consolidated filing. The debt figure $80,446M on page 57 and interest paid $2,737M on page 66 are NEE consolidated figures, not NextEra Energy Partners (XPLR) standalone figures. XPLR is referenced as a subsidiary but its standalone debt and interest schedules are not presented in this filing."
+  },
+  {
+    "rec": 97,
+    "ann": 1,
+    "id": "NEP_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the operating income figure $6,492M used in the solution is from the NEE parent consolidated income statement. NextEra Energy Partners standalone operating income and D&A are not disclosed in this filing. The solution also contains Lithuanian text in step 2, further confirming it is broken."
+  },
+  {
+    "rec": 212,
+    "ann": 0,
+    "id": "INSG_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the question asks to project 2025 operating income excluding D&A from a 5% revenue increase, but provides no assumption about cost behavior for incremental revenue. The filing does not supply a disclosed incremental margin. The solution assumes 100% flow-through of incremental revenue to operating income, which is not grounded."
+  },
+  {
+    "rec": 212,
+    "ann": 1,
+    "id": "INSG_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: same underspecification as ann 0. Projecting 2025 operating income excluding S&M from a 5% revenue increase requires a cost behavior assumption not available in the filing. The 100% incremental margin assumption is invalid."
+  },
+  {
+    "rec": 270,
+    "ann": 0,
+    "id": "RPM_2022",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: RPM International's fiscal year ends May 31. The balance sheet on page 34 shows figures as of May 31, 2022 and May 31, 2021. No December 31, 2022 balance sheet data appears anywhere in this filing. The requested date does not exist in the document."
+  },
+  {
+    "rec": 263,
+    "ann": 0,
+    "id": "IVVH_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the consolidated balance sheet on physical page 96 shows total liabilities as of December 31, 2023 ($9,030,532 thousand) and December 31, 2022 ($8,213,077 thousand). December 31, 2021 total liabilities are not in this filing. The 2022 year-average ratio requires a 2021 year-end figure that is absent."
+  },
+  {
+    "rec": 277,
+    "ann": 1,
+    "id": "CARS_2023",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: physical page 24 contains the cumulative stockholder return graph with no accompanying numeric data table. The text on this page contains only the graph description and share repurchase table. Endpoint values for Cars.com (highest or lowest) cannot be verified from the document text."
+  },
+  {
+    "rec": 316,
+    "ann": 0,
+    "id": "EVO_2021",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the customer-type breakdown chart (Top 20 Pharma = 35%) appears on physical page 5 and is labeled for the Evotec Group overall. The Evotec SE section on page 55 reports only total third-party revenues of 14.6M euros with no breakdown by customer type. Applying Group-level percentages to SE-only revenue mixes two different entities."
+  },
+  {
+    "rec": 345,
+    "ann": 0,
+    "id": "GOLD_2014",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: physical page 38 shows AUD 2015 = 58% hedged, crystallized OCI = -$4M; CLP 2015 = 100% hedged, crystallized OCI = 0 (dash). Summing two percentages that are each measured against their own currency's distinct exposure base is methodologically invalid. The combined 158% denominator is not a meaningful quantity. The methodology is ungroundable."
+  },
+  {
+    "rec": 420,
+    "ann": 0,
+    "id": "EBAY_2020",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: physical page 31 contains only the performance graph description in prose with y-axis labels ($0 to $400 in $50 increments) and x-axis dates. No numeric data table accompanies the graph. The 12/31/20 cumulative return for eBay can only be estimated visually."
+  },
+  {
+    "rec": 471,
+    "ann": 0,
+    "id": "ZVIA_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the filing is Zevia PBC's 10-K. The question asks about Equity Residential's cash flow from operations and capital expenditures in 2023. Equity Residential is a completely different company and its financials do not appear anywhere in the Zevia filing."
+  },
+  {
+    "rec": 627,
+    "ann": 0,
+    "id": "DXC_2023",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: DXC net income changes sign over the 2021-2023 period (-$149M in 2021, +$718M in 2022, -$568M in 2023). CAGR computed from two negative values with opposite signs produces a meaningless growth rate. Compounding this rate to project 2024 net income is mathematically invalid."
+  },
+  {
+    "rec": 664,
+    "ann": 0,
+    "id": "GEV_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: 2023 operating loss was -$923M. Using the absolute value as a denominator for percent-change-based operating leverage is nonstandard and produces a result (29.6) that is not a well-defined financial metric. Operating leverage defined as percent-change-in-operating-income divided by percent-change-in-revenue is undefined when the base-year operating income is negative."
+  },
+  {
+    "rec": 688,
+    "ann": 0,
+    "id": "PRU_2024",
+    "verdict": "salvageable",
+    "answer": "-$2.4 billion",
+    "solution": [
+      "The Prudential Financial 2024 Annual Report contains a segment reconciliation table in Note 23 of the Consolidated Financial Statements. This table appears on page 216 of the annual report (physical page 217 of the PDF). The table is titled 'Reconciliation of select financial information' and presents revenues and significant benefits and expenses on an adjusted operating income basis for the year ended December 31, 2024.",
+      "The reconciliation table lists total revenues for each segment on an adjusted operating income basis. The 'Total segment adjusted operating income before income taxes' row shows total revenues of $68,053 million for the year ended December 31, 2024. This represents total adjusted operating revenues across all segments.",
+      "The GAAP total revenues for the year ended December 31, 2024 are reported on the consolidated income statement. The table titled 'Results of Operations' on page 14 of the annual report shows 'Revenues' of $70,405 million for the year ended December 31, 2024. This figure is also confirmed in the segment reconciliation table where the consolidated income before taxes row shows total revenues of $70,405 million.",
+      "The difference between adjusted operating revenues and GAAP revenues is $68,053 million minus $70,405 million, which equals negative $2,352 million. Expressed in billions and rounded to the nearest tenth, the difference is negative $2.4 billion."
+    ],
+    "verification": "Note 23 reconciliation table on physical page 217 (printed page 216) shows total segment adjusted operating revenues of $68,053M in the 'Total Revenues' column of the 'Total segment adjusted operating income before income taxes' row. GAAP revenues of $70,405M appear on the consolidated income statement on page 14. Difference = $68,053M - $70,405M = -$2,352M = -$2.4B rounded to nearest tenth. The original answer of -$3B was based on a visual read of a bar chart; the correct grounded answer is -$2.4B."
+  },
+  {
+    "rec": 702,
+    "ann": 0,
+    "id": "ADP_2021",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: ADP's fiscal year ends June 30. The balance sheet on page 49 shows total assets as of June 30, 2021 ($48,772.5M) and June 30, 2020 ($39,165.5M). No December 31 balance sheet data appears anywhere in this filing. The percentage change from December 31, 2020 to December 31, 2021 cannot be computed."
+  },
+  {
+    "rec": 133,
+    "ann": 0,
+    "id": "RAVE_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: RAVE Restaurant Group's fiscal year ends in late June. A search for 'December 31, 2024' and 'December 31' in the filing returns zero pages. The balance sheet covers June 30, 2024 and June 25, 2023. No December 31, 2024 balance sheet exists in this filing."
+  },
+  {
+    "rec": 306,
+    "ann": 1,
+    "id": "TKO_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: physical page 47 contains only prose describing the stock performance graph and the text 'Item 6. [Reserved]'. No numeric data table accompanies the graph. End-Dec 2024 index values for TKO and the S&P 400 can only be estimated visually."
+  },
+  {
+    "rec": 330,
+    "ann": 1,
+    "id": "FUBO_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: physical page 57 contains only prose describing the stock performance graph with no accompanying numeric data table. End-Dec 2024 TSR values for Fubo and the S&P Media and Entertainment Index can only be estimated visually from the graph image."
+  },
+  {
+    "rec": 546,
+    "ann": 0,
+    "id": "MATV_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the question changes the exercise price to $60 but provides no market price on the exercise date 1/29/2028. The option profit depends on (market price at exercise minus exercise price), which requires a market price not stated in the question or derivable from the filing. The solution incorrectly uses the original $68.75 strike as the market price, which is an unsupported assumption."
+  },
+  {
+    "rec": 549,
+    "ann": 0,
+    "id": "WHD_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: physical pages 26-27 contain the performance graph description and the issuer purchase of equity securities table. The performance graph has no accompanying numeric data table. End-Dec 2024 values for Cactus Inc. and the PHLX Oil Service Index can only be estimated visually."
+  },
+  {
+    "rec": 705,
+    "ann": 0,
+    "id": "ETSY_2021",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the cover page shows this is the annual report for the fiscal year ended December 31, 2020 (not 2021). The performance graph on physical page 74 covers December 31, 2015 through December 31, 2020. December 31, 2021 data does not appear in this filing, and no numeric data table accompanies the graph."
+  },
+  {
+    "rec": 107,
+    "ann": 0,
+    "id": "TARS_2023",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: empty annotation. The question, answer, and all solution steps are blank. Nothing to recover."
+  },
+  {
+    "rec": 541,
+    "ann": 0,
+    "id": "TIF _2018",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: empty annotation. The question, answer, and all solution steps are blank. Nothing to recover."
+  },
+  {
+    "rec": 594,
+    "ann": 0,
+    "id": "SON_2024",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: empty annotation. The question, answer, and all solution steps are blank. Nothing to recover."
+  },
+  {
+    "rec": 294,
+    "ann": 0,
+    "id": "COUR_2021",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the filing provides quarterly Degree Student counts for 2021 (Q1=13,493, Q2=14,630, Q3=16,068, Q4=16,204) on physical page 66 and Degrees revenue of $48,671 thousand on page 62. However, the question asks for 'revenue per degree student' without specifying whether to use summed quarterly counts (which double-counts students), average quarterly count, or period-end count. Each method yields a materially different answer ($806, $3,225, or $3,004), making the question underspecified with no unique grounded answer."
+  },
+  {
+    "rec": 480,
+    "ann": 0,
+    "id": "CVX_2004",
+    "verdict": "salvageable",
+    "answer": "$13.55 per barrel",
+    "solution": [
+      "The Chevron 2004 Annual Report (for fiscal year 2003) contains Table III, titled 'Results of Operations for Oil and Gas Producing Activities,' as part of the supplemental oil and gas information. This table appears on physical page 58 of the PDF. The table header states that results are presented in millions of dollars.",
+      "Table III for the year ended December 31, 2003 shows the following line items for worldwide operations (including both consolidated companies and affiliated companies): Total revenues from net production of $22,535 million, production expenses and other deductions, and 'Results before income taxes' of $12,475 million in the 'Worldwide' column. This $12,475 million is the worldwide upstream pre-tax earnings for 2003.",
+      "The net oil-equivalent production figure for 2003 appears in the production table on physical page 5 of the PDF. The row labeled 'Total Including Affiliates' shows oil-equivalent production of 2,523 thousands of barrels per day (MBOED) for 2003.",
+      "To compute total annual barrels produced, multiply 2,523 MBOED by 1,000 (to convert to barrels per day) and by 365 days. This gives 2,523 times 1,000 times 365, which equals 920,895,000 barrels for the year.",
+      "The average upstream pre-tax earnings per barrel is $12,475 million divided by 920.895 million barrels. This equals $13.55 per barrel."
+    ],
+    "verification": "Table III on physical page 58 (printed page FS-54 area) shows 'Results before income taxes' for YEAR ENDED DECEMBER 31, 2003 as $12,475M in the Worldwide column (sum: consolidated $11,563M + TCO $867M + Hamaca $45M = $12,475M). Production table on physical page 5 shows 'Total Including Affiliates' of 2,523 MBOED for 2003. Annual barrels = 2,523 x 1,000 x 365 = 920,895,000. Per-barrel pre-tax = $12,475M / 920.895M = $13.55/bbl. The quarantine reason stated the filing 'reports only after-tax segment income' but Table III explicitly discloses pre-tax producing operations results."
+  },
+  {
+    "rec": 510,
+    "ann": 0,
+    "id": "MC_2023",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the 2023 10-K discloses client counts for 2023 (304 clients) and 2022 (314 clients) on page 36. No 2021 client count appears anywhere in this filing. The correct 2021 figure of 404 clients cited in the quarantine reason is absent, making the revenue-per-client ratio for 2021 ungroundable in this document."
+  },
+  {
+    "rec": 321,
+    "ann": 0,
+    "id": "NKE_2020",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the cash flow statement on physical page 60 shows 'Depreciation' of $721M and 'Amortization, impairment and other' of $398M for FY2020. The $398M line is dominated by a non-recurring impairment charge related to Nike's exit from Brazil, Argentina, Chile, and Uruguay operations (disclosed in the segment notes). There is no clean separate recurring amortization figure. The correct EBITDA add-back is ambiguous depending on whether the impairment is included, making the answer non-unique."
+  },
+  {
+    "rec": 531,
+    "ann": 0,
+    "id": "KEN_2019",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the filing shows FY2019 loss before income taxes of -$5,536 thousand and income tax expense of $16,675 thousand. Using a negative pre-tax base to compute a tax rate yields approximately 301%, which is not a valid effective tax rate for NOPAT purposes. The ROIC calculation based on this tax rate is invalid."
+  },
+  {
+    "rec": 523,
+    "ann": 0,
+    "id": "BCPC_2019",
+    "verdict": "keep_quarantined",
+    "reason": "Confirmed: the EVA question references 'the same definition of invested capital as in your RNOA calculation,' but no prior RNOA question is part of this annotation and no standard RNOA-style invested capital definition is disclosed in the filing itself. The capital charge base is underspecified and ungroundable."
+  }
+]

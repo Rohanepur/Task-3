@@ -132,13 +132,6 @@
     "agent": "D"
   },
   {
-    "id": "PRU_2024",
-    "rec": 688,
-    "ann": 0,
-    "reason": "The question requires reading precise values from a bar chart on page 9 ('Adjusted Operating Revenues and GAAP Revenues'). Page 9 contains no extractable numeric text for adjusted operating revenues. GAAP revenues ($70,405M) appear in a table, but total adjusted operating revenues are only available visually from the chart. No numeric data table exists for the adjusted operating revenues figure.",
-    "agent": "D"
-  },
-  {
     "id": "ADP_2021",
     "rec": 702,
     "ann": 0,
@@ -210,13 +203,6 @@
     "rec": 294,
     "ann": 0,
     "reason": "Per-degree-student revenue: the quarterly Degree Students counts in the solution are not found on the cited table, and a usable average/period-end count is not groundable in the filing as stated.",
-    "agent": "review-quarantine"
-  },
-  {
-    "id": "CVX_2004",
-    "rec": 480,
-    "ann": 0,
-    "reason": "Upstream pre-tax per-barrel requires reported upstream pre-tax earnings; the filing reports only after-tax segment income, so the pre-tax figure is ungroundable in this filing.",
     "agent": "review-quarantine"
   },
   {
