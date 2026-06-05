@@ -6278,9 +6278,11 @@
         ],
         "metadata": {
           "page_numbers": [
-            33
+            33,
+            34
           ],
           "grounding_elements": [
+            "Chart",
             "Chart"
           ],
           "question_type": "chart_question",
@@ -13396,9 +13398,11 @@
         ],
         "metadata": {
           "page_numbers": [
+            64,
             68
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "simple_amount",
@@ -21793,10 +21797,12 @@
         ],
         "metadata": {
           "page_numbers": [
-            2
+            2,
+            51
           ],
           "grounding_elements": [
-            "Chart"
+            "Chart",
+            "Table"
           ],
           "question_type": "advanced_percentage",
           "solution_gptzero_after_fix": {
@@ -28637,12 +28643,12 @@
         ],
         "metadata": {
           "page_numbers": [
-            43,
+            42,
             43
           ],
           "grounding_elements": [
-            "Chart",
-            "Table"
+            "Table",
+            "Chart"
           ],
           "question_type": "chart_question",
           "solution_gptzero_after_fix": {
