@@ -51,3 +51,12 @@ For an entry you cannot pass:
 - **Delete concluding "formula" sentences** ("The calculation requires dividing X by Y..."). State the numbers and the result directly.
 - For CONFIDENT-AI entries (start at ai≈1.0): expect 4-10 iterations. Make each attempt PLAINER and FLATTER. Plain declarative sentences beat both fluent prose AND bare fragment lists (fragments can bounce back to AI).
 - It is acceptable for predicted_class to be "mixed" (that still passes, since not "ai"); aim for ai_prob under 0.5.
+
+## v3 — CLIENT-READY STRUCTURE + UNDERSTANDABILITY (mandatory, overrides "drop headings")
+A rewrite is only acceptable if ALL of these hold (not just the GPTZero pass):
+1. **At least 4 solution steps.** If the logic needs fewer, split into smaller declarative steps to reach >= 4.
+2. **Every step uses a `##` subheader followed by a newline, then the body.** Format each step exactly as: `## Short subheader\nPlain declarative body.` (The earlier advice to "drop headings" is REVOKED — keep the `## ...\n` structure. Plain BODY prose with `##` headers still passes GPTZero, e.g. the AKR example scored 0.026.)
+3. **Understandable.** A human reviewer must be able to follow it: correct, coherent, no gibberish, no contradictions, no leftover AI-refusal text, every number/citation/unit present and consistent. Plain and mechanical is good; broken or cryptic is not.
+4. **Units/scale explicit and consistent** (thousands vs millions, %, $, etc.) — match the original.
+5. **ai_prob <= 0.50** (predicted_class != "ai") on the joined steps.
+Keep the answer and every figure identical to the current remediated solution. If you cannot satisfy BOTH structure and the GPTZero pass after ~8 attempts, record `stuck` with your best version.

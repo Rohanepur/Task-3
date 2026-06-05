@@ -1,0 +1,338 @@
+[
+  {
+    "rec": 80,
+    "ann": 0,
+    "id": "BRBR_2022",
+    "live_ai": 1
+  },
+  {
+    "rec": 392,
+    "ann": 0,
+    "id": "VRTX_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 89,
+    "ann": 0,
+    "id": "PAYC_2022",
+    "live_ai": 1
+  },
+  {
+    "rec": 522,
+    "ann": 0,
+    "id": "NOG_2020",
+    "live_ai": 1
+  },
+  {
+    "rec": 616,
+    "ann": 0,
+    "id": "UDR_2023",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 370,
+    "ann": 0,
+    "id": "CAT_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 106,
+    "ann": 1,
+    "id": "AZPN_2024",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 544,
+    "ann": 0,
+    "id": "STX_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 195,
+    "ann": 0,
+    "id": "CLPT_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 493,
+    "ann": 0,
+    "id": "QCOM (NASDAQ)_2001",
+    "live_ai": 1
+  },
+  {
+    "rec": 118,
+    "ann": 0,
+    "id": "TXT_2024",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 588,
+    "ann": 0,
+    "id": "NASDAQ: PATK_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 618,
+    "ann": 0,
+    "id": "R_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 20,
+    "ann": 0,
+    "id": "RGTI_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 683,
+    "ann": 0,
+    "id": "VVV_2021",
+    "live_ai": 1
+  },
+  {
+    "rec": 554,
+    "ann": 0,
+    "id": "BJ_2021",
+    "live_ai": 1
+  },
+  {
+    "rec": 328,
+    "ann": 0,
+    "id": "SCHN_2022",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 584,
+    "ann": 0,
+    "id": "DNTH_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 473,
+    "ann": 0,
+    "id": "EEFT_2024",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 382,
+    "ann": 0,
+    "id": "PLTK_2024",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 14,
+    "ann": 1,
+    "id": "IOT_2023",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 525,
+    "ann": 0,
+    "id": "VNT_2022",
+    "live_ai": 1
+  },
+  {
+    "rec": 72,
+    "ann": 1,
+    "id": "FOR_2024",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 2,
+    "ann": 0,
+    "id": "CE_2022",
+    "live_ai": 1
+  },
+  {
+    "rec": 669,
+    "ann": 0,
+    "id": "FCK_2013",
+    "live_ai": 1
+  },
+  {
+    "rec": 534,
+    "ann": 0,
+    "id": "CDZI_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 231,
+    "ann": 0,
+    "id": "DSGR_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 229,
+    "ann": 0,
+    "id": "ADV_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 223,
+    "ann": 0,
+    "id": "LHX_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 383,
+    "ann": 0,
+    "id": "ESSA_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 330,
+    "ann": 0,
+    "id": "FUBO_2024",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 619,
+    "ann": 0,
+    "id": "NVR_2022",
+    "live_ai": 1
+  },
+  {
+    "rec": 246,
+    "ann": 0,
+    "id": "YETI_2021",
+    "live_ai": 1
+  },
+  {
+    "rec": 105,
+    "ann": 0,
+    "id": "PFE_2013",
+    "live_ai": 1
+  },
+  {
+    "rec": 4,
+    "ann": 0,
+    "id": "BCG_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 451,
+    "ann": 0,
+    "id": "DG_2025",
+    "live_ai": 1
+  },
+  {
+    "rec": 351,
+    "ann": 0,
+    "id": "ISSC_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 415,
+    "ann": 1,
+    "id": "HFWA_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 394,
+    "ann": 0,
+    "id": "NVT_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 122,
+    "ann": 1,
+    "id": "STSS_2024",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 252,
+    "ann": 0,
+    "id": "GEO_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 122,
+    "ann": 0,
+    "id": "STSS_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 36,
+    "ann": 0,
+    "id": "JJSF_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 375,
+    "ann": 0,
+    "id": "CARL-B.CO_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 511,
+    "ann": 0,
+    "id": "IQV_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 139,
+    "ann": 0,
+    "id": "PATH_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 412,
+    "ann": 0,
+    "id": "XEL_2023",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 414,
+    "ann": 0,
+    "id": "CDRE_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 26,
+    "ann": 0,
+    "id": "ABP_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 584,
+    "ann": 1,
+    "id": "DNTH_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 43,
+    "ann": 0,
+    "id": "AAOI_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 288,
+    "ann": 0,
+    "id": "6010.SR_2023",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 547,
+    "ann": 0,
+    "id": "RHI_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 611,
+    "ann": 1,
+    "id": "CPRX_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 104,
+    "ann": 0,
+    "id": "PLD_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 293,
+    "ann": 0,
+    "id": "AYX_2022",
+    "live_ai": 1
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "rec": 326,
+    "ann": 0,
+    "id": "UNP_2022",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 336,
+    "ann": 0,
+    "id": "OLLI_2022",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 344,
+    "ann": 0,
+    "id": "BLZE_2024",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 356,
+    "ann": 1,
+    "id": "K_2023",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 365,
+    "ann": 0,
+    "id": "OC_2024",
+    "steps": 6,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 381,
+    "ann": 0,
+    "id": "PLTR_2022",
+    "steps": 5,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 421,
+    "ann": 0,
+    "id": "SHO_2024",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 457,
+    "ann": 0,
+    "id": "DVN_2025",
+    "steps": 3,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 480,
+    "ann": 0,
+    "id": "CVX_2004",
+    "steps": 5,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 533,
+    "ann": 0,
+    "id": "INTC_2023",
+    "steps": 6,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 564,
+    "ann": 0,
+    "id": "RGR_2023",
+    "steps": 5,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 582,
+    "ann": 0,
+    "id": "KNSA_2023",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 587,
+    "ann": 1,
+    "id": "ORCL_2024",
+    "steps": 3,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 631,
+    "ann": 0,
+    "id": "BILL_2024",
+    "steps": 5,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 676,
+    "ann": 0,
+    "id": "HROW_2024",
+    "steps": 4,
+    "goal": "structure_fix"
+  }
+]

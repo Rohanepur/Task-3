@@ -1,0 +1,107 @@
+[
+  {
+    "rec": 678,
+    "ann": 0,
+    "id": "HWM_2024",
+    "steps": 2,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 688,
+    "ann": 0,
+    "id": "PRU_2024",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 691,
+    "ann": 0,
+    "id": "PMT/PRA_2024",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 80,
+    "ann": 0,
+    "id": "BRBR_2022",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 392,
+    "ann": 0,
+    "id": "VRTX_2024",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 89,
+    "ann": 0,
+    "id": "PAYC_2022",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 522,
+    "ann": 0,
+    "id": "NOG_2020",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 616,
+    "ann": 0,
+    "id": "UDR_2023",
+    "live_ai": 1.0,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 370,
+    "ann": 0,
+    "id": "CAT_2024",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 106,
+    "ann": 1,
+    "id": "AZPN_2024",
+    "live_ai": 1.0,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 544,
+    "ann": 0,
+    "id": "STX_2023",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 195,
+    "ann": 0,
+    "id": "CLPT_2023",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 493,
+    "ann": 0,
+    "id": "QCOM (NASDAQ)_2001",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 118,
+    "ann": 0,
+    "id": "TXT_2024",
+    "live_ai": 1.0,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 588,
+    "ann": 0,
+    "id": "NASDAQ: PATK_2023",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  }
+]

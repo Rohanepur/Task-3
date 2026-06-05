@@ -1,0 +1,107 @@
+[
+  {
+    "rec": 229,
+    "ann": 0,
+    "id": "ADV_2024",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 223,
+    "ann": 0,
+    "id": "LHX_2023",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 383,
+    "ann": 0,
+    "id": "ESSA_2024",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 330,
+    "ann": 0,
+    "id": "FUBO_2024",
+    "live_ai": 1.0,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 619,
+    "ann": 0,
+    "id": "NVR_2022",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 246,
+    "ann": 0,
+    "id": "YETI_2021",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 105,
+    "ann": 0,
+    "id": "PFE_2013",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 4,
+    "ann": 0,
+    "id": "BCG_2023",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 451,
+    "ann": 0,
+    "id": "DG_2025",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 351,
+    "ann": 0,
+    "id": "ISSC_2024",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 415,
+    "ann": 1,
+    "id": "HFWA_2024",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 394,
+    "ann": 0,
+    "id": "NVT_2023",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 122,
+    "ann": 1,
+    "id": "STSS_2024",
+    "live_ai": 1.0,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 252,
+    "ann": 0,
+    "id": "GEO_2024",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  },
+  {
+    "rec": 122,
+    "ann": 0,
+    "id": "STSS_2024",
+    "live_ai": 1,
+    "goal": "deferred_rewrite"
+  }
+]

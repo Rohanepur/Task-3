@@ -1,0 +1,107 @@
+[
+  {
+    "rec": 16,
+    "ann": 0,
+    "id": "NSC_2021",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 31,
+    "ann": 0,
+    "id": "ALLY_2016",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 45,
+    "ann": 0,
+    "id": "RH_2024",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 50,
+    "ann": 0,
+    "id": "AFL_2021",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 64,
+    "ann": 0,
+    "id": "NUE_2020",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 72,
+    "ann": 0,
+    "id": "FOR_2024",
+    "steps": 8,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 109,
+    "ann": 0,
+    "id": "XNCR_2024",
+    "steps": 6,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 124,
+    "ann": 0,
+    "id": "CDNS_2024",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 144,
+    "ann": 0,
+    "id": "ADC_2024",
+    "steps": 6,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 145,
+    "ann": 0,
+    "id": "JNPR_2021",
+    "steps": 4,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 158,
+    "ann": 0,
+    "id": "CELC_2024",
+    "steps": 3,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 186,
+    "ann": 0,
+    "id": "AX_2024",
+    "steps": 5,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 197,
+    "ann": 0,
+    "id": "KULR_2024",
+    "steps": 6,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 240,
+    "ann": 1,
+    "id": "COHU_2024",
+    "steps": 6,
+    "goal": "structure_fix"
+  },
+  {
+    "rec": 324,
+    "ann": 0,
+    "id": "GCO_2024",
+    "steps": 4,
+    "goal": "structure_fix"
+  }
+]
