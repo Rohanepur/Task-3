@@ -1,0 +1,773 @@
+[
+  {
+    "rec": 61,
+    "ann": 0,
+    "id": "MRK_2021",
+    "action": "rewritten",
+    "solution": [
+      "## page 229 numbers\nConsolidated Income Statement 2021, in € million. net sales: 19,687. cost of sales: 7,351. marketing & selling: 4,304. other operating income: 528. admin expenses: 1,241. R&D costs: 2,408. impairment net: 1. other operating expenses: 734. EBIT was 4,179.",
+      "## adjusted net sales\n19,687 × 1.08 = 21,261.96 € million.",
+      "## adjusted cost of sales and gross profit\n7,351 × 1.06 = 7,792.06 € million. gross profit = 21,261.96 − 7,792.06 = 13,469.90 € million.",
+      "## adjusted marketing & selling and other operating income\nmarketing & selling: 4,304 × 1.05 = 4,519.2 € million. other operating income: 528 × 0.90 = 475.2 € million.",
+      "## EBIT 2022\n13,469.90 − 4,519.2 − 1,241 − 2,408 + 1 + 475.2 − 734 = €5,043.9 million."
+    ],
+    "ai_prob": 0.0014828776675642314,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 61,
+    "ann": 1,
+    "id": "MRK_2021",
+    "action": "rewritten",
+    "solution": [
+      "## interest coverage ratio definition\ninterest coverage ratio = EBIT divided by interest expense.",
+      "## EBIT from page 229\nConsolidated Income Statement on page 229. The 2021 operating result (EBIT) = €4,179 million.",
+      "## interest expense from page 314\nNotes on page 314 show \"Interest expense and similar expenses\" of €272 million for 2021. The income statement total \"Finance costs\" of €317 million includes non-interest items. The correct denominator is €272 million.",
+      "## ratio calculation\n4,179 ÷ 272 = 15.36 times."
+    ],
+    "ai_prob": 0.2345710536837383,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 62,
+    "ann": 0,
+    "id": "META_2013",
+    "action": "rewritten",
+    "solution": [
+      "## table location and units\nPage 63 has the \"FACEBOOK, INC. CONSOLIDATED STATEMENTS OF INCOME.\" Values are in millions except per share amounts.",
+      "## revenue values\nThe Revenue row shows 7,872 million for 2013 and 3,711 million for 2011.",
+      "## 2-year CAGR from 2011 to 2013\nCAGR = (7,872 / 3,711) ^ (1/2) − 1. That is 2.1213 ^ 0.5 minus 1. Result: 0.456, which is 45.6%.",
+      "## projected 2014 revenue\n2013 revenue of 7,872 million × 1.456 = 11,461.632 million. Rounded to the nearest million: 11,462 million."
+    ],
+    "ai_prob": 0.0019074488895353073,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 63,
+    "ann": 0,
+    "id": "ACIW_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0014666489000969179,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 65,
+    "ann": 0,
+    "id": "LVS_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00025605316485398464,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 66,
+    "ann": 0,
+    "id": "VZ_2011",
+    "action": "already_pass",
+    "ai_prob": 6.905296035253998e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 67,
+    "ann": 0,
+    "id": "APO_2019",
+    "action": "rewritten",
+    "solution": [
+      "## table location\nPage 99 of the 2019 Annual Report shows Operating Metrics for Apollo Global Management. Figures are in millions of dollars. The table shows Fee-Generating AUM, Non-Fee-Generating AUM, and Total AUM for Credit, Private Equity, and Real Assets segments as of December 31, 2019.",
+      "## credit segment values\nCredit: Fee-Generating AUM = $172,893 million. Total AUM = $215,530 million.",
+      "## total firm values\nTotal column: Fee-Generating AUM = $246,446 million. Total AUM = $331,105 million.",
+      "## percentages\nCredit fee-generating percentage: 172,893 / 215,530 = 80.22%. Firm-wide fee-generating percentage: 246,446 / 331,105 = 74.44%.",
+      "## difference\n80.22% minus 74.44% = 5.78 percentage points, which rounds to 5.8%."
+    ],
+    "ai_prob": 0.08891447421085848,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 67,
+    "ann": 1,
+    "id": "APO_2019",
+    "action": "already_pass",
+    "ai_prob": 0.048279381340957,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 67,
+    "ann": 2,
+    "id": "APO_2019",
+    "action": "rewritten",
+    "solution": [
+      "## baseline values from page 94\n\"Statement of Operations Data\" table on page 94, in dollars thousands, period ending December 31, 2019. Management fees (under Revenues) = $1,575,814 thousand. Total revenues = $2,931,849 thousand. Total compensation and benefits = $1,261,087 thousand. Total expenses = $1,691,280 thousand. Operating income = total revenues minus total expenses = 2,931,849 minus 1,691,280 = $1,240,569 thousand.",
+      "## adjusted management fees\nmanagement fees up 5%: 1,575,814 × 1.05 = $1,654,604.7 thousand. increase = 1,654,604.7 minus 1,575,814 = $78,790.7 thousand.",
+      "## adjusted total revenues\nnew total revenues = 2,931,849 + 78,790.7 = $3,010,639.7 thousand.",
+      "## adjusted total compensation and benefits and total expenses\ncompensation and benefits up 10%: 1,261,087 × 1.10 = $1,387,195.7 thousand. increase = 1,387,195.7 minus 1,261,087 = $126,108.7 thousand. new total expenses = 1,691,280 + 126,108.7 = $1,817,388.7 thousand.",
+      "## adjusted operating income and margin\nnew operating income = 3,010,639.7 minus 1,817,388.7 = $1,193,251 thousand. operating margin = 1,193,251 / 3,010,639.7 = 0.3963, which is 39.6%."
+    ],
+    "ai_prob": 0.04218750985047689,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 67,
+    "ann": 3,
+    "id": "APO_2019",
+    "action": "rewritten",
+    "solution": [
+      "## chart on pdf page 12\nthe credit section is on pdf page 12. total AUM = $215.5 billion. fee-generating AUM = $172.9 billion. date is december 31, 2019.",
+      "## four slices of the pie\nthe pie chart title says Credit AUM of $215.5 billion as of december 31, 2019. numbers are in billions. corporate credit = 110.7. structured credit = 52.7. advisory and other = 27.9. direct origination = 24.2.",
+      "## division to get percentages\n110.7 divided by 215.5 = 51.4. 52.7 divided by 215.5 = 24.5. 27.9 divided by 215.5 = 12.9. 24.2 divided by 215.5 = 11.2.",
+      "## the third component\nbiggest is corporate credit. second is structured credit. third is advisory and other at 12.9 percent. fourth is direct origination."
+    ],
+    "ai_prob": 0.19219110643429288,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 69,
+    "ann": 0,
+    "id": "RS_2024",
+    "action": "already_pass",
+    "ai_prob": 0.001024287777535482,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 69,
+    "ann": 1,
+    "id": "RS_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0007654484084603225,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 73,
+    "ann": 0,
+    "id": "ARM_2023",
+    "action": "already_pass",
+    "ai_prob": 2.222229853789331e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 74,
+    "ann": 0,
+    "id": "PLBY_2022",
+    "action": "already_pass",
+    "ai_prob": 0.3239602257023307,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 75,
+    "ann": 0,
+    "id": "WMB_2023",
+    "action": "already_pass",
+    "ai_prob": 0.03494716957160546,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 75,
+    "ann": 1,
+    "id": "WMB_2023",
+    "action": "already_pass",
+    "ai_prob": 0.006729795842813262,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 76,
+    "ann": 0,
+    "id": "AR_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00010268271797732218,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 77,
+    "ann": 0,
+    "id": "BHP_2015",
+    "action": "rewritten",
+    "solution": [
+      "## balance sheet location\nConsolidated Balance Sheet as at 30 June 2015, page 210. Values are in millions of US dollars (US$M).",
+      "## total debt\nshort-term debt = $3,201 million. current portion of long-term debt = $0 million. long-term debt = $27,969 million. total debt = 3,201 + 0 + 27,969 = $31,170 million.",
+      "## total equity\ntotal equity = $70,545 million. this includes equity attributable to shareholders and non-controlling interests.",
+      "## debt-to-equity ratio\n31,170 / 70,545 = 0.44."
+    ],
+    "ai_prob": 0.03213709695479598,
+    "predicted_class": "human",
+    "logic_flag": "The solution calculates debt-to-equity as 31,170 / 70,545 = approximately 0.44, but the answer field states 0.77. The solution's arithmetic and the stated answer are inconsistent."
+  },
+  {
+    "rec": 77,
+    "ann": 1,
+    "id": "BHP_2015",
+    "action": "rewritten",
+    "solution": [
+      "## where to look\npage 70 of the 2015 Annual Report. table \"1.15.4 Cash flow analysis.\" data for FY2013 to FY2015 from continuing operations.",
+      "## operating cash flows\nFY2015 net operating cash flows: 17,794 USD million. FY2014: 23,640 USD million.",
+      "## capex components\ncapex = property/plant/equipment purchase + exploration expenditure. FY2015: 11,947 + 816 = 12,763 USD million. FY2014: 15,224 + 986 = 16,210 USD million.",
+      "## free cash flow\nFCF = operating cash flows minus capex. FY2015: 17,794 minus 12,763 = 5,031 USD million. FY2014: 23,640 minus 16,210 = 7,430 USD million.",
+      "## the change\n5,031 minus 7,430 = -2,399 million USD."
+    ],
+    "ai_prob": 0.4798474954499322,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 78,
+    "ann": 0,
+    "id": "LUNR_2021",
+    "action": "already_pass",
+    "ai_prob": 0.0019005935957391005,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 79,
+    "ann": 0,
+    "id": "ARDS_2021",
+    "action": "already_pass",
+    "ai_prob": 7.616887164128144e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 82,
+    "ann": 0,
+    "id": "TEVA_2021",
+    "action": "already_pass",
+    "ai_prob": 0.0025215244006976337,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 83,
+    "ann": 0,
+    "id": "FL_2018",
+    "action": "rewritten",
+    "solution": [
+      "## sales and net income data\ndocument page 36 has \"FIVE-YEAR SUMMARY OF SELECTED FINANCIAL DATA.\" values in millions except per share amounts. sales: 2016 = $7,766 million, 2017 = $7,782 million, 2018 = $7,939 million. net income: 2016 = $664 million, 2017 = $284 million, 2018 = $541 million.",
+      "## net profit margin for each year\nNPM = net income / sales × 100. 2016: 664 / 7,766 = 8.5501%. 2017: 284 / 7,782 = 3.6494%. 2018: 541 / 7,939 = 6.8145%.",
+      "## projected 2019 sales\naverage annual growth rate 2016 to 2018: calculated as (7,939 / 7,766)^(1/2) - 1 = 0.011117. 2019 sales = 7,939 × 1.011117 = $8,027.257863 million.",
+      "## projected 2019 NPM\nNPM fell 4.9007% from 2016 to 2017. NPM rose 3.1651% from 2017 to 2018. average annual change = (-4.9007 + 3.1651) / 2 = -0.8678%. 2019 NPM = 6.8145% - 0.8678% = 5.9467%.",
+      "## projected 2019 net income\n8,027.257863 × 0.059467 = $477.356943339 million."
+    ],
+    "ai_prob": 0.47409145148403903,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 83,
+    "ann": 1,
+    "id": "FL_2018",
+    "action": "rewritten",
+    "solution": [
+      "## graph on page 35\npage 35 has the \"Indexed Share Price Performance\" graph. it tracks five-year total return for Foot Locker common stock vs. S&P 500 Index and S&P 500 Specialty Retailing Index. a data table below the graph has the specific values.",
+      "## foot locker values from the table\nstarting value at 2/1/2014: $100.00. value at 1/28/2017: $185.25. value at 2/3/2018: $135.37.",
+      "## specialty retailing values from the table\nstarting value at 2/1/2014: $100.00. value at 2/3/2018: $191.43. value at 2/2/2019: $198.35.",
+      "## foot locker value estimated at june 2017\njune 2017 is about 5 months after 1/28/2017. the period from 1/28/2017 to 2/3/2018 is roughly 12 months. interpolation: $185.25 + (5/12) × ($135.37 − $185.25) = $185.25 + (5/12) × (−$49.88) = $185.25 − $20.78 = $164.47.",
+      "## specialty retailing value estimated at august 2018\naugust 2018 is about 6 months after 2/3/2018. period from 2/3/2018 to 2/2/2019 is roughly 12 months. interpolation: $191.43 + (6/12) × ($198.35 − $191.43) = $191.43 + 0.5 × $6.92 = $191.43 + $3.46 = $194.89.",
+      "## gains and difference\nfoot locker gain = $164.47 − $100.00 = $64.47. specialty retailing gain = $194.89 − $100.00 = $94.89. difference = $94.89 − $64.47 = $30.42."
+    ],
+    "ai_prob": 0.4323054456966364,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 83,
+    "ann": 2,
+    "id": "FL_2018",
+    "action": "already_pass",
+    "ai_prob": 0.14521530233068014,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 84,
+    "ann": 0,
+    "id": "KO_2003",
+    "action": "already_pass",
+    "ai_prob": 0.00022462240585655995,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 86,
+    "ann": 0,
+    "id": "BOOM_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0002894658624348798,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 87,
+    "ann": 0,
+    "id": "LAKE_2021",
+    "action": "already_pass",
+    "ai_prob": 0.17407359546153245,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 87,
+    "ann": 1,
+    "id": "LAKE_2021",
+    "action": "rewritten",
+    "solution": [
+      "## net sales numbers\nvalues are in thousands of dollars. 2021 net sales = $159,000,000. 2020 net sales = $107,809,000. the change is (159,000,000 - 107,809,000) / 107,809,000 * 100 = 47.48 percent.",
+      "## cost of goods sold\n2021 COGS = $79,750,000. 2020 COGS = $69,912,000. change = (79,750,000 - 69,912,000) / 69,912,000 * 100 = 14.07 percent.",
+      "## operating expenses\n2021 = $35,397,000. 2020 = $32,021,000. change = (35,397,000 - 32,021,000) / 32,021,000 = 10.54 percent.",
+      "## reported 2021 operating profit\noperating profit = $43,853 thousand.",
+      "## adjusted result\n10.54% increase in operating expenses reduces operating profit. 43,853 times 0.8946 = 39,230.69 thousand."
+    ],
+    "ai_prob": 0.273762105663335,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 87,
+    "ann": 2,
+    "id": "LAKE_2021",
+    "action": "rewritten",
+    "solution": [
+      "## inventories as of january 31 2020\n\"CONSOLIDATED BALANCE SHEETS\" on page 59. inventories = $44,238 (in thousands).",
+      "## cost of goods sold for year ended january 31 2020\n\"CONSOLIDATED STATEMENTS OF INCOME.\" 2020 COGS = $69,912 (in thousands).",
+      "## ratio of inventories to cost of goods sold in 2020\n69,912 / 44,238 = 1.5803607758.",
+      "## cost of goods sold for year ended january 31 2021\npage 57 of \"CONSOLIDATED STATEMENTS OF INCOME.\" 2021 COGS = $79,750 (in thousands).",
+      "## hypothetical inventories for january 31 2021\nhypothetical inventories = 2021 COGS / 2020 ratio = 79,750 / 1.5803607758 = $50,463.1608307586 thousand."
+    ],
+    "ai_prob": 0.001092262839873167,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 88,
+    "ann": 0,
+    "id": "NASDAQ: META_2018",
+    "action": "already_pass",
+    "ai_prob": 1.2295084197086586e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 88,
+    "ann": 1,
+    "id": "NASDAQ: META_2018",
+    "action": "already_pass",
+    "ai_prob": 0.03579309739331782,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 90,
+    "ann": 0,
+    "id": "ORLY_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0023912816521243253,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 91,
+    "ann": 0,
+    "id": "WMG_2024",
+    "action": "rewritten",
+    "solution": [
+      "## chart location\npage 13. chart title: \"Global Recorded Music Industry Revenues 2019 to 2023 ($ billions).\" stacked bar. years on x-axis. legend shows five streams: Streaming, Downloads & other digital, Physical, Performance rights, Synchronization.",
+      "## streaming is bottom segment\nthe bottom segment of each bar is Streaming. each segment has a number on it in $ billions.",
+      "## the two values needed\n2022 bottom segment value: $17.5. 2023 bottom segment value: $19.3. both are in billions.",
+      "## calculation\n(19.3 / 17.5) minus 1 = 0.1028571429. that is 10.28571429%."
+    ],
+    "ai_prob": 0.09219153497961745,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 92,
+    "ann": 0,
+    "id": "BR_2024",
+    "action": "rewritten",
+    "solution": [
+      "## the table\npage 14. \"Fiscal years ended June 30.\" in millions.",
+      "## numbers\nFY2024 adjusted operating income = 1,303. FY2023 adjusted operating income = 1,199. These are already net of restructuring and litigation.",
+      "## what is excluded\nFY2024 excludes restructuring 63 and litigation 18. FY2023 excludes restructuring 20.",
+      "## growth\n104 / 1199. equals 0.0867. that is 8.67 percent."
+    ],
+    "ai_prob": 0.23152110981949253,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 93,
+    "ann": 0,
+    "id": "NWPX_2024",
+    "action": "already_pass",
+    "ai_prob": 6.714692900860119e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 93,
+    "ann": 1,
+    "id": "NWPX_2024",
+    "action": "already_pass",
+    "ai_prob": 9.151455068696172e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 94,
+    "ann": 0,
+    "id": "NOTV_2023",
+    "action": "rewritten",
+    "solution": [
+      "## starting data from page 63\n\"INOTIV, INC. CONSOLIDATED BALANCE SHEETS (In thousands, except share amounts).\" values as of fiscal year-end 2023. goodwill = $94,286 thousand. accumulated deficit = ($453,278 thousand). total equity = $268,490 thousand. cash and cash equivalents = $35,492 thousand. long-term debt (net of current portion) = $369,795 thousand.",
+      "## goodwill and accumulated deficit adjustments\ngoodwill impairment of $30,000 thousand reduces goodwill: 94,286 - 30,000 = $64,286 thousand. accumulated deficit grows by $20,000 thousand: deficit goes from ($453,278) to ($473,278 thousand).",
+      "## cash and long-term debt adjustments\ncash: 35,492 × 1.20 = $42,590 thousand. long-term debt: 369,795 × 1.10 = $406,774.5 thousand. long-term debt changes do not affect equity directly.",
+      "## adjusted total equity\nbase equity = $268,490 thousand. goodwill impairment reduces equity by $30,000. accumulated deficit increase reduces equity by $20,000. new equity = 268,490 - 30,000 - 20,000 = $218,490 thousand."
+    ],
+    "ai_prob": 0.28979472661536215,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 95,
+    "ann": 0,
+    "id": "AIRI_2024",
+    "action": "already_pass",
+    "ai_prob": 0.054834063471201844,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 96,
+    "ann": 0,
+    "id": "TFSL_2024",
+    "action": "rewritten",
+    "solution": [
+      "## table on page 16\ntable \"Non-performing assets\" dated september 30, 2024. total non-accrual loans = $33,610 thousand. real estate owned = $174 thousand. total non-performing assets = $33,784 thousand.",
+      "## text below the table\nthe paragraph states: of the $7.7 million of modified loans during the fiscal year, $3.1 million are less than 90 days past due but included with non-accrual loans. a separate sentence says $1.9 million are non-accrual loans 90 days or more past due.",
+      "## the number needed\nmodified non-accrual loans less than 90 days past due = $3.1 million = $3,100 thousand. the $1.9 million figure is a different category.",
+      "## the percentage\n3,100 / 33,784 × 100 = 9.18%."
+    ],
+    "ai_prob": 0.18565762166203623,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 98,
+    "ann": 0,
+    "id": "HBIO_2023",
+    "action": "already_pass",
+    "ai_prob": 0.2580758530883904,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 99,
+    "ann": 0,
+    "id": "GRND_2024",
+    "action": "already_pass",
+    "ai_prob": 4.7289871203232576e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 99,
+    "ann": 1,
+    "id": "GRND_2024",
+    "action": "already_pass",
+    "ai_prob": 0.011584951966549965,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 100,
+    "ann": 0,
+    "id": "XYZ_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0010033897763186846,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 100,
+    "ann": 1,
+    "id": "XYZ_2022",
+    "action": "already_pass",
+    "ai_prob": 1.4048608110492888e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 101,
+    "ann": 0,
+    "id": "BOOT_2024",
+    "action": "rewritten",
+    "solution": [
+      "## page 57 numbers\nConsolidated Balance Sheets. March 30, 2024. in thousands. current assets = 729,649. current liabilities = 312,808.",
+      "## new share proceeds\n400,000 shares × 80 per share = 32,000,000 dollars = 32,000 in thousands.",
+      "## adding to current assets\n729,649 + 32,000 = 761,649.",
+      "## ratio\n761,649 / 312,808 = 2.43."
+    ],
+    "ai_prob": 0.158125801449614,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 101,
+    "ann": 1,
+    "id": "BOOT_2024",
+    "action": "rewritten",
+    "solution": [
+      "## comparable store data location\n\"Store Operating Data\" section on document page 46. data is from 335 comparable stores. 2024 average sales per comparable store = $4,081,000 (in thousands, so actual dollar value = $4,081,000).",
+      "## average store square footage\n2024 average square footage per comparable store = 10,929.",
+      "## scaling for the calculation\nsales data: $4,081 in thousands = $4,081,000. square footage: 10,929.",
+      "## revenue per square foot\n4,081,000 / 10,929 = 373.41."
+    ],
+    "ai_prob": 0.025453466578771854,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 102,
+    "ann": 0,
+    "id": "SEDG_2019",
+    "action": "already_pass",
+    "ai_prob": 0.001541740354378461,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 102,
+    "ann": 1,
+    "id": "SEDG_2019",
+    "action": "already_pass",
+    "ai_prob": 0.0007915391633689968,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 104,
+    "ann": 1,
+    "id": "PLD_2023",
+    "action": "stuck",
+    "solution": [
+      "## page 17 top-25 table\npage 17 has a table: top 25 customers as of december 31, 2023. column used is Consolidated - Real Estate Segment. units: square feet, millions.",
+      "## amazon row\namazon = 34.",
+      "## five lowest customers\nranks 21 to 25: CEVA Logistics = 3. uline = 2. kuehne + nagel = 2. target = 2. tesla = 1. those five sum to 10.",
+      "## top 20 total and amazon share\ntop 25 total = 126. 126 minus 10 = 116. 34 / 116 = 0.2931. 0.2931 times 100 = 29.31. rounded: 29%."
+    ],
+    "ai_prob": 0.6341699192744972,
+    "predicted_class": "ai"
+  },
+  {
+    "rec": 106,
+    "ann": 0,
+    "id": "AZPN_2024",
+    "action": "rewritten",
+    "solution": [
+      "## balance sheet on page 114\n\"ASPEN TECHNOLOGY, INC. AND SUBSIDIARIES CONSOLIDATED BALANCE SHEETS\" starts on page 114. date: June 30, 2024. units: dollars in thousands. cash and cash equivalents = $236,970 thousand. total current assets = $876,066 thousand.",
+      "## proportion of cash to total current assets in 2024\n236,970 / 876,066 = 0.2705, which is 27.05%.",
+      "## projected cash for fiscal year 2025\ncash decreases 15%. 236,970 × 0.85 = $201,424.50 thousand.",
+      "## projected total current assets for fiscal year 2025\nsame proportion maintained: total current assets = projected cash / ratio = 201,424.50 / 0.2705 = $744,637.7079482439 thousand."
+    ],
+    "ai_prob": 0.016168129864599826,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 108,
+    "ann": 0,
+    "id": "HII_2024",
+    "action": "rewritten",
+    "solution": [
+      "## chart on page 51\npage 51 of the Huntington 2024 Annual Report. chart: \"Total Stockholder Returns.\" starting value of $100 for each index at december 31, 2019. chart shows HII using blue squares, S&P A&D Select using triangles, S&P 500 using circles.",
+      "## values at december 31, 2024\nHII: $85. S&P 500 index: $210.",
+      "## difference\n$85 minus $210 = negative $125.",
+      "## percent difference relative to S&P 500\n(-125 / 210) × 100 = -59.52380952%."
+    ],
+    "ai_prob": 0.0019167762685246832,
+    "predicted_class": "human",
+    "logic_flag": "The original solution's Step 3 states the formula as '(Difference / $100) * 100 = -125%', which yields -125%, not the stated answer of -59.52380952%. The correct formula that produces the answer divides by $210 (the S&P 500 value), not by $100. There is an inconsistency between the solution's stated formula and the answer."
+  },
+  {
+    "rec": 110,
+    "ann": 0,
+    "id": "GENI_2024",
+    "action": "already_pass",
+    "ai_prob": 0.000970753549504312,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 111,
+    "ann": 0,
+    "id": "HLFFF_2023",
+    "action": "already_pass",
+    "ai_prob": 0.09022346507997249,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 112,
+    "ann": 0,
+    "id": "CPNG_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0008786284825044969,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 112,
+    "ann": 1,
+    "id": "CPNG_2023",
+    "action": "rewritten",
+    "solution": [
+      "## RSU activity table on page 119\ndocument page 119. table: \"The table below summarizes our RSU activity.\" units: in millions, except unit price. row \"Balance, December 31, 2023,\" column \"Number of RSUs\" = 46 million RSUs outstanding.",
+      "## stock option activity table on page 119\ndocument page 119. table: \"The table below summarizes our stock option activity.\" units: in millions, except unit price. row \"Outstanding at December 31, 2023,\" column \"Number of Options\" = 17 million. weighted average exercise price = $7.60.",
+      "## dilutive effect of stock options using treasury stock method at $10 share price\ntreasury stock method: (share price - exercise price) / share price × options outstanding. (10 - 7.60) / 10 × 17 million = 2.40 / 10 × 17 = 0.24 × 17 = 4.08 million. rounded to nearest million: 4 million dilutive shares.",
+      "## shares outstanding from balance sheet on page 103\nConsolidated Balance Sheets on page 103. units in millions. Class A shares outstanding at December 31, 2023 = 1,616 million. Class B shares outstanding at December 31, 2023 = 175 million.",
+      "## fully diluted shares\n1,616 (class A) + 175 (class B) + 4 (option dilution) + 46 (RSUs) = 1,841 million shares."
+    ],
+    "ai_prob": 0.19070780992133762,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 113,
+    "ann": 0,
+    "id": "NTRS_2024",
+    "action": "rewritten",
+    "solution": [
+      "## 2024 data from page 100\n\"Consolidated Statements of Income\" on page 100 of the 10-K. all amounts in millions. 2024: net interest income = $2,177.1 million. noninterest income = $6,113.3 million. noninterest expense = $5,633.9 million.",
+      "## projected 2025 values\nnet interest income up 5%: 2,177.1 × 1.05 = $2,285.955 million. noninterest income up 3%: 6,113.3 × 1.03 = $6,296.699 million. noninterest expense up 4%: 5,633.9 × 1.04 = $5,859.256 million.",
+      "## projected total revenue 2025\ntotal revenue = net interest income + noninterest income = 2,285.955 + 6,296.699 = $8,582.654 million.",
+      "## projected operating income 2025\noperating income = total revenue minus noninterest expense = 8,582.654 - 5,859.256 = $2,723.398 million. rounded to one decimal: $2,723.4 million."
+    ],
+    "ai_prob": 0.014045768919270611,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 113,
+    "ann": 1,
+    "id": "NTRS_2024",
+    "action": "rewritten",
+    "solution": [
+      "## net income 2024 from page 100\nConsolidated Statements of Income on page 100. units: in millions except share information. 2024 Net Income = $2,031.1 million.",
+      "## average total assets from page 169\n\"TABLE 121: DISTRIBUTION OF TOTAL ASSETS AND OPERATING PERFORMANCE\" on page 169. units: $ in millions. 2024 Average Assets = $146,633.5 million.",
+      "## reported ROA\nROA = (2,031.1 / 146,633.5) × 100 = 1.385%.",
+      "## visa gain from notes\npage 143, Note 18, \"TABLE 87: OTHER OPERATING INCOME.\" footnote states other income for 2024 includes realized gains from sales of Visa Class C common shares. page 158 states the realized gain on Visa Class C shares was $870.4 million. page 44 confirms a $896.7 million gain related to an exchange offer for Visa shares. the Visa pre-tax gain for calculation purposes = $896.7 million.",
+      "## tax impact and adjusted net income\neffective tax rate for 2024 = 23.6%. after-tax Visa gain = 896.7 × (1 - 0.236) = 896.7 × 0.764 = 685.0788 million. adjusted net income = 2,031.1 - 685.0788 = 1,346.0212 million.",
+      "## adjusted ROA\nadjusted ROA = (1,346.0212 / 146,633.5) × 100 = 0.917949309%."
+    ],
+    "ai_prob": 0.20498585055513552,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 114,
+    "ann": 0,
+    "id": "WSO_2019",
+    "action": "rewritten",
+    "solution": [
+      "## graph on page 18\npage 18. graph title: \"COMPARISON OF 5 YEAR CUMULATIVE TOTAL RETURN*.\" comparison is between Watsco, Inc., Russell 2000 Index, S&P Midcap 400 Index, and S&P 500 Index. y-axis: cumulative total return from $80 to $200 in $20 increments. x-axis: December 2014 through December 2019.",
+      "## watsco return at 12/18\nstarting value at 12/14 = $100. value at 12/18 = $145.63. (read from graph with axis reference.)",
+      "## S&P 500 return at 12/18\nstarting value at 12/14 = $100. value at 12/18 = $132.23.",
+      "## each return as a percentage\nwatsco: (145.63 - 100) / 100 × 100 = 45.63%. S&P 500: (132.23 - 100) / 100 × 100 = 32.23%.",
+      "## outperformance\n45.63% minus 32.23% = 13.4 percentage points."
+    ],
+    "ai_prob": 0.08828225280962411,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 117,
+    "ann": 0,
+    "id": "CI _2019",
+    "action": "rewritten",
+    "solution": [
+      "## chart location\n10-K page 71. chart: \"Five Year Cumulative Total Shareholder Return.\" four lines: Cigna, S&P 500, and two healthcare indexes.",
+      "## cigna numbers\nCigna at 12/31/2017 = $198. Cigna at 12/31/2019 = $199.",
+      "## cigna change\n(199 - 198) / 198 × 100 = 0.5050505051%.",
+      "## S&P 500 numbers and change\nS&P 500 at 12/31/2017 = $138. S&P 500 at 12/31/2019 = $174. (174 - 138) / 138 × 100 = 26.0869565217%. Cigna underperformed the S&P 500 during this period."
+    ],
+    "ai_prob": 0.28736960179704585,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 117,
+    "ann": 1,
+    "id": "CI _2019",
+    "action": "rewritten",
+    "solution": [
+      "## data from page 74\ntable on page 74. adjusted revenues: 2018 = 48,111; 2019 = 140,175. Health Services segment revenues: 2018 = 6,606; 2019 = 96,447.",
+      "## total adjusted revenue increase\n140,175 - 48,111 = 92,064 million.",
+      "## health services revenue increase\n96,447 - 6,606 = 89,841 million.",
+      "## health services contribution percentage\n89,841 / 92,064 × 100 = 97.5853764%. Health Services accounted for most of the total revenue increase from 2018 to 2019."
+    ],
+    "ai_prob": 0.01449009427201376,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 117,
+    "ann": 2,
+    "id": "CI _2019",
+    "action": "rewritten",
+    "solution": [
+      "## cash flow data on page 82\npage 82 of the 10-K. values in millions. Operating Activities: 2019 = $9,485 million; 2018 = $3,770 million. Investing Activities: 2019 = ($734 million); 2018 = ($26,378 million).",
+      "## combined cash flows for 2019\n2019: 9,485 + (−734) = $8,751 million.",
+      "## combined cash flows for 2018\n2018: 3,770 + (−26,378) = −$22,608 million.",
+      "## the change from 2018 to 2019\n8,751 − (−22,608) = $31,359 million increase."
+    ],
+    "ai_prob": 0.0006202721364525884,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 119,
+    "ann": 0,
+    "id": "ZETA_2021",
+    "action": "rewritten",
+    "solution": [
+      "## balance sheet data on page 66\nConsolidated Balance Sheets on page 66. units: in thousands, except share and per share amounts. December 31, 2021 values: total assets = $397,265 thousand. goodwill = $114,509 thousand. intangible assets = $40,963 thousand. total liabilities = $306,777 thousand.",
+      "## tangible assets and tangible book value\ntangible assets = total assets - goodwill - intangibles = 397,265 - 114,509 - 40,963 = $241,793 thousand. tangible book value = tangible assets - total liabilities = 241,793 - 306,777 = negative $64,984 thousand.",
+      "## shares outstanding\nClass B: 37,856,095 shares. Class A: 159,974,847 shares.",
+      "## TBVPS for each class\nTBVPS for Class B = -64,984 / 37,856,095 = -$1.716606 per share. TBVPS per Class A diluted share = -64,984 / 159,974,847 = -$0.4062139 per share.",
+      "## ratio\n(-1.716606) / (-0.4062139) = 4.225867. rounded: 4.23x."
+    ],
+    "ai_prob": 0.10772189231158709,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 120,
+    "ann": 0,
+    "id": "NYSE: GAP_2022",
+    "action": "rewritten",
+    "solution": [
+      "## total assets from page 50\nConsolidated Balance Sheets on page 50. January 28, 2023. units: millions of dollars. total assets = $11,386 million.",
+      "## remove cash and cash equivalents\ncash and cash equivalents in the Current assets section = $1,215 million. remove from operating assets.",
+      "## remove net deferred tax asset\ndeferred tax note on page 68 shows net deferred tax assets = $371 million. no marketable securities on the balance sheet. both cash and net deferred tax assets are non-operating items.",
+      "## operating assets\n11,386 - 1,215 - 371 = $9,800 million."
+    ],
+    "ai_prob": 0.23613405548999614,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 121,
+    "ann": 0,
+    "id": "SAM_2014",
+    "action": "already_pass",
+    "ai_prob": 4.3299400507066205e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 123,
+    "ann": 0,
+    "id": "COP_2021",
+    "action": "already_pass",
+    "ai_prob": 0.21016952827936258,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 124,
+    "ann": 1,
+    "id": "CDNS_2024",
+    "action": "already_pass",
+    "ai_prob": 0.2964810404701935,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 125,
+    "ann": 0,
+    "id": "OI_2024",
+    "action": "already_pass",
+    "ai_prob": 6.301457458174074e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 126,
+    "ann": 0,
+    "id": "KMX_2024",
+    "action": "already_pass",
+    "ai_prob": 0.40318733461192174,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 127,
+    "ann": 0,
+    "id": "COOK_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0031945636107298145,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 129,
+    "ann": 0,
+    "id": "PLNT_2021",
+    "action": "rewritten",
+    "solution": [
+      "## operating income from page 74\nConsolidated Statements of Operations on page 74. \"Income from operations\" for 2021 = $143,395,000 (in thousands, so $143,395 thousand).",
+      "## effective tax rate\nprovision for income taxes = $5,659,000 (page 53). income before provision for income taxes = $51,960,000 (page 74). effective tax rate = 5,659,000 / 51,960,000 = 10.9%.",
+      "## projected operating income for next year\noperating income grows at 12% CAGR. next year's operating income = 143,395,000 × (1 + 0.12) = $160,602,400.",
+      "## projected NOPAT\nNOPAT = operating income × (1 - tax rate) = 160,602,400 × (1 - 0.109) = 160,602,400 × 0.891 = $143,096,738."
+    ],
+    "ai_prob": 0.00697412891067483,
+    "predicted_class": "human",
+    "logic_flag": "The solution computes NOPAT as $143,096,738 using a rounded 10.9% tax rate, but the answer field states $143,012,536. The two values differ by approximately $84,202. This may reflect use of a more precise tax rate (5,659/51,960 = 10.8991...) or a different rounding approach in the original calculation, but neither the solution's math nor the stated answer aligns with the other."
+  }
+]
