@@ -1,0 +1,211 @@
+[
+  {
+    "rec": 246,
+    "ann": 0,
+    "id": "YETI_2021",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "39.4359922004%",
+    "verification": "Balance sheet (physical p53): inventory $318,864 and total current assets $770,167 confirmed. Adjusted: (318,864-25,000)/(770,167-25,000) = 293,864/745,167 = 39.4359922%. Solution step 3 already states this; answer field was wrong (38.2078%)."
+  },
+  {
+    "rec": 306,
+    "ann": 1,
+    "id": "TKO_2024",
+    "kind": "P2",
+    "action": "quarantine",
+    "ai_pending": true,
+    "reason": "Graph-only value: the performance graph on page 48 contains only an image with no accompanying numeric data table. The ending index values for TKO and S&P 400 can only be estimated visually; no precise figures are verifiable from the filing text."
+  },
+  {
+    "rec": 328,
+    "ann": 0,
+    "id": "SCHN_2022",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "23.01415272%",
+    "solution_steps": {
+      "0": "## Find actual retained earnings for 2020 and 2022.\nThe Consolidated Statements of Equity on page 62 shows that 2020 retained earnings were $649,863 and 2022 retained earnings reached $941,146.",
+      "3": "## Apply the CAGR formula to the adjusted values.\nThe CAGR calculation requires the formula (Ending / Beginning)^(1 / Number of Years) - 1.\nThe CAGR calculation requires the formula (983,404 / 649,863)^(1/2) - 1.\nThe calculation of (1.51324818)^0.5 - 1 results in 0.2301415272 = \nThe final result amounts to 23.01415272%."
+    },
+    "verification": "Consolidated Statements of Equity (physical p63, printed p62): retained earnings Aug 31 2020 = $649,863K, Aug 31 2022 = $941,146K confirmed. Adjusted: 941,146 + 20,892 + 21,366 = 983,404. CAGR = (983,404/649,863)^0.5 - 1 = 23.01415272%. Answer synced from wrong 23.037% to correct 23.014%; step 0 page reference corrected from 65 to 62."
+  },
+  {
+    "rec": 330,
+    "ann": 1,
+    "id": "FUBO_2024",
+    "kind": "P2",
+    "action": "quarantine",
+    "ai_pending": true,
+    "reason": "Graph-only value: the stock performance graph on page 57-58 has no accompanying numeric data table in the filing text. End-Dec 2024 values for Fubo and the S&P Media and Entertainment Index can only be estimated visually from the graph image; no precise figures are verifiable."
+  },
+  {
+    "rec": 353,
+    "ann": 0,
+    "id": "HALO_2024",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "$82.459 million",
+    "solution_steps": {
+      "0": "## Locate the balance sheet.\nThe Consolidated Balance Sheets are presented in the filing. The relevant line item is 'Long-term debt, net' under non-current liabilities.",
+      "1": "## Identify the long-term debt balance.\nThe 'Liabilities and Stockholders' Equity' section of the 'Consolidated Balance Sheets' table on page 74 indicates 'Long-term debt, net.' The December 31, 2023 balance is $1,499,248 thousand, equal to approximately $1,499.248 million.",
+      "3": "## Perform the interest expense calculation.\nThe annual interest expense calculation involves multiplying the current outstanding long-term debt by the new interest rate: $1,499.248 million x 0.055 = $82.459 million."
+    },
+    "verification": "Consolidated Balance Sheets (physical p73): Long-term debt, net = $1,499,248 thousand as of December 31, 2023 confirmed. $1,499,248K x 5.5% = $82,459K = $82.459M. Solution previously used $850,177K (wrong) giving $46.76M."
+  },
+  {
+    "rec": 375,
+    "ann": 0,
+    "id": "CARL-B.CO_2024",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "35.74551515%",
+    "solution_steps": {
+      "1": "## Identify necessary figures.\nROE requires net profit attributable to shareholders (not total group profit) and average shareholders' equity (average of beginning and ending year equity).",
+      "2": "## Extract the values.\nThe Income Statement on page 113 shows 'Shareholders in Carlsberg A/S (net profit)' = DKK 9,116 million for 2024 (total 'Profit for the period' of DKK 10,263 million includes non-controlling interests of DKK 1,147 million). The Statement of Financial Position on page 114 shows 'Equity, shareholders in Carlsberg A/S' = DKK 27,771 million at Dec 31, 2024 and DKK 23,234 million at Dec 31, 2023. Average shareholders' equity = (27,771 + 23,234) / 2 = DKK 25,502.5 million.",
+      "3": "## Calculating ROE ratio.\nROE = Net profit attributable to shareholders / Average shareholders' equity = DKK 9,116 million / DKK 25,502.5 million = 0.3574551515. The final result after multiplying by 100 equals 35.74551515%.\n35.74551515%"
+    },
+    "verification": "Income statement (physical p112): net profit attributable to Carlsberg A/S shareholders = DKK 9,116M confirmed. Balance sheet (physical p113): equity shareholders in Carlsberg A/S: 27,771 (2024) and 23,234 (2023) confirmed. ROE = 9,116 / ((27,771+23,234)/2) = 35.746%."
+  },
+  {
+    "rec": 415,
+    "ann": 1,
+    "id": "HFWA_2024",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "0.793",
+    "verification": "Data table in performance graph section (physical p39): Heritage Financial = $105.05, S&P U.S. SmallCap Banks Index = $132.44, NASDAQ Composite = $223.87 at 12/31/24 confirmed. Ratio = 105.05/132.44 = 0.7932. The logic_issue was incorrect in claiming $132.44 belonged to NASDAQ; the data table shows $132.44 is the S&P SmallCap Banks value. Solution and answer are correct."
+  },
+  {
+    "rec": 443,
+    "ann": 1,
+    "id": "BKKT_2023",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "$205.30",
+    "solution_steps": {
+      "1": "## Locate total active consumers.\nBakkt reports 3.8 million unique monthly transacting accounts during the year ended December 31, 2023 on page 83. Transacting accounts represent unique accounts that perform transactions on the platform each month, which is the appropriate measure of 'active consumers.' The 6.2 million figure represents total crypto-enabled accounts (open accounts), not active/transacting users.",
+      "2": "## Apply the per-unit formula.\nThe calculation of revenue per consumer requires dividing total revenue by the number of active (transacting) consumers.\n= $780,136,000 / 3,800,000",
+      "3": "## Do the calculation.\nThe division of $780,136,000 by 3,800,000 equals $205.30."
+    },
+    "verification": "Page 83 (physical p82): transacting accounts = 3.8 million for year ended Dec 31, 2023 confirmed. Revenue (physical p83) = $780,136K confirmed. $780,136,000 / 3,800,000 = $205.30."
+  },
+  {
+    "rec": 451,
+    "ann": 0,
+    "id": "DG_2025",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "$1.972 million",
+    "solution_steps": {
+      "0": "## Find total revenue.\nThe 'Consolidated Statements of Income' table is on Document page 45. The FY2024 (year ended January 31, 2025) 'Net sales' value is $40,612,308 thousand.",
+      "1": "## Convert the units.\nThe data in the table is in thousands. Dividing 40,612,308 by 1,000 gives $40,612.3 million.",
+      "3": "## Calculate revenue per store.\nThe calculation of total revenue divided by store count: $40,612,308 thousand / 20,594 stores = $1,972.046 thousand per store = approximately $1.972 million per store."
+    },
+    "verification": "Income statement (physical p44): FY2024 net sales = $40,612,308K confirmed. Store table (physical p6): 20,594 stores at end of 2024 confirmed. $40,612,308 / 20,594 = $1,972.046K = $1.972M per store. Solution previously used $38,717,465 which does not appear in the filing."
+  },
+  {
+    "rec": 473,
+    "ann": 0,
+    "id": "EEFT_2024",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "$6.52",
+    "solution_steps": {
+      "0": "## Locate net income.\nThe 'EURONET WORLDWIDE, INC. AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF OPERATIONS' table appears on page 84. The 2024 'Net income attributable to Euronet Worldwide, Inc.' is $306.0 million. The reported 2024 diluted EPS is $6.45 with diluted shares of 48,082,766, implying a diluted EPS numerator of approximately $310.2 million (which includes add-backs for convertible notes interest).",
+      "3": "## Add savings to reported diluted EPS numerator.\nThe pro-forma diluted EPS numerator is computed by adding the $3.16 million after-tax interest savings to the reported $310.2 million diluted numerator.\nThe updated diluted numerator is $313.36 million.",
+      "4": "## Recalculate pro forma EPS.\nThe pro-forma EPS calculation uses the new diluted numerator with the existing diluted share count.\nThe result of dividing $313,360,000 by 48,082,766 equals approximately $6.52."
+    },
+    "verification": "Income statement (physical p83): net income attributable to Euronet = $306.0M, diluted EPS = $6.45, diluted shares = 48,082,766 confirmed. Reported diluted EPS implies numerator of ~$310.2M. Add $4M x (1-0.21) = $3.16M: new numerator $313.36M / 48,082,766 = $6.5171, rounds to $6.52."
+  },
+  {
+    "rec": 522,
+    "ann": 0,
+    "id": "NOG_2020",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "-180.35 percentage points",
+    "solution_steps": {
+      "2": "## Calculate the Cumulative Returns for Each Investment.\nStarting from a $100 investment, the 5-year total returns are:\nNorthern Oil & Gas: (22.69 - 100) / 100 = -77.31%\nS&P 500: (203.04 - 100) / 100 = +103.04%",
+      "3": "## Calculate the Percentage Shortfall.\nThe percentage by which NOG's total return fell short of the S&P 500 is the difference in their cumulative percentage returns:\n-77.31% - (+103.04%) = -180.35 percentage points.\nNorthern Oil & Gas fell short of the S&P 500 by 180.35 percentage points over the five-year period.",
+      "4": "## State the Final Answer.\nNorthern Oil & Gas Inc.'s total return fell short of the S&P 500 Index by 180.35 percentage points over the 5-year period from December 31, 2015 to December 31, 2020."
+    },
+    "verification": "Data table (physical p41): NOG = $22.69 and S&P 500 = $203.04 at 12/31/2020 from a $100 investment confirmed. NOG return = -77.31%, S&P return = +103.04%, shortfall = -180.35 pp. Prior answer (-88.87%) incorrectly divided the dollar difference by the S&P ending wealth value."
+  },
+  {
+    "rec": 544,
+    "ann": 0,
+    "id": "STX_2023",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "+$47.27 million (increase)",
+    "verification": "Income statement (physical p49): interest expense $313M, interest income $10M, net income $(529)M confirmed. Net interest expense = $303M; 20% reduction = $60.6M; after-tax impact = $60.6 x (1-0.22) = $47.268M increase. The answer field previously showed $(481.7)M (the new net income level), not the impact."
+  },
+  {
+    "rec": 546,
+    "ann": 0,
+    "id": "MATV_2024",
+    "kind": "P2",
+    "action": "quarantine",
+    "ai_pending": true,
+    "reason": "Underspecified projection: the question changes the exercise price to $60 but provides no market price on the exercise date 1/29/2028. The profit on exercise depends on (market price at exercise - $60), which cannot be determined. The solution assumed the market price equals the original strike ($68.75), but this is an unsupported assumption not stated in the question."
+  },
+  {
+    "rec": 549,
+    "ann": 0,
+    "id": "WHD_2024",
+    "kind": "P2",
+    "action": "quarantine",
+    "ai_pending": true,
+    "reason": "Graph-only value: the performance graph on page 26 (physical) has no accompanying numeric data table in the filing. End-Dec 2024 values for Cactus Inc. and the PHLX Oil Service Index can only be estimated visually; no precise figures are verifiable from the filing text."
+  },
+  {
+    "rec": 554,
+    "ann": 0,
+    "id": "BJ_2021",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "61.38759%",
+    "solution_steps": {
+      "2": "## Extract Cumulative Return Values.\nThe document presents the last return values of BJ's Wholesale Club Holdings and S&P 500 Index at $263.32 and $163.16 on January 29, 2022 according to the table on page 35.",
+      "3": "## Calculate the difference in returns.\nThe total dollar difference between BJ's Wholesale Club Holdings and S&P 500 returns equals $100.16 because $263.32 exceeds $163.16. The $100 investment in BJ's Wholesale Club Holdings produced a $100.16 superior return over the S&P 500 Index throughout the June 28, 2018 to January 29, 2022 time span.",
+      "4": "## Calculate the percentage difference.\nThe calculation of percentage difference between BJ's Wholesale Club Holdings' return and S&P 500's return involves dividing BJ's Wholesale Club Holdings' additional return by the S&P 500's return before multiplying by 100 percent. The calculation results in (263.32 - 163.16) / 163.16 x 100% = 100.16 / 163.16 x 100% = 61.38759%"
+    },
+    "verification": "Performance graph data table (physical p34, decoded): BJ's = 263.32, S&P 500 = 163.16 at Jan 29, 2022 confirmed. Solution step previously used 168.16 for S&P 500 (wrong). Correct: (263.32-163.16)/163.16 x 100 = 61.38759%."
+  },
+  {
+    "rec": 683,
+    "ann": 0,
+    "id": "VVV_2021",
+    "kind": "P2",
+    "action": "fix",
+    "ai_pending": true,
+    "answer": "35.64%",
+    "solution_steps": {
+      "1": "## Step 2: Identify operating cash flow and capital expenditures.\nThe operating activities section of the cash flow statement shows 'Net cash provided by operating activities' at $404 million for the year ended September 30, 2021.\nThe investing activities section reports 'Additions to property, plant and equipment' at ($144) million during 2021.",
+      "2": "## Step 3: Calculate the percentage.\nThe Capital Expenditures to Operating Cash Flow ratio amounts to 35.64% because ($144 / $404) x 100 = 35.64%.",
+      "3": "## Step 4: Confirm the final answer.\nThe 2021 capital expenditures received 35.64% of their funding from operating cash flow."
+    },
+    "verification": "Consolidated Statements of Cash Flows (physical p59): total cash provided by operating activities = $404M and additions to property, plant and equipment = ($144)M for FY2021 confirmed. $144/$404 x 100 = 35.643%. Solution previously used $488M and $116M (wrong figures)."
+  },
+  {
+    "rec": 705,
+    "ann": 0,
+    "id": "ETSY_2021",
+    "kind": "P2",
+    "action": "quarantine",
+    "ai_pending": true,
+    "reason": "Graph-only value: the performance graph referenced in the question (physical p74) has no numeric data table in the filing. The cumulative total return percentage for Etsy from December 31, 2015 through December 31, 2021 can only be estimated visually from the graph image; no verifiable precise figure exists in the filing text."
+  }
+]

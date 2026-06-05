@@ -1,0 +1,196 @@
+[
+  {
+    "rec": 640,
+    "ann": 0,
+    "id": "NOV_2017",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "30.41 billion dollars",
+    "solution_steps": {
+      "1": "## Locate shares outstanding.\nNavigate to the Consolidated Balance Sheets on page 62 (physical page 60). The balance sheet states 380,104,970 shares issued and outstanding at December 31, 2017. These are the actual shares outstanding, not the weighted-average basic shares from the income statement.",
+      "3": "## Perform the market capitalization formula.\nMarket Cap = Outstanding Shares × Stock Price.\nMarket Cap = 380.104970 million × $80\nMarket Cap = $30,408.3976 million\nConvert to full units (billions):\n$30,408.3976 / 1,000\nSo, Market Cap is =\n30.41 billion dollars"
+    },
+    "verification": "Balance sheet (physical page 60) states '380,104,970 shares issued and outstanding at December 31, 2017'; 380.10497 × $80 = $30,408.40M = $30.41B"
+  },
+  {
+    "rec": 657,
+    "ann": 0,
+    "id": "LKQ_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "2.5713395639",
+    "solution_steps": {
+      "2": "## Find the total Depreciation and amortization for the fiscal year ended December 31, 2024.\nNavigate to the Consolidated Statements of Cash Flows. Under 'Adjustments to reconcile net income to net cash provided by operating activities,' locate the row labeled 'Depreciation and amortization'. The value for 2024 is $406 million. This figure captures all D&A including amounts embedded in cost of goods sold, whereas the $361 million line on the income statement represents only the separately-reported D&A component. The total D&A of $406 million is the appropriate figure to use when computing EBITDA.",
+      "3": "## Calculate EBITDA (earnings before interest tax depreciation and amortization) for the fiscal year ended December 31, 2024.\nAdd Operating income of $1,199 million (identified in Step 2) and total Depreciation and amortization of $406 million (identified in Step 3). The calculation is: $1,199 million + $406 million = $1,605 million. As shown in the calculation, EBITDA for the fiscal year ended December 31, 2024 was $1,605 million.",
+      "4": "## Calculate the leverage ratio for the fiscal year December 31, 2024.\nDivide the Long-term debt balance of $4,127 million (identified in Step 1) by the EBITDA of $1,605 million (calculated in Step 4). The calculation is: $4,127 million / $1,605 million = 2.5713395639. As shown in the calculation, the company's leverage ratio for the fiscal year December 31, 2024 is\n2.5713395639"
+    },
+    "verification": "Cash flow statement shows total D&A = $406M for 2024 (vs. $361M income-statement line); long-term obligations = $4,127M confirmed on balance sheet; $4,127 / $1,605 = 2.5713"
+  },
+  {
+    "rec": 664,
+    "ann": 0,
+    "id": "GEV_2024",
+    "kind": "P1",
+    "action": "quarantine",
+    "reason": "The 2023 base-year operating income is negative (−$923M), making percent-change-based operating leverage undefined/not meaningful; no standard formula yields a unique correct value in this case."
+  },
+  {
+    "rec": 666,
+    "ann": 0,
+    "id": "O_2015",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "logic_issue cites audited FY2015 total debt of $4,820,995 thousand, but this figure does not appear anywhere in the filing. The balance sheet shows Lines of credit $238,000 + Term loans $320,000 + Mortgages payable net $646,740 + Notes payable net $3,636,746 = $4,841,486 thousand, which is what the solution correctly computes. Cannot determine whether the solution is wrong or the logic_issue is citing an external supplemental figure absent from this document."
+  },
+  {
+    "rec": 668,
+    "ann": 0,
+    "id": "LNT_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$1,061.35 million",
+    "solution_steps": {
+      "2": "## Identify the tax rate for Alliant Energy.\nThe income tax line on the 2024 Consolidated Statements of Income shows a tax BENEFIT of $(114) million (negative, i.e., a credit). Income before income taxes was $576 million. Therefore, the effective tax rate is $(114) million / $576 million = −19.79% (a negative rate reflecting the tax benefit).",
+      "3": "## Calculate NOPAT using formula.\nNet Operating Profit After Tax is a financial metric that measures a company's profitability from its core operations after accounting for taxes. Therefore,\nNOPAT = EBIT × (1 − tax rate) = $886 million × (1 − (−0.1979)) = $886 million × 1.1979 =\n$1,061.35 million"
+    },
+    "verification": "Income statement (page 52) shows income tax expense (benefit) = $(114) million and income before income taxes = $576 million; ETR = −19.79%; EBIT $886M × 1.1979 = $1,061.35M"
+  },
+  {
+    "rec": 684,
+    "ann": 0,
+    "id": "FIX_2022",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "267,095 thousand",
+    "verification": "CFO $301,531, capex $48,359, interest $13,352, tax benefit $(10,089) on pretax $235,858 all confirmed on pages 47 and 49; solution steps already compute ULFCF = 267,095; answer field was wrong (315,454)."
+  },
+  {
+    "rec": 685,
+    "ann": 0,
+    "id": "RBLX _2023",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "logic_issue claims Gina Mastantuono is also a member of the LDCC (giving 1 strictly-member committee), but the Board Highlights table on page 9 of the proxy shows LDCC as blank for her — only ACC is marked (as Chairperson). The filing supports the existing answer of 0 strictly-member committees. Cannot reconcile the logic_issue's assertion with the filing."
+  },
+  {
+    "rec": 687,
+    "ann": 0,
+    "id": "TSE: RY_2020",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$2,558.97",
+    "verification": "Total revenue $47,181M and non-interest expense $24,758M confirmed on page 17 (Table 1); 17M total clients confirmed on page 2 of filing; 13.6M profitable clients, revenue per profitable client $3,469.19 − cost per profitable client $910.22 = $2,558.97 (solution already correct)"
+  },
+  {
+    "rec": 688,
+    "ann": 0,
+    "id": "PRU_2024",
+    "kind": "P1",
+    "action": "quarantine",
+    "reason": "The question requires reading precise values from a bar chart on page 9 ('Adjusted Operating Revenues and GAAP Revenues'). Page 9 contains no extractable numeric text for adjusted operating revenues. GAAP revenues ($70,405M) appear in a table, but total adjusted operating revenues are only available visually from the chart. No numeric data table exists for the adjusted operating revenues figure."
+  },
+  {
+    "rec": 692,
+    "ann": 0,
+    "id": "WDFC_2023",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$67,348.6041 thousand",
+    "solution_steps": {
+      "4": "## Update operating expenses with 6% SG&A growth.\nThe 2023 Selling General and Administrative expense shows $154,684 thousand in the Consolidated Statements of Operations section on page 152.\nThe 6% increase in SG&A expense results in Adjusted SG&A = $154,684 thousand × 1.06 = $163,965.04 thousand.\nThe 2023 Advertising and sales promotion expense reaches $28,807 thousand according to the Consolidated Statements of Operations table on page 152.\nThe 2023 Amortization of definite-lived intangible assets expense amounts to $1,005 thousand according to the Consolidated Statements of Operations table on page 152.\nThe calculation of adjusted operating expenses requires the combination of Adjusted SG&A with Advertising and sales promotion and Amortization of definite-lived intangible assets.\nThe total adjusted operating expenses reach $193,777 thousand after combining $163,965 thousand with $28,807 thousand and $1,005 thousand.",
+      "5": "## Adjust income from operations.\nThe process of determining Adjusted Income from Operations involves taking Adjusted Gross Profit and then subtracting Adjusted Operating Expenses from it.\nThe Adjusted Income from Operations amounts to $285,239.4246 thousand after subtracting $193,777 thousand from it which results in $91,462.4246 thousand.",
+      "6": "## Apply constant other income and interest.\nThe 2023 Consolidated Statements of Operations table on page 152 reports interest income at $231 thousand.\nThe 2023 Consolidated Statements of Operations report interest expense at $5,614 thousand according to page 152.\nThe Consolidated Statements of Operations on page 152 for 2023 present other income (expense) net at $822 thousand.\nThe process to determine adjusted pre-tax income involves three steps starting with adding adjusted income from operations and interest income and other income (expense) net before subtracting interest expense.\nThe calculation of adjusted pre-tax income results in $86,901.4246 thousand after combining $91,462.4246 thousand with $231 thousand and $822 thousand and subtracting $5,614 thousand.\nThe final result amounts to $86,901.4246 thousand.",
+      "7": "## Apply tax using the 2023 effective rate.\nThe company shows $85,163 thousand as its pre-tax earnings. The company allocates $19,170 thousand for its income tax requirements.\nThe effective tax rate equals the provision for income taxes divided by the income before income taxes. The effective tax rate equals 0.2251 or 22.5% because $19,170 thousand divided by $85,163 thousand equals this value.\nThe adjusted taxes amount to $19,552.8119 thousand after multiplying 0.225 by $86,901.4246 thousand.",
+      "8": "## Estimate final net income.\nThe calculation of Adjusted Net Income requires the reduction of Adjusted Taxes from Adjusted Pre-tax Income.\nThe calculation of Adjusted Net Income results from subtracting $19,552.8119 thousand from $86,901.4246 thousand which produces $67,348.6041 thousand."
+    },
+    "verification": "All base figures confirmed on page 152: SG&A $154,684, adv $28,807, amort $1,005, net sales $537,255, COGS $263,035; corrected SGA 154684×1.06=163,965.04 (not 164,965.04); recomputed net income = $67,348.6041 thousand"
+  },
+  {
+    "rec": 695,
+    "ann": 0,
+    "id": "ITGR_2021",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "logic_issue claims correct EBITDA from continuing operations is $214,060 thousand, but the segment note on page 96 shows D&A from continuing-operations segments = $76,533 + unallocated D&A $4,836 = $81,369 thousand, which equals the total cash-flow D&A. This gives EBITDA = $135,711 + $81,369 = $217,080 as the solution computes. The logic_issue figure of $214,060 does not appear in the filing and cannot be verified."
+  },
+  {
+    "rec": 702,
+    "ann": 0,
+    "id": "ADP_2021",
+    "kind": "P1",
+    "action": "quarantine",
+    "reason": "ADP's fiscal year ends June 30, not December 31. The balance sheet in this 10-K shows total assets as of June 30, 2021 ($48,772.5M) and June 30, 2020 ($39,165.5M). No December 31, 2020 or December 31, 2021 balance sheet data appears in this filing; those dates fall within ADP's fiscal year and are not reported here."
+  },
+  {
+    "rec": 14,
+    "ann": 1,
+    "id": "IOT_2023",
+    "kind": "P2",
+    "ai_pending": true,
+    "action": "fix",
+    "answer": "$13,747,999,308.60",
+    "verification": "Class A shares 132,111,095 + Class B 392,049,114 = 524,160,209; plus 25,000,000 RSUs = 549,160,209; × $25.40 = $13,948,669,308.60; minus $200,670,000 cash = $13,747,999,308.60. Step 3 of solution already states the correct value; answer field was off by $7,000,000."
+  },
+  {
+    "rec": 50,
+    "ann": 0,
+    "id": "AFL_2021",
+    "kind": "P2",
+    "ai_pending": true,
+    "action": "fix",
+    "answer": "3.83%",
+    "solution_steps": {
+      "2": "## Calculate the ratio for both years.\nThe calculation of total shareholders' equity to total assets ratio involves dividing Total Shareholders' Equity by Total Assets. The 2020 ratio equals 33,559 / 165,086 = 0.20328 (unrounded). The 2021 ratio equals 33,253 / 157,542 = 0.21107 (unrounded). The ratios show how much of Aflac's assets come from shareholder equity because higher numbers indicate more assets funded through equity.",
+      "3": "## Compute the percentage change.\nThe percentage change between 2020 and 2021 ratios equals [(2021 Ratio - 2020 Ratio) ÷ 2020 Ratio] × 100. Using unrounded ratios: [(0.21107 − 0.20328) ÷ 0.20328] × 100 = [0.00779 ÷ 0.20328] × 100 = 3.83%. The final result of the percentage change calculation amounts to 3.83%."
+    },
+    "verification": "Total shareholders' equity 2020=$33,559M, assets=$165,086M; 2021 equity=$33,253M, assets=$157,542M confirmed on page 89. Precise ratios: 0.20328 and 0.21107; pct change = 3.83% (not 3.94% from rounded ratios)."
+  },
+  {
+    "rec": 94,
+    "ann": 1,
+    "id": "NOTV_2023",
+    "kind": "P2",
+    "ai_pending": true,
+    "action": "needs_review",
+    "reason": "logic_issue cites DSA FY2023 cost of revenue = $114.84M and operating expenses = $38.64M, but the filing's MD&A table on page 42 clearly shows cost of revenue = $120.7M and operating expenses = $42.1M (revenue = $185.1M). The logic_issue values are not in the filing and contradict it. The solution's values ($120.7M, $42.1M) match the filing, yielding the ratio = 42.1/(185.1-120.7) = 65.34% as stated. Cannot determine the source of the logic_issue figures."
+  },
+  {
+    "rec": 128,
+    "ann": 0,
+    "id": "MOG.A_2024",
+    "kind": "P2",
+    "ai_pending": true,
+    "action": "fix",
+    "answer": "14.38%",
+    "solution_steps": {
+      "3": "## Calculate EBITDA for the fiscal year ended September 28, 2024.\nEBITDA = Net earnings + Income taxes + Interest + Depreciation + Amortization.\nFrom the Consolidated Statements of Cash Flows, Depreciation for FY2024 is $82,957 thousand and Amortization is $10,149 thousand (total D&A = $93,106 thousand).\nEBITDA (2024) = $207,220 thousand + $60,593 thousand + $62,112 thousand + $93,106 thousand = $423,031 thousand.",
+      "7": "## Calculate EBITDA for the fiscal year ended September 30, 2023.\nEBITDA = Net earnings + Income taxes + Interest + Depreciation + Amortization.\nFrom the Consolidated Statements of Cash Flows, Depreciation for FY2023 is $78,692 thousand and Amortization is $11,541 thousand (total D&A = $90,233 thousand).\nEBITDA (2023) = $170,998 thousand + $45,054 thousand + $63,578 thousand + $90,233 thousand = $369,863 thousand.",
+      "8": "## Calculate the year-over-year change in EBITDA for the fiscal year ended September 28, 2024, and the fiscal year ended September 30, 2023.\nThe calculation requires us to subtract the 2023 EBITDA value of $369,863 thousand from the 2024 EBITDA value of $423,031 thousand before performing the division with the 2023 EBITDA value of $369,863 thousand. The calculation results in ($423,031 thousand - $369,863 thousand) / $369,863 thousand = $53,168 / $369,863 = 14.38%. The EBITDA values between September 28, 2024 and September 30, 2023 demonstrate a 14.38% change."
+    },
+    "verification": "Cash flows (page 58): Depreciation 2024=$82,957K, Amortization 2024=$10,149K; 2023 Dep=$78,692K, Amort=$11,541K. EBITDA 2024=$423,031K, EBITDA 2023=$369,863K; YoY=14.38% (vs. 17.99% which is the EBIT change, not EBITDA)."
+  },
+  {
+    "rec": 133,
+    "ann": 0,
+    "id": "RAVE_2024",
+    "kind": "P2",
+    "ai_pending": true,
+    "action": "quarantine",
+    "reason": "RAVE Restaurant Group's fiscal year ends in late June, not December 31. The attached filing's balance sheet shows data as of June 30, 2024 and June 25, 2023. No December 31, 2024 balance sheet data exists in this filing; the requested period is absent."
+  },
+  {
+    "rec": 197,
+    "ann": 0,
+    "id": "KULR_2024",
+    "kind": "P2",
+    "ai_pending": true,
+    "action": "fix",
+    "answer": "-116.81%",
+    "solution_steps": {
+      "2": "## Calculate adjusted operating expenses.\nStock-based compensation of $2,692,687 needs to be subtracted from total operating expenses of $20,718,157 to obtain adjusted operating expenses of $18,025,470. Note: these operating expenses exclude cost of revenue, which is a separate line item on the income statement.",
+      "3": "## Compute adjusted operating income.\nAdjusted operating income = Gross Profit − Adjusted Operating Expenses = $5,483,198 − $18,025,470 = −$12,542,272. Alternatively, this equals reported Loss from Operations of −$15,234,959 plus the stock-based compensation add-back of $2,692,687 = −$12,542,272.",
+      "4": "## Calculate adjusted operating margin.\nThe adjusted operating margin calculation requires dividing adjusted operating income by revenue: −$12,542,272 / $10,737,481 = −1.1681. The conversion of this number to a percentage requires multiplication by 100 which results in −116.81%. The 2024 adjusted operating margin amounts to −116.81% based on the calculation."
+    },
+    "verification": "Income statement (page 67): revenue $10,737,481, gross profit $5,483,198, total op expenses $20,718,157, loss from operations $(15,234,959); cash flows (page 70): SBC $2,692,687. Correct adj op income = −$12,542,272; margin = −116.81%."
+  }
+]
