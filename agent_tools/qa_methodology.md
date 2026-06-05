@@ -39,3 +39,13 @@ or
  "issue": "specific problem, e.g. 'new answer 1,042.15 but solution divides by wrong base; recompute gives 1,038.9' or 'AI rewrite dropped the $148.2M prepaid figure' or 'gz.py still returns ai 0.91'"}
 ```
 Process EVERY assigned entry. Be specific in `issue` so it can be fixed without re-deriving. Do not edit any master file — only your QA patch.
+
+## UNDERSTANDABILITY-FOCUSED QA (for rewritten solutions)
+For each rewritten entry, the bar is not just "passes GPTZero" — it must read as a clear, correct, self-contained solution. FLAG (severity low/high) if any of these:
+- A number appears with no explanation of where it came from (e.g. "times 0.78" without saying it is 1 minus the 22% tax rate; or a derived figure with no source).
+- The steps are cryptic, fragmented to the point of being hard to follow, or read like a list of tokens rather than reasoning.
+- Any figure, unit ($/thousands/millions/%/shares), citation, or the final answer differs from the original or is internally inconsistent.
+- Fewer than 4 steps, or a step missing `##` + `\n`.
+- The math shown does not actually produce the stated answer.
+- Any leftover AI-refusal text or contradiction.
+Otherwise mark `pass`. Include a one-line `checked` note (what you verified) or a specific `issue`.
