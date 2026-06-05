@@ -1,0 +1,38 @@
+[
+  {
+    "rec": 533,
+    "ann": 0,
+    "id": "INTC_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 64,
+    "ann": 0,
+    "id": "NUE_2020",
+    "live_ai": 1
+  },
+  {
+    "rec": 197,
+    "ann": 0,
+    "id": "KULR_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 381,
+    "ann": 0,
+    "id": "PLTR_2022",
+    "live_ai": 1
+  },
+  {
+    "rec": 421,
+    "ann": 0,
+    "id": "SHO_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 31,
+    "ann": 0,
+    "id": "ALLY_2016",
+    "live_ai": 1.0
+  }
+]

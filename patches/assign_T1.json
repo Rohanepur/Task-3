@@ -1,0 +1,38 @@
+[
+  {
+    "rec": 631,
+    "ann": 0,
+    "id": "BILL_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 564,
+    "ann": 0,
+    "id": "RGR_2023",
+    "live_ai": 1
+  },
+  {
+    "rec": 324,
+    "ann": 0,
+    "id": "GCO_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 72,
+    "ann": 0,
+    "id": "FOR_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 365,
+    "ann": 0,
+    "id": "OC_2024",
+    "live_ai": 1
+  },
+  {
+    "rec": 240,
+    "ann": 1,
+    "id": "COHU_2024",
+    "live_ai": 1.0
+  }
+]
