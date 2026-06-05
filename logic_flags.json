@@ -1,0 +1,219 @@
+[
+  {
+    "id": "PPIH_2023",
+    "rec": 27,
+    "ann": 0,
+    "flag": "Step 3 in solution uses the phrase 'proportion of decline' to describe a calculation that shows a 37.4% INCREASE in operating income; the wording contradicts the direction of change, though the mathematical result and final answer are correct.",
+    "agent": "W1"
+  },
+  {
+    "id": "RH_2024",
+    "rec": 45,
+    "ann": 1,
+    "flag": "Step 1 contains leftover AI meta-text: 'I've have changed this reasoning point according to your instructions. They should be good to go!' This editorial note is not part of the solution logic.",
+    "agent": "W1"
+  },
+  {
+    "id": "ZWS_2024",
+    "rec": 49,
+    "ann": 0,
+    "flag": "Solution step 1 notes equity at Dec 31 2023 as $1,602.8M and step 2 computes total change as -16.0M; but the answer requested covers only 4 components and nets to -9.3M, which is internally consistent. However step 1 introduces a full equity change (-16.0M) that differs from the 4-component answer (-9.3M) without explicitly reconciling the remaining -6.7M from other equity movements.",
+    "agent": "W1"
+  },
+  {
+    "id": "BHP_2015",
+    "rec": 77,
+    "ann": 0,
+    "flag": "The solution calculates debt-to-equity as 31,170 / 70,545 = approximately 0.44, but the answer field states 0.77. The solution's arithmetic and the stated answer are inconsistent.",
+    "agent": "W2"
+  },
+  {
+    "id": "HII_2024",
+    "rec": 108,
+    "ann": 0,
+    "flag": "The original solution's Step 3 states the formula as '(Difference / $100) * 100 = -125%', which yields -125%, not the stated answer of -59.52380952%. The correct formula that produces the answer divides by $210 (the S&P 500 value), not by $100. There is an inconsistency between the solution's stated formula and the answer.",
+    "agent": "W2"
+  },
+  {
+    "id": "PLNT_2021",
+    "rec": 129,
+    "ann": 0,
+    "flag": "The solution computes NOPAT as $143,096,738 using a rounded 10.9% tax rate, but the answer field states $143,012,536. The two values differ by approximately $84,202. This may reflect use of a more precise tax rate (5,659/51,960 = 10.8991...) or a different rounding approach in the original calculation, but neither the solution's math nor the stated answer aligns with the other.",
+    "agent": "W2"
+  },
+  {
+    "id": "TRNS_2016",
+    "rec": 159,
+    "ann": 0,
+    "flag": "Step 2 of the original solution contained garbled/non-English text ('Dividint 0.052 per 0.111, s'arriba a 0.4685') that appears to be code-switched Catalan/Spanish. The numerical result 0.4685 is correct based on the stated percentages.",
+    "agent": "W3"
+  },
+  {
+    "id": "POST_2023",
+    "rec": 161,
+    "ann": 0,
+    "flag": "The answer format uses '$1.77' with a dollar sign for a debt-to-equity ratio, which is a dimensionless number; no currency symbol should apply. The numerical value 1.77 is consistent with the stated inputs.",
+    "agent": "W3"
+  },
+  {
+    "id": "CW_2022",
+    "rec": 182,
+    "ann": 0,
+    "flag": "Step 1 states 'diluted shares totaled 263 thousand' referring only to the dilutive effect of deferred stock compensation, but Step 3 uses a total diluted share count of 38,649,000. The labeling in Step 1 is ambiguous and could be misread as the full diluted share count.",
+    "agent": "W3"
+  },
+  {
+    "id": "NVAX_2024",
+    "rec": 188,
+    "ann": 0,
+    "flag": "Step 2 presents the calculation as $1,128,942,000 x (1-0.15) = $959,600,700, mixing the unit scale: the balance sheet reports in thousands, so the values should be 1,128,942 and 1,154,416 (thousands), not expressed as full dollars. The ratio result 0.83 is correct regardless, but the unit presentation in Step 2 is inconsistent with the 'in thousands' header.",
+    "agent": "W3"
+  },
+  {
+    "id": "KAYS_2021",
+    "rec": 192,
+    "ann": 0,
+    "flag": "Solution removes $400,000 from the 'Salaries and wages' line item (step 1), but the actual reported salaries and wages balance is only $370,034. The reclassification exceeds the stated line-item total, which is arithmetically impossible unless the $400,000 was spread across multiple expense lines. The question states the assumption, but the solution does not reconcile this discrepancy.",
+    "agent": "W4"
+  },
+  {
+    "id": "EA_2019",
+    "rec": 209,
+    "ann": 0,
+    "flag": "Step 2 header in the original solution says 'Increase all operating expenses by 6%' but the actual increases applied are 8% for R&D, 5% for Marketing and sales, and 0% for G&A. The header is inconsistent with the underlying calculation, though the numbers used are correct per the question assumptions.",
+    "agent": "W4"
+  },
+  {
+    "id": "ARE_2024",
+    "rec": 233,
+    "ann": 0,
+    "flag": "Step 3 of the original solution contains Lithuanian-language text ('Kai 1,3606321839 pakeliama i 0,2 laipsni, gaunama 1,063526153; atimant 1, lieka 0,063526153.') which is inconsistent with an English-language financial document. The underlying math is correct but the original prose suggests foreign-language artifacts.",
+    "agent": "W4"
+  },
+  {
+    "id": "IRM_2024",
+    "rec": 278,
+    "ann": 0,
+    "flag": "Original solution Step 0 references 'Step 1' in a forward reference (before Step 1 occurs). Also Steps 1 and 2 share the same subheader 'Identify the Adjustments from FFO (Nareit) to FFO (Normalized) for Fiscal Year 2024.' These are structural inconsistencies in the original solution.",
+    "agent": "W5"
+  },
+  {
+    "id": "ATCO-A_2024",
+    "rec": 325,
+    "ann": 0,
+    "flag": "Original solution states adjusted ratio as 0.6855610479 but 77,990/113,760 = 0.6855661041; the stated 0.6855610479 is a minor rounding error in the intermediate step. The final answer 0.147573736 is within rounding tolerance of the actual 0.14757384.",
+    "agent": "W5"
+  },
+  {
+    "id": "COOK_2022",
+    "rec": 333,
+    "ann": 1,
+    "flag": "The question text begins with 'f the year-over-year...' (missing leading 'I'). This appears to be a data entry error in the question field, not a solution logic issue. The math and answer are consistent.",
+    "agent": "W5"
+  },
+  {
+    "id": "NMIH_2024",
+    "rec": 352,
+    "ann": 0,
+    "flag": "The solution lists individual adjustment items summing to $120,524 thousand (step3), but states total adjustments = $33,498 thousand (derived from net cash minus net income). These two subtotals are inconsistent; the denominator used in the final calculation is $33,498 thousand, which produces the 300.04% answer.",
+    "agent": "W6"
+  },
+  {
+    "id": "GD_2019",
+    "rec": 384,
+    "ann": 1,
+    "flag": "The question text refers to 'Maine Systems' which appears to be a typo for 'Marine Systems'; all financial figures in the solution reference Marine Systems and appear internally consistent.",
+    "agent": "W6"
+  },
+  {
+    "id": "ZI_2024",
+    "rec": 387,
+    "ann": 0,
+    "flag": "The solution's step-by-step computation yields operating income of $253.8599981M (gross profit $1,126.95M minus opex $873.09M), but the stated answer is $190.5999981M. The answer matches if all S&M, R&D, and amortization ratios are applied to projected 2025 revenue ($1,335.73M) rather than 2024 revenue ($1,214.3M), which would give total opex of approximately $936.35M and operating income of approximately $190.60M. The solution body uses 2024 revenue as the base for those three line items, creating an inconsistency with the answer.",
+    "agent": "W6"
+  },
+  {
+    "id": "FTRE_2024",
+    "rec": 419,
+    "ann": 0,
+    "flag": "The question asks for two pieces of information (the actual 2024 total comprehensive income/loss AND the change from 2023), but the answer only provides the year-over-year % change of (–1260%). The 2024 comprehensive loss of $(395.9) million is mentioned in the solution but is not part of the answer field.",
+    "agent": "W7"
+  },
+  {
+    "id": "AAPL_2009",
+    "rec": 437,
+    "ann": 0,
+    "flag": "The solution subtracts $326 million 'other income and expense' from EBIT on the grounds that it is non-operating. Standard EBIT = net income + income taxes + interest expense; other income is typically included in EBIT unless labeled 'below-the-line.' The treatment here may understate EBIT by $326M. If other income is left in, EBIT = 5,704 + 2,280 = 7,984 and EBITDA = 7,984 + 703 = 8,687, not 8,361.",
+    "agent": "W7"
+  },
+  {
+    "id": "LCUT_2024",
+    "rec": 492,
+    "ann": 1,
+    "flag": "The question text is garbled: it appears to merge two separate questions ('What was Lifetime Brands, Inc.'s EBITDA in 2023 using only data from the Statement of Operations?' and 'If Lifetime Brands, Inc.'s cost of sales in 2024 was 10% lower... what would have been the Income from operations for 2024?'). The solution and answer (61,318.45 thousand) address the adjusted 2024 income from operations scenario, not the 2023 EBITDA question stated at the beginning.",
+    "agent": "W8"
+  },
+  {
+    "id": "SOFI_2021",
+    "rec": 528,
+    "ann": 0,
+    "flag": "The solution computes GAAP EBITDA as $11,874 thousand (step 5: 41,874 minus 30,000 equals 11,874), but the answer field states $12,318 thousand. The discrepancy arises because using the question-stated $1.0 billion base for the margin (30,237/1,000,000 = 3.0237%) instead of the reported $1,010,325 thousand would yield 1,400,000 times 0.030237 = 42,318, minus 30,000 = 12,318. The solution uses the reported base for margin but the hypothetical base for revenue projection, producing an internal inconsistency.",
+    "agent": "W8"
+  },
+  {
+    "id": "C_2023",
+    "rec": 559,
+    "ann": 0,
+    "flag": "Solution uses 'Income from continuing operations before income taxes' as the proxy for operating income. This line is below operating income on the income statement (it includes items like interest expense/income). The calculation may overstate or understate true operating income.",
+    "agent": "W9"
+  },
+  {
+    "id": "MSGE_2020",
+    "rec": 572,
+    "ann": 0,
+    "flag": "The question asks for the percentage change in 'comprehensive loss,' but the 2020 value (10,906 thousand) is a comprehensive income, not a loss. The sign of the percentage change (-146.5%) depends on dividing by the negative 2019 base, which is one valid convention, but the question framing about 'comprehensive loss' does not match the 2020 positive figure.",
+    "agent": "W9"
+  },
+  {
+    "id": "SHW_2013",
+    "rec": 614,
+    "ann": 0,
+    "flag": "The solution references two different page numbers (page 92 for CapEx and page 88 for CFO) for the same table titled 'Consolidated Statements of Cash Flows.' Operating and investing activities normally appear in the same cash flow statement. The page discrepancy is unusual and may indicate an error in the page citation for one of the two figures.",
+    "agent": "W9"
+  },
+  {
+    "id": "BRO_2017",
+    "rec": 646,
+    "ann": 0,
+    "flag": "Original solution steps 3-4 only add back $7,802 (debt issuance costs) and compute $983,943, ignoring the $100,000 current portion subtraction needed to reach the stated answer of $883,943. The rewrite correctly applies both adjustments.",
+    "agent": "W10"
+  },
+  {
+    "id": "SFM_2023",
+    "rec": 647,
+    "ann": 0,
+    "flag": "The question asks to 'calculate the average square footage per center and multiply by the total number of distribution centers' (6 total). The solution instead sums only the two California centers (337,000 + 108,000 = 445,000). These approaches yield the same answer only if average x 6 = 445,000, which would require an average of ~74,167 sq ft per center. The solution does not show this calculation.",
+    "agent": "W10"
+  },
+  {
+    "id": "COMP_2024",
+    "rec": 662,
+    "ann": 0,
+    "flag": "Original solution step 3 (Compute invested capital) contains Italian-language text alongside English, making the step partially incoherent. The calculation logic appears correct but the mixed-language text is a data quality concern.",
+    "agent": "W10"
+  },
+  {
+    "id": "CHKP_2024",
+    "rec": 675,
+    "ann": 0,
+    "flag": "Original solution step 3 cites total liabilities as $2,965.1 million, and step 4 computes 0.10 x $2,965.1 = $296.51 million, but the stated answer is $296.35675 million. Back-calculation from the answer implies true liabilities = $2,963.5675 million, inconsistent with the $2,965.1 million cited in the solution.",
+    "agent": "W10"
+  },
+  {
+    "id": "AXON_2020",
+    "rec": 706,
+    "ann": 0,
+    "flag": "Original solution step 2 contains Albanian-language text for the 2020 TASER 7 share calculation. The numeric results appear correct but the mixed-language content is a data quality concern.",
+    "agent": "W10"
+  }
+]

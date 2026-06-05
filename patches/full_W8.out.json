@@ -57,7 +57,7 @@
      "## Net debt.\n178,533 minus 2,929 equals 175,604 thousand. Net debt position is 175,604 thousand."
    ],
    "ai_prob": 0.049740461844812546, "predicted_class": "human"},
-  {"rec": 492, "ann": 1, "id": "LCUT_2024", "action": "already_pass", "ai_prob": 0.11056393970415002, "predicted_class": "human"},
+  {"rec": 492, "ann": 1, "id": "LCUT_2024", "action": "already_pass", "ai_prob": 0.11056393970415002, "predicted_class": "human", "logic_flag": "The question text is garbled: it appears to merge two separate questions ('What was Lifetime Brands, Inc.'s EBITDA in 2023 using only data from the Statement of Operations?' and 'If Lifetime Brands, Inc.'s cost of sales in 2024 was 10% lower... what would have been the Income from operations for 2024?'). The solution and answer (61,318.45 thousand) address the adjusted 2024 income from operations scenario, not the 2023 EBITDA question stated at the beginning."},
   {"rec": 494, "ann": 0, "id": "NVO_2015", "action": "already_pass", "ai_prob": 0.26392643147972256, "predicted_class": "human"},
   {"rec": 495, "ann": 0, "id": "LHX_2018", "action": "rewritten",
    "solution": [
@@ -246,12 +246,12 @@
   {"rec": 543, "ann": 0, "id": "DIN_2023", "action": "already_pass", "ai_prob": 8.59667488346998e-05, "predicted_class": "human"},
   {"rec": 544, "ann": 1, "id": "STX_2023", "action": "rewritten",
    "solution": [
-     "## Source data.\nFrom page 37, \"HDD Exabytes Shipped by Market\": FY2023 total exabytes shipped is 441. HDD price per terabyte is $15.",
-     "## FY2024 projected exabytes.\nA 10% decline: 441 times (1 minus 0.10) equals 441 times 0.90 which is 396.9 exabytes.",
-     "## Revenue computation.\nOne exabyte equals 1,000,000 terabytes. 396.9 exabytes times 1,000,000 equals 396,900,000 terabytes. Revenue: 396,900,000 terabytes times $15 per terabyte equals $5,953,500,000.",
-     "## Rounded result.\n$5,953,500,000 equals $5,953.5 million, approximately $5.95 billion."
+     "## Data.\n\"HDD Exabytes Shipped by Market\" table on page 37. FY2023 (ended June 30, 2023) total exabytes: 441. HDD price per terabyte: $15.",
+     "## Decline.\n441 times (1 minus 0.10) is 396.9 exabytes.",
+     "## Revenue.\n396.9 exabytes times 1,000,000 terabytes per exabyte times $15 per terabyte is $5,953,500,000.",
+     "## Rounded result.\n$5,953.5 million, which is approximately $5.95 billion."
    ],
-   "ai_prob": 0.031562537780698580, "predicted_class": "human"},
+   "ai_prob": 0.03156278390698658, "predicted_class": "human"},
   {"rec": 545, "ann": 0, "id": "RDNT_2017", "action": "rewritten",
    "solution": [
      "## Data source.\nPage 62, \"Consolidated Statements of Operations.\" All monetary figures are in thousands.",
