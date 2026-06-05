@@ -1,0 +1,14 @@
+[
+  {
+    "id": "CAT_2016",
+    "rec": 254,
+    "ann": 0,
+    "note": "logic_issue claims correct inputs are operating profit $1,162M and R&D $1,853M (answer 976.7M), but the filing does not contain R&D $1,853M (it shows $1,951M); both $498M and $1,162M appear for \"operating profit\". Need to identify the correct consolidated operating profit and R&D lines on the real STATEMENT 1 page before fixing."
+  },
+  {
+    "id": "COUR_2021",
+    "rec": 294,
+    "ann": 0,
+    "note": "Issue says use average/period-end degree students instead of summing quarters. But the solution's quarterly counts (e.g., 13,483) are not found on the cited table page; need to read the actual Degree Students metric table to get correct counts, then decide average vs period-end. Revenue $48,671k is confirmed."
+  }
+]

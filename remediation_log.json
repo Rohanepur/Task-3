@@ -1,0 +1,586 @@
+[
+  {
+    "id": "COLM_2023",
+    "rec": 0,
+    "ann": 0,
+    "before": {
+      "answer": "$397.979 million",
+      "page_numbers": [
+        42,
+        54
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$370.605 million",
+      "page_numbers": [
+        42,
+        54
+      ]
+    }
+  },
+  {
+    "id": "BCC_2024",
+    "rec": 1,
+    "ann": 1,
+    "before": {
+      "answer": "$634,151 thousand",
+      "page_numbers": [
+        55
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$630,800 thousand",
+      "page_numbers": [
+        53
+      ]
+    }
+  },
+  {
+    "id": "IOT_2023",
+    "rec": 14,
+    "ann": 0,
+    "before": {
+      "answer": "99,387.5\n\n",
+      "page_numbers": [
+        63,
+        64
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "94,412.5",
+      "page_numbers": [
+        63,
+        64
+      ]
+    }
+  },
+  {
+    "id": "SSKN_2023",
+    "rec": 47,
+    "ann": 1,
+    "before": {
+      "answer": "2.31148 is debt-to-equity ratio and the total debt is $29,328 thousand, while the total equity is $12,688 thousand",
+      "page_numbers": [
+        66
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "1.1857 is the debt-to-equity ratio; total debt is $15,044 thousand (long-term debt, net) and total equity is $12,688 thousand.",
+      "page_numbers": [
+        66
+      ]
+    }
+  },
+  {
+    "id": "GRBK_2021",
+    "rec": 53,
+    "ann": 1,
+    "before": {
+      "answer": "$250,247 thousand",
+      "page_numbers": [
+        67,
+        70
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$230,534 thousand",
+      "page_numbers": [
+        67,
+        70
+      ]
+    }
+  },
+  {
+    "id": "GRBK_2021",
+    "rec": 53,
+    "ann": 2,
+    "before": {
+      "answer": "$275.9456 million",
+      "page_numbers": [
+        67,
+        70
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$256.2326 million",
+      "page_numbers": [
+        67,
+        70
+      ]
+    }
+  },
+  {
+    "id": "MRK_2021",
+    "rec": 61,
+    "ann": 1,
+    "before": {
+      "answer": "13.18 times",
+      "page_numbers": [
+        229
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "15.36 times",
+      "page_numbers": [
+        229,
+        314
+      ]
+    }
+  },
+  {
+    "id": "RS_2024",
+    "rec": 69,
+    "ann": 0,
+    "before": {
+      "answer": "1.575",
+      "page_numbers": [
+        46
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "1.453",
+      "page_numbers": [
+        46
+      ]
+    }
+  },
+  {
+    "id": "LAKE_2021",
+    "rec": 87,
+    "ann": 1,
+    "before": {
+      "answer": "$48,475.1062 thousand",
+      "page_numbers": [
+        57
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$39,230.69 thousand",
+      "page_numbers": [
+        57
+      ]
+    }
+  },
+  {
+    "id": "META_2018",
+    "rec": 88,
+    "ann": 1,
+    "before": {
+      "answer": "$15973.1 million",
+      "page_numbers": [
+        44
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$15,964.3 million",
+      "page_numbers": [
+        44
+      ]
+    }
+  },
+  {
+    "id": "TFSL_2024",
+    "rec": 96,
+    "ann": 0,
+    "before": {
+      "answer": "3.55%",
+      "page_numbers": [
+        16
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "9.18%",
+      "page_numbers": [
+        16
+      ]
+    }
+  },
+  {
+    "id": "GRND_2024",
+    "rec": 99,
+    "ann": 1,
+    "before": {
+      "answer": "$1,002,797",
+      "page_numbers": [
+        13,
+        62
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$1,002,129",
+      "page_numbers": [
+        13,
+        62
+      ]
+    }
+  },
+  {
+    "id": "BOOT_2024",
+    "rec": 101,
+    "ann": 1,
+    "before": {
+      "answer": "373.61",
+      "page_numbers": [
+        46
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "373.41",
+      "page_numbers": [
+        46
+      ]
+    }
+  },
+  {
+    "id": "SEDG_2019",
+    "rec": 102,
+    "ann": 1,
+    "before": {
+      "answer": "0.71",
+      "page_numbers": [
+        75,
+        76,
+        80
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "0.21",
+      "page_numbers": [
+        75,
+        76,
+        80
+      ]
+    }
+  },
+  {
+    "id": "TSLA_2015",
+    "rec": 146,
+    "ann": 0,
+    "before": {
+      "answer": "92.460451925%",
+      "page_numbers": [
+        48
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "88.2898647%",
+      "page_numbers": [
+        48
+      ]
+    }
+  },
+  {
+    "id": "PLNT_2021",
+    "rec": 129,
+    "ann": 1,
+    "before": {
+      "answer": "111.7%",
+      "page_numbers": [
+        43
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "52.76%",
+      "page_numbers": [
+        43
+      ]
+    }
+  },
+  {
+    "id": "GAP_2022",
+    "rec": 120,
+    "ann": 0,
+    "before": {
+      "answer": "$8,661 million",
+      "page_numbers": [
+        50,
+        68
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$9,800 million",
+      "page_numbers": [
+        50,
+        68
+      ]
+    }
+  },
+  {
+    "id": "DKNG_2022",
+    "rec": 148,
+    "ann": 0,
+    "before": {
+      "answer": "15.43%",
+      "page_numbers": [
+        60,
+        62
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "25.52%"
+    }
+  },
+  {
+    "id": "AN_2024",
+    "rec": 210,
+    "ann": 1,
+    "before": {
+      "answer": "$1,558.7 million",
+      "page_numbers": [
+        67
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$1,546.2 million"
+    }
+  },
+  {
+    "id": "ADDYY_2022",
+    "rec": 170,
+    "ann": 0,
+    "before": {
+      "answer": "0.0314",
+      "page_numbers": [
+        4,
+        184
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "0.031"
+    }
+  },
+  {
+    "id": "NVDA_2024",
+    "rec": 207,
+    "ann": 1,
+    "before": {
+      "answer": "31.87%",
+      "page_numbers": [
+        43
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "31.86%"
+    }
+  },
+  {
+    "id": "SKX_2021",
+    "rec": 200,
+    "ann": 0,
+    "before": {
+      "answer": "1.5305529945",
+      "page_numbers": [
+        23,
+        34
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "1.6913"
+    }
+  },
+  {
+    "id": "SKX_2021",
+    "rec": 200,
+    "ann": 1,
+    "before": {
+      "answer": "$22.6988964792",
+      "page_numbers": [
+        31,
+        34
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$20.89"
+    }
+  },
+  {
+    "id": "IFF_2024",
+    "rec": 187,
+    "ann": 0,
+    "before": {
+      "answer": "$12,708,000,000",
+      "page_numbers": [
+        31,
+        50
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$13,110,000,000"
+    }
+  },
+  {
+    "id": "IFF_2024",
+    "rec": 187,
+    "ann": 1,
+    "before": {
+      "answer": "$3,903,200,000",
+      "page_numbers": [
+        30
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$4,000,280,000"
+    }
+  },
+  {
+    "id": "EA_2019",
+    "rec": 209,
+    "ann": 0,
+    "before": {
+      "answer": "$1,373.904 million",
+      "page_numbers": [
+        23
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$1,373.584 million"
+    }
+  },
+  {
+    "id": "LSTR_2025",
+    "rec": 203,
+    "ann": 0,
+    "before": {
+      "answer": "283,198.39626502 thousand",
+      "page_numbers": [
+        19
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "298,008.39626502 thousand"
+    }
+  },
+  {
+    "id": "IBKR_2023",
+    "rec": 151,
+    "ann": 0,
+    "before": {
+      "answer": "$1,252.70166 million",
+      "page_numbers": [
+        90
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$1,054.39166 million"
+    }
+  },
+  {
+    "id": "ESTC_2021",
+    "rec": 232,
+    "ann": 0,
+    "before": {
+      "answer": "-3.05%",
+      "page_numbers": [
+        79,
+        82
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "-18.45%"
+    }
+  },
+  {
+    "id": "ENSG_2023",
+    "rec": 261,
+    "ann": 0,
+    "before": {
+      "answer": "344,292 thousand",
+      "page_numbers": [
+        101
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "344,832 thousand"
+    }
+  },
+  {
+    "id": "ANF_2010",
+    "rec": 267,
+    "ann": 0,
+    "before": {
+      "answer": "-0.0402",
+      "page_numbers": [
+        62
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "0.0595"
+    }
+  },
+  {
+    "id": "KIRK_2023",
+    "rec": 226,
+    "ann": 1,
+    "before": {
+      "answer": "17.1% and favorable",
+      "page_numbers": [
+        41
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "17.1% and unfavorable"
+    }
+  },
+  {
+    "id": "TKO_2024",
+    "rec": 306,
+    "ann": 0,
+    "before": {
+      "answer": "$845 thousand",
+      "page_numbers": [
+        53
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$844.97 million"
+    }
+  },
+  {
+    "id": "AEE_2021",
+    "rec": 284,
+    "ann": 1,
+    "before": {
+      "answer": "$133.95 million",
+      "page_numbers": [
+        94
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$1,042.15 million"
+    }
+  }
+]

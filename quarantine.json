@@ -1,0 +1,92 @@
+[
+  {
+    "id": "SCHW_2024",
+    "rec": 37,
+    "ann": 0,
+    "reason": "Metric \"revenue per new client\" is unmeasurable from the filing (total revenue includes existing clients; accounts != clients)."
+  },
+  {
+    "id": "SCHW_2024",
+    "rec": 37,
+    "ann": 1,
+    "reason": "Asks margin of an \"Investment Management\" segment Schwab does not have in 2024 (segments are Investor Services / Advisor Services)."
+  },
+  {
+    "id": "UAA_2022",
+    "rec": 70,
+    "ann": 0,
+    "reason": "Projects next-year share price by treating Stock Performance Graph index-return values (146.85/117.94) as actual share prices; invalid by construction."
+  },
+  {
+    "id": "VVPR_2023",
+    "rec": 81,
+    "ann": 0,
+    "reason": "Question asks for the 2024 quick ratio, but the attached filing is VivoPower’s annual report for the year ended 30 June 2023 (columns 2023/2022/2021). The 2024 figures cited in the logic_issue are not present in the attached document; ungroundable as cited."
+  },
+  {
+    "id": "AGFY_2024",
+    "rec": 85,
+    "ann": 0,
+    "reason": "Question asks for Adjusted EBITDA, but the filing contains no “EBITDA” or “Adjusted EBITDA” reconciliation on any page, so the specific non-GAAP adjustments are undefined/ungroundable."
+  },
+  {
+    "id": "HAYW_2021",
+    "rec": 56,
+    "ann": 0,
+    "reason": "Answer depends on reading a precise S&P 500 index value off the Cumulative Total Return performance graph (gridlines at $20 intervals, $80-$160); the filing provides only the graph (no data table), so the corrected ~$122.15 value cannot be verified from the document. Borderline."
+  },
+  {
+    "id": "EXPE_2021",
+    "rec": 116,
+    "ann": 0,
+    "reason": "Total-return performance graph question, but the value is only on the graph (no data table in the filing text; “S&P 500” does not appear as text), so the $150/$235 reads cannot be verified. Same class as HAYW."
+  },
+  {
+    "id": "WDAY_2022",
+    "rec": 115,
+    "ann": 0,
+    "reason": "Question asks the 2021 operating-income growth rate (2021 vs 2020), but the attached FY2023 10-K income statement covers only fiscal 2021/2022/2023; fiscal 2020 operating income is absent, so it is ungroundable."
+  },
+  {
+    "id": "NEP_2024",
+    "rec": 97,
+    "ann": 0,
+    "reason": "Attached document is NextEra Energy, Inc. (parent) Annual Report 2024 (consolidated balance sheet LTD 72,385; debt-maturity table 80,446). The question concerns NextEra Energy Partners, LP, whose standalone debt/interest are not in this filing. Wrong-document/ungroundable."
+  },
+  {
+    "id": "NEP_2024",
+    "rec": 97,
+    "ann": 1,
+    "reason": "Attached document is NextEra Energy, Inc. (parent) Annual Report 2024 (operating income 6,492 is the parent figure). The question concerns NextEra Energy Partners, LP, whose standalone operating income and D&A are not in this filing. Wrong-document/ungroundable. (Solution also contains Lithuanian text.)"
+  },
+  {
+    "id": "INSG_2024",
+    "rec": 212,
+    "ann": 0,
+    "reason": "Question asks to project 2025 operating income (excl D&A) from a 5% revenue increase without specifying cost behavior. The original assumed a 100% incremental margin (which the validator rejected), but no uniquely-correct grounded method/value exists. Underspecified."
+  },
+  {
+    "id": "INSG_2024",
+    "rec": 212,
+    "ann": 1,
+    "reason": "Projection underspecified: asks 2025 operating income (excl S&M) from a 5% revenue increase without specifying cost behavior; original assumed 100% incremental margin (rejected by validator) and no uniquely-correct grounded value exists."
+  },
+  {
+    "id": "RPM_2022",
+    "rec": 270,
+    "ann": 0,
+    "reason": "Asks for assets as of December 31, 2022, but RPM's fiscal year ends May 31 and it does not report a December 31 balance sheet (interim Q2 is November 30); the requested period does not exist in the filing."
+  },
+  {
+    "id": "IVVH_2024",
+    "rec": 263,
+    "ann": 0,
+    "reason": "Correct method requires each year's own average total liabilities (2022 needs 2021 year-end), but the attached FY2023 balance sheet shows only 2023 and 2022; 2021 total liabilities is absent, so the per-year-average ratio is ungroundable."
+  },
+  {
+    "id": "CARS_2023",
+    "rec": 277,
+    "ann": 1,
+    "reason": "Cumulative-total-return graph question, but page 25 has no numeric data table (graph only; solution itself uses \"estimated data points\"); the high/low values cannot be verified from the filing. Same class as HAYW/EXPE."
+  }
+]
