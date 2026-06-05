@@ -1,0 +1,702 @@
+[
+  {
+    "rec": 557,
+    "ann": 0,
+    "id": "AVAV_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00038975082263021434,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 557,
+    "ann": 1,
+    "id": "AVAV_2024",
+    "action": "already_pass",
+    "ai_prob": 0.06809239832221643,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 558,
+    "ann": 0,
+    "id": "HLI_2024",
+    "action": "already_pass",
+    "ai_prob": 0.006632990308808478,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 559,
+    "ann": 0,
+    "id": "C_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Source table.\nPage 151 of the Citi 2023 10-K. Table: CONSOLIDATED STATEMENT OF INCOME, Citigroup Inc. and Subsidiaries. Scale: millions of dollars.",
+      "## Values taken from the 2023 column.\nTotal revenues net of interest expense: 78,462 million. Advertising and marketing: 1,393 million. Income from continuing operations before income taxes: 12,910 million.",
+      "## Revenue adjustment at 12%.\nIncrease = 78,462 million × 12% = 9,415.44 million.",
+      "## Advertising and marketing adjustment at 15%.\nIncrease = 1,393 million × 15% = 208.95 million.",
+      "## Revised income figure.\n12,910 + 9,415.44 - 208.95 = 22,116.49 million."
+    ],
+    "ai_prob": 0.30326740121920437,
+    "predicted_class": "human",
+    "logic_flag": "Solution uses 'Income from continuing operations before income taxes' as the proxy for operating income. This line is below operating income on the income statement (it includes items like interest expense/income). The calculation may overstate or understate true operating income."
+  },
+  {
+    "rec": 560,
+    "ann": 0,
+    "id": "BZFD_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Tables on page 90.\nPage 90 of the document has two tables. The Depreciation and amortization table and the Research and development table, both labeled in thousands.",
+      "## D and A rates.\nThe depreciation and amortization table shows \"as a percentage of revenue\" at 10% for 2024 and 9% for 2023. The absolute change is 1 percentage point.",
+      "## R and D amounts.\nThe research and development table shows 10,855 thousand for 2024 and 6% as a percentage of revenue for that same year.",
+      "## Revenue back-calculation.\n10,855 / 0.06 = 180,916.67 thousand.",
+      "## Hypothetical amount.\n180,916.67 × 0.01 = 1,809.17, rounded to 1,809 thousand dollars."
+    ],
+    "ai_prob": 0.040418352440766095,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 561,
+    "ann": 0,
+    "id": "MOD_2023",
+    "action": "already_pass",
+    "ai_prob": 0.006505804773656717,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 562,
+    "ann": 0,
+    "id": "CCL_2020",
+    "action": "already_pass",
+    "ai_prob": 0.0015577154969958424,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 562,
+    "ann": 1,
+    "id": "CCL_2020",
+    "action": "already_pass",
+    "ai_prob": 0.00011490536850964893,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 563,
+    "ann": 0,
+    "id": "STLA_2024",
+    "action": "already_pass",
+    "ai_prob": 0.013918713757495298,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 563,
+    "ann": 1,
+    "id": "STLA_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00016984471556808723,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 565,
+    "ann": 0,
+    "id": "CMPO_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Finding the balance sheet.\nPage 73 shows the Consolidated Balance Sheets for CompoSecure. Values are in thousands of dollars.",
+      "## Debt data.\nAt December 31, 2024: current portion of long-term debt is 11,250 and long-term debt net of deferred finance cost is 184,389. Total is 195,639 thousand = $195,639,000.",
+      "## Equity market value.\nDiluted shares outstanding: 105 million. Share price: $10.36. Market value = 105,000,000 × 10.36 = $1,087,800,000.",
+      "## Unlevered beta result.\n0.90 / (1 + (0.79 × (195,639,000 / 1,087,800,000))) = 0.90 / (1 + 0.79 × 0.17984) = 0.90 / 1.14207 = 0.788."
+    ],
+    "ai_prob": 0.23102479567971093,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 566,
+    "ann": 0,
+    "id": "THRM_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Statement location.\nPage 67 of the document contains the Consolidated Statements of Cash Flows. Numbers are in thousands. The year is ended December 31, 2023.",
+      "## Starting figure.\nNet cash used in financing activities for 2023: (106,051) thousand.",
+      "## Items to exclude - borrowings on debt.\nBorrowings on debt: 60,000 thousand for 2023. This was a cash inflow included in the reported total.",
+      "## Items to exclude - stock repurchases.\nCash paid for repurchase of common stock: 91,094 thousand for 2023. This was a cash outflow included in the reported total.",
+      "## Adjusted result.\nRemove these two items. Start with (106,051). Add back the outflow of 91,094 and remove the inflow of 60,000. That is: negative 106,051 plus 91,094 minus 60,000 = negative 74,957 thousand."
+    ],
+    "ai_prob": 0.1305045747971993,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 567,
+    "ann": 0,
+    "id": "NATR_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00037599702813158586,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 568,
+    "ann": 0,
+    "id": "SITE_2024",
+    "action": "already_pass",
+    "ai_prob": 6.892827203407524e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 569,
+    "ann": 0,
+    "id": "ACA_2019",
+    "action": "already_pass",
+    "ai_prob": 0.09799040833741432,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 570,
+    "ann": 0,
+    "id": "CRGY_2024",
+    "action": "already_pass",
+    "ai_prob": 0.04662350512433095,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 571,
+    "ann": 0,
+    "id": "YOU_2021",
+    "action": "already_pass",
+    "ai_prob": 0.002431202028392466,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 572,
+    "ann": 0,
+    "id": "MSGE_2020",
+    "action": "rewritten",
+    "solution": [
+      "## Statement and page.\nTable on page 91: MADISON SQUARE GARDEN ENTERTAINMENT CORP. CONSOLIDATED AND COMBINED STATEMENTS OF COMPREHENSIVE INCOME (LOSS). Scale: in thousands.",
+      "## The row.\nComprehensive income (loss) attributable to Madison Square Garden Entertainment Corp.'s stockholders.",
+      "## 2020.\nValue is 10,906 thousand, a positive number.",
+      "## 2019.\nValue is (23,469) thousand, a loss shown in parentheses.",
+      "## Change.\n10,906 minus negative 23,469 = 34,375. 34,375 over negative 23,469 times 100 = negative 146.5%."
+    ],
+    "ai_prob": 0.16292941245516818,
+    "predicted_class": "human",
+    "logic_flag": "The question asks for the percentage change in 'comprehensive loss,' but the 2020 value (10,906 thousand) is a comprehensive income, not a loss. The sign of the percentage change (-146.5%) depends on dividing by the negative 2019 base, which is one valid convention, but the question framing about 'comprehensive loss' does not match the 2020 positive figure."
+  },
+  {
+    "rec": 573,
+    "ann": 0,
+    "id": "EXAS_2022",
+    "action": "already_pass",
+    "ai_prob": 0.4350095135606708,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 574,
+    "ann": 0,
+    "id": "HOLX_2024",
+    "action": "already_pass",
+    "ai_prob": 0.005339965163665147,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 575,
+    "ann": 0,
+    "id": "AFL_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0005787317845210141,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 576,
+    "ann": 0,
+    "id": "TSE: TD_2017",
+    "action": "already_pass",
+    "ai_prob": 0.4671567788885447,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 577,
+    "ann": 0,
+    "id": "BN_2023",
+    "action": "already_pass",
+    "ai_prob": 8.252468815482242e-06,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 578,
+    "ann": 0,
+    "id": "AZZ_2023",
+    "action": "already_pass",
+    "ai_prob": 0.06879669436888373,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 579,
+    "ann": 0,
+    "id": "JD_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0005279320788934266,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 580,
+    "ann": 0,
+    "id": "EXE_2024",
+    "action": "already_pass",
+    "ai_prob": 0.013567859717038007,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 581,
+    "ann": 0,
+    "id": "WRBY_2024",
+    "action": "already_pass",
+    "ai_prob": 0.18879818349723995,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 583,
+    "ann": 0,
+    "id": "SJM_2024",
+    "action": "already_pass",
+    "ai_prob": 0.026708643080474454,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 585,
+    "ann": 0,
+    "id": "ELF_2016",
+    "action": "already_pass",
+    "ai_prob": 0.2566351099334885,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 586,
+    "ann": 0,
+    "id": "WAT_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nPage 61 of the annual report. Table: Statement of Financial Position. Values for 2022.",
+      "## The two figures.\nTotal equity 2022: $12,600 million. Total long-term debt 2022: $5,644 million.",
+      "## Capital base.\n12,600 plus 5,644 = 18,244 million.",
+      "## Equity share.\n12,600 divided by 18,244, times 100 = 69.06%."
+    ],
+    "ai_prob": 0.15124108006989723,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 587,
+    "ann": 0,
+    "id": "ORCL_2024",
+    "action": "already_pass",
+    "ai_prob": 0.056395664225605206,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 589,
+    "ann": 0,
+    "id": "YUM_2013",
+    "action": "rewritten",
+    "solution": [
+      "## Stock performance graph.\nPage 109 of the annual report. Section: \"Stock Performance Graph.\" The graph shows the cumulative total return of YUM common stock, the S&P 500 Index, and the S&P 500 Consumer Discretionary Sector Index from December 26, 2008 to December 27, 2013. Investment starting value is $100 at December 26, 2008.",
+      "## Graph layout.\nThe x-axis shows years: 2008, 2009, 2010, 2011, 2012, 2013. The y-axis shows cumulative total return starting at $50 in increments of $50 up to $400. Three lines represent YUM! (line with squares), S&P 500 (line with diamonds), and S&P Consumer Discretionary (line with circles).",
+      "## YUM values for 2009 and 2012.\nFrom the table below the chart: YUM! cumulative return on 12/24/2009 is $120. YUM! cumulative return on 12/28/2012 is $232.",
+      "## Percentage change.\n(232 minus 120) divided by 120 times 100. That is 112 divided by 120, which equals 0.9333. Result: 93.33%."
+    ],
+    "ai_prob": 0.43707117874687224,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 590,
+    "ann": 0,
+    "id": "NASDAQ: LIN_2020",
+    "action": "already_pass",
+    "ai_prob": 1.4720812540419376e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 591,
+    "ann": 0,
+    "id": "ZLAB_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Data source.\nPage 93 of the Zai Lab filing. A summary table of cash flows is labeled \"document in thousands.\" Year: ended December 31, 2024.",
+      "## Operating cash flow.\nNet cash used in operating activities for 2024: $(214,869) thousand.",
+      "## Capital expenditures.\nThe Consolidated Statements of Cash Flows on physical page 119 shows the line \"Purchases of property and equipment\" for 2024 as $(5,657) thousand.",
+      "## FCF result.\nFCF = operating cash flow minus capital expenditures. That is negative 214,869 minus 5,657 = negative 220,526 thousand."
+    ],
+    "ai_prob": 0.08566066439215878,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 592,
+    "ann": 0,
+    "id": "jbc_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0001641197223526383,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 593,
+    "ann": 0,
+    "id": "RENT_2025",
+    "action": "already_pass",
+    "ai_prob": 0.032668903806139,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 595,
+    "ann": 0,
+    "id": "QSR_2021",
+    "action": "already_pass",
+    "ai_prob": 0.13176590431367238,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 596,
+    "ann": 0,
+    "id": "DGLY_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Page 86 Note 10.\nPage 86 of the annual report. Note 10 is \"DEBT OBLIGATIONS.\" There is a table showing debt components at December 31, 2023.",
+      "## The six debt items.\nEconomic injury disaster loan (EIDL): 147,781. First contingent consideration promissory note, Nobility Healthcare Division Acquisition: 129,651. Second contingent consideration promissory note, Nobility Healthcare Division Acquisition: 58,819. Revolving Loan Agreement: 4,880,000. Commercial Extension of Credit, Entertainment Segment: 87,928. Merchant Advances: 1,350,000.",
+      "## Total debt.\n147,781 plus 129,651 plus 58,819 plus 4,880,000 plus 87,928 plus 1,350,000 = 6,654,179.",
+      "## Equity and ratio.\nConsolidated Balance Sheets on page 67 shows Total equity at December 31, 2023 as 11,448,395. Ratio = 6,654,179 / 11,448,395 = 0.5812."
+    ],
+    "ai_prob": 0.004981996366739475,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 597,
+    "ann": 0,
+    "id": "WBA_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Balance sheet.\nPage 73 of the document has the WALGREENS BOOTS ALLIANCE consolidated balance sheets. Amounts are in millions. The date is August 31, 2019.",
+      "## 2019 current asset values.\nCash and cash equivalents: 1,023. Accounts receivable, net: 7,226. Other current assets: 1,118. (Inventories of 9,333 are excluded.)",
+      "## AR adjustment.\n10% of 7,226 = 722.6 is not collectible. Usable AR = 6,503.4.",
+      "## Other CA adjustment.\n40% of 1,118 = 447.2 is non-liquid. Usable amount = 670.8.",
+      "## Answer.\n1,023 + 6,503.4 + 670.8 = 8,197.2 million."
+    ],
+    "ai_prob": 0.07046894434280791,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 598,
+    "ann": 0,
+    "id": "SHO_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Income statement.\nPage 64 of the document. Table: Consolidated Statements of Operations. Amounts in thousands. Year ended December 31, 2023.",
+      "## Revenue and expenses.\nTotal revenues: 986,480 thousand. Total operating expenses: 867,824 thousand. Operating income = 986,480 minus 867,824 = 118,656 thousand.",
+      "## Interest expense.\nThe interest expense line on page 64 reads (51,679) thousand for 2023.",
+      "## Ratio.\n118,656 / 51,679 = 2.296, rounded to 2.30."
+    ],
+    "ai_prob": 0.13082744053739342,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 599,
+    "ann": 0,
+    "id": "GPRE_2017",
+    "action": "already_pass",
+    "ai_prob": 0.012303849896884734,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 600,
+    "ann": 0,
+    "id": "BMW.DE_2024",
+    "action": "already_pass",
+    "ai_prob": 0.1968262313313755,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 600,
+    "ann": 1,
+    "id": "BMW.DE_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Balance sheet location.\nPage 271 of the BMW Group Report 2024 contains the Assets part of the balance sheet for the Group and Segments at December 31, 2024. Amounts are in millions of euros.",
+      "## Equity and financial liabilities.\nThe equity and liabilities section is on page 272. The \"Equity\" row for the Group 2024 column shows 95,003 million euros. Under \"Financial liabilities,\" two lines appear: one showing 66,770 million euros and another showing 44,491 million euros.",
+      "## Total capital.\nEquity plus debt = 95,003 plus 66,770 plus 44,491 = 206,264 million euros.",
+      "## Debt-to-capital ratio.\nTotal debt = 66,770 plus 44,491 = 111,261 million euros. Debt-to-capital = 111,261 / 206,264 = 0.5394, or 53.94%."
+    ],
+    "ai_prob": 0.06057454031217997,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 601,
+    "ann": 0,
+    "id": "2357.TW_2020",
+    "action": "rewritten",
+    "solution": [
+      "## Where to find the data.\nBalance sheet on document page 193. The 2020 and 2019 trade receivable balances are there.",
+      "## The two figures.\n2020 trade receivables: 71,845,003. 2019 trade receivables: 65,748,653.",
+      "## Change.\n71,845,003 minus 65,748,653 = 6,096,350.",
+      "## Rate.\n6,096,350 over 65,748,653 = 0.09273, which is 9.27%."
+    ],
+    "ai_prob": 0.004303160143689902,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 602,
+    "ann": 0,
+    "id": "Deck_2023",
+    "action": "already_pass",
+    "ai_prob": 0.26485442457071734,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 603,
+    "ann": 0,
+    "id": "TMO_2022",
+    "action": "already_pass",
+    "ai_prob": 0.00029622161955566794,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 604,
+    "ann": 0,
+    "id": "TOYRF_2022",
+    "action": "already_pass",
+    "ai_prob": 0.3495320812544097,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 605,
+    "ann": 0,
+    "id": "AIN_2024",
+    "action": "already_pass",
+    "ai_prob": 1.1154913826012122e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 606,
+    "ann": 0,
+    "id": "BEN_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0038628398888749835,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 607,
+    "ann": 0,
+    "id": "RSLS_2022",
+    "action": "already_pass",
+    "ai_prob": 0.00023030280205137369,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 608,
+    "ann": 0,
+    "id": "BKYI_2020",
+    "action": "already_pass",
+    "ai_prob": 0.00010033464390877396,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 609,
+    "ann": 0,
+    "id": "PSNL_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0005636531741758006,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 609,
+    "ann": 1,
+    "id": "PSNL_2022",
+    "action": "already_pass",
+    "ai_prob": 7.783431673641008e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 610,
+    "ann": 0,
+    "id": "MULN_2023",
+    "action": "already_pass",
+    "ai_prob": 0.18993271193701408,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 611,
+    "ann": 0,
+    "id": "CPRX_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Table.\nCONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE INCOME, page 87. Figures in thousands.",
+      "## 2023 figures.\nRevenues: 398,204. Cost of sales: 51,967.",
+      "## Margin.\n(398,204 - 51,967) / 398,204 = 86.95%.",
+      "## New revenue.\n398,204 * 1.10 = 438,024.4.",
+      "## New COGS.\n438,024.4 * (1 - 0.8695) = 438,024.4 * 0.1305 = 57,162.184 thousand."
+    ],
+    "ai_prob": 0.049308783156897726,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 611,
+    "ann": 2,
+    "id": "CPRX_2023",
+    "action": "already_pass",
+    "ai_prob": 0.03665340491186555,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 612,
+    "ann": 0,
+    "id": "V_2024",
+    "action": "already_pass",
+    "ai_prob": 0.20148765423915707,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 613,
+    "ann": 0,
+    "id": " AIT_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0016341420879217715,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 614,
+    "ann": 0,
+    "id": "SHW_2013",
+    "action": "rewritten",
+    "solution": [
+      "## Formula used.\nCapEx as a percent of CFO = Capital Expenditures divided by Net Cash Provided by Operating Activities, times 100.",
+      "## CapEx figure.\nNavigate to page 92. Table: Consolidated Statements of Cash Flows. The line \"Capital expenditures\" under Investing Activities for 2013 shows $166,680 thousand.",
+      "## CFO figure.\nNavigate to page 88. Same table: Consolidated Statements of Cash Flows. The line \"Net operating cash\" for 2013 shows $1,083,766 thousand.",
+      "## Result.\n166,680 / 1,083,766 × 100 = 15.38%."
+    ],
+    "ai_prob": 0.031366401015606046,
+    "predicted_class": "human",
+    "logic_flag": "The solution references two different page numbers (page 92 for CapEx and page 88 for CFO) for the same table titled 'Consolidated Statements of Cash Flows.' Operating and investing activities normally appear in the same cash flow statement. The page discrepancy is unusual and may indicate an error in the page citation for one of the two figures."
+  },
+  {
+    "rec": 615,
+    "ann": 0,
+    "id": "DKS_2025",
+    "action": "rewritten",
+    "solution": [
+      "## Page 46.\nTable: CONSOLIDATED STATEMENTS OF INCOME. Fiscal year ended February 1, 2025. Numbers in thousands.",
+      "## Net sales.\nNet sales: 13,442,849 thousand.",
+      "## Net income.\nNET INCOME: 1,165,308 thousand.",
+      "## Current margin and target.\nCurrent margin = 1,165,308 / 13,442,849 = 8.67%. Target margin of 10% requires net income of 13,442,849 × 0.10 = 1,344,284.9 thousand. Increase needed = 1,344,284.9 minus 1,165,308 = 178,976.9 thousand. In whole dollars, that is $178,976,900."
+    ],
+    "ai_prob": 0.030488824849194567,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 617,
+    "ann": 0,
+    "id": "TTWO_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Document page.\nPage 88 of the Take-Two Interactive Software 10-K. There are two tables. The second one is the amortization detail.",
+      "## The fiscal year 2024 figure.\nResearch and development amortization for fiscal year ended March 31, 2024 shows as 28.7 million.",
+      "## The fiscal year 2023 figure.\nResearch and development amortization for fiscal year ended March 31, 2023 shows as 24.6 million.",
+      "## Change computation.\nDifference: 28.7 minus 24.6 = 4.1. Rate: 4.1 over 24.6 = 0.1667, or 16.67%."
+    ],
+    "ai_prob": 0.004567994292666101,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 620,
+    "ann": 0,
+    "id": "AMCR_2024",
+    "action": "rewritten",
+    "solution": [
+      "## The graph.\nPage 27 of the Amcor Plc filing contains the Shareholder Return Performance graph. The comparison period runs from June 30, 2019 to June 30, 2024. The $100 baseline is the investment start point.",
+      "## Line to trace.\nS&P 500 Materials index, shown as dotted line with circles. Do not use the data table.",
+      "## At June 30, 2020.\nThe Materials dotted line on the graph is slightly below the $100 level. Roughly $99.",
+      "## At June 30, 2021.\nThe same dotted line is roughly between $140 and $150. Roughly $147.",
+      "## Change.\n$147 minus $99 equals $48."
+    ],
+    "ai_prob": 0.2644162858948877,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 621,
+    "ann": 0,
+    "id": "IMAX_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Revenue and cost data for 2019.\nTechnology sales revenues (2019): 118,245 thousand. Image enhancement and maintenance revenues (2019): 188,547 thousand. Subtotal excluding technology rentals: 306,792 thousand. Technology sales cost (2019): 63,627 thousand. Image enhancement and maintenance cost (2019): 88,175 thousand. Total cost: 151,802 thousand. Gross margin = 306,792 minus 151,802 = 154,990 thousand.",
+      "## Revenue and cost data for 2021.\nTechnology sales revenues (2021): 66,153 thousand. Image enhancement and maintenance revenues (2021): 131,148 thousand. Subtotal excluding technology rentals: 197,301 thousand. Technology sales cost (2021): 37,039 thousand. Image enhancement and maintenance cost (2021): 58,062 thousand. Total cost: 95,101 thousand. Gross margin = 197,301 minus 95,101 = 102,200 thousand.",
+      "## Gross margin percentages.\n2019: 154,990 / 306,792 = 50.52%. 2021: 102,200 / 197,301 = 51.80%.",
+      "## CAGR of gross margin percentage.\nn = 2 years. CAGR = (0.5180 / 0.5052) to the power of (1/2), minus 1. That equals (1.02532) to the 0.5 power minus 1 = 1.0126 minus 1 = 1.26%.",
+      "## 2022 projected margin.\n2021 margin times (1 + CAGR) = 51.80% times 1.0126 = 52.45%."
+    ],
+    "ai_prob": 0.3270114952083379,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 622,
+    "ann": 0,
+    "id": "ZM_2020",
+    "action": "rewritten",
+    "solution": [
+      "## Income statement source.\nPage 58 of the Zoom Video Communications, Inc. 2020 Form 10-K. The table is titled ZOOM VIDEO COMMUNICATIONS, INC. CONSOLIDATED STATEMENTS OF OPERATIONS. All amounts are in thousands of USD.",
+      "## Operating income for 2020.\nThe row \"Income (loss) from operations\" in the 2020 column shows $12,696 thousand.",
+      "## Cash flow statement source.\nPage 61 of the same filing. Table: ZOOM VIDEO COMMUNICATIONS INC. CONSOLIDATED STATEMENTS OF CASH FLOWS. Amounts in thousands.",
+      "## D and A for 2020.\nThe row \"Depreciation and amortization\" in the 2020 column shows $16,449 thousand.",
+      "## EBITDA.\nEBITDA = operating income plus depreciation and amortization. 12,696 plus 16,449 = 29,145 thousand."
+    ],
+    "ai_prob": 0.019332937102936404,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 623,
+    "ann": 0,
+    "id": "GNTX_2022",
+    "action": "already_pass",
+    "ai_prob": 0.4350391769152899,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 624,
+    "ann": 0,
+    "id": "RPRX_2024",
+    "action": "already_pass",
+    "ai_prob": 0.08907920446957883,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 624,
+    "ann": 1,
+    "id": "RPRX_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00111970716469809,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 625,
+    "ann": 0,
+    "id": "SBI_2021",
+    "action": "already_pass",
+    "ai_prob": 0.05803054422354125,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 626,
+    "ann": 0,
+    "id": "TOST_2023",
+    "action": "already_pass",
+    "ai_prob": 3.0500438655335738e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 628,
+    "ann": 0,
+    "id": "LYV_2020",
+    "action": "already_pass",
+    "ai_prob": 1.59007694725538e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 629,
+    "ann": 0,
+    "id": "FRGE_2024",
+    "action": "already_pass",
+    "ai_prob": 0.01484610893835564,
+    "predicted_class": "human"
+  }
+]
