@@ -1,0 +1,227 @@
+[
+  {
+    "rec": 522,
+    "ann": 0,
+    "id": "NOG_2020",
+    "verdict": "pass",
+    "checked": "Filing page 41 confirms NOG=22.69 and S&P=203.04 for 12/31/2020. New method computes cumulative returns: NOG=(22.69-100)/100=-77.31%, S&P=(203.04-100)/100=+103.04%, difference=-180.35 pp. Answer -180.35 percentage points is internally consistent and appropriately addresses the question about percentage-point shortfall. Answer unit changed from % to 'percentage points' which is correct for this methodology."
+  },
+  {
+    "rec": 526,
+    "ann": 1,
+    "id": "T_2016",
+    "verdict": "pass",
+    "checked": "Filing page 48 confirms: Cash=$5,788M, Debt maturing within one year=$9,832M, Long-Term Debt=$113,681M, shares issued=6,495,231,088, treasury=356,237,141 => shares outstanding=6,138.993947M. Market cap=6,138.993947*42.53=$261,091.41256591M. Total debt=9,832+113,681=$123,513M (correctly includes current portion). EV=261,091.41+123,513-5,788=$378,816.41256591M. Arithmetic verified exactly."
+  },
+  {
+    "rec": 529,
+    "ann": 1,
+    "id": "ISRG_2018",
+    "verdict": "pass",
+    "checked": "Filing page 63 confirms total current assets=$4,333.2M and A/R=$682.3M. New method: 'overstated by 12%' means reported=1.12*actual, so overstatement=682.3*(12/112)=73.104. Corrected total current assets=4,333.2-73.104=$4,260.096M. Arithmetic correct; interpretation is standard financial usage."
+  },
+  {
+    "rec": 530,
+    "ann": 0,
+    "id": "LAUR_2024",
+    "verdict": "pass",
+    "checked": "Filing page 59 confirms 150,794 thousand shares issued and outstanding at Dec 31, 2024 (balance sheet figure, not diluted weighted average). Market cap=150,794*14=$2,111,116 thousand. Total debt=29,989+23,761+48,395=$102,145 thousand (confirmed pages 76-80). Cash=$91,400 thousand. EV=2,111,116+102,145-91,400=$2,121,861,000. Arithmetic verified."
+  },
+  {
+    "rec": 532,
+    "ann": 0,
+    "id": "BGFV_2017",
+    "verdict": "flag",
+    "severity": "low",
+    "issue": "The question asks to 'round to the nearest thousand dollars' but the new answer is '$32,508.5' thousand which is not rounded. The correct rounded value is $32,509 thousand (exact OI=32,508.60 from 323,332/1,009,635=32.0246% margin applied to 1,060,116.75, minus SGA $306,990). The methodology change (holding gross margin constant instead of COGS fixed) is correctly identified by the logic_issue, and the math is internally consistent, but the answer field violates the explicit rounding instruction."
+  },
+  {
+    "rec": 533,
+    "ann": 0,
+    "id": "INTC_2023",
+    "verdict": "pass",
+    "checked": "Filing page 77 confirms total current assets=$43,269M, current liabilities=$28,053M, AP 2023=$8,578M, AP 2022=$9,595M. Adjusted current assets=43,269-1,100=$42,169. Adjusted AP=9,595*1.10=$10,554.5 => extra AP=$1,976.5. Adjusted current liabilities=28,053-950+1,976.5=$29,079.5. Ratio=42,169/29,079.5=1.4501 rounds to 1.45. gz.py PASS (predicted_class!=ai, probability=0.017). All figures preserved, math correct."
+  },
+  {
+    "rec": 544,
+    "ann": 0,
+    "id": "STX_2023",
+    "verdict": "pass",
+    "checked": "Filing page 49 confirms interest expense=$313M, interest income=$10M, net income=$(529)M for fiscal year ended June 30, 2023. Net interest expense=303. 20% reduction=60.6. After-tax impact=60.6*(1-0.22)=$47.27M (increase). The old answer $(481.7) was the projected new net income (-529+47.27=-481.73), not the impact. New answer correctly states the impact on net income is +$47.27M increase. Solution text was already correct; only answer field changed to properly answer the question."
+  },
+  {
+    "rec": 552,
+    "ann": 0,
+    "id": "RENB_2024",
+    "verdict": "pass",
+    "checked": "Filing page 92 confirms: restricted shares for services=3,083,760; warrants exercised=3,951,344; private placement settlement of debt=5,660,042. The 'Shares issuable for settlement of contingent consideration' (2,189,672) are labeled 'issuable' not 'issued', properly excluded. GEDi Cube closing consideration (70,834,183) and preferred conversion (5,610,100) excluded as directed. Sum=3,083,760+3,951,344+5,660,042=12,695,146. Arithmetic verified."
+  },
+  {
+    "rec": 554,
+    "ann": 0,
+    "id": "BJ_2021",
+    "verdict": "pass",
+    "checked": "Filing page 34 (partially garbled) shows the data table. Decoding the encoded text confirms BJ's Wholesale=263.32 and S&P 500=163.16 at January 29, 2022 (old solution incorrectly used 168.16). New calculation: (263.32-163.16)/163.16*100=100.16/163.16*100=61.38759%. Arithmetic verified."
+  },
+  {
+    "rec": 564,
+    "ann": 0,
+    "id": "RGR_2023",
+    "verdict": "pass",
+    "checked": "Filing page 20 confirms Sturm Ruger 2021=$147.45, 2023=$114.49; Russell 2000 2021=$172.90, 2023=$160.85. SR%change=(114.49-147.45)/147.45=-22.35%; R2000%change=(160.85-172.90)/172.90=-6.97%. Difference=-22.35%-(-6.97%)=-15.38 pp. All figures preserved from original. gz.py PASS (probability=0.320). Answer unchanged at -15.38 pp."
+  },
+  {
+    "rec": 572,
+    "ann": 0,
+    "id": "MSGE_2020",
+    "verdict": "pass",
+    "checked": "Filing page 90 confirms 2020 comprehensive income attributable to MSG stockholders=+$10,906 thousand (positive, not a loss) and 2019=$(23,469) thousand. New solution correctly identifies 2020 as income. YoY change=(10,906-(-23,469))/(-23,469)*100=-146.5%. Old solution text incorrectly computed -53.5% (treating 2020 as negative); new solution text fixed. Answer unchanged at -146.5%. Arithmetic verified."
+  },
+  {
+    "rec": 581,
+    "ann": 0,
+    "id": "WRBY_2024",
+    "verdict": "pass",
+    "checked": "Filing page 95 confirms: present value=$225,355 thousand, TIA inflow 2025=$13.6M=$13,600 thousand, weighted average discount rate=5.5%. New approach discounts TIA by 1 year: 13,600/1.055=12,890 thousand. Total=225,355+12,890=$238,245 thousand. Arithmetic: 13,600/1.055=12,890.995, sum=238,245.995~$238,245 thousand. More technically correct than undiscounted old approach."
+  },
+  {
+    "rec": 582,
+    "ann": 0,
+    "id": "KNSA_2023",
+    "verdict": "pass",
+    "checked": "Filing page 142 confirms total current assets=$276,297 and total current liabilities=$63,666 for Dec 31, 2023. 276,297/63,666=4.3397888983. All figures preserved, answer unchanged. gz.py PASS (probability=0.158). Solution reads coherently."
+  },
+  {
+    "rec": 583,
+    "ann": 0,
+    "id": "SJM_2024",
+    "verdict": "pass",
+    "checked": "Filing page 54 confirms: Net sales 2024=$8,178.7M, 2023=$8,529.2M; SGA 2024=$1,446.2M; Operating income 2024=$1,305.8M. YoY rate=(8178.7-8529.2)/8529.2=-0.0411. 2025 sales=8178.7*0.9589=7842.56. Sales diff=-336.14M. SGA diff=1446.2*0.07=100.23M (1446.2*1.07=1547.43 verified). OI=1305.8-336.14-100.23=$869.43M. Old solution already computed $869.43 in text but answer field said $959.55; new answer field=$869.43 now correctly matches the computation."
+  },
+  {
+    "rec": 587,
+    "ann": 1,
+    "id": "ORCL_2024",
+    "verdict": "pass",
+    "checked": "Filing confirms operating income=$15,353M (page 44/65) and interest expense=$3,514M (page 65). 15,353/3,514=4.3691 rounds to 4.37. All figures preserved from original. Answer unchanged at 4.37. gz.py PASS (probability=0.083). Solution reads coherently."
+  },
+  {
+    "rec": 591,
+    "ann": 0,
+    "id": "ZLAB_2024",
+    "verdict": "pass",
+    "checked": "Filing page 119 confirms: net cash used in operating activities 2024=$(214,869) thousand and purchases of property and equipment=$(5,657) thousand. FCF=-214,869-5,657=-$220,526 thousand. Arithmetic exact. Old solution acknowledged it could not compute correct FCF (CapEx not given in summary); new solution correctly locates CapEx on page 119."
+  },
+  {
+    "rec": 599,
+    "ann": 0,
+    "id": "GPRE_2017",
+    "verdict": "pass",
+    "checked": "Filing page 73 confirms: Total Green Plains stockholders' equity 2017=$942,182 thousand, 2016=$862,507 thousand (excluding NCI). Net income attributable to Green Plains=$61,061 thousand (page 73). Average equity=(942,182+862,507)/2=$902,344.5. ROE=61,061/902,344.5=6.77%. New solution correctly matches numerator (net income attributable to Green Plains) with denominator (Green Plains-only equity). Old used total equity including NCI ($1,059,136/$979,191) giving 5.99%."
+  },
+  {
+    "rec": 609,
+    "ann": 0,
+    "id": "PSNL_2022",
+    "verdict": "pass",
+    "checked": "Filing page 104 confirms: Enterprise sales 2022=$26,641 thousand, Pharma=$29,552, Population=$8,443, Other=$411; Natera percentage=41%. New total revenue after 20% enterprise growth=29,552+31,969.2+8,443+411=$70,375.2 thousand. Adjusted Natera %=36%. Natera revenue=70,375.2*0.36=$25,335.072 thousand. Old solution incorrectly applied 36% only to enterprise sales (not total revenue). Arithmetic verified."
+  },
+  {
+    "rec": 629,
+    "ann": 0,
+    "id": "FRGE_2024",
+    "verdict": "pass",
+    "checked": "Filing page 60 confirms: net cash used in operating activities 2024=$(40,533) thousand and purchases of property and equipment=$(792) thousand. FCF=-40,533-792=-$41,325 thousand. Arithmetic exact. New solution uses simpler/standard FCF definition (OCF minus CapEx) vs old NOPAT-based ULFCF formula that had erroneous unlevered FCF components."
+  },
+  {
+    "rec": 631,
+    "ann": 0,
+    "id": "BILL_2024",
+    "verdict": "pass",
+    "checked": "Filing page 61 contains the Stock Performance Graph. The data table values are embedded in the PDF graph and not extractable as text. Solution uses approximate values Bill=$150 and S&P=$170 as read from the graph. (-20/170)*100=-11.76%. All figures preserved from original. Answer unchanged at -11.76%. gz.py PASS (probability=0.061). Solution reads coherently."
+  },
+  {
+    "rec": 633,
+    "ann": 0,
+    "id": "LULU_2016",
+    "verdict": "pass",
+    "checked": "Filing confirms: net income=$303,381 thousand (page 43), interest expense=$0, income tax=$119,348 thousand (page 43), D&A=$87,697 thousand (page 46). EBITDA=303,381+0+119,348+87,697=$510,426 thousand. Old solution step 4 also computed $510,426 but answer field said $512,003 (mismatch); new answer field corrected to $510,426. Solution unchanged."
+  },
+  {
+    "rec": 638,
+    "ann": 0,
+    "id": "SHOO_2014",
+    "verdict": "pass",
+    "checked": "Filing page 42 confirms: net sales 2014=$1,334,951 thousand, COGS=$865,951 thousand, NI attributable=$111,880 thousand. Gross profit 2014=469,000. 2015 projected: net sales=1,334,951*1.05=$1,401,698.55, COGS=865,951*1.07=$926,567.57, GP=475,130.98. Change in GP=+6,130.98. NI=111,880+6,130.98=$118,010.98 rounds to $118,011. Arithmetic verified."
+  },
+  {
+    "rec": 640,
+    "ann": 0,
+    "id": "NOV_2017",
+    "verdict": "pass",
+    "checked": "Filing page 60 confirms: 380,104,970 shares issued and outstanding at December 31, 2017. Market cap=380.104970M*$80=$30,408.3976M=$30.41B. Old solution used basic weighted average shares (377M) instead of actual shares outstanding; new solution correctly uses balance sheet shares. Arithmetic verified."
+  },
+  {
+    "rec": 657,
+    "ann": 0,
+    "id": "LKQ_2024",
+    "verdict": "pass",
+    "checked": "Filing confirms: long-term obligations=$4,127M (page 148), operating income=$1,199M (page 104), D&A on income statement=$361M (page 104), D&A on cash flow statement=$406M (page 111). New uses cash flow D&A=$406M to capture all D&A including amounts embedded in COGS. EBITDA=1,199+406=$1,605M. Leverage=4,127/1,605=2.5713395639. Arithmetic verified."
+  },
+  {
+    "rec": 668,
+    "ann": 0,
+    "id": "LNT_2024",
+    "verdict": "pass",
+    "checked": "Filing page 51 confirms: operating income (EBIT)=$886M, income before income taxes=$576M, income tax expense (benefit)=$(114)M (a BENEFIT, negative). Effective tax rate=-114/576=-19.79% (not positive 19.8% as old solution assumed). NOPAT=886*(1-(-0.1979))=886*1.1979=$1,061.35M. Old solution treated tax as expense giving NOPAT=886*(1-0.198)=$710.57M. Arithmetic verified."
+  },
+  {
+    "rec": 676,
+    "ann": 0,
+    "id": "HROW_2024",
+    "verdict": "pass",
+    "checked": "Filing page 50 confirms: current assets 2024=$189,651K, 2023=$139,482K; current liabilities 2024=$91,343K, 2023=$49,344K. CR 2024=189,651/91,343=2.08; CR 2023=139,482/49,344=2.83. Change=2.08-2.83=-0.75. All figures preserved, answer unchanged at -0.75. gz.py PASS (probability=0.021). Solution reads coherently."
+  },
+  {
+    "rec": 678,
+    "ann": 0,
+    "id": "HWM_2024",
+    "verdict": "pass",
+    "checked": "Filing page 31 confirms: Howmet Aerospace=$469.20 and S&P 500 Index=$197.02 at December 31, 2024. Difference=469.20-197.02=$272.18. All figures preserved from original, answer unchanged. gz.py PASS (probability=0.479). Solution reads coherently."
+  },
+  {
+    "rec": 683,
+    "ann": 0,
+    "id": "VVV_2021",
+    "verdict": "pass",
+    "checked": "Filing page 59 (Valvoline Consolidated Statements of Cash Flows, year ended Sep 30, 2021) confirms: Total cash provided by operating activities=$404M and Additions to property, plant and equipment=$(144)M. New values 404 and 144 are correct. Old solution used 488 and 116 which were wrong values (not found on page 60 as stated). 144/404*100=35.64%. Arithmetic verified."
+  },
+  {
+    "rec": 684,
+    "ann": 0,
+    "id": "FIX_2022",
+    "verdict": "pass",
+    "checked": "Filing confirms: CFO=$301,531K (page 48), CapEx=$48,359K (page 48), interest expense=$13,352K (page 46), income before tax=$235,858K (page 46), tax benefit=$(10,089)K (page 46). Tax rate=-10,089/235,858=-0.04278 (benefit). ULFCF=301,531+13,352*(1-(-0.04278))-48,359=301,531+13,923.4-48,359=267,095.4 rounds to 267,095. Arithmetic verified."
+  },
+  {
+    "rec": 687,
+    "ann": 0,
+    "id": "TSE: RY_2020",
+    "verdict": "pass",
+    "checked": "Filing confirms total revenue=$47,181M (page 16) and non-interest expense=$24,758M (page 16), and ~17 million clients (page 30). Profitable clients=13.6M; revenue per profitable client=47,181/13.6=$3,469.19; cost per profitable client=12,379/13.6=$910.22. Net income per profitable client=$3,469.19-$910.22=$2,558.97. New solution text identical to old. Old answer $3,107.32 was incorrect; new answer $2,558.97 matches the computation in both old and new solution steps."
+  },
+  {
+    "rec": 691,
+    "ann": 0,
+    "id": "PMT/PRA_2024",
+    "verdict": "pass",
+    "checked": "Filing pages 137/181 confirm total liabilities=$12,470,206 thousand and total shareholders equity=$1,938,500 thousand at Dec 31, 2024. D/E=12,470,206/1,938,500=6.4329. As percentage=643.29%. All figures preserved, answer unchanged. gz.py PASS (probability=0.008). Solution reads coherently."
+  },
+  {
+    "rec": 692,
+    "ann": 0,
+    "id": "WDFC_2023",
+    "verdict": "pass",
+    "checked": "Filing page 151 confirms: net sales=$537,255K, COGS=$263,035K, SGA=$154,684K, Ad&P=$28,807K, amortization=$1,005K, interest income=$231K, interest expense=$5,614K, other income=$822K, pre-tax income=$85,163K, tax=$19,170K. Key fix: old solution used SGA=164,965.04 (typo), new correctly uses 154,684*1.06=163,965.04. New total opex=163,965+28,807+1,005=193,777. Adj OI=285,239.4246-193,777=91,462.4246. Pre-tax=86,901.4246. Tax=86,901.4246*0.225=19,552.82. NI=67,348.6041. Arithmetic chain verified exactly."
+  }
+]

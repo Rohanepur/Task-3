@@ -1,0 +1,227 @@
+[
+  {
+    "rec": 349,
+    "ann": 0,
+    "id": "349_0",
+    "verdict": "pass",
+    "checked": "Answer 25.00% correct: 5-turn expansion from 20x to 25x = (25-20)/20 = 25.00%. Solution body unchanged (step 16 already stated 25.00%); answer field corrected from 152.32%. Steps 0-15 compute unnecessary EV bridge but do not affect the answer."
+  },
+  {
+    "rec": 353,
+    "ann": 0,
+    "id": "353_0",
+    "verdict": "pass",
+    "checked": "Long-term debt corrected to 1,499,248 thousand (confirmed p73 of filing vs old erroneous 850,177). 1,499.248M x 5.5% = 82.459M matches new answer. AI-refusal text in old step 0 replaced with coherent text."
+  },
+  {
+    "rec": 356,
+    "ann": 0,
+    "id": "356_0",
+    "verdict": "pass",
+    "checked": "Net sales 13,122M and COGS 8,839M confirmed on filing p95. Lost revenue 13,122x0.43/365x14 = 216.4M confirmed. New approach adjusts COGS proportionally: gross margin 32.64%, lost GP 70.8M, adj COGS 8,693M, adj GP 12,905-8,693 = 4,212M matches new answer."
+  },
+  {
+    "rec": 356,
+    "ann": 1,
+    "id": "356_1",
+    "verdict": "pass",
+    "checked": "AI rewrite: all figures preserved (13,122; 1.27; 16,664.94; 8,839; 800; 9,639; 7,025.94) and page 95 citation intact. Answer 7,025.94M unchanged. GPTZero PASS (predicted_class=human, ai_prob=0.013). Prose coherent."
+  },
+  {
+    "rec": 360,
+    "ann": 0,
+    "id": "360_0",
+    "verdict": "pass",
+    "checked": "AI rewrite: Antamina 2024 production=96 and 2022 sales=101 (both confirmed on filing p15 table). Ratio 96/101=0.95 unchanged. GPTZero PASS (predicted_class=human, ai_prob=0.298). Prose coherent."
+  },
+  {
+    "rec": 364,
+    "ann": 0,
+    "id": "364_0",
+    "verdict": "pass",
+    "checked": "Quick assets confirmed from filing p56: cash=74,292, AR=3,038, grant=2,283 (all match). Total current liabilities=64,975 confirmed. +3,000 AP -> 67,975. Quick ratio=79,613/67,975=1.1712, rounds to 1.171. Matches new answer."
+  },
+  {
+    "rec": 365,
+    "ann": 0,
+    "id": "365_0",
+    "verdict": "pass",
+    "checked": "AI rewrite: all figures preserved (1,578; 809; 2,387; 3,692; 64.65%) and page 97 citation intact. Answer 64.65% unchanged. GPTZero PASS (predicted_class=human, ai_prob=0.218). Prose coherent."
+  },
+  {
+    "rec": 375,
+    "ann": 0,
+    "id": "375_0",
+    "verdict": "pass",
+    "checked": "Net profit to Carlsberg shareholders=9,116M (confirmed p113: total profit 10,263 less NCI 1,147). Equity 2024=27,771 and 2023=23,234 confirmed on balance sheet p113. ROE=9,116/((27,771+23,234)/2)=9,116/25,502.5=35.74551515%. Matches new answer."
+  },
+  {
+    "rec": 381,
+    "ann": 0,
+    "id": "381_0",
+    "verdict": "pass",
+    "checked": "AI rewrite: all figures preserved (1,905,871; 1,658,523; 520,737; 1,137,786; 59.6990039%) and page citations p86/p109 intact. Answer unchanged. GPTZero PASS (predicted_class=human, ai_prob=0.003). Prose coherent."
+  },
+  {
+    "rec": 388,
+    "ann": 0,
+    "id": "388_0",
+    "verdict": "pass",
+    "checked": "Current operating lease liabilities 2023=34.0 and 2022=31.9 confirmed from filing Note 16 (p71). Adj liab 2023=5,442+5,800.1-198.0=11,044.1; 2022=4,947.1+6,581.1-207.1=11,321.1. Avg=11,182.6. Tangible assets unchanged. Ratio=11,182.6/7,399.8=1.5112. Matches new answer."
+  },
+  {
+    "rec": 402,
+    "ann": 0,
+    "id": "402_0",
+    "verdict": "pass",
+    "checked": "SLB stockholders equity (excl. NCI) 2023=20,189 and 2022=17,685 confirmed from filing p50 balance sheet. Net income attr to SLB=4,203 confirmed. ROE=4,203/((20,189+17,685)/2)=4,203/18,937=22.19%. Matches new answer."
+  },
+  {
+    "rec": 418,
+    "ann": 0,
+    "id": "418_0",
+    "verdict": "pass",
+    "checked": "Consolidated cash paid for interest=1,133M confirmed on filing p57 (vs parent-entity-only 1,062M on p100). Operating CF=13,596 and dividends=2,773 confirmed on p43. Coverage=(13,596+2,773)/1,133=16,369/1,133=14.45. Matches new answer."
+  },
+  {
+    "rec": 421,
+    "ann": 0,
+    "id": "421_0",
+    "verdict": "pass",
+    "checked": "AI rewrite: all figures preserved (196,513; 184,628; 6.44%; 209,163) and page 47 citation intact. Answer 209,163 thousand unchanged. GPTZero PASS (predicted_class=human, ai_prob=0.149). Math: (196,513-184,628)/184,628=6.437%; 196,513x1.0644=209,163. Prose coherent."
+  },
+  {
+    "rec": 426,
+    "ann": 0,
+    "id": "426_0",
+    "verdict": "pass",
+    "checked": "EBT 2020=-2,052 confirmed from filing p93 (vs old -2,059). EBITDA 2020=(-2,052+608)+2,484=1,040; EBITDA 2022=(2,449+328)+951=3,728. IE/EBITDA 2020=608/1,040=58.46%; 2022=328/3,728=8.80%. Change=8.80-58.46=-49.66%. Matches new answer."
+  },
+  {
+    "rec": 437,
+    "ann": 0,
+    "id": "437_0",
+    "verdict": "pass",
+    "checked": "Net income=5,704, taxes=2,280, other income=326 confirmed on filing p58. D&A=703 confirmed on p60. EBIT=5,704+2,280-326=7,658. EBITDA=7,658+703=8,361. 10% D&A increase does not change EBITDA (EBITDA adds back D&A). New answer 8,361M correct."
+  },
+  {
+    "rec": 438,
+    "ann": 0,
+    "id": "438_0",
+    "verdict": "pass",
+    "checked": "LIN=230, S5MATR=143 (both confirmed from filing p16 peer performance table). LIN CAGR=(230/100)^(1/5)-1=18.13%; S5MATR CAGR=(143/100)^(1/5)-1=7.42%. Diff=10.70% (using step-by-step rounding: 18.13-7.43=10.70). New answer 10.70% confirmed."
+  },
+  {
+    "rec": 443,
+    "ann": 1,
+    "id": "443_1",
+    "verdict": "pass",
+    "checked": "Transacting accounts=3.8M confirmed from filing p82 (distinct from 6.2M crypto-enabled accounts; filing defines both explicitly). Revenue=780,136,000 confirmed on filing p83. 780,136,000/3,800,000=205.30. Matches new answer."
+  },
+  {
+    "rec": 447,
+    "ann": 0,
+    "id": "447_0",
+    "verdict": "pass",
+    "checked": "Operating assets/liabilities calculations verified: OA25=658,445, OL25=274,338, NOA25=384,107; OA24=605,926, OL24=271,899, NOA24=334,027; delta NOA=50,080. Tax rate=15,249/98,348=15.51%; NOPAT=106,387x(1-0.1551)=89,886.4. FCF=89,886.4-50,080=39,806.4~39,806.3763. Matches new answer. Old erroneously added NOA change instead of subtracting."
+  },
+  {
+    "rec": 448,
+    "ann": 0,
+    "id": "448_0",
+    "verdict": "pass",
+    "checked": "FY2023 (year ended Jan 31, 2023) Revenue=422,179, GP=278,002 confirmed from filing p90. GM=65.85%; proj rev=633,269; GM24=70.85%; proj GP=448,666. OpEx=207,008+310,848+162,722=680,578 confirmed. Op income=448,666-680,578=-231,912. Matches new answer."
+  },
+  {
+    "rec": 451,
+    "ann": 0,
+    "id": "451_0",
+    "verdict": "pass",
+    "checked": "FY2024 net sales=40,612,308 thousand confirmed from filing p44/45 (year ended Jan 31, 2025). Stores=20,594 confirmed on p6. Rev/store=40,612,308/20,594/1,000=1.972M. Matches new answer."
+  },
+  {
+    "rec": 457,
+    "ann": 0,
+    "id": "457_0",
+    "verdict": "pass",
+    "checked": "AI rewrite: current assets=3,427 and current liabilities=3,309 preserved (page 50 citation intact). Ratio=3,427/3,309=1.04 unchanged. GPTZero PASS (predicted_class=human, ai_prob=0.001). Prose coherent."
+  },
+  {
+    "rec": 467,
+    "ann": 0,
+    "id": "467_0",
+    "verdict": "pass",
+    "checked": "Total net revenues=9,411,497 and Income from equity investees=108,006 and Operating income=1,053,945 all confirmed on filing p41. Structure confirmed: operating income includes equity investees (9,411,497-8,465,558+108,006=1,053,945). Adj EBIT=1,053,945-108,006=945,939. Margin=945,939/9,411,497=10.05%. Matches new answer."
+  },
+  {
+    "rec": 473,
+    "ann": 0,
+    "id": "473_0",
+    "verdict": "pass",
+    "checked": "Diluted EPS=6.45 and diluted shares=48,082,766 confirmed from filing p83. Net income attr=306.0M (p83). Diluted EPS numerator implicit=6.45x48,082,766=310.13M (includes convertible add-back). After-tax savings=4x(1-0.21)=3.16M. New numerator~313.3M; EPS~313.3/48.08=6.517 rounds to 6.52. Matches new answer."
+  },
+  {
+    "rec": 476,
+    "ann": 0,
+    "id": "476_0",
+    "verdict": "pass",
+    "checked": "2021 G&A=133,112 and 2022 G&A=151,573 confirmed from filing p130. 2022 net income (attr to LP)=570,965 confirmed. Hypothetical: 133,112x1.10=146,423.2. Savings vs actual 2022 G&A: 151,573-146,423.2=5,149.8. New net income=570,965+5,149.8=576,114.8. Matches new answer."
+  },
+  {
+    "rec": 477,
+    "ann": 0,
+    "id": "477_0",
+    "verdict": "pass",
+    "checked": "Operating CF=2,477, capex=1,447, debt repayments=313 all confirmed from filing p87. FCFE=2,477-1,447-313=717M. New answer 717M correct. Old answer 273M was wrong (erroneously deducted equity repurchases which are not part of FCFE)."
+  },
+  {
+    "rec": 483,
+    "ann": 0,
+    "id": "483_0",
+    "verdict": "pass",
+    "checked": "2021 US Govt STI=191,981 and 2022 US Govt cash equivalents=88,045 confirmed from filing p101 fair value table. Money market 239 correctly excluded (different asset class). 40% of 191,981=76,792.4. Change=88,045-76,792.4=11,252.6. Matches new answer."
+  },
+  {
+    "rec": 487,
+    "ann": 0,
+    "id": "487_0",
+    "verdict": "pass",
+    "checked": "2021 EBT=1,180 provision=-81; 2020 EBT=-466 benefit=199 all confirmed on filing p39. ETR 2021=81/1,180=6.8644%; ETR 2020=-199/-466=42.7039%. YoY change=(6.8644-42.7039)/42.7039x100=-83.9256%. Sign correction from +83.9256% to -83.9256% is correct (rate decreased). Matches new answer."
+  },
+  {
+    "rec": 494,
+    "ann": 0,
+    "id": "494_0",
+    "verdict": "pass",
+    "checked": "Net sales=107,927, operating profit=49,444, other operating income=3,482 all confirmed from filing p57. LC sales=107,927x(1.08/1.22)=95,542M. Adj op profit=49,444-3,482=45,962. Margin=45,962/95,542=48.11%. Matches new answer."
+  },
+  {
+    "rec": 500,
+    "ann": 0,
+    "id": "500_0",
+    "verdict": "flag",
+    "severity": "low",
+    "issue": "Cloud computing cost correctly changed to 166.3M (confirmed filing p150) and sum 17,869.4M is arithmetically correct. However, step 4 retains AI refusal text ('I am unable to access external documents directly. However, if you provide the content...') which is incoherent as a financial reasoning step. The refusal text was present in the original and was not cleaned up by remediation. Answer 17,869,400,000 is correct and fully grounded."
+  },
+  {
+    "rec": 507,
+    "ann": 0,
+    "id": "507_0",
+    "verdict": "pass",
+    "checked": "Operating income=8,792M and interest expense (net of capitalized)=2,267M confirmed from filing p180. Ratio=8,792/2,267=3.8782531981 (dimensionless). Correction from '$3.8782531981 million' to '3.8782531981' removes incorrect unit label; an interest coverage ratio is dimensionless."
+  },
+  {
+    "rec": 508,
+    "ann": 0,
+    "id": "508_0",
+    "verdict": "pass",
+    "checked": "Loss from operations=-6,220, EBT=-13,458, provision=1,430 all confirmed from filing p100. Tax rate signed=1,430/(-13,458)=-10.63%. NOPAT=-6,220x(1-(-0.1063))=-6,220x1.1063=-6,880.9. Matches new answer. Old used unsigned positive rate giving -5,558.8 (wrong)."
+  },
+  {
+    "rec": 511,
+    "ann": 1,
+    "id": "511_1",
+    "verdict": "pass",
+    "checked": "Cost of revenues exclusive of D&A=9,745M confirmed from filing p70 (revenues line=14,984M was incorrectly used by old solution). 9,745x1.06=10,329.7 rounds to 10,330M. Matches new answer."
+  }
+]

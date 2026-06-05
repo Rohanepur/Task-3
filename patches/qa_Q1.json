@@ -1,0 +1,228 @@
+[
+  {
+    "rec": 0,
+    "ann": 0,
+    "id": "COLM_2023",
+    "verdict": "pass",
+    "checked": "Net income 251,400 confirmed on p42; interest income 13,687 confirmed on p42; tax 74,792 confirmed on p42; dep 56.4M confirmed p54 footnote; amort 1.7M confirmed p54 footnote. NEW correctly subtracts net interest income: 251.4 - 13.687 + 74.792 + 56.4 + 1.7 = 370.605 matches answer."
+  },
+  {
+    "rec": 1,
+    "ann": 1,
+    "id": "BCC_2024",
+    "verdict": "pass",
+    "checked": "EBITDA reconciliation table on p53 confirmed: net income 376,354 + interest expense 24,067 - interest income 39,139 + tax 125,405 + D&A 144,113 = 630,800; filing EBITDA line shows 630,800 directly, cross-validating the answer."
+  },
+  {
+    "rec": 14,
+    "ann": 0,
+    "id": "IOT_2023",
+    "verdict": "pass",
+    "checked": "95% Core Customer ARR confirmed on p64: 'approximately 95% of our ARR came from Core Customers.' Total ARR $795,053k confirmed on p64. Core ARR = 0.95 * 795053 * 1000 = $755,300,350; assets = 755300350 / 8000 = 94,412.54. Answer states 94,412.5 (minor rounding of 94,412.54 is acceptable)."
+  },
+  {
+    "rec": 14,
+    "ann": 1,
+    "id": "IOT_2023",
+    "verdict": "pass",
+    "checked": "Class A 132,111,095 and Class B 392,049,114 shares confirmed on p81 balance sheet; cash $200,670k confirmed on p81. Fully diluted shares = 132,111,095 + 392,049,114 + 25,000,000 = 549,160,209; mkt cap = 549,160,209 * 25.40 = 13,948,669,308.60; EV = 13,948,669,308.60 - 200,670,000 = 13,747,999,308.60 matches answer. (Old answer of 13,754,999,308.60 was inconsistent with old solution computation.)"
+  },
+  {
+    "rec": 16,
+    "ann": 0,
+    "id": "NSC_2021",
+    "verdict": "pass",
+    "checked": "Revenue 11,142M, fuel 799M, operating income 4,447M all confirmed on p61. Scenario: adj revenue = 10,542M, adj op income = 4,447 - 600 - 75 = 3,772M; margin = 3,772/10,542 = 35.78068677% matches answer. AI rewrite: answer unchanged, all figures preserved, gz.py PASS (human 93.7%)."
+  },
+  {
+    "rec": 31,
+    "ann": 0,
+    "id": "ALLY_2016",
+    "verdict": "pass",
+    "checked": "2015 Automotive Finance revenue $3,664M and 8% reported change confirmed on p34 table. Hypothetical: 8% * 0.50 = 4%; 3664 * 1.04 = 3,810.56M matches answer. AI rewrite: answer unchanged, all figures preserved, gz.py PASS (human 97.4%)."
+  },
+  {
+    "rec": 45,
+    "ann": 0,
+    "id": "RH_2024",
+    "verdict": "pass",
+    "checked": "FY2024 SGA 1,022,948k and FY2025 gross profit 1,414,932k confirmed on p73. Projected SGA = 1,022,948 * 1.05 = 1,074,095.4 rounded to 1,074,095; projected op income = 1,414,932 - 1,074,095 = 340,837k matches answer. AI rewrite: answer unchanged, all figures preserved, gz.py PASS (human 86.2%)."
+  },
+  {
+    "rec": 47,
+    "ann": 1,
+    "id": "SSKN_2023",
+    "verdict": "pass",
+    "checked": "Long-term debt, net $15,044k confirmed on p66 balance sheet; total stockholders equity $12,688k confirmed p66; total liabilities $29,328k also confirmed (correctly excluded as debt proxy). D/E = 15,044 / 12,688 = 1.1857 matches answer."
+  },
+  {
+    "rec": 50,
+    "ann": 0,
+    "id": "AFL_2021",
+    "verdict": "pass",
+    "checked": "2020 equity 33,559M and total assets 165,086M; 2021 equity 33,253M and total assets 157,542M all confirmed on p89. r2020 = 33559/165086 = 0.20328; r2021 = 33253/157542 = 0.21107; pct change = (0.21107-0.20328)/0.20328 * 100 = 3.83% matches answer. gz.py PASS (human 86.0%)."
+  },
+  {
+    "rec": 53,
+    "ann": 1,
+    "id": "GRBK_2021",
+    "verdict": "pass",
+    "checked": "Income before taxes 256,986k, other income 9,483k, and equity in income of unconsolidated entities 19,713k all confirmed on p67. D&A 2,744k confirmed on p70 cash flow. EBIT = 256,986 - 9,483 - 19,713 = 227,790k; EBITDA = 227,790 + 2,744 = 230,534k matches answer."
+  },
+  {
+    "rec": 53,
+    "ann": 2,
+    "id": "GRBK_2021",
+    "verdict": "pass",
+    "checked": "Same source figures as ann 1. Grown income = 256,986 * 1.1 = 282,684.6k; projected EBIT = 282,684.6 - 9,483 - 19,713 = 253,488.6k; EBITDA = 253,488.6 + 2,744 = 256,232.6k = 256.2326M matches answer."
+  },
+  {
+    "rec": 60,
+    "ann": 1,
+    "id": "AKR_2024",
+    "verdict": "pass",
+    "checked": "Net cash provided by operating activities: 2024 = 140,448k and 2023 = 155,758k confirmed on p112. YoY change = 140,448 - 155,758 = -15,310k matches answer. AI rewrite: answer unchanged, all figures preserved, gz.py PASS (human 97.4%)."
+  },
+  {
+    "rec": 61,
+    "ann": 1,
+    "id": "MRK_2021",
+    "verdict": "pass",
+    "checked": "EBIT 4,179M confirmed on p229; interest expense and similar expenses 272M confirmed in finance cost breakdown on p314. ICR = 4,179 / 272 = 15.36 matches answer. Remediation correctly uses the interest expense sub-line (272M) rather than total finance costs (317M)."
+  },
+  {
+    "rec": 64,
+    "ann": 0,
+    "id": "NUE_2020",
+    "verdict": "pass",
+    "checked": "Goodwill 2,229,672k, other intangibles 668,021k, and total Nucor stockholders equity 10,788,665k all confirmed on p52. Tangible equity = 10,788,665 - 2,229,672 - 668,021 = 7,890,972k; goodwill % = 2,229,672/7,890,972*100 = 28.256% matches answer. AI rewrite: answer unchanged, all figures preserved, gz.py PASS (human 77.5%)."
+  },
+  {
+    "rec": 69,
+    "ann": 0,
+    "id": "RS_2024",
+    "verdict": "pass",
+    "checked": "Current assets 3,895.5M, inventories 2,026.8M, prepaid expenses 148.2M, and current liabilities 1,213.0M all confirmed on p46 balance sheet. Quick assets after sale = 3,895.5 - 2,026.8 - 148.2 + 42 = 1,762.5; QR = 1,762.5/1,213.0 = 1.453 matches answer. Correctly excludes prepaid from quick assets."
+  },
+  {
+    "rec": 72,
+    "ann": 0,
+    "id": "FOR_2024",
+    "verdict": "pass",
+    "checked": "21,000 lots under contract confirmed p34; average price $96,600 confirmed p31. Horton: 15,750 * 93,702 = 1,475,806,500; third-party: 5,250 * 96,600 = 507,150,000; after rebate and 5% transaction cost: 1,473,306,500 + 481,792,500 = 1,955,099,000 = $1,955.099M matches answer. AI rewrite: answer unchanged, all figures preserved, gz.py PASS (human 52.2%)."
+  },
+  {
+    "rec": 87,
+    "ann": 1,
+    "id": "LAKE_2021",
+    "verdict": "pass",
+    "checked": "Net sales 159,000k / 107,809k, COGS 79,750k / 69,912k, opex 35,397k / 32,021k, and operating profit 43,853k all confirmed on p56 income statement. OpEx pct change = (35,397-32,021)/32,021 = 10.54%. Adjusted op profit = 43,853 * (1-0.1054) = 39,230.89k. Solution claims 39,230.69 (minor rounding from using 0.8946); difference is $0.20k and is acceptable."
+  },
+  {
+    "rec": 88,
+    "ann": 1,
+    "id": "NASDAQ: META_2018",
+    "verdict": "pass",
+    "checked": "Net income 15,934M, interest income 391M, income before tax 20,594M, tax 4,660M all confirmed on p44. ETR = 4660/20594 = 22.6%. Pre-tax increase = 39.1M; after-tax = 39.1*(1-0.226) = 30.26M. New NI = 15,934 + 30.26 = 15,964.26M. Solution claims 15,964.3M (minor rounding) which matches answer."
+  },
+  {
+    "rec": 96,
+    "ann": 0,
+    "id": "TFSL_2024",
+    "verdict": "pass",
+    "checked": "Total non-performing assets 33,784k confirmed on p16. Filing text confirmed on p16: '$3.1 million are less than 90 days past due but included with non-accrual loans.' The $1.9M (90+ days) is a separate sub-category and must not be subtracted from $3.1M. Correct numerator = 3,100k; 3,100/33,784*100 = 9.18% matches answer."
+  },
+  {
+    "rec": 99,
+    "ann": 1,
+    "id": "GRND_2024",
+    "verdict": "pass",
+    "checked": "Adjusted EBITDA 147,313k confirmed on p58 Non-GAAP table; 147 employees confirmed on p13. EBITDA per employee = 147,313,000/147 = 1,002,129 matches answer. Solution text was unchanged from old; only the answer field was corrected from wrong 1,002,797 to correct 1,002,129."
+  },
+  {
+    "rec": 101,
+    "ann": 1,
+    "id": "BOOT_2024",
+    "verdict": "pass",
+    "checked": "Average sales per comparable store $4,081k and average sq footage 10,929 both confirmed on p46 Store Operating Data table. Revenue per sq ft = 4,081,000/10,929 = 373.41 matches answer. Solution text unchanged from old; only answer field corrected from 373.61 to 373.41."
+  },
+  {
+    "rec": 102,
+    "ann": 1,
+    "id": "SEDG_2019",
+    "verdict": "pass",
+    "checked": "Current maturities of bank loans 15,673k (p74-75), bank loans 173k and operating lease liabilities 30,213k (p74-75), operating income 189,946k (p76), D&A components 17,261+9,634+92=26,987k (p80) all confirmed in filing. Leverage = 46,059/216,933 = 0.21 matches answer. Old answer field (0.71) was wrong; solution already computed 0.21 correctly."
+  },
+  {
+    "rec": 109,
+    "ann": 0,
+    "id": "XNCR_2024",
+    "verdict": "pass",
+    "checked": "Total revenues 110,493k (p81), AR 23,739k (2023) and 60,849k (2024) both confirmed on p80. Average AR = (23,739+60,849)/2 = 42,294k; turnover = 110,493/42,294 = 2.61 matches answer. AI rewrite: answer unchanged, all figures preserved, gz.py PASS (human 98.2%)."
+  },
+  {
+    "rec": 120,
+    "ann": 0,
+    "id": "NYSE: GAP_2022",
+    "verdict": "pass",
+    "checked": "Total assets 11,386M confirmed on p50; cash 1,215M confirmed on p50; net deferred tax assets 371M confirmed on p68 ('Net deferred tax assets $371' as of Jan 28, 2023, after netting liabilities). Operating assets = 11,386 - 1,215 - 371 = 9,800M matches answer. Old solution incorrectly used gross deferred tax assets (1,510M)."
+  },
+  {
+    "rec": 124,
+    "ann": 0,
+    "id": "CDNS_2024",
+    "verdict": "flag",
+    "severity": "low",
+    "issue": "Pre-existing answer/solution mismatch not fixed by AI remediation: the solution step 3 in both old and new computes '(2.9312 - 1.2422) / 1.2422 x 100 = 135.97%' but the answer field reads 136.04%. Precise calculation gives 135.97% (cannot obtain 136.04% by any standard rounding). The AI rewrite correctly preserved the (incorrect) answer field as required, but the contradiction between solution body and answer field remains. All figures confirmed: current assets 1,976,217/4,016,079 and current liabilities 1,590,867/1,370,105 on p55. gz.py PASS (human 68.0%)."
+  },
+  {
+    "rec": 128,
+    "ann": 0,
+    "id": "MOG.A_2024",
+    "verdict": "pass",
+    "checked": "Net earnings, taxes, and interest for both years confirmed on p51. D&A confirmed on p58 cash flow: dep 82,957 + amort 10,149 = 93,106k (2024); dep 78,692 + amort 11,541 = 90,233k (2023). EBITDA 2024 = 207,220+60,593+62,112+93,106 = 423,031k; EBITDA 2023 = 170,998+45,054+63,578+90,233 = 369,863k; YoY = 53,168/369,863 = 14.38% matches answer."
+  },
+  {
+    "rec": 129,
+    "ann": 1,
+    "id": "PLNT_2021",
+    "verdict": "pass",
+    "checked": "Planet Fitness cumulative return 450.65 and S&P 500 cumulative return 212.89 as of Dec 31, 2021 confirmed on p42 performance table. Percentage by which S&P was LESS than Planet Fitness = (450.65-212.89)/450.65*100 = 52.76% matches answer. New correctly uses Planet Fitness value as base (as the denominator of 'less than')."
+  },
+  {
+    "rec": 144,
+    "ann": 0,
+    "id": "ADC_2024",
+    "verdict": "pass",
+    "checked": "Total liabilities 2,975,785k (p60), mortgage notes payable total principal 43,904k (p76), senior unsecured notes total 2,260,000k (p78) all confirmed. New total liabilities = 2,975,785-10,000 = 2,965,785k; pct = 2,260,000/2,965,785*100 = 76.20% matches answer. AI rewrite: answer unchanged, all figures preserved, gz.py PASS (human 73.1%)."
+  },
+  {
+    "rec": 145,
+    "ann": 0,
+    "id": "JNPR_2021",
+    "verdict": "pass",
+    "checked": "Total liabilities 4,570.1M and total stockholders equity 4,316.9M both confirmed on p167 balance sheet. D/E = 4,570.1/4,316.9 = 1.06 matches answer. AI rewrite: answer unchanged, all figures preserved, gz.py PASS (human 99.8%)."
+  },
+  {
+    "rec": 146,
+    "ann": 0,
+    "id": "TSLA_2015",
+    "verdict": "pass",
+    "checked": "Automotive revenue 3,740,973k and total revenue 4,046,025k confirmed on p48 income statement. Regulatory credits 168.7M cited on p55 note ('Revenue from the sale of regulatory credits totaled $168.7 million'); precise figure 168,743k used in solution rounds to 168.7M and is consistent. (3,740,973-168,743)/4,046,025*100 = 88.2899% matches answer."
+  },
+  {
+    "rec": 148,
+    "ann": 0,
+    "id": "DKNG_2022",
+    "verdict": "flag",
+    "severity": "high",
+    "issue": "New answer 25.52% is incorrect. DraftKings' formal Consolidated Statements of Operations (p77) shows no gross profit subtotal: Revenue -> Cost of revenue (1,484,273) -> Sales and marketing (1,185,977) -> Product and technology (318,247) -> General and administrative (763,720) -> Loss from operations (-1,511,756). All four items including cost of revenue are operating expenses per the income statement structure. Correct total operating expenses = 3,752,217k; correct ratio = 578,799/3,752,217 = 15.43%. The remediation wrongly excluded cost of revenue, changing the answer from 15.43% (correct) to 25.52% (incorrect). The old answer of 15.43% was correct despite the solution body having a pre-existing error."
+  },
+  {
+    "rec": 151,
+    "ann": 0,
+    "id": "IBKR_2023",
+    "verdict": "pass",
+    "checked": "Commissions 1,360M and execution/clearing expenses 386M confirmed on p90. 2025 projected GP = 1,360*1.04^2 - 386*1.05^2 = 1471.0 - 425.57 = 1045.43M (rounded intermediates); 2023 reinvestment FV = 97.4*1.03^2 = 103.33166M; 2024 reinvestment FV = 100.91*1.03 = 103.94M; returns = 5.93166 + 3.03 = 8.96166M; final = 1045.43 + 8.96166 = 1054.39166M matches answer. Discrepancy from using rounded 1045.43 vs exact 1045.411 is trivial ($0.02M)."
+  }
+]

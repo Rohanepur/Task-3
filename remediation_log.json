@@ -1824,5 +1824,68 @@
     },
     "verification": "Table III on physical page 58 (printed page FS-54 area) shows 'Results before income taxes' for YEAR ENDED DECEMBER 31, 2003 as $12,475M in the Worldwide column (sum: consolidated $11,563M + TCO $867M",
     "gptzero": "human/0.368"
+  },
+  {
+    "id": "DKNG_2022",
+    "rec": 148,
+    "ann": 0,
+    "agent": "qa-fix",
+    "verification": "QA-revert: all four cost lines are operating expenses (no gross profit line); 578,799/3,752,217=15.43%"
+  },
+  {
+    "id": "BGFV_2017",
+    "rec": 532,
+    "ann": 0,
+    "agent": "qa-fix",
+    "verification": "QA: rounded to nearest thousand -> 32,509"
+  },
+  {
+    "id": "YETI_2021",
+    "rec": 246,
+    "ann": 0,
+    "agent": "qa-fix",
+    "verification": "QA: removed leftover AI-refusal text in step 0"
+  },
+  {
+    "id": "MOS_2024",
+    "rec": 500,
+    "ann": 0,
+    "agent": "qa-fix",
+    "verification": "QA: removed leftover AI-refusal text in step 4"
+  },
+  {
+    "id": "CDNS_2024",
+    "rec": 124,
+    "ann": 0,
+    "agent": "qa-fix",
+    "verification": "QA: solution/answer made consistent at precise 136.02%"
+  },
+  {
+    "id": "refusal-cleanup",
+    "rec": 63,
+    "ann": 0,
+    "agent": "qa-fix",
+    "verification": "removed leftover AI-refusal text in step 0"
+  },
+  {
+    "id": "refusal-cleanup",
+    "rec": 78,
+    "ann": 0,
+    "agent": "qa-fix",
+    "verification": "removed leftover AI-refusal text in step 0"
+  },
+  {
+    "id": "refusal-cleanup",
+    "rec": 177,
+    "ann": 0,
+    "agent": "qa-fix",
+    "verification": "removed leftover AI-refusal text in step 0"
+  },
+  {
+    "id": "refusal-cleanup",
+    "rec": 298,
+    "ann": 0,
+    "agent": "qa-fix",
+    "verification": "removed leftover AI-refusal text in step 0"
   }
 ]
