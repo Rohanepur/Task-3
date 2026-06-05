@@ -433,5 +433,788 @@
     "after_ai": 0.022,
     "predicted_class": "human",
     "agent": "ai_T"
+  },
+  {
+    "id": "NSC_2021",
+    "rec": 16,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.339,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "ALLY_2016",
+    "rec": 31,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.054,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "RH_2024",
+    "rec": 45,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.103,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "AFL_2021",
+    "rec": 50,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.213,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "NUE_2020",
+    "rec": 64,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.36,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "FOR_2024",
+    "rec": 72,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.04,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "XNCR_2024",
+    "rec": 109,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.0,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "CDNS_2024",
+    "rec": 124,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.148,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "ADC_2024",
+    "rec": 144,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.345,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "JNPR_2021",
+    "rec": 145,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.009,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "CELC_2024",
+    "rec": 158,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.16,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "AX_2024",
+    "rec": 186,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.003,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "KULR_2024",
+    "rec": 197,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.026,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "COHU_2024",
+    "rec": 240,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.076,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "GCO_2024",
+    "rec": 324,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.025,
+    "predicted_class": "human",
+    "agent": "rw_R1"
+  },
+  {
+    "id": "UNP_2022",
+    "rec": 326,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.006,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "OLLI_2022",
+    "rec": 336,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.024,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "BLZE_2024",
+    "rec": 344,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.427,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "K_2023",
+    "rec": 356,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.072,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "OC_2024",
+    "rec": 365,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.396,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "PLTR_2022",
+    "rec": 381,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.126,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "SHO_2024",
+    "rec": 421,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.326,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "DVN_2025",
+    "rec": 457,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.135,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "CVX_2004",
+    "rec": 480,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.094,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "INTC_2023",
+    "rec": 533,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.087,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "RGR_2023",
+    "rec": 564,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.358,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "KNSA_2023",
+    "rec": 582,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.003,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "ORCL_2024",
+    "rec": 587,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.018,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "BILL_2024",
+    "rec": 631,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.124,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "HROW_2024",
+    "rec": 676,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.164,
+    "predicted_class": "human",
+    "agent": "rw_R2"
+  },
+  {
+    "id": "HWM_2024",
+    "rec": 678,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.004,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "PRU_2024",
+    "rec": 688,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.408,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "PMT/PRA_2024",
+    "rec": 691,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.215,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "BRBR_2022",
+    "rec": 80,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.022,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "VRTX_2024",
+    "rec": 392,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.065,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "PAYC_2022",
+    "rec": 89,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.038,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "NOG_2020",
+    "rec": 522,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.138,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "CAT_2024",
+    "rec": 370,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.097,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "AZPN_2024",
+    "rec": 106,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.254,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "CLPT_2023",
+    "rec": 195,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.005,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "QCOM (NASDAQ)_2001",
+    "rec": 493,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.493,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "TXT_2024",
+    "rec": 118,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.001,
+    "predicted_class": "human",
+    "agent": "rw_R3"
+  },
+  {
+    "id": "R_2024",
+    "rec": 618,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.325,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "VVV_2021",
+    "rec": 683,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.027,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "BJ_2021",
+    "rec": 554,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.245,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "SCHN_2022",
+    "rec": 328,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.471,
+    "predicted_class": "mixed",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "DNTH_2024",
+    "rec": 584,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.375,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "EEFT_2024",
+    "rec": 473,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.257,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "IOT_2023",
+    "rec": 14,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.231,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "VNT_2022",
+    "rec": 525,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.079,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "FOR_2024",
+    "rec": 72,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.029,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "CE_2022",
+    "rec": 2,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.078,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "FCK_2013",
+    "rec": 669,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.0,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "CDZI_2024",
+    "rec": 534,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.002,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "DSGR_2024",
+    "rec": 231,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.314,
+    "predicted_class": "human",
+    "agent": "rw_R4"
+  },
+  {
+    "id": "ADV_2024",
+    "rec": 229,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.051,
+    "predicted_class": "human",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "LHX_2023",
+    "rec": 223,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.02,
+    "predicted_class": "human",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "ESSA_2024",
+    "rec": 383,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.082,
+    "predicted_class": "human",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "NVR_2022",
+    "rec": 619,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.067,
+    "predicted_class": "human",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "YETI_2021",
+    "rec": 246,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.246,
+    "predicted_class": "mixed",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "PFE_2013",
+    "rec": 105,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.335,
+    "predicted_class": "human",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "BCG_2023",
+    "rec": 4,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.002,
+    "predicted_class": "human",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "DG_2025",
+    "rec": 451,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.183,
+    "predicted_class": "mixed",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "ISSC_2024",
+    "rec": 351,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.371,
+    "predicted_class": "human",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "HFWA_2024",
+    "rec": 415,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.002,
+    "predicted_class": "human",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "NVT_2023",
+    "rec": 394,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.253,
+    "predicted_class": "human",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "STSS_2024",
+    "rec": 122,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.034,
+    "predicted_class": "human",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "GEO_2024",
+    "rec": 252,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.013,
+    "predicted_class": "human",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "STSS_2024",
+    "rec": 122,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.34,
+    "predicted_class": "mixed",
+    "agent": "rw_R5"
+  },
+  {
+    "id": "JJSF_2023",
+    "rec": 36,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.008,
+    "predicted_class": "human",
+    "agent": "rw_R6"
+  },
+  {
+    "id": "CARL-B.CO_2024",
+    "rec": 375,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.421,
+    "predicted_class": "human",
+    "agent": "rw_R6"
+  },
+  {
+    "id": "IQV_2023",
+    "rec": 511,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.136,
+    "predicted_class": "human",
+    "agent": "rw_R6"
+  },
+  {
+    "id": "PATH_2023",
+    "rec": 139,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.378,
+    "predicted_class": "human",
+    "agent": "rw_R6"
+  },
+  {
+    "id": "XEL_2023",
+    "rec": 412,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.006,
+    "predicted_class": "human",
+    "agent": "rw_R6"
+  },
+  {
+    "id": "CDRE_2024",
+    "rec": 414,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.067,
+    "predicted_class": "human",
+    "agent": "rw_R6"
+  },
+  {
+    "id": "AAOI_2024",
+    "rec": 43,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.198,
+    "predicted_class": "human",
+    "agent": "rw_R6"
+  },
+  {
+    "id": "RHI_2024",
+    "rec": 547,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.0,
+    "predicted_class": "human",
+    "agent": "rw_R6"
+  },
+  {
+    "id": "CPRX_2023",
+    "rec": 611,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.206,
+    "predicted_class": "mixed",
+    "agent": "rw_R6"
+  },
+  {
+    "id": "PLD_2023",
+    "rec": 104,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.01,
+    "predicted_class": "human",
+    "agent": "rw_R6"
+  },
+  {
+    "id": "AYX_2022",
+    "rec": 293,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.331,
+    "predicted_class": "human",
+    "agent": "rw_R6"
+  },
+  {
+    "id": "UDR_2023",
+    "rec": 616,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.3,
+    "predicted_class": "mixed",
+    "agent": "rw_flagfix"
+  },
+  {
+    "id": "STX_2023",
+    "rec": 544,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.097,
+    "predicted_class": "human",
+    "agent": "rw_flagfix"
+  },
+  {
+    "id": "NASDAQ: PATK_2023",
+    "rec": 588,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.413,
+    "predicted_class": "human",
+    "agent": "rw_flagfix"
+  },
+  {
+    "id": "RGTI_2023",
+    "rec": 20,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.126,
+    "predicted_class": "human",
+    "agent": "rw_flagfix"
+  },
+  {
+    "id": "FUBO_2024",
+    "rec": 330,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.167,
+    "predicted_class": "mixed",
+    "agent": "rw_flagfix"
+  },
+  {
+    "id": "ABP_2024",
+    "rec": 26,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.029,
+    "predicted_class": "human",
+    "agent": "rw_flagfix"
+  },
+  {
+    "id": "6010.SR_2023",
+    "rec": 288,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.007,
+    "predicted_class": "human",
+    "agent": "rw_flagfix"
   }
 ]
