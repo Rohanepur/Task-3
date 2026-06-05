@@ -1,0 +1,180 @@
+[
+  {
+    "rec": 437,
+    "ann": 0,
+    "id": "AAPL_2009",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$8,361 million",
+    "verification": "Filing page 58 (physical): operating income $7,658m; page 60 (physical): D&A $703m. EBITDA = 7,658 + 703 = $8,361m. D&A 10% increase is a non-cash add-back so does not change EBITDA. Solution step [3] already computes $8,361m correctly; answer field synced."
+  },
+  {
+    "rec": 438,
+    "ann": 0,
+    "id": "NASDAQ: LIN_2022",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "10.70%",
+    "verification": "Filing page 16 (physical) confirms table: LIN $230, S5MATR $143 on Dec 31 2022 from $100 base Dec 31 2017. LIN CAGR = (230/100)^(1/5)-1 = 18.13%; S5MATR CAGR = (143/100)^(1/5)-1 = 7.43%; difference = 10.70%. Solution step [4] already computes 10.70% correctly; answer field synced."
+  },
+  {
+    "rec": 445,
+    "ann": 0,
+    "id": "DKNG_2020",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "Filing page 77 (physical) clearly shows Net loss attributable to common stockholders = $844,270 thousand and Total assets = $3,439,329 thousand (page 75). The solution correctly uses $844,270 and computes ROA = (24.55)%, which matches the answer. The logic_issue claims net loss should be ~$1,232m, but that figure does not appear anywhere in the 2020 10-K. Cannot determine the source of the $1,232m figure or confirm it is correct."
+  },
+  {
+    "rec": 447,
+    "ann": 0,
+    "id": "VRNT_2025",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$39,806.3763 thousand",
+    "verification": "Filing page 61 (physical) confirms balance sheet values used in steps [2]-[6]; page 62 confirms income statement with operating income $106,387, pre-tax income $98,348, taxes $15,249. NOPAT = $89,886.3763; ΔNOA = $50,080. FCF = NOPAT - ΔNOA = $39,806.3763 thousand per step [8]. Answer field synced."
+  },
+  {
+    "rec": 448,
+    "ann": 0,
+    "id": "S_2023",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "-$231,912 thousand",
+    "solution_steps": {
+      "1": "## Identify FY2023 Revenue and Gross profit.\nWithin the 'SENTINELONE, INC. CONSOLIDATED STATEMENTS OF OPERATIONS' table on document page 91, find the column for the year ended January 31, 2023 (labeled '2023').\nLocate the row labeled 'Revenue'. The value for FY2023 (year ended January 31, 2023) is $422,179 thousand.\nLocate the row labeled 'Gross profit'. The value for FY2023 is $278,002 thousand.",
+      "2": "## Calculate the FY2023 Gross margin percentage and project the FY2024 Revenue and Gross margin.\nCalculate the FY2023 Gross margin percentage: ($278,002 thousand / $422,179 thousand) * 100 ≈ 65.85%.\nProject FY2024 Revenue, assuming a 50% growth from FY2023: $422,179 thousand * 1.50 = $633,268.5 thousand.\nProject FY2024 Gross margin percentage, assuming a 500 bps (5 percentage points) increase from FY2023: 65.85% + 5.00% = 70.85%.",
+      "3": "## Identify FY2023 operating expenses (excluding restructuring) and project FY2024 operating expenses.\nWithin the 'SENTINELONE, INC. CONSOLIDATED STATEMENTS OF OPERATIONS' table on document page 91, find the column for the year ended January 31, 2023.\nLocate the row labeled 'Research and development'. The value for FY2023 is $207,008 thousand.\nLocate the row labeled 'Sales and marketing'. The value for FY2023 is $310,848 thousand.\nLocate the row labeled 'General and administrative'. The value for FY2023 is $162,722 thousand.\nLocate the row labeled 'Restructuring (Note 11)'. The value for FY2023 is $0 thousand.\nAssume that R&D, S&M, and G&A dollar amounts remain the same in FY2024 as in FY2023, and restructuring is $0 in FY2024.\nProjected FY2024 Operating Expenses = R&D (FY2023) + S&M (FY2023) + G&A (FY2023) + Restructuring (FY2024)\nProjected FY2024 Operating Expenses = $207,008 thousand + $310,848 thousand + $162,722 thousand + $0 thousand = $680,578 thousand.",
+      "4": "## Calculate the projected FY2024 Gross profit and Operating income.\nCalculate Projected FY2024 Gross profit: Projected FY2024 Revenue * Projected FY2024 Gross margin percentage.\nProjected FY2024 Gross profit = $633,268.5 thousand * 0.7085 ≈ $448,666 thousand.\nCalculate Projected FY2024 Operating income: Projected FY2024 Gross profit - Projected FY2024 Operating Expenses.\nProjected FY2024 Operating income = $448,666 thousand - $680,578 thousand = -$231,912 thousand.\nThe projected operating income in FY2024 under the given assumptions is\n-$231,912 thousand"
+    },
+    "verification": "Filing page 90 (physical) confirms FY2023 (year ended Jan 31 2023): Revenue $422,179, Gross profit $278,002, R&D $207,008, S&M $310,848, G&A $162,722. Original steps erroneously used FY2024 figures for OpEx and wrong FY2023 gross profit ($257,026 vs $278,002). Corrected calculation: GM 65.85%, projected 2024 GP $448,666 thousand, OpEx $680,578 thousand, operating income -$231,912 thousand."
+  },
+  {
+    "rec": 467,
+    "ann": 0,
+    "id": "SBUX_2007",
+    "kind": "P1",
+    "action": "fix",
+    "solution_steps": {
+      "5": "## Calculate EBIT excluding equity investees.\nAlthough operating income of $1,053,945 thousand includes income from equity investees (as shown in the income statement, equity investee income is added to arrive at operating income), the question asks to exclude this item. Therefore, EBIT excluding equity investees = Operating income - Income from equity investees = $1,053,945 thousand - $108,006 thousand = $945,939 thousand.",
+      "6": "## Calculate EBIT margin.\nTo calculate the EBIT margin excluding equity investees, divide the adjusted EBIT by total net revenues for Sept 30, 2007. The calculation is\n945,939 / 9,411,497 =\n0.10050 ≈\n10.05%"
+    },
+    "verification": "Filing page 41 (physical) confirms income statement: Total net revenues $9,411,497, Income from equity investees $108,006 (added to arrive at operating income), Operating income $1,053,945. Equity investees are included in operating income per Starbucks' P&L structure. To exclude them: $1,053,945 - $108,006 = $945,939; $945,939 / $9,411,497 = 10.05%."
+  },
+  {
+    "rec": 471,
+    "ann": 0,
+    "id": "ZVIA_2024",
+    "kind": "P1",
+    "action": "quarantine",
+    "reason": "Wrong document/entity: the question asks about Equity Residential's cash flow from operations and capital expenditures in 2023, but the attached filing is Zevia PBC's 10-K. Equity Residential's figures are not in this filing. The solution uses Zevia data to answer a question about a completely different company."
+  },
+  {
+    "rec": 476,
+    "ann": 0,
+    "id": "BXP_2022",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "The question asks for a 2022 hypothetical projection with 'all other items remaining constant' — this naturally means holding 2021 values constant and only increasing 2021 G&A by 10%, which is what the solution and answer ($555,808 thousand) correctly implement. The logic_issue says to start from actual 2022 net income, but the 2022 fiscal year data is not present in the attached filing (which is the FY2021 10-K), and the question's phrasing does not require it. Cannot apply the logic_issue's correction without data not in this filing."
+  },
+  {
+    "rec": 477,
+    "ann": 0,
+    "id": "LUV_2013",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$717 million",
+    "verification": "Filing page 87 (physical) confirms: CFO $2,477m, Capex $1,447m, debt/capital lease repayment $313m. FCFE = $2,477 - $1,447 - $313 = $717 million. Solution step [6] already computes $717 million correctly; answer field synced."
+  },
+  {
+    "rec": 480,
+    "ann": 0,
+    "id": "CVX_2004",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "The logic_issue says to use Chevron's reported upstream pre-tax results to get ~$13.5/boe, but the filing only reports after-tax segment income ($3,183m US + $3,220m international) with no segment-level pre-tax breakdown. The consolidated pre-tax income ($12,770m) includes all segments. Cannot locate upstream-only pre-tax figures in this filing to verify the $13.5/boe claim."
+  },
+  {
+    "rec": 483,
+    "ann": 0,
+    "id": "DCT_2022",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$11,252.6 thousand",
+    "solution_steps": {
+      "3": "## Find the 2022 fair value of equivalent cash equivalents.\nUnder the section for August 31, 2022, locate the row labeled:\nOn page 101, on the second table.\n'U.S. Government agency securities and treasuries - presented in cash and cash equivalents' → $88,045 thousand in Estimated Fair Value column.\nThe money market funds ($239 thousand) are a distinct asset class and are not part of the reclassified government securities; therefore, only the $88,045 thousand is relevant to this comparison.\n2022 fair value of reclassified cash equivalents = $88,045 thousand.",
+      "4": "## Estimate the fair value of reclassified portion and calculate the net change.\nWe assume the $88,045 thousand of U.S. Government agency securities and treasuries in cash equivalents represents the reclassified 40%. Subtract the 2021 portion valuation:\n88,045 - 76,792.4 = 11,252.6\n$11,252.6 thousand"
+    },
+    "verification": "Filing page 100 (physical) confirms: 2021 U.S. Gov securities in short-term investments = $191,981 (estimated fair value); 2022 U.S. Gov securities in cash equivalents = $88,045; 2022 money market funds = $239. 40% of $191,981 = $76,792.4. Net change using only matching asset class: $88,045 - $76,792.4 = $11,252.6 thousand."
+  },
+  {
+    "rec": 487,
+    "ann": 0,
+    "id": "MAR_2021",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "-83.9256%",
+    "verification": "Filing page 39 (physical) confirms: 2021 pre-tax income $1,180m, provision $81m → ETR 6.8644%; 2020 pre-tax loss ($466m), benefit $199m → ETR 42.7039%. Percent change = (6.8644% - 42.7039%) / 42.7039% × 100 = -83.9256%. The ETR decreased so the change is negative. Solution step [3] already shows -83.9256%; answer field synced."
+  },
+  {
+    "rec": 494,
+    "ann": 0,
+    "id": "NVO_2015",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "48.11%",
+    "verification": "Filing page 57 (physical) confirms: Net sales DKK 107,927m, Operating profit DKK 49,444m, Other operating income net DKK 3,482m. Page 7 confirms 22% DKK growth and 8% local-currency growth. LC-adjusted sales = 107,927 × 1.08/1.22 = 95,542m. Adj operating profit = 49,444 - 3,482 = 45,962m. Margin = 45,962/95,542 = 48.11%. Solution step [4] already computes 48.11%; answer field synced."
+  },
+  {
+    "rec": 500,
+    "ann": 0,
+    "id": "MOS_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$17,869,400,000",
+    "solution_steps": {
+      "8": "## Find the cloud computing cost for 2024.\nIn the Other assets section of the table, find 'Cloud computing cost,' with values '166.3' and '138.9' for the years ended December 31, 2024, and 2023, respectively.\nSo, the Cloud computing cost for 2024 is $166,300,000.",
+      "9": "## Calculate total operating assets for 2024.\nTotal operating assets for 2024 = Net receivables + Inventories + Property, plant, and equipment + Prepaid expenses + MRO inventory + Operating lease right-of-use assets + Cloud computing cost\n$1,113,300,000 + $2,548,400,000 + $13,352,600,000 + $299,800,000 + $169,000,000 + $220,000,000 + $166,300,000 =\n$17,869,400,000\nSo, the total operating assets as of 2024 is\n$17,869,400,000"
+    },
+    "verification": "Filing page 150 (physical) Other Financial Statement Data table confirms: Cloud computing cost 2024 = $166.3m (not $207.7m — that is the 'Other' line); MRO inventory = $169.0m; Operating lease ROU = $220.0m. Corrected total: 1113.3+2548.4+13352.6+299.8+169.0+220.0+166.3 = $17,869.4m = $17,869,400,000."
+  },
+  {
+    "rec": 507,
+    "ann": 0,
+    "id": "ET_2021",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "3.8782531981",
+    "verification": "Filing page 180 (physical) confirms: Operating income $8,792m and interest expense net of interest capitalized $2,267m. Coverage ratio = 8,792 / 2,267 = 3.8782531981. This is a dimensionless ratio, not a dollar amount. Solution step [3] correctly computes the ratio; answer field updated to remove erroneous '$' and 'million' units."
+  },
+  {
+    "rec": 508,
+    "ann": 0,
+    "id": "CHGG_2018",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "Filing page 100 (physical) confirms EBIT = -$6,220 thousand, EBT = -$13,458 thousand, tax provision = $1,430 thousand. With a pre-tax loss and a positive tax provision, the effective tax rate = $1,430 / (-$13,458) = -10.63%. The logic_issue flags that using |EBT| to get +10.63% is incorrect, but does not specify a preferred NOPAT methodology (e.g., use -10.63% effective rate, use statutory 21%, or use 0%). Without a definitive correct approach specified, cannot determine the correct NOPAT value."
+  },
+  {
+    "rec": 510,
+    "ann": 0,
+    "id": "MC_2023",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "The 2023 10-K (this filing) only discloses client counts for FY2023 (304) and FY2022 (314). The logic_issue states 2021 had 404 clients, which would be disclosed in the FY2022 10-K (not attached). Cannot verify the 404 client count in the current document. Without confirming the 2021 client figure, cannot determine the correct revenue-per-client calculation."
+  },
+  {
+    "rec": 511,
+    "ann": 1,
+    "id": "IQV_2023",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$10,330 million",
+    "solution_steps": {
+      "1": "## Identify the correct row and figure for base year cost.\nThe 'Cost of revenues, exclusive of depreciation and amortization' row in the table shows $9,745 million for the Year Ended December 31, 2023. The table header indicates that all values are in millions except for per share amounts. Note: the $14,984 million figure in the table is the 'Revenues' line, not Cost of revenues.",
+      "2": "## Determine the scenario impact.\nThe 6% Cost of Revenues growth projection results from supply chain limitations. The 2023 cost of revenues of $9,745 million needs multiplication by 1.06 to demonstrate the anticipated inflation rate.",
+      "3": "## Complete the forward-looking projection and Draw Conclusions.\nThe new value shows the projected 2024 Cost of Revenues amount which stays unchanged for all other components in this scenario.\nThe multiplication of $9,745 million by 1.06 produces $10,329.7 million, rounded to $10,330 million."
+    },
+    "verification": "Filing page 70 (physical) confirms 2023 Cost of revenues = $9,745 million (not revenues of $14,984 million). $9,745 × 1.06 = $10,329.7 ≈ $10,330 million."
+  }
+]
