@@ -1,0 +1,245 @@
+[
+  {
+    "rec": 229,
+    "ann": 0,
+    "id": "ADV_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source page.\nConsolidated Statements of Cash Flows (in thousands) is on page 67. Period is year ended December 31, 2024.",
+      "## Financing activities total.\nNet cash used in financing activities: $211,417 thousand.",
+      "## Three line items.\nContingent consideration payments: $5,655 thousand. Purchase of treasury stock: $34,067 thousand. Principal repayments on long-term debt: $13,131 thousand. Total: 5,655 + 34,067 + 13,131 = 52,853 thousand.",
+      "## Percentage.\n52,853 / 211,417 x 100 = 25.0%."
+    ],
+    "ai_prob": 0.05,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 3
+  },
+  {
+    "rec": 223,
+    "ann": 0,
+    "id": "LHX_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Source table.\nPage 40 of the 10-K has the Consolidated Statement of Operations. Values are in millions.",
+      "## Revenue for 2022 and 2023.\n2022 (December 30, 2022): $17,062 million. 2023 (December 29, 2023): $19,419 million.",
+      "## Growth rate.\n(19,419 - 17,062) / 17,062 = 2,357 / 17,062 = 0.1381 = 13.81%.",
+      "## 2024 projection.\n19,419 x 1.1381 = 22,100.7639 million, rounded to $22,101 million."
+    ],
+    "ai_prob": 0.02,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 383,
+    "ann": 0,
+    "id": "ESSA_2024",
+    "action": "rewritten",
+    "solution": [
+      "## ESSA Bancorp Inc. 10-K, fiscal year ended September 30, 2024.\nDocument has table of contents on page 3. Item 8 begins page 45. Values are in thousands of dollars.",
+      "## Consolidated Balance Sheet is on page 57 of the document.\nThe 2024 Deposits row gives a figure of 1,629,051 (thousands USD). The 2024 Total liabilities row gives a figure of 1,957,296 (thousands USD).",
+      "## Formula.\nDeposits as a percent of Total Liabilities = Deposits / Total Liabilities x 100.",
+      "## Substitution and result.\n1,629,051 / 1,957,296 = 0.8323. 0.8323 x 100 = 83.23%."
+    ],
+    "ai_prob": 0.082,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 9
+  },
+  {
+    "rec": 330,
+    "ann": 0,
+    "id": "FUBO_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Locate total shareholders' equity.\nConsolidated Balance Sheets is on PDF page 91. Units are stated as \"(in thousands, except for share and per share information).\" The December 31, 2024 column shows Total shareholders' equity of $180,782 thousand.",
+      "## Shares outstanding.\nSame table on page 91, in the Shareholders' equity section. Common stock: $0.0001 par value, 1,000,000,000 authorized shares. Issued and outstanding: 339,144,854 at December 31, 2024.",
+      "## Convert equity to dollars.\n$180,782 thousand multiplied by 1,000 equals $180,782,000.",
+      "## Book value per share.\n$180,782,000 divided by 339,144,854 shares = $0.533 per share."
+    ],
+    "ai_prob": 0.169,
+    "predicted_class": "mixed",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 619,
+    "ann": 0,
+    "id": "NVR_2022",
+    "action": "rewritten",
+    "solution": [
+      "## NVR document.\nConsolidated Balance Sheets on page 41. Dollar amounts are in thousands except for per share amounts. December 31, 2022 is the reference date.",
+      "## Homebuilding total from the ASSETS section.\nPage 41, ASSETS section. December 31, 2022 column: Homebuilding assets = 5,247,170.",
+      "## Cash and cash equivalents and Restricted cash.\nCash and cash equivalents on page 41 December 31 2022 = 2,503,424. Restricted cash on page 41 December 31 2022 = 48,455.",
+      "## Removing the cash items.\n5,247,170 - 2,503,424 - 48,455 = 2,695,291. This is in thousands, so the total is $2,695,291 thousand."
+    ],
+    "ai_prob": 0.068,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 11
+  },
+  {
+    "rec": 246,
+    "ann": 0,
+    "id": "YETI_2021",
+    "action": "rewritten",
+    "solution": [
+      "## YETI Holdings 2021 10-K Consolidated Balance Sheets.\nPeriod ending January 1, 2022. These are the source figures.",
+      "## Inventory and current assets as reported.\nFrom the Consolidated Balance Sheets: Inventory = $318,864. Total current assets = $770,167.",
+      "## Adjusting for the $25 million write-down.\n$25 million write-down equals $25,000 in thousands. New inventory: 318,864 - 25,000 = 293,864. New current assets: 770,167 - 25,000 = 745,167.",
+      "## Final percentage.\n293,864 / 745,167 x 100 = 39.4359922%."
+    ],
+    "ai_prob": 0.246,
+    "predicted_class": "mixed",
+    "steps": 4,
+    "iterations": 4
+  },
+  {
+    "rec": 105,
+    "ann": 0,
+    "id": "PFE_2013",
+    "action": "rewritten",
+    "solution": [
+      "## Location of the source data.\nThe \"Total Discontinued Operations\" table is on page 71.",
+      "## Units.\nThe table header reads \"(MILLIONS OF DOLLARS)\". All values are in millions.",
+      "## Revenue rows for 2011 and 2013.\nThe \"Revenues\" row shows 6,897 for 2011 and 2,201 for 2013.",
+      "## Calculation.\n(6,897 - 2,201) / 6,897 x 100 = 4,696 / 6,897 x 100 = 68.09%."
+    ],
+    "ai_prob": 0.335,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 4,
+    "ann": 0,
+    "id": "BCG_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Source table.\nThe income statement is on document page 104. The table title is \"WENTWORTH MANAGEMENT SERVICES LLC CONSOLIDATED STATEMENTS OF OPERATIONS FOR THE YEARS ENDED DECEMBER 31, 2023 AND 2022 (in thousands).\"",
+      "## 2022 employee compensation.\nThe Expenses section shows \"Employee compensation and benefits\" = $14,227 thousand for year ended December 31, 2022.",
+      "## 2023 employee compensation.\nThe same line for 2023 = $13,385 thousand.",
+      "## Growth rate.\n(13,385 - 14,227) / 14,227 = -842 / 14,227 = -0.0591832431."
+    ],
+    "ai_prob": 0.002,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 451,
+    "ann": 0,
+    "id": "DG_2025",
+    "action": "rewritten",
+    "solution": [
+      "## Document page 45.\nThe table there is Consolidated Statements of Income. FY2024 is the year ended January 31, 2025. The Net sales row shows $40,612,308. The table header says values are in thousands.",
+      "## Document page 7.\nThe table \"The Dollar General Store\" is there. Total stores operated by the company in 2024: 20,594.",
+      "## Converting units.\nNet sales of 40,612,308 thousand divided by 1,000 = $40,612.3 million total revenue.",
+      "## Revenue per store.\n40,612,308 (thousands) / 20,594 stores = 1,972.046 thousand per store = $1.972 million per store."
+    ],
+    "ai_prob": 0.187,
+    "predicted_class": "mixed",
+    "steps": 4,
+    "iterations": 3
+  },
+  {
+    "rec": 351,
+    "ann": 0,
+    "id": "ISSC_2024",
+    "action": "rewritten",
+    "solution": [
+      "## 2024 Annual Report.\nThis is Innovative Solutions & Support. The Statements of Operations Data are on page 29. The fiscal year ends September 30, 2024. Figures are in full dollar units.",
+      "## Numbers from page 29.\nNet sales = 47,198,020. Net income = 6,998,380.",
+      "## Intermediate computations.\nMargin = 6,998,380 / 47,198,020 = 0.1483.\nIncreased revenue = 47,198,020 x 1.08 = 50,973,861.6.\nNew margin = 0.1483 - 0.0075 = 0.1408.",
+      "## Pro forma net income.\n50,973,861.6 x 0.1408 = $7,177,119.71328."
+    ],
+    "ai_prob": 0.371,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 14
+  },
+  {
+    "rec": 415,
+    "ann": 1,
+    "id": "HFWA_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Chart location.\nTotal Return Performance chart is on page 40. Baseline for all series: $100 USD on December 31, 2019. End date shown: December 31, 2024.",
+      "## HFC value at December 31, 2024.\nHeritage Financial Corporation (shown as circle) = $105.05.",
+      "## S&P U.S. SmallCap Banks Index value at December 31, 2024.\nS&P U.S. SmallCap Banks Index (shown as triangle) = $132.44.",
+      "## Ratio.\n$105.05 / $132.44 = 0.793."
+    ],
+    "ai_prob": 0.002,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 394,
+    "ann": 0,
+    "id": "NVT_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Source table.\nThe Consolidated Balance Sheets table is on page 49 of the document. Values are in millions. Period: December 31, 2023.",
+      "## Goodwill and intangibles, 2023.\nFrom the Assets section, page 49: Goodwill = $2,571.1 million. Intangibles, net = $1,517.0 million. Sum = $4,088.1 million.",
+      "## Total equity, 2023.\nFrom the Equity section, page 49: Total equity = $3,142.1 million.",
+      "## Percentage.\n4,088.1 / 3,142.1 x 100 = 130.10%."
+    ],
+    "ai_prob": 0.246,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 122,
+    "ann": 1,
+    "id": "STSS_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Net loss for 2024.\nThe Consolidated Statements of Operations is on page F-3, which is document page 36. The \"Net Loss\" value for the year ended December 31, 2024 is ($9,296,202).",
+      "## FMV gain adjustment on warrants for 2024.\nPage F-3 under \"Other income (expense)\" shows the FMV (gain) adjustment on warrants. The value is $3,016,936.",
+      "## Absolute value.\nThe absolute value of $3,016,936 is $3,016,936. It is already positive.",
+      "## Ratio result.\n-$9,296,202 / $3,016,936 = -3.08."
+    ],
+    "ai_prob": 0.034,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 252,
+    "ann": 0,
+    "id": "GEO_2024",
+    "action": "rewritten",
+    "solution": [
+      "## EBITDA source.\nPage 122 of the document contains Adjusted EBITDA data for periods ending December 31, 2024 and 2023. Values are in thousands. Adjusted EBITDA for December 31, 2024 = $463,489 thousand.",
+      "## Revenue source.\nPage 144 has the CONSOLIDATED STATEMENTS OF OPERATIONS. The revenue line for December 31, 2024 = $2,423,702 thousand.",
+      "## EBITDA margin calculation.\n463,489 / 2,423,702 = 0.1912.",
+      "## Converting to percentage.\n0.1912 x 100 = 19.12%."
+    ],
+    "ai_prob": 0.013,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 122,
+    "ann": 0,
+    "id": "STSS_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Net cash used in operating activities.\nThe Consolidated Statements of Cash Flows is on page F-6 of the PDF, which is document page 39. The operating activities section for year ended December 31, 2024 shows net cash used of ($6,929,544).",
+      "## Accretion of debt discount.\nAlso on page F-6, under \"Adjustments to reconcile net loss to net cash used in operating activities.\" The Accretion of debt discount for 2024 = $1,705,014.",
+      "## Numerator calculation.\nThe numerator is: (net cash used in operating activities) minus (accretion of debt discount). That is -6,929,544 minus 1,705,014 = -8,634,558.",
+      "## Total Stockholders' Equity.\nPage F-2, which is document page 35, has the Consolidated Balance Sheets. The \"Total Stockholders' Equity\" for December 31, 2024 = $1,996,129.",
+      "## Deferred Tax Liability.\nOn page F-2 under December 31, 2024, the Deferred Tax Liability = $132,000.",
+      "## Denominator calculation.\nEquity plus Deferred Tax Liability: 1,996,129 + 132,000 = 2,128,129.",
+      "## Final ratio.\n-8,634,558 / 2,128,129 = -4.06."
+    ],
+    "ai_prob": 0.34,
+    "predicted_class": "mixed",
+    "steps": 7,
+    "iterations": 1
+  }
+]

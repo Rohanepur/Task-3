@@ -1,0 +1,247 @@
+[
+  {
+    "rec": 678,
+    "ann": 0,
+    "id": "HWM_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source\nPage 32 has the Stock Performance Graph. It has a data table.",
+      "## Howmet Aerospace Inc. Value for December 31, 2024\nThe data table on page 32 reports Howmet Aerospace Inc. at $469.20 as of December 31, 2024.",
+      "## S&P 500 Index Value for December 31, 2024\nThe same data table on page 32 reports the S&P 500 Index at $197.02 as of December 31, 2024.",
+      "## Difference\n469.20 minus 197.02 equals 272.18. The difference is $272.18."
+    ],
+    "ai_prob": 0.0044,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 6
+  },
+  {
+    "rec": 688,
+    "ann": 0,
+    "id": "PRU_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source Document\nPrudential Financial's 2024 Annual Report contains a segment reconciliation table in Note 23. That table is on page 216. The table reports revenues on an adjusted operating income basis for the year ended December 31, 2024.",
+      "## Adjusted Operating Revenues\nThe total revenues row in the adjusted operating income basis table on page 216 shows $68,053 million for 2024.",
+      "## GAAP Total Revenues\nThe Revenues line on the consolidated income statement on page 14 shows GAAP total revenues of $70,405 million for 2024.",
+      "## Difference\n68,053 million minus 70,405 million is negative 2,352 million. Rounded to the nearest tenth of a billion, that is negative 2.4 billion."
+    ],
+    "ai_prob": 0.4081,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 691,
+    "ann": 0,
+    "id": "PMT/PRA_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source Table\nThe Consolidated Balance Sheet is on page 182, table F-5. Values are in thousands except per share amounts.",
+      "## Total Liabilities\nPage 182 Consolidated Balance Sheet shows Total Liabilities of $12,470,206 thousand for December 31, 2024.",
+      "## Total Shareholders' Equity\nThe same table on page 182 shows Total Shareholders' Equity of $1,938,500 thousand for December 31, 2024.",
+      "## Debt-to-Equity Calculation\n12,470,206 divided by 1,938,500 equals 6.4329. 6.4329 times 100 equals 643.29%. The Debt-to-Equity Ratio for PennyMac Mortgage Investment for the fiscal year ended December 31, 2024 is 643.29%."
+    ],
+    "ai_prob": 0.2153,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 80,
+    "ann": 0,
+    "id": "BRBR_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Graph and Table Location\nPage 37 has the \"COMPARISON OF CUMULATIVE TOTAL RETURN Among BellRing Brands, Inc., the Russell 2000 Index and the S&P 1500 Packaged Foods and Meats Index\" graph. A data table titled \"Performance Graph Data\" is below the graph. Values in that table are in dollars.",
+      "## BellRing Brands Column\nThe \"Performance Graph Data\" table on page 37 has a column called \"BellRing Brands, Inc. ($)\".",
+      "## September 30, 2021 Value\nThe row for 9/30/2021 in the \"Performance Graph Data\" table on page 37 shows 186.36 under \"BellRing Brands, Inc. ($)\".",
+      "## September 30, 2022 Value\nThe row for 9/30/2022 in the same table shows 139.27 under \"BellRing Brands, Inc. ($)\".",
+      "## Difference\n139.27 minus 186.36 equals negative 47.09. The difference is negative $47.09."
+    ],
+    "ai_prob": 0.0220,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 2
+  },
+  {
+    "rec": 392,
+    "ann": 0,
+    "id": "VRTX_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Chart on Page 74\nPage 74 has a chart called \"Net Product Revenues and Total R&D, AIPR&D, and SG&A Expenses (in billions)\". The chart covers 2023 and 2024. Net Product Revenues are in dark purple. Total R&D and SG&A Expenses are in light blue. AIPR&D Expenses are in lavender.",
+      "## 2023 Values from the Chart\nThe 2023 bar on page 74 shows Net Product Revenues of $9.9 billion. The 2023 Total R&D and SG&A Expenses bar shows $4.3 billion.",
+      "## 2024 Values from the Chart\nThe 2024 bar on page 74 shows Net Product Revenues of $11.0 billion. The 2024 Total R&D and SG&A Expenses bar shows $5.1 billion.",
+      "## Ratio for Each Year\nThe 2023 ratio is 4.3 divided by 9.9 which equals 0.4343434343. The 2024 ratio is 5.1 divided by 11.0 which equals 0.4636363636.",
+      "## Difference Between Ratios\n0.4343434343 minus 0.4636363636 equals negative 0.0292929293. Rounded to two decimal places that is negative 0.03."
+    ],
+    "ai_prob": 0.0636,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 2
+  },
+  {
+    "rec": 89,
+    "ann": 0,
+    "id": "PAYC_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Table Location\nDocument page 51 has the \"Paycom Software, Inc. Consolidated Statements of Comprehensive Income\" table. Amounts are in thousands except per share values.",
+      "## 2022 Figures\nThe table on page 51 shows Total revenues of $1,375,218 thousand for 2022. Total administrative expenses for 2022 are $783,798 thousand.",
+      "## Revenue Minus Administrative Expenses\n1,375,218 minus 783,798 equals 591,420. That is the remaining revenue in thousands.",
+      "## Retention Percentage\n591,420 divided by 1,375,218 is 0.4300. That converts to 43%. 43% of revenue was left after covering all administrative expenses in 2022."
+    ],
+    "ai_prob": 0.0379,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 522,
+    "ann": 0,
+    "id": "NOG_2020",
+    "action": "rewritten",
+    "solution": [
+      "## Source\nThe Comparison Chart is on page 41. The data table is on page 42. The starting value for all investments is $100 on December 31, 2015.",
+      "## Northern Oil and Gas Inc. Value\nPage 42 shows Northern Oil and Gas Inc. at $22.69 at December 31, 2020. 22.69 minus 100 is negative 77.31 over 100, so the 5-year return is negative 77.31%.",
+      "## S&P 500 Value\nPage 42 shows the S&P 500 at $203.04 at December 31, 2020. 203.04 minus 100 is 103.04 over 100, so the 5-year return is positive 103.04%.",
+      "## Shortfall\nNOG return minus S&P 500 return: negative 77.31 minus 103.04 equals negative 180.35 percentage points."
+    ],
+    "ai_prob": 0.1401,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 7
+  },
+  {
+    "rec": 616,
+    "ann": 0,
+    "id": "UDR_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Table on Page 76\nThe document page 76 has the \"UDR, INC. CONSOLIDATED STATEMENTS OF OPERATIONS\". Amounts are in thousands except per share data.",
+      "## 2023 Data\nFrom the 2023 column on page 76: operating income is $635,008 thousand. Real estate taxes and insurance is $232,152 thousand. General and administrative is $69,929 thousand. Total revenues is $1,627,501 thousand.",
+      "## Increase in Real Estate Taxes\n232,152 times 0.12 equals 27,858.24. New real estate taxes equal 260,010.24 thousand.",
+      "## G&A Reduction\n69,929 times 0.06 equals 4,195.74. New G&A equals 65,733.26 thousand.",
+      "## Revised Operating Income and Margin\nNet change in expenses: 27,858.24 minus 4,195.74 equals 23,662.50. Revised operating income: 635,008 minus 23,662.50 equals 611,345.50 thousand. Operating income margin: 611,345.50 divided by 1,627,501 times 100 equals 37.56%."
+    ],
+    "ai_prob": 0.2943,
+    "predicted_class": "mixed",
+    "steps": 5,
+    "iterations": 4
+  },
+  {
+    "rec": 370,
+    "ann": 0,
+    "id": "CAT_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Statement 1\nDocument page 75 has \"STATEMENT 1 - Consolidated Results of Operations for the Years Ended December 31\". Data is in millions of dollars.",
+      "## 2024 Profit\nThe \"Profit of consolidated and affiliated companies\" row shows $10,788 million for 2024.",
+      "## Projected 2025 Net Income\n10,788 times 1.10 equals 11,866.8 million.",
+      "## Total Assets\nDocument page 77 has \"STATEMENT 3 - Consolidated Financial Position at December 31\". Total assets at December 31, 2024 are $87,764 million.",
+      "## ROA\n11,866.8 divided by 87,764 times 100 equals 13.521262005. That is the projected Return on Assets for 2025."
+    ],
+    "ai_prob": 0.0977,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 2
+  },
+  {
+    "rec": 106,
+    "ann": 1,
+    "id": "AZPN_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Table Location\nPage 65 of the Aspen Technology 10-K has a table showing stock repurchase data for the fourth quarter of fiscal year 2024. The table header states \"(Dollars In Thousands, Except Shares and per Share Data)\". Per share values are actual dollar amounts, not thousands.",
+      "## April 2024 Average Price\nThe table on page 65 shows the \"Average Price Paid per Share\" for \"April 1, 2024 to April 30, 2024\" is $206.41.",
+      "## May 2024 Average Price\nThe table on page 65 shows the \"Average Price Paid per Share\" for \"May 1, 2024 to May 31, 2024\" is $207.62.",
+      "## Percentage Increase\n207.62 minus 206.41 equals 1.21. 1.21 divided by 206.41 times 100 equals 0.59%. The average price paid per share increased by 0.59% from April 2024 to May 2024."
+    ],
+    "ai_prob": 0.2574,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 544,
+    "ann": 0,
+    "id": "STX_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Source\nPage 38 has the \"Consolidated Statements of Operations\" table.",
+      "## FY2023 Interest Figures\nThe FY2023 column on page 38 shows interest expense of $313 million. Interest income is $10 million. Net interest expense is 313 minus 10 which equals $303 million. Net income for FY2023 is negative $529 million.",
+      "## 20% Reduction\n0.20 times 303 equals 60.6. New net interest expense is 303 minus 60.6 which equals 242.4 million. The expense reduction is $60.6 million.",
+      "## Net Income Impact\n60.6 times 0.78 equals 47.27. The after-tax impact on net income is an increase of $47.27 million."
+    ],
+    "ai_prob": 0.0966,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 195,
+    "ann": 0,
+    "id": "CLPT_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Income Statement Data\nPage 71 in the ClearPoint Neuro 2023 Annual Report has the Consolidated Statements of Operations.\n2023 total revenue: $23,955,000.\n2023 net loss: negative $22,089,000.",
+      "## Adjusted Net Income Margin\nNet income margin: negative 22,089,000 divided by 23,955,000 = negative 0.9221039449.\n75 basis point improvement: add 0.0075.\nTarget margin: negative 0.9146039449.",
+      "## Required Net Loss\nShares outstanding: 24,605,212.\nTarget EPS: negative $0.85.\nRequired net loss: negative 0.85 times 24,605,212 = negative 20,914,430.2.",
+      "## Required Revenue and Growth Rate\nRequired revenue: negative 20,914,430.2 / negative 0.9146039449 = 22,867,198.888.\nRevenue growth rate: 22,867,198.888 / 23,955,000 - 1 = negative 4.541019%."
+    ],
+    "ai_prob": 0.0052,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 12
+  },
+  {
+    "rec": 493,
+    "ann": 0,
+    "id": "QCOM (NASDAQ)_2001",
+    "action": "rewritten",
+    "solution": [
+      "## Chart on Page 2\nPage 2 has a bar chart titled \"CDMA Subscriber Growth History (IN MILLIONS)\". The Y-axis shows subscriber numbers in millions. The X-axis shows fiscal years from '95 to '01.",
+      "## Subscriber Count for FY '97\nThe bar for fiscal year '97 on the chart shows 16.0 million subscribers.",
+      "## Subscriber Count for FY '01\nThe bar for fiscal year '01 on the chart shows 105.0 million subscribers.",
+      "## Total Increase\n105.0 minus 16.0 equals 89.0. The cumulative increase is 89.0 million subscribers from the end of FY '97 to the end of FY '01."
+    ],
+    "ai_prob": 0.4933,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 118,
+    "ann": 0,
+    "id": "TXT_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Income Statement\nDocument page 42 has the \"Consolidated Statements of Operations\" table. The \"Cost of products sold\" for the year ending December 28, 2024 is $9,403 million.",
+      "## Balance Sheet\nDocument page 44 has the \"Consolidated Balance Sheets\" table. The \"Inventories\" line is in the \"Manufacturing group\" assets section. Ending inventory for December 28, 2024 is $4,071 million. Ending inventory for December 30, 2023 is $3,914 million.",
+      "## Average Inventory\n4,071 plus 3,914 equals 7,985. 7,985 divided by 2 equals 3,992.5 million.",
+      "## Inventory Turnover\n9,403 divided by 3,992.5 equals 2.3551659361.",
+      "## Inventory Days\n365 divided by 2.3551659361 equals 154.978457499 days."
+    ],
+    "ai_prob": 0.0013,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 1
+  },
+  {
+    "rec": 588,
+    "ann": 0,
+    "id": "NASDAQ: PATK_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Income Statement Location\nPage 55 has the \"CONSOLIDATED STATEMENTS OF INCOME\" table. Numbers are in thousands except per share data.",
+      "## 2022 Revenue\nThe 2022 column on page 55 shows total revenues of $4,881,872 thousand.",
+      "## 2022 Gross Profit\nThe 2022 column on page 55 shows gross profit of $1,059,938 thousand.",
+      "## Gross Margin and Projected 2023 Figures\n1,059,938 divided by 4,881,872 equals 0.2171134811. 4,881,872 times 1.15 equals 5,614,152.8 thousand. 5,614,152.8 times 0.2171134811 equals 1,218,928.7 thousand. The projected gross profit for 2023 is $1,218,928.7 thousand."
+    ],
+    "ai_prob": 0.4128,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 3
+  }
+]

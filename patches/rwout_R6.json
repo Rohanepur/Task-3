@@ -1,0 +1,233 @@
+[
+  {
+    "rec": 36,
+    "ann": 0,
+    "id": "JJSF_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Net sales figure.\nThe \"Consolidated Statements of Earnings\" is on page 50. Net sales for fiscal year 2023 come to $1,558,829 thousand.",
+      "## Cash from operations.\nPage 53 has the \"CONSOLIDATED STATEMENTS OF CASH FLOWS.\" Net cash provided by operating activities for the period ended September 30, 2023 is $172,279 thousand.",
+      "## Capital expenditures.\nStill on page 53, the Investing Activities section. Purchases of property, plant, and equipment for September 30, 2023 amount to $104,737 thousand.",
+      "## Free cash flow calculation.\n$172,279 thousand minus $104,737 thousand. That comes to $67,542 thousand.",
+      "## Free cash flow margin.\n$67,542 divided by $1,558,829 then times 100. The result is 4.33%."
+    ],
+    "ai_prob": 0.008,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 3
+  },
+  {
+    "rec": 375,
+    "ann": 0,
+    "id": "CARL-B.CO_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Data source.\nAnnual Report 2024. Income Statement is page 113. Statement of Financial Position is page 114. Numbers in DKK million.",
+      "## Net profit for Carlsberg A/S shareholders.\nFrom the Income Statement on page 113: profit for 2024 is DKK 9,116 million. This excludes non-controlling interests of DKK 1,147 million from the DKK 10,263 million total.",
+      "## Shareholders equity values.\nFrom page 114: equity for shareholders in Carlsberg A/S is DKK 27,771 million at end of 2024. At end of 2023 it was DKK 23,234 million.",
+      "## Average equity.\n27,771 and 23,234 summed is 51,005. 51,005 divided by 2 gives 25,502.5.",
+      "## ROE.\n9,116 divided by 25,502.5 equals 0.3574551515. Multiplied by 100 gives 35.74551515%."
+    ],
+    "ai_prob": 0.421,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 8
+  },
+  {
+    "rec": 511,
+    "ann": 0,
+    "id": "IQV_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Formula.\nFixed Asset Turnover equals Net Revenue divided by Net Property, Plant, and Equipment.",
+      "## Revenue figure.\nPage 71 has the \"Consolidated Statements of Income.\" Total revenues for the year ended December 31, 2023 are $14,984 million. Values are in millions.",
+      "## PP&E figure.\nPage 73 has the \"Consolidated Balance Sheets.\" Property and equipment, net is listed under noncurrent assets. At December 31, 2023 the value is $1,523 million.",
+      "## Ratio calculation.\n$14,984 million divided by $1,523 million equals 9.84. The fixed asset turnover ratio for IQVIA for the year ended December 31, 2023 is 9.84."
+    ],
+    "ai_prob": 0.137,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 139,
+    "ann": 0,
+    "id": "PATH_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Revenue source.\nPage 14. The \"Consolidated Statements of Operations\" is there. Total revenue for fiscal year 2023: 1,058.581 million.",
+      "## Cost of subscription services.\nStill page 14. Cost of subscription services revenue for fiscal year 2023: 87.366 million.",
+      "## The math.\n87.366 divided by 1,058.581 then times 100.",
+      "## Answer.\n87.366 over 1,058.581 is 0.08253123757. Times 100 gives 8.253123757%."
+    ],
+    "ai_prob": 0.378,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 412,
+    "ann": 0,
+    "id": "XEL_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Finding the section.\nPage 12. The \"Electric Energy Sources\" section is there. It has donut charts and bar graphs for energy generation data, year ended December 31, 2023.",
+      "## Two charts to read.\nThe page has a \"2023 Energy Mix - NSP System\" donut chart. It also has a \"2023 Energy Mix - SPS\" donut chart.",
+      "## Carbon-free numbers.\nNSP System donut chart: 64% carbon free. SPS donut chart: 37% carbon free.",
+      "## Difference.\n64 minus 37 equals 27. The difference is 27%."
+    ],
+    "ai_prob": 0.006,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 414,
+    "ann": 0,
+    "id": "CDRE_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Where the data is.\nPage 41 has the EBITDA and Adjusted EBITDA reconciliation table. Units are thousands.",
+      "## Adjusted EBITDA.\n2024 Adjusted EBITDA in the table is 104,840 thousand.",
+      "## Interest expense.\n2024 interest expense in the same table is 7,822 thousand.",
+      "## Division result.\n104,840 over 7,822. That equals 13.40."
+    ],
+    "ai_prob": 0.068,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 3
+  },
+  {
+    "rec": 26,
+    "ann": 0,
+    "id": "ABP_2024",
+    "action": "rewritten",
+    "solution": [
+      "## The table.\n\"5. Accrued Expenses\" table is on page 122. For 2024: accrued professional fees $1,273 thousand, accrued license fees $3,300 thousand, total $7,496 thousand.",
+      "## How much gets paid.\n$2,000 thousand payment is more than the $1,273 thousand professional fees balance. Only $1,273 thousand can be paid off.",
+      "## New total.\n$7,496 minus $1,273. That is $6,223 thousand.",
+      "## Percentage.\n$3,300 divided by $6,223 is 0.5302908565. As a percentage: 53.02908565%."
+    ],
+    "ai_prob": 0.029,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 5
+  },
+  {
+    "rec": 584,
+    "ann": 1,
+    "id": "DNTH_2024",
+    "action": "stuck",
+    "solution": [
+      "## Page 109.\nThe \"Accrued Expenses\" table is on page 109. December 31, 2024 accrued compensation: $5,154 thousand. Total accrued expenses: $13,074 thousand.",
+      "## New compensation balance.\n$5,154 minus $500 is $4,654 thousand.",
+      "## New total expenses.\n$13,074 minus $500 is $12,574 thousand.",
+      "## Percentage result.\n$4,654 divided by $12,574 then times 100. That is 37.01288%."
+    ],
+    "ai_prob": 0.85,
+    "predicted_class": "ai",
+    "steps": 4,
+    "iterations": 12
+  },
+  {
+    "rec": 43,
+    "ann": 0,
+    "id": "AAOI_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Locate the chart.\nPage 33 has the \"Cumulative Total Stockholder Return\" table. It shows cumulative return percentages for AAOI, the NASDAQ Telecom Index, and the NASDAQ Composite Index by year-end.",
+      "## AAOI return in 2020.\nThe \"12/31/2020\" row under the \"AAOI\" column shows a cumulative return of 71.63%.",
+      "## AAOI return in 2023.\nThe \"12/31/2023\" data point under the \"AAOI\" column shows a cumulative return of 162.63%.",
+      "## Percentage increase.\n162.63% minus 71.63% equals 91.00%. The increase from 2020 to 2023 is 91.00%."
+    ],
+    "ai_prob": 0.198,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 288,
+    "ann": 0,
+    "id": "6010.SR_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Revenue figure.\nPage 109, \"Statement of Profit or Loss for the Year Ended 31 December 2023.\" Revenue: SAR 3,196,966,537.",
+      "## Net profit figure.\nSame statement, page 109. PROFIT FOR THE YEAR: SAR 302,064,771.",
+      "## Both in same units.\nRevenue and profit are both in full SAR values. No conversion needed.",
+      "## Margin.\nSAR 302,064,771 over SAR 3,196,966,537 equals 0.0944848067. Margin is 9.44848067%.",
+      "## 2024 projected revenue.\nSAR 3,196,966,537 times 1.10 equals SAR 3,516,663,190.70.",
+      "## 2024 projected profit.\nSAR 3,516,663,190.70 times 0.0944848067 equals SAR 332,271,248.1.",
+      "## Answer.\nProjected 2024 net profit is SAR 332,271,248.1."
+    ],
+    "ai_prob": 0.007,
+    "predicted_class": "human",
+    "steps": 7,
+    "iterations": 2
+  },
+  {
+    "rec": 547,
+    "ann": 0,
+    "id": "RHI_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Foreign currency translation adjustment.\nPage 52 has the \"CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS).\" The \"Foreign currency translation adjustments, net of tax\" value for 2024 is ($32,910) thousand. Values are in thousands.",
+      "## Adjusted translation adjustment with 25% increase.\nThe 25% increase in losses means multiplying ($32,910) by 1.25. ($32,910) times 1.25 equals ($41,137.5) thousand.",
+      "## Other components that stay constant.\nNet income for 2024 on page 52: $251,598 thousand. Foreign defined benefit plan adjustments for 2024: $398 thousand.",
+      "## New total other comprehensive loss.\n($41,137.5) thousand plus $398 thousand equals ($40,739.5) thousand.",
+      "## Adjusted total comprehensive income.\n$251,598 thousand plus ($40,739.5) thousand equals $210,858.5 thousand. Rounded to the nearest thousand that is $210,859 thousand."
+    ],
+    "ai_prob": 0.0005,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 1
+  },
+  {
+    "rec": 611,
+    "ann": 1,
+    "id": "CPRX_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Total assets and current assets.\nPage 86 has the \"Consolidated Balance Sheets.\" For December 31, 2023: total assets are $470,114 thousand and current assets are $219,329 thousand. Values are in thousands except share data.",
+      "## Adjusted total assets.\nCurrent assets increase by 10%. 10% of $219,329 thousand equals $21,932.9 thousand. New total assets: $470,114 plus $21,932.9 equals $492,046.9 thousand.",
+      "## Stockholders equity.\nThe same table on page 86 shows total stockholders equity at $387,881 thousand for 2023.",
+      "## Units.\nAll values are in thousands. No conversion needed.",
+      "## Equity-to-assets ratio.\n$387,881 divided by $492,046.9 equals 0.7883. Multiplied by 100 the ratio is 78.83%."
+    ],
+    "ai_prob": 0.204,
+    "predicted_class": "mixed",
+    "steps": 5,
+    "iterations": 1
+  },
+  {
+    "rec": 104,
+    "ann": 0,
+    "id": "PLD_2023",
+    "action": "rewritten",
+    "solution": [
+      "## The performance graph.\n\"COMPARISON OF 5 YEAR CUMULATIVE TOTAL RETURN\" is on page 47. Covers 2018-2023. Starts at $100 with reinvested dividends.",
+      "## Three lines shown.\nPrologis Inc. Separate lines for S&P 500 Stock Index and FTSE Nareit Equity REITs Index.",
+      "## Values at December 2023.\nPrologis: $257.08. S&P 500: $207.21.",
+      "## Difference.\n$257.08 minus $207.21. Answer: $49.87."
+    ],
+    "ai_prob": 0.0099,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 5
+  },
+  {
+    "rec": 293,
+    "ann": 0,
+    "id": "AYX_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Historical cash flow values.\nPage 94 of the 10-K has the operating activities cash flow data. For 2020: $74.8M. For 2021: $63.2M. For 2022: $(104.8)M. Values are in millions.",
+      "## Normalize 2022.\n$50M of the 2022 outflow was a one-time tax item. Remove it: $(104.8)M plus $50M equals $(54.8)M normalized 2022 cash flow.",
+      "## Three-year average.\nSum: $74.8M plus $63.2M plus $(54.8)M equals $83.2M. Average: $83.2M divided by 3 equals $27.73M.",
+      "## Apply 10% growth.\n$27.73M times 1.10 equals $30.5 million. The adjusted operating cash flow projection for 2023 is $30.5 million."
+    ],
+    "ai_prob": 0.33,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  }
+]
