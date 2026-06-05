@@ -1648,5 +1648,153 @@
     },
     "verification": "Consolidated Statements of Cash Flows (physical p59): total cash provided by operating activities = $404M and additions to property, plant and equipment = ($144)M for FY2021 confirmed. $144/$404 x 100 = 35.643%. Solution previously used $488M and $116M (wrong figures).",
     "ai_pending": true
+  },
+  {
+    "id": "DKNG_2020",
+    "rec": 445,
+    "ann": 0,
+    "agent": "review-cleared",
+    "before": {
+      "answer": "(24.55)%",
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "(24.55)%"
+    },
+    "verification": "Filing confirms net loss attributable $844,270K and total assets $3,439,329K -> ROA -24.55%; logic_issue's $1,232M net loss is not in filing."
+  },
+  {
+    "id": "SITE_2024",
+    "rec": 568,
+    "ann": 0,
+    "agent": "review-cleared",
+    "before": {
+      "answer": "$63.57 million",
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$63.57 million"
+    },
+    "verification": "Filing end-market chart shows Maintenance 35% (not 33% as logic_issue claims); 4% x 35% x $4,540.6M = $63.57M."
+  },
+  {
+    "id": "O_2015",
+    "rec": 666,
+    "ann": 0,
+    "agent": "review-cleared",
+    "before": {
+      "answer": "$4,841,486 thousand",
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$4,841,486 thousand"
+    },
+    "verification": "Balance sheet supports total debt $4,841,486K (in filing); logic_issue's $4,820,995K does not appear in the filing."
+  },
+  {
+    "id": "ITGR_2021",
+    "rec": 695,
+    "ann": 0,
+    "agent": "review-cleared",
+    "before": {
+      "answer": "$217,080 thousand",
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$217,080 thousand"
+    },
+    "verification": "logic_issue's reconciled EBITDA $214,060 does not appear anywhere in the filing; solution's $217,080 uses the disclosed continuing-ops D&A $81,369."
+  },
+  {
+    "id": "RBLX_2023",
+    "rec": 685,
+    "ann": 0,
+    "agent": "review-cleared",
+    "before": {
+      "answer": "0",
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "0"
+    },
+    "verification": "Board Highlights table (page 9) shows Mastantuono chairs ACC with no LDCC membership marked; strictly-member count is 0 as answered."
+  },
+  {
+    "id": "BGFV_2017",
+    "rec": 532,
+    "ann": 0,
+    "agent": "review-fix",
+    "before": {
+      "answer": "$66,824"
+    },
+    "after": {
+      "answer": "$32,508.5"
+    },
+    "verification": "2017 net sales 1,009,635 and cost of sales 686,303 on p52; gross margin applied to +5% sales."
+  },
+  {
+    "id": "CHGG_2018",
+    "rec": 508,
+    "ann": 0,
+    "agent": "review-fix",
+    "before": {
+      "answer": "-$5,558.814 thousand"
+    },
+    "after": {
+      "answer": "-$6,880.9 thousand"
+    },
+    "verification": "EBIT -6,220, EBT -13,458, tax 1,430 on p101; tax rate sign corrected."
+  },
+  {
+    "id": "BXP_2022",
+    "rec": 476,
+    "ann": 0,
+    "agent": "review-fix",
+    "before": {
+      "answer": "555,808 thousand"
+    },
+    "after": {
+      "answer": "576,114.8 thousand"
+    },
+    "verification": "2021 G&A 133,112; 2022 G&A 151,573; 2022 NI attributable 570,965 on p131."
+  },
+  {
+    "id": "WRBY_2024",
+    "rec": 581,
+    "ann": 0,
+    "agent": "review-fix",
+    "before": {
+      "answer": "$238,955 thousands"
+    },
+    "after": {
+      "answer": "$238,245 thousands"
+    },
+    "verification": "PV table 225,355; TIA 13,600; weighted avg discount rate 5.5% on p96."
+  },
+  {
+    "id": "CAT_2016",
+    "rec": 254,
+    "ann": 0,
+    "agent": "review-cleared",
+    "before": {
+      "answer": "$302.9 million"
+    },
+    "after": {
+      "answer": "$302.9 million"
+    },
+    "verification": "STATEMENT 1 (p85) shows 2016 Operating profit $498M and R&D $1,951M; original inputs correct, logic_issue (1,162M/1,853M) not supported by filing. Answer 302.9M stands."
+  },
+  {
+    "id": "NOTV_2023",
+    "rec": 94,
+    "ann": 1,
+    "agent": "review-cleared",
+    "before": {
+      "answer": "65.34%"
+    },
+    "after": {
+      "answer": "65.34%"
+    },
+    "verification": "logic_issue cost-of-revenue/opex figures contradict the filing MD&A (p42); original solution consistent with filing. (Entry remains in AI track.)"
   }
 ]

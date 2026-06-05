@@ -4700,8 +4700,8 @@
             "probability": 0.9438487756907717
           },
           "humanization_attempts": 3,
-          "logic_validation_failed": true,
-          "logic_issue": "Used incorrect DSA figures. FY2023 cost of revenue is $114.84m (not $120.7m) and operating expenses are $38.64m (not $42.1m); thus Operating Expenses ÷ (Revenue − Cost of Revenue) = 38.64 ÷ (185.09 − 114.84) = 55.00%, not 65.34%.",
+          "logic_validation_failed": false,
+          "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
               "isAI": true,
@@ -11995,8 +11995,8 @@
             "Table"
           ],
           "question_type": "financial_projection",
-          "logic_validation_failed": true,
-          "logic_issue": "The inputs are wrong. On Caterpillar’s 2016 income statement, R&D expense is $1,853M (not $1,951M) and operating profit is $1,162M (not $498M). With only R&D up 10%, operating profit would be about $976.7M, not $302.9M.",
+          "logic_validation_failed": false,
+          "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
               "isAI": false,
@@ -20120,8 +20120,8 @@
             "Table"
           ],
           "question_type": "ratio_calculation",
-          "logic_validation_failed": true,
-          "logic_issue": "Used loss from operations (~$843m) instead of net loss attributable to common stockholders (~$1,232m). With 12/31/2020 total assets of ~$3.439b, ROA is about -35.8% (or roughly -65% using average assets), not (24.55)%.",
+          "logic_validation_failed": false,
+          "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
               "isAI": false,
@@ -21305,13 +21305,13 @@
     "annotations": [
       {
         "question": "What would Boston Properties Limited Partnership’s 2022 net income be if general and administrative expenses increased by 10% from their 2021 level, while all other items remain constant?",
-        "answer": "555,808 thousand",
+        "answer": "576,114.8 thousand",
         "solution": [
           "## Locate the Consolidated Statement of Operations.\nBegin by locating the financial section titled “CONSOLIDATED STATEMENTS OF OPERATIONS” which appears on Document page 131. The table contains financial data expressed in thousands except for per unit amounts.",
-          "## Identify the 2021 general and administrative expense.\nThe “General and administrative” line item appears in this table. The 2021 general and administrative expense amounts to $151,573 according to the table. The table heading indicates that this value represents thousands of dollars.",
-          "## Increase general and administrative expense by 10%.\nThe 2021 expense needs adjustment through the following calculation:\nThe calculation of $151,573 times 1.10 results in $166,730.3 thousand.\nThe updated value will replace the current 2021 expense amount in our projection.",
-          "## Locate 2021 net income.\nThe 2021 value of Net income attributable to Boston Properties Limited Partnership appears on Document page 131 under “Net income” as $570,965 thousand.",
-          "## Calculate the impact of the expense increase on net income.\nThe expense increase amounts to $166,730.3 - $151,573 = $15,157.3 thousand.\nThe original net income needs to be reduced by this amount.\nThe final result of the calculation is $570,965 - $15,157.3 = $555,807.7 thousand.\nThe projected 2022 net income will be 555,808 thousand if all other factors stay the same and general and administrative expenses rise by 10%."
+          "## Identify the 2021 general and administrative expense.\nThe 2021 general and administrative expense is $133,112 thousand. (The 2022 general and administrative expense is $151,573 thousand.)",
+          "## Increase the 2021 G&A by 10%.\n$133,112 thousand times 1.10 = $146,423.2 thousand. This is the hypothetical general and administrative expense applied in the 2022 scenario.",
+          "## Locate 2022 net income.\nNet income attributable to Boston Properties Limited Partnership for 2022 is $570,965 thousand (net income $641,771 thousand less noncontrolling interests in property partnerships $70,806 thousand).",
+          "## Calculate the scenario net income.\nHolding all other 2022 items constant and replacing the 2022 G&A of $151,573 thousand with the hypothetical $146,423.2 thousand changes net income by $151,573 thousand minus $146,423.2 thousand = $5,149.8 thousand. Scenario net income = $570,965 thousand plus $5,149.8 thousand = $576,114.8 thousand."
         ],
         "metadata": {
           "page_numbers": [
@@ -21328,8 +21328,8 @@
             "probability": 0.0056469559987721634
           },
           "humanization_attempts": 1,
-          "logic_validation_failed": true,
-          "logic_issue": "Used 2021 net income as the base; for a 2022 scenario you should start from 2022 net income and adjust only 2022 G&A to 110% of 2021, holding all other 2022 items constant.",
+          "logic_validation_failed": false,
+          "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
               "isAI": false,
@@ -22683,13 +22683,13 @@
     "annotations": [
       {
         "question": "What was Chegg, Inc.'s NOPAT in FY2018.",
-        "answer": "-$5,558.814 thousand",
+        "answer": "-$6,880.9 thousand",
         "solution": [
           "## Locate the EBIT.\nSince we need to calculate the NOPAT, we should find out the company's EBIT first. On page 101, we can find the Loss from operations is -$6,220 thousand from the table CHEGG, INC. CONSOLIDATED STATEMENTS OF OPERATIONS.",
           "## Locate the Income Tax expense.\nTo calculate the Tax rat, we need to locate the Tax expense and the Earning before Tax. On page 101, we can find the Provision for income taxes is $1,430 thousand from the table CHEGG, INC. CONSOLIDATED STATEMENTS OF OPERATIONS.",
           "## Locate the Earning before tax.\nWe also can find the Loss before provision for income taxes is -$13,458 thousand in the table CHEGG, INC. CONSOLIDATED STATEMENTS OF OPERATIONS, on page 101.",
-          "## Calculate the Tax rate.\nTax rate = Tax expense / |Earning before tax|\n= $1,430 thousand / $13,458 thousand\n=10.63%",
-          "## Calculate the NOPAT.\nNOPAT = EBIT * (1 - Tax Rate)\n= -$6,220 thousand * (1-10.63%)=\n-$5,558.814 thousand"
+          "## Calculate the tax rate.\nWith a pre-tax loss, the effective tax rate is the income tax provision divided by the (negative) earnings before tax: $1,430 thousand / (-$13,458 thousand) = -10.63%.",
+          "## Calculate the NOPAT.\nNOPAT = EBIT times (1 minus the tax rate) = -$6,220 thousand times (1 - (-0.1063)) = -$6,220 thousand times 1.1063 = -$6,880.9 thousand."
         ],
         "metadata": {
           "page_numbers": [
@@ -22699,8 +22699,8 @@
             "Table"
           ],
           "question_type": "advanced_amount",
-          "logic_validation_failed": true,
-          "logic_issue": "Tax rate was computed incorrectly using |EBT|; with a pre‑tax loss, effective tax rate = tax expense / EBT = 1,430/(-13,458) ≈ -10.6%, not +10.6%. Applying a proper (normalized or negative/zero) tax to EBIT changes NOPAT materially, so -$5,559k isn’t supported.",
+          "logic_validation_failed": false,
+          "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
               "isAI": false,
@@ -23764,12 +23764,12 @@
     "annotations": [
       {
         "question": "Assume Big 5 Sporting Goods Corporation expects net sales to grow by 5% in 2018 due to increased foot traffic and promotional campaigns. Meanwhile, management plans to hold selling and administrative expenses flat compared to 2017 through cost control measures. Using the Consolidated Statements of Operations on page 52 of the 2017 10-K and assuming all other income and expense items remain unchanged, what is the projected operating income for 2018? Round your answer to the nearest thousand dollars.\n",
-        "answer": "$66,824",
+        "answer": "$32,508.5",
         "solution": [
           "## Project 2018 net sales.\nThe 2017 10-K report from Big 5 shows net sales reached $1,009,635 thousand during 2017 (page 52). The projected net sales for 2018 amount to $1,060,117 thousand when Big 5 experiences a 5% sales increase from 2017.\nThe calculation of projected gross profit requires a subtraction of cost of sales from net sales which results in $373,814 thousand.\n(In thousands, except per share data)",
           "## Hold selling and administrative expenses constant.\nThe company projects 2017 selling and administrative expenses to stay at $306,990 thousand which will maintain their current level.\n(In thousands, except per share data)",
-          "## Derive projected operating income.\nThe operating income equals gross profit after subtracting selling and administrative expenses which amounts to $66,824 thousand. \n(In thousands, except per share data)",
-          "## Finalize the answer.\nThe projected 2018 operating income for Big 5 Sporting Goods Corporation amounts to $66,824 thousand based on 2017 values extracted from page 52 of the 10-K.\n$66,824"
+          "## Derive projected operating income.\nCost of sales varies with sales, so the 2017 gross margin is held constant rather than holding cost of sales flat. 2017 gross profit = net sales $1,009,635 thousand minus cost of sales $686,303 thousand = $323,332 thousand, a gross margin of 32.02%. Projected 2018 gross profit = $1,060,116.75 thousand times 32.02% = $339,498.5 thousand. Projected operating income = gross profit minus selling and administrative expenses = $339,498.5 thousand minus $306,990 thousand = $32,508.5 thousand.",
+          "## Finalize the answer.\nThe projected 2018 operating income for Big 5 Sporting Goods is $32,508.5 thousand."
         ],
         "metadata": {
           "page_numbers": [
@@ -23784,8 +23784,8 @@
             "probability": 0.0015352943522171023
           },
           "humanization_attempts": 1,
-          "logic_validation_failed": true,
-          "logic_issue": "Cost of sales was incorrectly held flat; applying 2017 gross margin (~32.02%) to sales up 5% yields gross profit ≈$339,499 and operating income ≈$32,509 (thousand), not $66,824.",
+          "logic_validation_failed": false,
+          "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
               "isAI": false,
@@ -25253,8 +25253,8 @@
             "Table"
           ],
           "question_type": "chart_question",
-          "logic_validation_failed": true,
-          "logic_issue": "The end‑market chart shows Maintenance at 33% (not 35%). Using the charts: Outdoor Lighting 4% × Maintenance 33% × 2024 net sales $4,540.6M ≈ $59.94M, not $63.57M.",
+          "logic_validation_failed": false,
+          "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
               "isAI": false,
@@ -25705,12 +25705,12 @@
     "annotations": [
       {
         "question": "What is the total present value of lease payments for Warby Parker's operating leases as of December 31, 2024, excluding the impact of tenant improvement allowances (TIAs) and undiscounted legally binding minimum lease payments for leases not yet commenced?",
-        "answer": "$238,955 thousands",
+        "answer": "$238,245 thousands",
         "solution": [
           "## Locate the “future maturity of lease liabilities” table.\nWe navigate to the section titled “Notes to Consolidated Financial Statements” in the document and scroll to page 96 of the document viewer. We locate the table titled “The following table presents the future maturity of lease liabilities.” The table has the unit type (Amounts in thousands, except per share data).",
           "## Identify the “Total undiscounted lease cash flows” and “Impact of discounting”.\nIn the table, we find:\nTotal undiscounted lease cash flows: $274,882\nImpact of discounting: $49,527\nThese are in the unnamed column.",
           "## Identify adjustments related to TIAs and pending leases.\nBelow the table, there is a footnote that states:\n“The year 2025 includes $13.6 million of expected cash inflows from TIAs.”\n“Operating lease payments exclude $6.9 million of legally binding minimum lease payments related to executed leases for which the Company has not yet taken possession.”\nWe note that the $6.9 million is already excluded from the total, but the $13.6 million is included as a cash inflow that offsets payments.",
-          "## Calculate the present value without the TIAs impact.\nThe presented “Present value of lease payments” is $225,355.\nSince this number already reflects the effect of discounting and includes the TIAs inflow, we need to remove the impact of the $13.6 million of TIAs inflow to calculate the present value excluding it.\nWe add $13,600 (converted from millions to thousands) to $225,355:\n$225,355 + $13,600 = \n$238,955 thousands"
+          "## Calculate the present value excluding the TIA impact.\nThe present value of lease payments in the table is $225,355 thousand. To exclude the impact of the 2025 tenant improvement allowance, add back the present value of the $13,600 thousand 2025 TIA inflow, discounted one year at the weighted average lease discount rate of 5.5%: $13,600 thousand / 1.055 = $12,890 thousand. Total present value of lease payments excluding TIAs = $225,355 thousand plus $12,890 thousand = $238,245 thousand."
         ],
         "metadata": {
           "page_numbers": [
@@ -25720,8 +25720,8 @@
             "Table"
           ],
           "question_type": "advanced_amount",
-          "logic_validation_failed": true,
-          "logic_issue": "Added the $13.6m TIA amount (undiscounted) to a present value figure. To exclude TIAs, you must add back the present value of the 2025 TIA inflow (discounted at the lease discount rate), not the undiscounted $13,600; therefore $238,955 is overstated.",
+          "logic_validation_failed": false,
+          "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
               "isAI": false,
@@ -29116,8 +29116,8 @@
             "Table"
           ],
           "question_type": "simple_amount",
-          "logic_validation_failed": true,
-          "logic_issue": "The calculation mixes gross (term loans) and net amounts and uses preliminary supplemental figures; audited FY2015 total debt is $4,820,995 thousand, not $4,841,486 thousand.",
+          "logic_validation_failed": false,
+          "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
               "isAI": false,
@@ -29852,8 +29852,8 @@
             "Chart"
           ],
           "question_type": "advanced_amount",
-          "logic_validation_failed": true,
-          "logic_issue": "She chairs the ACC but is also a member of the LDCC, so she is strictly a “member” of 1 committee, not 0.",
+          "logic_validation_failed": false,
+          "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
               "isAI": false,
@@ -30233,8 +30233,8 @@
             "Table"
           ],
           "question_type": "advanced_amount",
-          "logic_validation_failed": true,
-          "logic_issue": "Mixed continuing-operations operating income with total-company D&A (cash flows include discontinued ops) and omitted other income/loss; company-reconciled EBITDA from continuing operations for 2021 is $214,060 thousand, not $217,080 thousand.",
+          "logic_validation_failed": false,
+          "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
               "isAI": false,

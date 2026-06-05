@@ -204,5 +204,47 @@
     "rec": 594,
     "ann": 0,
     "reason": "Empty annotation in source data: no question, answer, or solution content. Nothing to remediate or humanize; remove."
+  },
+  {
+    "id": "COUR_2021",
+    "rec": 294,
+    "ann": 0,
+    "reason": "Per-degree-student revenue: the quarterly Degree Students counts in the solution are not found on the cited table, and a usable average/period-end count is not groundable in the filing as stated.",
+    "agent": "review-quarantine"
+  },
+  {
+    "id": "CVX_2004",
+    "rec": 480,
+    "ann": 0,
+    "reason": "Upstream pre-tax per-barrel requires reported upstream pre-tax earnings; the filing reports only after-tax segment income, so the pre-tax figure is ungroundable in this filing.",
+    "agent": "review-quarantine"
+  },
+  {
+    "id": "MC_2023",
+    "rec": 510,
+    "ann": 0,
+    "reason": "Requires Moelis 2021 client count (404); the attached 2023 10-K discloses only FY2023 (304) and FY2022 (314) client counts, so 2021 is absent and the metric is ungroundable here.",
+    "agent": "review-quarantine"
+  },
+  {
+    "id": "NKE_2020",
+    "rec": 321,
+    "ann": 0,
+    "reason": "EBITDA add-back ambiguous: the cash-flow line is \"Amortization, impairment and other\" dominated by a one-time ~$405M impairment, with negligible recurring amortization; no clean D&A figure to settle whether $3,836M understates EBITDA.",
+    "agent": "review-quarantine"
+  },
+  {
+    "id": "KEN_2019",
+    "rec": 531,
+    "ann": 0,
+    "reason": "ROIC requires a NOPAT tax rate, but FY2019 has a pre-tax loss; the implied tax rate is invalid/nonsensical (~301%), so a reliable NOPAT/ROIC is not well-defined.",
+    "agent": "review-quarantine"
+  },
+  {
+    "id": "BCPC_2019",
+    "rec": 523,
+    "ann": 0,
+    "reason": "EVA requires \"the same definition of invested capital as in [a prior part]\"; that referenced definition is not available, so invested capital and the capital charge are underspecified.",
+    "agent": "review-quarantine"
   }
 ]
