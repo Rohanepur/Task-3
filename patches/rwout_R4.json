@@ -1,0 +1,248 @@
+[
+  {
+    "rec": 618,
+    "ann": 0,
+    "id": "R_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Chart extraction.\nThe \"DIVERSIFIED CUSTOMER BASE (as a % of operating revenue)\" chart is on page 2. Food & Beverage percentage: 23%. Retail & Consumer Goods percentage: 16%.",
+      "## Denominator.\nSum: 23% + 16% = 39%.",
+      "## Food & Beverage sector product.\nSector % times (sector % / sum %) = 0.23 × (0.23 / 0.39). Inner division: 0.23 / 0.39 = 0.589744. Product: 0.23 × 0.589744 = 0.135641.",
+      "## Retail sector product.\nSector % times (sector % / sum %) = 0.16 × (0.16 / 0.39). Inner division: 0.16 / 0.39 = 0.410256. Product: 0.16 × 0.410256 = 0.065641.",
+      "## Final figure.\nSum of products: 0.135641 + 0.065641 = 0.201282. Expressed as a percentage: 20.1282%. Rounded to two decimal places: 20.13%."
+    ],
+    "ai_prob": 0.32852791112025054,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 8
+  },
+  {
+    "rec": 20,
+    "ann": 0,
+    "id": "RGTI_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Source document.\nPage 97 has the RIGETTI COMPUTING, INC. CONSOLIDATED BALANCE SHEETS. Units are thousands except per share amounts.",
+      "## Total liabilities.\nThe December 31, 2023 column shows Total liabilities at $50,325 (in thousands).",
+      "## Applying the 3% increase.\n$50,325 times 1.03 = $51,834.75 (in thousands).",
+      "## Total assets.\nThe same table on page 97 shows Total assets at $159,913 (in thousands) for December 31, 2023.",
+      "## Debt ratio.\n$51,834.75 divided by $159,913 = 0.32414. Rounded to three decimal places: 0.324."
+    ],
+    "ai_prob": 0.12645341783936523,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 2
+  },
+  {
+    "rec": 683,
+    "ann": 0,
+    "id": "VVV_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Page and units.\nPage 60 has the Consolidated Statements of Cash Flows. The unit is millions.",
+      "## Net cash from operations.\nThe 2021 row in the operating activities section shows Net cash provided by operating activities: $404 million.",
+      "## Capital expenditures figure.\nThe 2021 row in investing activities shows Additions to property, plant and equipment: ($144) million.",
+      "## Percent of operating cash flow spent on capex.\n144 divided by 404 times 100 = 35.64%."
+    ],
+    "ai_prob": 0.02663105568012166,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 554,
+    "ann": 0,
+    "id": "BJ_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Graph location.\nPage 35 has the Performance Graph. The table below the graph shows cumulative total return values.",
+      "## End-of-period values from the table.\nJanuary 29, 2022 figures from page 35: BJ's Wholesale Club Holdings = $263.32. S&P 500 = $163.16.",
+      "## Dollar difference.\n263.32 minus 163.16 = 100.16.",
+      "## Percentage difference.\n100.16 divided by 163.16 = 0.6138759. As a percent that is 61.38759%."
+    ],
+    "ai_prob": 0.2447193677553815,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 328,
+    "ann": 0,
+    "id": "SCHN_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Retained earnings figures.\nThe Consolidated Statements of Equity on page 62 shows 2020 retained earnings at $649,863 (in thousands) and 2022 retained earnings at $941,146 (in thousands).",
+      "## Total dividends paid in 2021 and 2022.\n2021 common dividends: $20,892 (in thousands). 2022 common dividends: $21,366 (in thousands). Total: $20,892 + $21,366 = $42,258 (in thousands).",
+      "## Adjusted 2022 retained earnings.\nAdding back dividends to get the no-dividend scenario: $941,146 + $42,258 = $983,404 (in thousands).",
+      "## CAGR formula and calculation.\nCAGR = (Ending / Beginning)^(1/n) - 1. Ending = $983,404. Beginning = $649,863. n = 2. So (983,404 / 649,863)^(1/2) - 1. The ratio 983,404 / 649,863 = 1.51324818. Square root of 1.51324818 = 1.2301415272. Subtracting 1 gives 0.2301415272.",
+      "## Final result.\nThe CAGR expressed as a percentage is 23.01415272%."
+    ],
+    "ai_prob": 0.4698418485631658,
+    "predicted_class": "mixed",
+    "steps": 5,
+    "iterations": 1
+  },
+  {
+    "rec": 584,
+    "ann": 0,
+    "id": "DNTH_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Accrued Expenses table location.\nPage 109 has the Accrued Expenses table. Values are in thousands.",
+      "## Accrued External Research and Development balance.\nThe December 31, 2024 value for Accrued external research and development is $6,996 (in thousands).",
+      "## Total Accrued Expenses balance.\nThe December 31, 2024 value for total Accrued expenses is $13,074 (in thousands).",
+      "## Adjusted Accrued External R&D after paydown.\n$6,996 minus $3,000 = $3,996 (in thousands).",
+      "## New total Accrued Expenses.\nTotal Accrued expenses decreases by the same $3,000 (in thousands). $13,074 minus $3,000 = $10,074 (in thousands). The new total is $10,074,000."
+    ],
+    "ai_prob": 0.3832479571439689,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 1
+  },
+  {
+    "rec": 473,
+    "ann": 0,
+    "id": "EEFT_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source figures on page 84.\nCONSOLIDATED STATEMENTS OF OPERATIONS, page 84. 2024: net income = $306.0 million; diluted EPS = $6.45; diluted shares = 48,082,766; diluted numerator ~$310.2 million (adds back convertible note interest).",
+      "## Diluted shares outstanding.\n48,082,766 (page 84, 2024 diluted).",
+      "## After-tax savings.\n$4M interest × (1 - 0.21) = $3.16M.",
+      "## Pro-forma numerator.\n$310.2M + $3.16M = $313.36M.",
+      "## Pro-forma EPS.\n$313,360,000 / 48,082,766 = $6.52."
+    ],
+    "ai_prob": 0.2558475050926148,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 7
+  },
+  {
+    "rec": 382,
+    "ann": 0,
+    "id": "PLTK_2024",
+    "action": "rewritten",
+    "solution": [
+      "## The NOPAT formula.\nNOPAT equals operating income times (1 minus tax rate).",
+      "## Operating income from page 92.\nPage 92 shows the Consolidated Statements of Comprehensive Income. Income from operations, year ended December 31, 2024: $391.6 million.",
+      "## Tax rate from page 76.\nThe Taxes on income section on page 76 gives the 2024 effective income tax rate as 42.2%.",
+      "## Computing NOPAT.\n$391.6 million times 0.578 (which is 1 minus 0.422) = $226.3448 million."
+    ],
+    "ai_prob": 0.18993492456136635,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 6
+  },
+  {
+    "rec": 14,
+    "ann": 1,
+    "id": "IOT_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Shares outstanding from balance sheet.\nThe Consolidated Balance Sheets appear on page 81. January 28, 2023: Class A shares = 132,111,095; Class B shares = 392,049,114. All Class B convert 1:1 to Class A. Total = 524,160,209.",
+      "## RSU dilution.\nAdding the 25 million vesting RSUs: 524,160,209 + 25,000,000 = 549,160,209.",
+      "## Market cap.\nShare price $25.40 times 549,160,209 shares = $13,948,669,308.60.",
+      "## Enterprise value.\n$200.67 million cash is non-operating. $13,948,669,308.60 minus $200,670,000 = $13,747,999,308.60."
+    ],
+    "ai_prob": 0.22761131306110352,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 3
+  },
+  {
+    "rec": 525,
+    "ann": 0,
+    "id": "VNT_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Income statement location.\nPage 46 has the Consolidated and Combined Statements of Earnings and Comprehensive Income for Vontier.",
+      "## Net earnings for 2022.\nThe Net Earnings line for 2022 from the same table on page 46: $401.3 million.",
+      "## Balance sheet location.\nPage 45 has the Consolidated Balance Sheets.",
+      "## Total equity as of December 31, 2022.\nThe Total Equity line in the December 31, 2022 column on page 45: $579.5 million.",
+      "## ROE calculation.\n$401.3 million divided by $579.5 million = 0.6923. Multiplied by 100: 69.23%."
+    ],
+    "ai_prob": 0.0786054635354598,
+    "predicted_class": "human",
+    "steps": 5,
+    "iterations": 1
+  },
+  {
+    "rec": 72,
+    "ann": 1,
+    "id": "FOR_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Chart on page 29.\nPage 29 has the \"Comparison of Five-Year Cumulative Total Return\" chart. x-axis: fiscal year-ends Sep-19 through Sep-24. y-axis: dollar value starting at $100. Four series: Forestar Group Inc., Russell 2000, New Peer Group, Former Peer Group.",
+      "## September 2024 data from the table.\nForestar Group Inc. = $177.08. Russell 2000 = $156.60.",
+      "## Subtraction.\n$177.08 minus $156.60 = $20.48.",
+      "## Outperformance.\nForestar exceeded the Russell 2000 by $20.48 over the five-year period ending September 30, 2024."
+    ],
+    "ai_prob": 0.02848941994292618,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 2,
+    "ann": 0,
+    "id": "CE_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Where to look.\nPage 36 has the Statement of Operations Data.",
+      "## The two net earnings figures.\nFrom the table on page 36: Net earnings (loss) 2022 = $1,902 million. Net earnings (loss) 2021 = $1,896 million.",
+      "## Calculation.\n1,902 minus 1,896 = 6.",
+      "## Result.\nThe change is an increase of $6 million."
+    ],
+    "ai_prob": 0.07756862485709579,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 669,
+    "ann": 0,
+    "id": "FCK_2013",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nPage 4 has the RESERVES AT 12/31/13 table.",
+      "## Copper.\nConsolidated Totals, Cu (Copper): 111.2 billion lbs.",
+      "## Molybdenum.\nConsolidated Totals, Mo (Molybdenum): 3.3 billion lbs.",
+      "## Ratio.\n111.2 / 3.3 = 33.696969697."
+    ],
+    "ai_prob": 0.000249959639877284,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 534,
+    "ann": 0,
+    "id": "CDZI_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Where to look.\nPage 49 has the Consolidated Balance Sheets. The note at the top of the page says amounts are in thousands.",
+      "## Total current liabilities.\nFrom the December 31, 2024 column: Total current liabilities = $14,406 thousand.",
+      "## Accounts payable.\nFrom the same column: Accounts payable = $2,261 thousand.",
+      "## Percentage.\n2,261 divided by 14,406 then multiplied by 100 = 15.7%."
+    ],
+    "ai_prob": 0.0022374175534977826,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 2
+  },
+  {
+    "rec": 231,
+    "ann": 0,
+    "id": "DSGR_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Chart.\nPage 28, \"Comparison of 5-Year Cumulative Total Return.\" Start: $100 on December 31, 2019. End: December 31, 2024. Includes DSG, Russell 2000, and Peer Group. Dividends reinvested.",
+      "## Peer Group figures.\nFrom the table on page 28: Peer Group 2019 = $100.00; Peer Group 2024 = $320.60.",
+      "## CAGR formula.\nCAGR = (end / start)^(1/n) - 1. n = 5 years.",
+      "## Answer.\n(320.60 / 100.00)^0.2 - 1 = 3.206^0.2 - 1 = 1.2624299 - 1 = 0.2624299. As a percentage: 26.24299%."
+    ],
+    "ai_prob": 0.3095857174996241,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 3
+  }
+]

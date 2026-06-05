@@ -1,0 +1,254 @@
+[
+  {
+    "rec": 16,
+    "ann": 0,
+    "id": "NSC_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Numbers on page 61 and page 41\nPage 61 of the 10-K: railway operating revenues are $11,142 million and Income from railway operations is $4,447 million. Page 41: fuel expenses are $799 million. Values are millions.",
+      "## Revenue adjustment\nScenario takes away $600 million. $11,142 minus $600 is $10,542 million.",
+      "## Operating income adjustment\nScenario adds $75 million of fuel expense. Operating income shrinks by $675 million in total. $4,447 minus $675 is $3,772 million.",
+      "## Operating margin\n$3,772 / $10,542 = 0.3578068677, so 35.78068677%."
+    ],
+    "ai_prob": 0.3394,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 13
+  },
+  {
+    "rec": 31,
+    "ann": 0,
+    "id": "ALLY_2016",
+    "action": "rewritten",
+    "solution": [
+      "## Revenue table on page 34\nPage 34 of the document has the Primary Lines of Business section. That section has a revenue breakdown table showing amounts in millions of dollars.",
+      "## 2015 revenue and reported change\n2015 Automotive Finance revenue on page 34 is $3,664 million. The Favorable/(Unfavorable) 2016-2015 percentage change column for Automotive Finance shows 8%.",
+      "## Reduced change\nActual change is 8%. Reducing that by 50% gives a hypothetical change of 4%.",
+      "## Hypothetical 2016 revenue\n$3,664 million times 1.04 is $3,810.56 million."
+    ],
+    "ai_prob": 0.054,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 45,
+    "ann": 0,
+    "id": "RH_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source table\nPage 73 of the RH 10-K has the Consolidated Statements of Income under Item 8. Values are in thousands.",
+      "## SG&A base and fiscal 2025 operating income\nPage 73 shows Selling, general and administrative expenses of $1,022,948 thousand for the year ended February 3, 2024. Page 73 shows operating income of $322,587 thousand for the year ended February 1, 2025.",
+      "## Adjusted SG&A\nA 5% increase on $1,022,948 thousand: $1,022,948 times 1.05 is $1,074,095.4 thousand, rounded to $1,074,095 thousand.",
+      "## Projected operating income\nGross profit for fiscal year 2025 is $1,414,932 thousand per page 73. $1,414,932 minus $1,074,095 is $340,837 thousand."
+    ],
+    "ai_prob": 0.1012,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 50,
+    "ann": 0,
+    "id": "AFL_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Source page\nPage 89 has the Consolidated Balance Sheets. Units are millions of dollars.",
+      "## Equity-to-assets ratio for 2020\nDecember 31, 2020: Total shareholders' equity is $33,559 million. Total assets are $165,086 million. $33,559 divided by $165,086 is 0.20328.",
+      "## Equity-to-assets ratio for 2021\nDecember 31, 2021: Total shareholders' equity is $33,253 million. Total assets are $157,542 million. $33,253 divided by $157,542 is 0.21107.",
+      "## Percentage change\n0.21107 minus 0.20328 is 0.00779. 0.00779 divided by 0.20328 is 0.0383. Times 100 that gives 3.83%."
+    ],
+    "ai_prob": 0.213,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 64,
+    "ann": 0,
+    "id": "NUE_2020",
+    "action": "rewritten",
+    "solution": [
+      "## Page 52\nThe Consolidated Balance Sheets are on page 52. All values in the table are in thousands of dollars.",
+      "## 2020 balance sheet figures\nFor the year ended December 31, 2020, Goodwill (Note 8) is 2,229,672 thousand. Other intangible assets, net (Note 8) is 668,021 thousand. Total NuCor stockholders' equity is 10,788,665 thousand.",
+      "## Tangible equity\nTangible equity equals equity minus goodwill minus other intangibles. 10,788,665 minus 2,229,672 minus 668,021 is 7,890,972 thousand.",
+      "## Result\nGoodwill of 2,229,672 divided by tangible equity of 7,890,972 is 0.28256. As a percent that is 28.256%."
+    ],
+    "ai_prob": 0.3603,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 4
+  },
+  {
+    "rec": 72,
+    "ann": 0,
+    "id": "FOR_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source data\nPage 34 has a table called Land and Lot Position showing 21,000 lots under active contracts in 2024. Page 31 has a Lot Sales table showing the 2024 average lot price of $96,600 per lot.",
+      "## Lot split\n75% of 21,000 is 15,750 lots for D.R. Horton. 25% of 21,000 is 5,250 lots for third-party customers.",
+      "## D.R. Horton price per lot\n3% discount on $96,600: 3% of $96,600 is $2,898. $96,600 minus $2,898 is $93,702 per lot.",
+      "## D.R. Horton gross revenue\n15,750 times $93,702 is $1,475,806,500.",
+      "## Third-party gross revenue\n5,250 times $96,600 is $507,150,000.",
+      "## After D.R. Horton rebate\n$1,475,806,500 minus $2,500,000 rebate is $1,473,306,500.",
+      "## After third-party transaction costs\n5% of $507,150,000 is $25,357,500. $507,150,000 minus $25,357,500 is $481,792,500.",
+      "## Net revenue total\n$1,473,306,500 plus $481,792,500 is $1,955,099,000, which is $1,955.099 million."
+    ],
+    "ai_prob": 0.0404,
+    "predicted_class": "human",
+    "steps": 8,
+    "iterations": 2
+  },
+  {
+    "rec": 109,
+    "ann": 0,
+    "id": "XNCR_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source pages\nPage 81 has the Consolidated Statements of Loss. Page 80 has the Consolidated Balance Sheets. Amounts are in thousands.",
+      "## Total revenues\nTotal revenues for the year ended December 31, 2024 from page 81: $110,493 thousand.",
+      "## Accounts receivable at start of period\nAccounts receivable at December 31, 2023 from page 80: $23,739 thousand.",
+      "## Accounts receivable at end of period\nAccounts receivable at December 31, 2024 from page 80: $60,849 thousand.",
+      "## Average accounts receivable\n23,739 plus 60,849 is 84,588. 84,588 divided by 2 is 42,294 thousand.",
+      "## Turnover ratio\n110,493 divided by 42,294 is 2.61."
+    ],
+    "ai_prob": 0.0004,
+    "predicted_class": "human",
+    "steps": 6,
+    "iterations": 1
+  },
+  {
+    "rec": 124,
+    "ann": 0,
+    "id": "CDNS_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source table\nThe Cadence Design Systems Consolidated Balance Sheets table is on page 55.",
+      "## Current ratio at December 31, 2023\nTotal current assets at December 31, 2023: $1,976,217 thousand. Total current liabilities at December 31, 2023: $1,590,867 thousand. Ratio: 1,976,217 divided by 1,590,867 is 1.2422.",
+      "## Current ratio at December 31, 2024\nTotal current assets at December 31, 2024: $4,016,079 thousand. Total current liabilities at December 31, 2024: $1,370,105 thousand. Ratio: 4,016,079 divided by 1,370,105 is 2.9312.",
+      "## Percentage change\n2.93195 minus 1.24222 is 1.68973. 1.68973 divided by 1.24222 times 100 is 136.02%."
+    ],
+    "ai_prob": 0.1498,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 144,
+    "ann": 0,
+    "id": "ADC_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Balance sheet location\nAgree Realty Corporation Consolidated Balance Sheets start on page 60. Values are in thousands except share and per-share data.",
+      "## Total liabilities figure\nPage 60 puts Total Liabilities for December 31, 2024 at $2,975,785 thousand.",
+      "## Mortgage Notes Payable figure\nPage 76 has a Debt table. The Mortgage Notes Payable section shows Total Principal of $43,904 thousand at December 31, 2024.",
+      "## Senior Unsecured Notes figure\nPage 38 has a Debt table. The Senior Unsecured Notes section shows a total of $2,260,000 thousand at December 31, 2024.",
+      "## Total liabilities after $10 million repayment\n$2,975,785 minus $10,000 is $2,965,785 thousand.",
+      "## Share of new total\n$2,260,000 into $2,965,785 is 0.762024. That is 76.20%."
+    ],
+    "ai_prob": 0.3441,
+    "predicted_class": "human",
+    "steps": 6,
+    "iterations": 4
+  },
+  {
+    "rec": 145,
+    "ann": 0,
+    "id": "JNPR_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Source page\nPage 167 of the document has the Juniper Networks, Inc. Consolidated Balance Sheets. Values are in millions, except par values.",
+      "## Total liabilities\nThe Total liabilities line in the LIABILITIES AND STOCKHOLDERS' EQUITY section shows $4,570.1 million as of December 31, 2021.",
+      "## Total stockholders' equity\nThe Total stockholders' equity line at the bottom of that section shows $4,316.9 million as of December 31, 2021.",
+      "## Debt-to-equity ratio\n$4,570.1 divided by $4,316.9 is 1.06."
+    ],
+    "ai_prob": 0.0095,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 158,
+    "ann": 0,
+    "id": "CELC_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Balance sheet location\nThe Balance Sheets appear on page 53. Values in the table are in whole dollars (no unit label in the table header).",
+      "## Reported current liabilities at year-end 2024\nAccounts payable at year-end 2024 is 9,366,007. Accrued expenses at year-end 2024 is 22,184,948. Total current liabilities at year-end 2024 is 31,722,907.",
+      "## After paying down accrued expenses\nPaying $2,000 thousand of cash cuts Accrued expenses from 22,184,948 to 20,184,948. Total current liabilities falls by 2,000,000 to 29,722,907. Accounts payable stays at 9,366,007.",
+      "## Accounts payable as percent of new total current liabilities\n9,366,007 divided by 29,722,907 is 0.315110732608. As a percent that is 31.5110732608%."
+    ],
+    "ai_prob": 0.1577,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 186,
+    "ann": 0,
+    "id": "AX_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source statement\nThe Axos Financial Consolidated Statements of Income is on page 123. Dollar amounts are in thousands.",
+      "## Net interest income after provision values\nNet interest income after provision for credit losses, 2024: $928,929 thousand. Net interest income after provision for credit losses, 2023: $758,871 thousand.",
+      "## Dollar change\n$928,929 minus $758,871 is $170,058 thousand.",
+      "## Percentage growth\n$170,058 divided by $758,871 times 100 is 22.41%."
+    ],
+    "ai_prob": 0.003,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  },
+  {
+    "rec": 197,
+    "ann": 0,
+    "id": "KULR_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source statements\nThe Consolidated Statements of Operations is on page 67. Amounts are in whole dollars.",
+      "## Revenue and operating expenses for 2024\nRevenue: $10,737,481. Research and development: $4,738,305. Selling, general, and administrative: $15,979,852. Total operating expenses: $20,718,157.",
+      "## Stock-based compensation from cash flows\nThe Consolidated Statements of Cash Flows is on page 70. Stock-based compensation for 2024 is $2,692,687.",
+      "## Adjusted operating expenses\n$20,718,157 minus $2,692,687 is $18,025,470. Those are the adjusted operating expenses.",
+      "## Adjusted operating income\nGross profit is $5,483,198. $5,483,198 minus $18,025,470 is negative $12,542,272.",
+      "## Adjusted operating margin\nNegative $12,542,272 divided by $10,737,481 is negative 1.1681. As a percentage that is negative 116.81%."
+    ],
+    "ai_prob": 0.0259,
+    "predicted_class": "human",
+    "steps": 6,
+    "iterations": 1
+  },
+  {
+    "rec": 240,
+    "ann": 1,
+    "id": "COHU_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source statement\nPage 55 of the Cohu 2024 Annual Report has the Consolidated Statements of Operations. The year ends December 28, 2024. Net sales is $401,779 thousand. Cost of sales is $221,485 thousand.",
+      "## 5% reduction in cost of sales\n5% of $221,485 is $11,074.25.",
+      "## Adjusted cost of sales\n$221,485 minus $11,074.25 is $210,410.75 thousand.",
+      "## Adjusted gross profit\n$401,779 minus $210,410.75 is $191,368.25 thousand.",
+      "## Adjusted gross margin\n$191,368.25 divided by $401,779 is 0.47630. Times 100 is 47.63%.",
+      "## Result\nThe adjusted Gross Margin is 47.63% of Net sales."
+    ],
+    "ai_prob": 0.0756,
+    "predicted_class": "human",
+    "steps": 6,
+    "iterations": 1
+  },
+  {
+    "rec": 324,
+    "ann": 0,
+    "id": "GCO_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source chart\nPage 2 of the Genesco 2024 annual report has the Total Return to Shareholders graph. The graph starts at $100 on February 2, 2019.",
+      "## Ending value and period\nThe table in the graph shows Genesco ending at $63.84 in 2024. The period is 5 years.",
+      "## CAGR calculation\n$63.84 divided by $100 is 0.6384. 0.6384 to the power of one-fifth is 0.91416. 0.91416 minus 1 is negative 0.08584. Times 100 that is negative 8.584%.",
+      "## Rounded result\nRounded to two decimal places, the CAGR is negative 8.58%."
+    ],
+    "ai_prob": 0.0251,
+    "predicted_class": "human",
+    "steps": 4,
+    "iterations": 1
+  }
+]
