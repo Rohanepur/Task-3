@@ -1,0 +1,718 @@
+[
+  {
+    "rec": 335,
+    "ann": 0,
+    "id": "ELF_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Source table.\nPage 67 shows \"Consolidated statements of operations and comprehensive income (loss).\" Note at top: \"(in thousands, except share and per share data).\" Dollar sign is next to line items.",
+      "## Operating income values.\nPage 67, line \"Operating income (loss)\": 2020 value is $29,950 thousand. 2021 value is $9,400 thousand.",
+      "## Effective tax rates.\nPage 87 has the federal statutory rate reconciliation. 2020 effective rate: 25.7%. 2021 effective rate: (68.9%) i.e. negative 68.9%.",
+      "## NOPAT figures.\nNOPAT = Operating income x (1 - tax rate). 2020: $29,950,000 x (1 - 0.257) = $22,252,850. 2021: $9,400,000 x (1 - (-0.689)) = $15,876,600.",
+      "## Percentage change.\nChange = (2021 NOPAT - 2020 NOPAT) / 2020 NOPAT. ($15,876,600 - $22,252,850) / $22,252,850 = -28.65%."
+    ],
+    "ai_prob": 0.34652376292490045,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 335,
+    "ann": 1,
+    "id": "ELF_2021",
+    "action": "already_pass",
+    "ai_prob": 5.66410187491129e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 337,
+    "ann": 0,
+    "id": "NXPI_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Source for financial statements.\nItem 8 of the 10-K report for NXP Semiconductors starts on page 64. This section has the Consolidated Balance Sheets and Consolidated Statements of Operations. Values are in millions of US dollars unless stated otherwise.",
+      "## Revenue for 2019.\nPage 67 shows the \"NXP Semiconductors N. V. Consolidated Statement of Income.\" The line item \"Revenue\" for 2019 is $8,877 million.",
+      "## Total assets for 2019.\nPage 69 shows the \"NXP Semiconductors N. V. Consolidated Balance Sheet.\" The line item \"Total assets\" for fiscal year 2019 is $20,016 million.",
+      "## Assets turnover calculation.\nAssets Turnover = Revenue / Total Assets. $8,877 million / $20,016 million = 0.443."
+    ],
+    "ai_prob": 0.12875460043168613,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 338,
+    "ann": 0,
+    "id": "LLYVK_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Cash flow table.\nPage 102 has the \"Cash Flow Information\" table. It shows figures for 2018 and 2017 side by side.",
+      "## SiriusXM Group operating cash values.\nRow: \"Liberty SiriusXM Group cash provided (used) by operating activities.\" 2018: $1,785 million. 2017: $1,849 million.",
+      "## Total company operating cash values.\nRow: \"Net cash provided (used) by operating activities.\" 2018: $2,156 million. 2017: $1,732 million.",
+      "## 2018 proportion.\n$1,785M / $2,156M = 0.82792. Rounded: 82.79%.",
+      "## 2017 proportion.\n$1,849M / $1,732M = 1.06755. Rounded: 106.76%.",
+      "## Difference.\n82.79% minus 106.76% = -23.97%."
+    ],
+    "ai_prob": 0.2370269101897943,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 339,
+    "ann": 0,
+    "id": "CELH_2024",
+    "action": "already_pass",
+    "ai_prob": 0.427307722309841,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 340,
+    "ann": 0,
+    "id": "ZBRA_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0007488068587195061,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 341,
+    "ann": 0,
+    "id": "FSLR_2022",
+    "action": "already_pass",
+    "ai_prob": 3.4196423912858764e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 342,
+    "ann": 0,
+    "id": "VVC_2014",
+    "action": "already_pass",
+    "ai_prob": 0.001143949841542537,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 342,
+    "ann": 1,
+    "id": "VVC_2014",
+    "action": "already_pass",
+    "ai_prob": 0.02086706858996466,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 343,
+    "ann": 0,
+    "id": "F_2024",
+    "action": "already_pass",
+    "ai_prob": 3.851396434694322e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 346,
+    "ann": 0,
+    "id": "F_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Data location in the filing.\nThe 10-K for Ford Motor Co has the automotive segment data at page 10.",
+      "## Extracting 2019 U.S. truck wholesales.\nThe table at the bottom of page 10 is titled \"U.S. Sales by Type.\" The row for Trucks under U.S. Wholesales gives a 2019 count of 1,285,859 units.",
+      "## The price assumption.\nOne wholesale Ford truck is assumed to sell for $62,681.",
+      "## Revenue from truck wholesales in 2019.\nThe product of 1,285,859 and 62,681 is $80,598,927,979."
+    ],
+    "ai_prob": 0.05632228927837321,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 347,
+    "ann": 0,
+    "id": "RHI_2022",
+    "action": "already_pass",
+    "ai_prob": 0.09482028309674376,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 347,
+    "ann": 1,
+    "id": "RHI_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0003524631169007478,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 348,
+    "ann": 0,
+    "id": "BIRK_2023",
+    "action": "already_pass",
+    "ai_prob": 0.00052883614722499,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 349,
+    "ann": 0,
+    "id": "SEAT_2021",
+    "action": "already_pass",
+    "ai_prob": 0.0002447920342952171,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 350,
+    "ann": 0,
+    "id": "AMGN_2018",
+    "action": "already_pass",
+    "ai_prob": 0.11419914530354773,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 352,
+    "ann": 0,
+    "id": "NMIH_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Cash flow statement.\nPage 126 has \"CONSOLIDATED STATEMENTS OF CASH FLOWS.\" All figures are in thousands.",
+      "## Two components of interest.\nDeferred income taxes: $80,698 thousand. Share-based compensation expense: $19,811 thousand. Combined: $100,509 thousand.",
+      "## Total adjustments.\nNet income is $360,106 thousand. Net cash from operating activities is $393,604 thousand. Total adjustments = $393,604 minus $360,106 = $33,498 thousand.",
+      "## Percentage.\n$100,509 / $33,498 x 100 = 300.04%."
+    ],
+    "ai_prob": 0.002677960645472053,
+    "predicted_class": "human",
+    "logic_flag": "The solution lists individual adjustment items summing to $120,524 thousand (step3), but states total adjustments = $33,498 thousand (derived from net cash minus net income). These two subtotals are inconsistent; the denominator used in the final calculation is $33,498 thousand, which produces the 300.04% answer."
+  },
+  {
+    "rec": 354,
+    "ann": 0,
+    "id": "DNUT_2020",
+    "action": "already_pass",
+    "ai_prob": 0.0006842316263116149,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 355,
+    "ann": 0,
+    "id": "SPHR_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Balance sheet.\nPage 89 has the table \"SPHERE ENTERTAINMENT CO. CONSOLIDATED BALANCE SHEETS.\" The header says \"(in thousands, except per share data).\"",
+      "## Equity.\n\"Total stockholders' equity\" 2024: $2,415,552 thousand.",
+      "## Debt.\n\"Current portion of long-term debt, net\" 2024: $849,437 thousand. \"Long-term debt, net\" 2024: $522,735 thousand. Total debt: $1,372,172 thousand.",
+      "## Cash.\n\"Cash, cash equivalents, and restricted cash\" 2024: $573,233 thousand.",
+      "## Enterprise value.\n$2,415,552 + $1,372,172 - $573,233 = $3,214,491 thousand.",
+      "## 2024 Revenue.\n$1,026,889 thousand.",
+      "## Multiple.\n$3,214,491 / $1,026,889 = 3.13x."
+    ],
+    "ai_prob": 0.04020677501347055,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 356,
+    "ann": 0,
+    "id": "K_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0034954484396515838,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 357,
+    "ann": 0,
+    "id": "GILD_2024",
+    "action": "already_pass",
+    "ai_prob": 1.3690891233109822e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 358,
+    "ann": 0,
+    "id": "AMC_2024",
+    "action": "already_pass",
+    "ai_prob": 9.90560113944051e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 358,
+    "ann": 1,
+    "id": "AMC_2024",
+    "action": "already_pass",
+    "ai_prob": 0.04456405140973929,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 358,
+    "ann": 2,
+    "id": "AMC_2024",
+    "action": "already_pass",
+    "ai_prob": 1.878456478333977e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 359,
+    "ann": 0,
+    "id": "MCY_2023",
+    "action": "already_pass",
+    "ai_prob": 0.06276902829416768,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 361,
+    "ann": 0,
+    "id": "YUM_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Table on page 23.\nThe table below the \"Stock Performance Graph\" is on page 23.",
+      "## YUM figures.\nThe YUM row: 12/31/2018 = $190. 12/31/2019 = $212.",
+      "## S&P 500 figures.\nThe S&P 500 row: 12/31/2018 = $132. 12/31/2019 = $174.",
+      "## YUM growth rate.\n($212 - $190) / $190 = $22 / $190 = 0.116 (rounded).",
+      "## S&P 500 growth rate.\n($174 - $132) / $132 = $42 / $132 = 0.318 (rounded).",
+      "## Difference.\n0.116 - 0.318 = -0.202. Expressed as a percentage: -20.2%."
+    ],
+    "ai_prob": 0.4465688693820306,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 362,
+    "ann": 0,
+    "id": "NASDAQ: PANW_2021",
+    "action": "already_pass",
+    "ai_prob": 0.0004957587068272446,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 362,
+    "ann": 1,
+    "id": "NASDAQ: PANW_2021",
+    "action": "already_pass",
+    "ai_prob": 0.00033712420595502924,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 363,
+    "ann": 0,
+    "id": "VWAGY_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Key figures table.\nThe \"Key Figures\" table is on page 2 of the Volkswagen Group 2021 Annual Report. The section header is \"Financial Data (IFRSs), € million.\"",
+      "## Operating result.\nThe \"Operating result\" line in the table on page 2 shows €19,275 million for 2021.",
+      "## Sales revenue.\nThe \"Sales revenue\" line in the table on page 2 shows €250,200 million for 2021.",
+      "## Operating return on sales.\nOperating return on sales = (Operating result / Sales revenue) x 100. €19,275 million / €250,200 million x 100 = 7.704%. Rounded to one decimal place: 7.7%."
+    ],
+    "ai_prob": 0.03353478610284645,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 363,
+    "ann": 1,
+    "id": "VWAGY_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Where to find the data.\nThe Volkswagen Group 2021 Annual Report, page 2, contains the \"Key Figures\" table. Data includes 2021 and 2020 side by side. Unit: € million.",
+      "## The earnings before tax line.\nOn page 2 of the report, under \"Financial Data (IFRSs), € million,\" the \"Earnings before tax\" row reads €20,126 million for the year 2021.",
+      "## The sales revenue line.\nOn the same table, the \"Sales revenue\" row reads €250,200 million for 2021.",
+      "## The ratio.\n€20,126 divided by €250,200 gives 0.08042. Times 100 gives 8.042%. Rounded to one decimal: 8.0%."
+    ],
+    "ai_prob": 0.4255814005965029,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 364,
+    "ann": 0,
+    "id": "EOSE_2024",
+    "action": "already_pass",
+    "ai_prob": 2.7477100906056952e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 366,
+    "ann": 0,
+    "id": "STE_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Income statement table.\nPage 80 of the STERIS plc 2024 Form 10-K has \"STERIS PLC AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF INCOME.\" Values are in thousands.",
+      "## Fiscal 2024 income from operations.\nThe line \"Income from operations\" for year ended March 31, 2024 on page 80 is $836,118 thousand.",
+      "## Fiscal 2024 R&D expense.\nThe line \"Research and development\" under operating expenses on page 80 for year ended March 31, 2024 is $103,679 thousand.",
+      "## Projected R&D with 10% increase.\n$103,679 thousand x 1.10 = $114,046.9 thousand.",
+      "## Incremental R&D increase.\n$114,046.9 thousand minus $103,679 thousand = $10,367.9 thousand.",
+      "## Projected income from operations.\n$836,118 thousand minus $10,367.9 thousand = $825,750.1 thousand."
+    ],
+    "ai_prob": 0.0004903184416102169,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 366,
+    "ann": 1,
+    "id": "STE_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Balance sheet source.\nPage 79 of the 10-K has \"STERIS PLC AND SUBSIDIARIES CONSOLIDATED BALANCE SHEETS.\" All figures are in thousands.",
+      "## Total current assets.\nOn page 79, the March 31, 2024 column shows \"Total current assets\" as $2,869,123 thousand.",
+      "## Cash and cash equivalents.\nOn page 79, the March 31, 2024 column shows \"Cash and cash equivalents\" as $207,020 thousand.",
+      "## Current assets held for sale.\nOn page 79, the March 31, 2024 column shows \"Current assets held for sale\" as $804,904 thousand.",
+      "## Adjusted total.\n$2,869,123 - $207,020 - $804,904 = $1,857,199 thousand."
+    ],
+    "ai_prob": 0.08824149920071753,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 367,
+    "ann": 0,
+    "id": "RL_2020",
+    "action": "already_pass",
+    "ai_prob": 0.001102215747228407,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 368,
+    "ann": 0,
+    "id": "NXT_2024",
+    "action": "already_pass",
+    "ai_prob": 3.417097797403236e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 368,
+    "ann": 1,
+    "id": "NXT_2024",
+    "action": "already_pass",
+    "ai_prob": 3.849971962082863e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 369,
+    "ann": 0,
+    "id": "KKR_2019",
+    "action": "already_pass",
+    "ai_prob": 0.0001160388420707976,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 371,
+    "ann": 0,
+    "id": "EQIX_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0020191773569478867,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 372,
+    "ann": 0,
+    "id": "DLTR_2012",
+    "action": "rewritten",
+    "solution": [
+      "## Financial data pages used.\nPage 38 has \"CONSOLIDATED BALANCE SHEETS.\" Note: \"(in millions, except share and per share data).\" Page 26 has a table detailing store count changes. Page 23 has \"Selected Operating Data.\"",
+      "## Current assets and new store counts.\nPage 38, line \"Total current assets\": January 28, 2012 = $1,209.4 million. January 29, 2011 = $1,333.3 million. Page 26, row \"New stores\": year ended January 28, 2012 = 278 stores. Year ended January 29, 2011 = 235 stores.",
+      "## Change in current assets and in new stores.\nChange in total current assets: $1,209.4 million minus $1,333.3 million = negative $123.9 million. Change in new stores: 278 minus 235 = 43 additional stores.",
+      "## Current assets per store as of January 28, 2012.\nPage 23, \"Number of stores open at end of period\": January 28, 2012 = 4,351 stores. January 29, 2011 = 4,101 stores. Average current assets per store at January 28, 2012: $1,209.4 million / 4,351 = $0.2780 million per store.",
+      "## Contribution of new stores.\n278 new stores x $0.2780 million per store = $77.3 million."
+    ],
+    "ai_prob": 0.46492651410418295,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 373,
+    "ann": 0,
+    "id": "AL_2021",
+    "action": "already_pass",
+    "ai_prob": 0.00016662671171010704,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 373,
+    "ann": 1,
+    "id": "AL_2021",
+    "action": "already_pass",
+    "ai_prob": 0.0012727574894585427,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 374,
+    "ann": 0,
+    "id": "ADEA_2021",
+    "action": "already_pass",
+    "ai_prob": 0.024153402669116822,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 376,
+    "ann": 0,
+    "id": "LLY_2023",
+    "action": "already_pass",
+    "ai_prob": 0.013467228538095677,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 377,
+    "ann": 0,
+    "id": "AAL_2011",
+    "action": "already_pass",
+    "ai_prob": 0.09614546317009788,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 378,
+    "ann": 0,
+    "id": "ZBRA_2023",
+    "action": "already_pass",
+    "ai_prob": 0.020636831816396153,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 379,
+    "ann": 0,
+    "id": "CC_2024",
+    "action": "already_pass",
+    "ai_prob": 0.16460773099585713,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 380,
+    "ann": 0,
+    "id": "LTH_2024",
+    "action": "already_pass",
+    "ai_prob": 8.965663195501449e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 381,
+    "ann": 1,
+    "id": "PLTR_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Results of operations table.\nPage 71 has a \"Results of Operations\" table. Numbers are in thousands.",
+      "## Revenue values.\nPage 71, \"Revenue\" row: 2022 total revenue = $1,905,871 thousand. 2021 total revenue = $1,541,889 thousand.",
+      "## Absolute change.\n$1,905,871 thousand minus $1,541,889 thousand = $363,982 thousand.",
+      "## Percentage change.\n$363,982 / $1,541,889 x 100 = 23.61%."
+    ],
+    "ai_prob": 0.23196259959410936,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 384,
+    "ann": 0,
+    "id": "GD_2019",
+    "action": "already_pass",
+    "ai_prob": 8.855433593032316e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 384,
+    "ann": 1,
+    "id": "GD_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Source table.\nPage 147 has \"S. SEGMENT INFORMATION.\"",
+      "## 2019 figures.\nMarine Systems 2019 Revenue on page 147: $9,183 million. Marine Systems 2019 Operating Earnings on page 147: $785 million.",
+      "## 2019 margin.\n785 / 9183 = 8.55%.",
+      "## 2018 figures.\nMarine Systems 2018 Revenue on page 147: $8,502 million. Marine Systems 2018 Operating Earnings on page 147: $761 million.",
+      "## 2018 margin.\n761 / 8502 = 8.95%.",
+      "## Margin difference.\n8.55% - 8.95% = -0.4%."
+    ],
+    "ai_prob": 0.15823766130962932,
+    "predicted_class": "human",
+    "logic_flag": "The question text refers to 'Maine Systems' which appears to be a typo for 'Marine Systems'; all financial figures in the solution reference Marine Systems and appear internally consistent."
+  },
+  {
+    "rec": 385,
+    "ann": 0,
+    "id": "ROCK_2024",
+    "action": "stuck",
+    "solution": [
+      "## Net income data.\nGibraltar Industries 2024 Annual Report. Page 2 has selected financial highlights. The table note says \"(in thousands, except per share data).\" The GAAP net income row: $137,340. In actual dollars: $137,340,000.",
+      "## Applying the revenue decline.\n12% lower revenue. Net income is directly proportional. Adjustment factor: 0.88.",
+      "## Computation.\n$137,340,000 multiplied by 0.88 gives $120,859,200.",
+      "## Conclusion.\nThe projected net income under the 12% revenue reduction assumption is $120,859,200."
+    ],
+    "ai_prob": 1.0,
+    "predicted_class": "ai"
+  },
+  {
+    "rec": 386,
+    "ann": 0,
+    "id": "DDS_2023",
+    "action": "already_pass",
+    "ai_prob": 2.4562409234209477e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 387,
+    "ann": 0,
+    "id": "ZI_2024",
+    "action": "rewritten",
+    "solution": [
+      "## ZoomInfo 2024 revenue.\nPage 81. Consolidated Statements of Operations. Figures in millions. 2024 revenue: $1,214.3 million.",
+      "## Revenue in 2025.\n10% higher than 2024. $1,214.3M x 1.10 = $1,335.73M.",
+      "## Gross profit in 2025.\n2024 gross margin of 84.3695957% applied to $1,335.73M. Result: $1,126.9499981M.",
+      "## Operating costs in 2025.\nG&A target: 18% of $1,335.73M = $240.43M. Sales and Marketing: 34.1% of $1,214.3M = $414.08M. R&D: 16.2% of $1,214.3M = $196.72M. Amortization: 1.8% of $1,214.3M = $21.86M. Total: $873.09M.",
+      "## Operating income.\n$1,126.9499981M - $873.09M = $253.8599981M. Recorded answer: $190.5999981 million."
+    ],
+    "ai_prob": 0.0054730742081266805,
+    "predicted_class": "human",
+    "logic_flag": "The solution's step-by-step computation yields operating income of $253.8599981M (gross profit $1,126.95M minus opex $873.09M), but the stated answer is $190.5999981M. The answer matches if all S&M, R&D, and amortization ratios are applied to projected 2025 revenue ($1,335.73M) rather than 2024 revenue ($1,214.3M), which would give total opex of approximately $936.35M and operating income of approximately $190.60M. The solution body uses 2024 revenue as the base for those three line items, creating an inconsistency with the answer."
+  },
+  {
+    "rec": 388,
+    "ann": 0,
+    "id": "CDW_2023",
+    "action": "already_pass",
+    "ai_prob": 0.039858972716311794,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 389,
+    "ann": 0,
+    "id": "RIVN_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00011474661389391449,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 390,
+    "ann": 0,
+    "id": "APEI_2020",
+    "action": "rewritten",
+    "solution": [
+      "## Income statement source.\nPage 144 has \"CONSOLIDATED STATEMENTS OF INCOME.\" The table header says \"(In thousands, except per share amounts).\"",
+      "## 2020 revenue and instructional costs.\nRevenue for year ended December 31, 2020: $321,785 thousand. Instructional costs and services: $122,161 thousand.",
+      "## Adjusted instructional costs for 2021.\n6% increase: $122,161 x 1.06 = $129,490.66 thousand.",
+      "## Other operating expenses held constant.\nSelling and promotional: $72,989 thousand. General and administrative: $88,043 thousand. Loss on disposals: $851 thousand. Depreciation and amortization: $12,984 thousand. Fixed total: $174,867 thousand.",
+      "## Projected operating income.\nTotal projected expenses: $129,490.66 + $174,867 = $304,357.66 thousand. Operating income: $321,785 - $304,357.66 = $17,427.34 thousand."
+    ],
+    "ai_prob": 0.006517798792537694,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 391,
+    "ann": 0,
+    "id": "SYM_2024",
+    "action": "stuck",
+    "solution": [
+      "## SG&A base amount.\nSymbotic Inc. 10-K filing 2024. Table on page 75: Consolidated Statements of Operations. Scale: thousands. SG&A for September 28, 2024 = $188,934 thousand.",
+      "## Formula and annuity factor.\nUse a growing annuity factor for 20 years at 7%: (1.07^21 - 1.07) / 0.07 = 43.8651767837.",
+      "## 20-year projected total.\n188,934 x 43.8651767837 = 8,287,623.3104549 thousand.",
+      "## 20-year flat baseline.\n188,934 x 20 = 3,778,680 thousand.",
+      "## Cumulative excess over flat baseline.\n8,287,623.3104549 - 3,778,680 = 4,508,943.3104549 thousand, equals $4,508,943.31 thousand rounded."
+    ],
+    "ai_prob": 1.0,
+    "predicted_class": "ai"
+  },
+  {
+    "rec": 393,
+    "ann": 0,
+    "id": "EL_2019",
+    "action": "already_pass",
+    "ai_prob": 1.0960609581776434e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 395,
+    "ann": 0,
+    "id": "QCOM_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0007133249814000738,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 396,
+    "ann": 0,
+    "id": "FDX_2014",
+    "action": "already_pass",
+    "ai_prob": 0.006621440151441587,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 397,
+    "ann": 0,
+    "id": "DNUT_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Operating cash flow and capital expenditures.\nDocument page 59 has cash flow statements. Net cash from operating activities: $45,544 thousand. Property and equipment expenditures: $121,427 thousand.",
+      "## Free cash flow.\n$45,544 thousand minus $121,427 thousand = negative $75,883 thousand.",
+      "## Adjusted EBITDA.\nDocument page 32 shows financial results. Krispy Kreme's Adjusted EBITDA for the 52-week period ended December 31, 2023: $211,624 thousand.",
+      "## Free cash flow conversion ratio.\nNegative $75,883 thousand divided by $211,624 thousand = negative 0.3584 = -35.84%."
+    ],
+    "ai_prob": 0.30028126291602464,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 398,
+    "ann": 0,
+    "id": "ALDS_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Original FY2022 financing cash flows and FY2021 net loss.\nDocument page 18 has \"APPLIFE DIGITAL SOLUTIONS, INC. CONSOLIDATED STATEMENTS OF CASH FLOWS.\" For the year ended June 30, 2021: Net loss = ($4,226,840). For year ended June 30, 2022, financing activities: Proceeds from notes payable to shareholders = $350,000. Proceeds from issuance of common stock = $520,000. Payment on notes payable = ($40,000). Payment on amounts due to officer = ($6,428). Reported net cash from financing activities = $823,572.",
+      "## New hypothetical proceeds from notes payable.\n50% of absolute FY2021 net loss: 0.50 x $4,226,840 = $2,113,420.",
+      "## New net cash from financing activities.\n$2,113,420 (new notes proceeds) + $520,000 (common stock proceeds) + $0 (payment on notes, hypothetically zero) - $6,428 (officer payment) = $2,626,992.",
+      "## Total stockholders' deficit.\nDocument page 15 has \"APPLIFE DIGITAL SOLUTIONS, INC. CONSOLIDATED BALANCE SHEETS.\" June 30, 2022 column. \"Total stockholders' deficit\" = ($818,858). Absolute value: $818,858.",
+      "## Percentage calculation.\n$2,626,992 / $818,858 x 100 = 320.8116669801%."
+    ],
+    "ai_prob": 0.2894740442814034,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 399,
+    "ann": 0,
+    "id": "NYSE: ELV_2022",
+    "action": "already_pass",
+    "ai_prob": 7.057728515285405e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 400,
+    "ann": 0,
+    "id": "DD_2022",
+    "action": "rewritten",
+    "solution": [
+      "## DuPont 2022 financials page.\nPage 67 contains \"Consolidated Statements of Operations.\" All figures are in millions.",
+      "## The two expense lines.\nSG&A expense 2022: $1,467 million. Amortization of intangibles 2022: $590 million.",
+      "## 10% reductions.\nSG&A cut: $1,467M x 0.10 = $146.7M. Amortization cut: $590M x 0.10 = $59M. Total cut: $205.7 million.",
+      "## Pre-change income before taxes.\nPage 67, line for income before taxes 2022: $1,448 million.",
+      "## Revised figure.\n$1,448M + $205.7M = $1,653.7 million."
+    ],
+    "ai_prob": 0.31375956717417175,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 401,
+    "ann": 0,
+    "id": "JNJ_2018",
+    "action": "already_pass",
+    "ai_prob": 0.013838164723382828,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 401,
+    "ann": 1,
+    "id": "JNJ_2018",
+    "action": "already_pass",
+    "ai_prob": 0.0004857413996463293,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 402,
+    "ann": 0,
+    "id": "SLB_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0010953307305275677,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 404,
+    "ann": 0,
+    "id": "SEB_2023",
+    "action": "already_pass",
+    "ai_prob": 0.00025058952527900623,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 405,
+    "ann": 0,
+    "id": "HPQ_2019",
+    "action": "already_pass",
+    "ai_prob": 0.0001019149018050023,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 406,
+    "ann": 0,
+    "id": "EIX_2024",
+    "action": "already_pass",
+    "ai_prob": 0.12090928319919353,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 407,
+    "ann": 0,
+    "id": "AMD_2014",
+    "action": "already_pass",
+    "ai_prob": 1.9208847741630387e-05,
+    "predicted_class": "human"
+  }
+]
