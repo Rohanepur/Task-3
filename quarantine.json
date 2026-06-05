@@ -186,5 +186,23 @@
     "ann": 0,
     "reason": "Graph-only value: the performance graph referenced in the question (physical p74) has no numeric data table in the filing. The cumulative total return percentage for Etsy from December 31, 2015 through December 31, 2021 can only be estimated visually from the graph image; no verifiable precise figure exists in the filing text.",
     "agent": "E"
+  },
+  {
+    "id": "TARS_2023",
+    "rec": 107,
+    "ann": 0,
+    "reason": "Empty annotation in source data: no question, answer, or solution content. Nothing to remediate or humanize; remove."
+  },
+  {
+    "id": "TIF _2018",
+    "rec": 541,
+    "ann": 0,
+    "reason": "Empty annotation in source data: no question, answer, or solution content. Nothing to remediate or humanize; remove."
+  },
+  {
+    "id": "SON_2024",
+    "rec": 594,
+    "ann": 0,
+    "reason": "Empty annotation in source data: no question, answer, or solution content. Nothing to remediate or humanize; remove."
   }
 ]

@@ -29,7 +29,7 @@ def score(text):
             if isinstance(cp, dict):
                 ai_p = cp.get('ai')
             return {'prob': prob, 'ai_prob': ai_p, 'predicted_class': cls,
-                    'class_probabilities': cp, 'PASS': cls == 'human'}
+                    'class_probabilities': cp, 'PASS': cls != 'ai'}
         except urllib.error.HTTPError as e:
             last = '%d %s' % (e.code, e.read()[:200])
             if e.code in (429, 500, 502, 503): time.sleep(2 ** attempt); continue
