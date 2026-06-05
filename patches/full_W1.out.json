@@ -1,0 +1,750 @@
+[
+  {
+    "rec": 0,
+    "ann": 0,
+    "id": "COLM_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Net income.\nTable on document page 42 is \"Consolidated Statements of Operations.\" Numbers are in thousands except per share data. The row for net income under the 2023 column says $251,400 thousand.",
+      "## Interest income, net.\nPage 42, same table. \"Interest income, net\" row, 2023 column: $13,687 thousand.",
+      "## Tax expense from page 42.\nStill page 42, same table. Income tax expense row, 2023 column: $74,792 thousand.",
+      "## D and A from page 54.\nGo to page 54. Table: \"Note 5 — Property, Plant and Equipment, Net.\" In the footnote it says depreciation expense for 2023 was $56.4 million. Amortization for 2023: $1.7 million.",
+      "## EBITDA math.\nThis company shows net interest income not net interest expense. So subtract it from net income to back it out. EBITDA = 251.4 minus 13.687 plus 74.792 plus 56.4 plus 1.7. That adds up to 370.605. Final answer: $370.605 million."
+    ],
+    "ai_prob": 0.319,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 1,
+    "ann": 0,
+    "id": "BCC_2024",
+    "action": "stuck",
+    "solution": [
+      "## Source of data.\nTable name: \"Boise Cascade Company Consolidated Balance Sheets.\" Document page: 57. Numbers reported in thousands of U.S. dollars. Balance sheet date: December 31, 2024.",
+      "## Values from page 57.\nTrade receivables: $321,820 thousand. Related parties receivables: $173 thousand. Other receivables: $22,772 thousand. Receivables total: $344,765 thousand. Inventories: $803,296 thousand. Prepaid and other assets: $24,747 thousand. Property and equipment, net: $1,047,083 thousand. Operating lease right-of-use assets: $49,673 thousand. Timber deposits: $6,916 thousand. Excluded: cash, finance lease assets, goodwill, intangibles, deferred taxes.",
+      "## Math.\n344,765 plus 803,296 plus 24,747 plus 1,047,083 plus 49,673 plus 6,916. Running total: 344,765 plus 803,296 is 1,148,061. Plus 24,747 is 1,172,808. Plus 1,047,083 is 2,219,891. Plus 49,673 is 2,269,564. Plus 6,916 is 2,276,480 thousand.",
+      "## Answer.\nTotal value of operating assets as of December 31, 2024: $2,276,480 thousand, which equals $2,276.5 million."
+    ],
+    "ai_prob": 0.928,
+    "predicted_class": "ai"
+  },
+  {
+    "rec": 1,
+    "ann": 1,
+    "id": "BCC_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Location of the data.\nPage 53 of the 10-K. Management's Discussion and Analysis section has a table that reconciles net income to EBITDA and Adjusted EBITDA for the years ended December 31, 2024, 2023, and 2022. Numbers are in thousands.",
+      "## 2024 column values.\nNet income: 376,354 thousand. Interest expense: 24,067 thousand. Interest income: (39,139) thousand. Income tax provision: 125,405 thousand. Depreciation and amortization: 144,113 thousand.",
+      "## Arithmetic.\n376,354 + 24,067 = 400,421. 400,421 - 39,139 = 361,282. 361,282 + 125,405 = 486,687. 486,687 + 144,113 = 630,800 thousand.",
+      "## The answer.\nBoise Cascade Corporation EBITDA for year ended December 31, 2024 is $630,800 thousand."
+    ],
+    "ai_prob": 0.0075,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 4,
+    "ann": 1,
+    "id": "BCG_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Table location.\nPage 105. The table is named \"BINAH CAPITAL GROUP INC. CONSOLIDATED STATEMENTS OF CHANGES IN MEMBERS' EQUITY FOR THE YEARS ENDED DECEMBER 31, 2023 AND 2022 (in thousands).\"",
+      "## Reported net income for 2023.\nThe table shows net income of 571 (thousands).",
+      "## Scenario: net income is 1,200.\nDifference from actual: 1,200 minus 571 = 629 (thousands).",
+      "## Impact on accumulated deficit.\n2023 year-end accumulated deficit: minus 18,690. An extra 629 of net income reduces the deficit. New deficit: minus 18,690 plus 629 = minus 18,061.",
+      "## Total members' equity under the scenario.\nCapital is 8,886. Common Amount is 12,299. Class B Preferred is 2,609. Accumulated Deficit is minus 18,061. Sum: 8,886 + 12,299 + 2,609 - 18,061 = 5,733."
+    ],
+    "ai_prob": 0.341,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 5,
+    "ann": 0,
+    "id": "FI_2020",
+    "action": "already_pass",
+    "ai_prob": 0.0236,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 6,
+    "ann": 0,
+    "id": "TTEK_2024",
+    "action": "already_pass",
+    "ai_prob": 0.1194,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 7,
+    "ann": 0,
+    "id": "SBAC_2024",
+    "action": "already_pass",
+    "ai_prob": 0.000422,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 8,
+    "ann": 0,
+    "id": "SOFI_2024",
+    "action": "already_pass",
+    "ai_prob": 0.037,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 9,
+    "ann": 0,
+    "id": "BIIB_2015",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nDocument page 157. Look up the table under \"BIOGEN INC. AND SUBSIDIARIES NOTES TO CONSOLIDATED FINANCIAL STATEMENTS — (Continued)\" and find \"Deferred Tax Assets and Liabilities.\"",
+      "## Numbers.\n2015 total deferred tax assets: 871.7 (in millions). 2015 total deferred tax liabilities: 542.8 (in millions).",
+      "## Subtraction.\n871.7 - 542.8 = 328.9.",
+      "## The answer.\nBiogen's net deferred tax asset balance as of December 31, 2015 is $328.9 million."
+    ],
+    "ai_prob": 0.14,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 10,
+    "ann": 0,
+    "id": "ASTS_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Table on page 83.\nPage 83 shows \"NEW PROVIDENCE ACQUISITION CORP. BALANCE SHEET DECEMBER 31, 2019.\" Values are raw dollar amounts.",
+      "## Prepaid expenses amount.\nThe \"Prepaid expenses\" line shows $131,226.",
+      "## Applying the 15.15% increase.\n$131,226 times 1.1515 equals $151,106.74.",
+      "## The increase amount.\n$151,106.74 minus $131,226 equals $19,880.74.",
+      "## Total assets from the balance sheet.\n\"Total Assets\" on page 83: $231,839,185.",
+      "## Updated total assets.\n$231,839,185 plus $19,880.74 equals $231,859,065.74."
+    ],
+    "ai_prob": 0.266,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 11,
+    "ann": 0,
+    "id": "CRSR_2020",
+    "action": "already_pass",
+    "ai_prob": 0.3059,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 12,
+    "ann": 0,
+    "id": "VKTX_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Operating cash outflow.\nPage 78, \"Statements of Cash Flows.\" Row \"Net cash used in operating activities\": $24,752 (in thousands).",
+      "## Year-end cash.\nPage 75, \"Balance Sheets.\" Subheading: \"(In thousands, except share and per share amounts).\" Row \"Cash and cash equivalents\" at December 31, 2019: $8,377 thousand.",
+      "## Monthly burn rate.\n24,752 divided by 12 months = 2,062.7 per month.",
+      "## Runway.\n8,377 divided by 2,062.7 = 4.06 months. Viking Therapeutics had 4.06 months of runway as of December 31, 2019."
+    ],
+    "ai_prob": 0.0336,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 13,
+    "ann": 0,
+    "id": "CME_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0435,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 13,
+    "ann": 1,
+    "id": "CME_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0133,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 14,
+    "ann": 0,
+    "id": "IOT_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0934,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 14,
+    "ann": 2,
+    "id": "IOT_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Source data.\nPage 68, table: \"Cost of Revenue, Gross Profit, and Gross Margin.\" Year ended January 28, 2023. Values in thousands except percentages. Cost of revenue: $182,656 thousand, or $182.7M. The text below the table cites $9.1M increase from infrastructure costs and $27.6M increase from amortization of deferred IoT device costs.",
+      "## Infrastructure delta.\nScenario: 50% more than the reported $9.1M increase. 9.1 times 1.50 = 13.65. Extra amount: 13.65 - 9.1 = 4.55.",
+      "## Amortization delta.\nScenario: 10% more than the reported $27.6M increase. 27.6 times 1.10 = 30.36. Extra amount: 30.36 - 27.6 = 2.76.",
+      "## New total cost of revenue.\n182.7 + 4.55 + 2.76 + 3.5 = 193.51. Total adjusted cost of revenue: $193.51 million."
+    ],
+    "ai_prob": 0.000134,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 15,
+    "ann": 0,
+    "id": "MAT_2016",
+    "action": "already_pass",
+    "ai_prob": 0.4128,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 16,
+    "ann": 1,
+    "id": "NSC_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Cash flow statement data.\nPage 65, \"Norfolk Southern Corporation and Subsidiaries Consolidated Statements of Cash Flows\" table. Years ended December 31, 2021. All amounts in millions. Net cash provided by operating activities: $4,255 million. Depreciation: $1,181 million. Net income from page 61: $3,005 million.",
+      "## Adjusting net income.\nThe scenario reduces net income by $250 million.",
+      "## Adjusting depreciation.\nDepreciation increases by 10% of $1,181 million. 1,181 times 0.10 = $118.1 million more. Since depreciation is a non-cash add-back, higher depreciation increases operating cash flow.",
+      "## Net impact on operating cash flow.\nNet income down $250M, depreciation up $118.1M. Net change: minus 250 plus 118.1 equals minus 131.9 million.",
+      "## Revised operating cash flow.\n4,255 minus 131.9 equals $4,123.1 million."
+    ],
+    "ai_prob": 0.0658,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 17,
+    "ann": 0,
+    "id": "UMAC_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nPage 73, Note 3, \"Purchase Price Allocation and Goodwill.\" December 2023 acquisitions only (not January 2024).",
+      "## Values.\nFat Shark: $14,000,000 purchase price; $4,293,204 net assets. Rotor Riot: $6,000,000 purchase price; $1,047,059 net assets.",
+      "## Percentages.\nFat Shark net assets / purchase price = 30.66%. Rotor Riot net assets / purchase price = 17.45%.",
+      "## Weighted average.\n(14,000,000 * 30.66%) + (6,000,000 * 17.45%) = 5,339,400. Total deal: 20,000,000. Weighted average = 5,339,400 / 20,000,000 * 100 = 26.70%."
+    ],
+    "ai_prob": 0.0208,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 18,
+    "ann": 0,
+    "id": "MA_2024",
+    "action": "already_pass",
+    "ai_prob": 0.000996,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 18,
+    "ann": 1,
+    "id": "MA_2024",
+    "action": "already_pass",
+    "ai_prob": 8.59e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 21,
+    "ann": 0,
+    "id": "RHI_2018",
+    "action": "already_pass",
+    "ai_prob": 0.1278,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 21,
+    "ann": 1,
+    "id": "RHI_2018",
+    "action": "already_pass",
+    "ai_prob": 0.4175,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 22,
+    "ann": 0,
+    "id": "CAG_2022",
+    "action": "already_pass",
+    "ai_prob": 0.000108,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 22,
+    "ann": 1,
+    "id": "CAG_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Segment sales table.\nPage 30 has \"Reporting Segment Net Sales.\" Numbers are in millions.",
+      "## Values to use.\n2021 Grocery and Snacks: 4,624.7. 2022 Grocery and Snacks: 4,697.4. 2022 Total Net Sales: 11,535.9.",
+      "## Hypothetical segment revenue.\nIf 5% growth off 2021: 4,624.7 times 1.05 = 4,855.935.",
+      "## Hypothetical total revenue.\nRemove the actual 2022 Grocery segment, add the hypothetical: 11,535.9 - 4,697.4 + 4,855.935 = 11,694.435.",
+      "## Contribution percentage.\n4,855.935 / 11,694.435 = 0.4152 = 41.52%."
+    ],
+    "ai_prob": 0.1072,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 23,
+    "ann": 0,
+    "id": "DOCS_2024",
+    "action": "already_pass",
+    "ai_prob": 0.000148,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 24,
+    "ann": 0,
+    "id": "AE_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Graph on page 30.\nTitle: \"Performance Graph.\" Document page: 30. Covers December 31, 2018 to December 31, 2023. Tracks Adams Resources and Energy Inc., S&P 500, and S&P Integrated Oil and Gas Index. $100 base in 2018, with dividends reinvested.",
+      "## Reading the data.\nThe graph has a table below it with exact values per year-end. For December 31, 2023: Adams Resources and Energy Inc. = $78.79. S&P 500 = $207.21.",
+      "## Subtraction.\n207.21 minus 78.79 equals 128.42.",
+      "## Answer.\nThe difference in total return performance between Adams Resources and Energy Inc. and the S&P 500 at December 31, 2023 is 128.42."
+    ],
+    "ai_prob": 0.417,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 25,
+    "ann": 0,
+    "id": "HOG_2022",
+    "action": "already_pass",
+    "ai_prob": 0.000506,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 27,
+    "ann": 0,
+    "id": "PPIH_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nPage 22 of the document, \"Consolidated Statements of Operations.\" Figures are in thousands. Two fiscal years: ending January 31, 2022 and January 31, 2023.",
+      "## The numbers.\nOperating income 2022: 8,111. Operating income 2023: 11,144. (in thousands)",
+      "## Change.\n11,144 - 8,111 = 3,033.",
+      "## Percent.\n3,033 / 8,111 * 100 = 37.4%."
+    ],
+    "ai_prob": 0.0102,
+    "predicted_class": "human",
+    "logic_flag": "Step 3 in solution uses the phrase 'proportion of decline' to describe a calculation that shows a 37.4% INCREASE in operating income; the wording contradicts the direction of change, though the mathematical result and final answer are correct."
+  },
+  {
+    "rec": 27,
+    "ann": 1,
+    "id": "PPIH_2023",
+    "action": "already_pass",
+    "ai_prob": 0.1327,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 28,
+    "ann": 0,
+    "id": "RHI_2021",
+    "action": "already_pass",
+    "ai_prob": 0.000448,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 28,
+    "ann": 1,
+    "id": "RHI_2021",
+    "action": "already_pass",
+    "ai_prob": 0.000415,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 29,
+    "ann": 0,
+    "id": "CPRI_2023",
+    "action": "already_pass",
+    "ai_prob": 0.3902,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 30,
+    "ann": 0,
+    "id": "DOU.F_2024",
+    "action": "stuck",
+    "solution": [
+      "## Chart.\nDocument page 29. Title: \"Share Price Performance since Listing (March 21, 2024 - September 30, 2024), Indexed.\" The y-axis shows index values. March 21, 2024 = base of 100.",
+      "## Values read from the chart.\nAt September 26, 2024: Douglas reads ~89. MDAX reads ~101. SDAX reads ~102.",
+      "## Growth multiples.\nDouglas: 0.89. MDAX: 1.01. SDAX: 1.02.",
+      "## September 26, 2024 portfolio value.\nDouglas position: 5,000 * 0.89 = 4,450 euros. MDAX: 10,000 * 1.01 = 10,100. SDAX: 10,000 * 1.02 = 10,200. Total: 24,750 euros.",
+      "## Target for September 30, 2026.\nDouble the portfolio: 49,500. MDAX and SDAX stay at 1.01 and 1.02, so their total: 10,100 + 10,200 = 20,300.",
+      "## Douglas growth multiple.\n5,000 * X + 20,300 = 49,500. 5,000 * X = 29,200. X = 5.84."
+    ],
+    "ai_prob": 0.997,
+    "predicted_class": "ai"
+  },
+  {
+    "rec": 32,
+    "ann": 0,
+    "id": "AORT_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Chart and table location.\nPage 120 of the document. Title: \"COMPARISON OF 5 YEAR CUMULATIVE TOTAL RETURN*.\" The data table row labeled \"Russell 2000\" shows values at year-end dates. Footnote: \"$100 invested on 12/31/19 in stock or index, including reinvestment of dividends.\"",
+      "## Russell 2000 values from the table.\n12/19: $100.00. 12/20: $119.96. 12/21: $137.74. 12/22: $109.59. 12/23: $128.14. 12/24: $142.93.",
+      "## Five annual percentage changes.\n2019-2020: (119.96 - 100) / 100 = 19.96%. 2020-2021: (137.74 - 119.96) / 119.96 = 14.82%. 2021-2022: (109.59 - 137.74) / 137.74 = -20.44%. 2022-2023: (128.14 - 109.59) / 109.59 = 16.93%. 2023-2024: (142.93 - 128.14) / 128.14 = 11.54%.",
+      "## Simple average of the five rates.\n(19.96 + 14.82 - 20.44 + 16.93 + 11.54) / 5 = 42.81 / 5 = 8.5626682%.",
+      "## Gross margin for 2024 and projection.\nPage 65, \"Artivion, Inc. and Subsidiaries Consolidated Statements of Operations and Comprehensive Loss.\" Units in thousands except per share data. Gross margin for year ended December 31, 2024: $248,781 thousand. Projected 2025: 248,781 * 1.085626682 = $270,083 thousand."
+    ],
+    "ai_prob": 0.171,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 33,
+    "ann": 0,
+    "id": "CTLT_2024",
+    "action": "already_pass",
+    "ai_prob": 0.001473,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 34,
+    "ann": 0,
+    "id": "AMAT_2023",
+    "action": "already_pass",
+    "ai_prob": 0.000607,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 35,
+    "ann": 0,
+    "id": "ADSK_2025",
+    "action": "already_pass",
+    "ai_prob": 0.000617,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 37,
+    "ann": 2,
+    "id": "SCHW_2024",
+    "action": "already_pass",
+    "ai_prob": 8.55e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 38,
+    "ann": 0,
+    "id": "YMHAY_2022",
+    "action": "already_pass",
+    "ai_prob": 9.36e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 39,
+    "ann": 0,
+    "id": "ITT_2012",
+    "action": "already_pass",
+    "ai_prob": 6.91e-06,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 39,
+    "ann": 1,
+    "id": "ITT_2012",
+    "action": "already_pass",
+    "ai_prob": 6.42e-06,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 40,
+    "ann": 0,
+    "id": "COCO_2024",
+    "action": "already_pass",
+    "ai_prob": 9.86e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 41,
+    "ann": 0,
+    "id": "OKLO_2024",
+    "action": "stuck",
+    "solution": [
+      "## Data location.\nOKLO 2024 10-K, page 84. \"Fair Value of Common Stock\" section. Stock option table at December 31, 2024. Counts are raw shares; prices are actual dollars.",
+      "## Numbers from the table.\n9,470,382 shares outstanding. Weighted average exercise price $1.95. Assumed market price $6.00.",
+      "## Math.\n9,470,382 * 1.95 = 18,467,244.90. 18,467,244.90 / 6.00 = 3,077,874.15. 9,470,382 - 3,077,874.15 = 6,392,507.85.",
+      "## Result.\nFDSO incremental shares: 6,392,507.85."
+    ],
+    "ai_prob": 0.999,
+    "predicted_class": "ai"
+  },
+  {
+    "rec": 41,
+    "ann": 1,
+    "id": "OKLO_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nPage 43, \"Comparison for the Years Ended December 31, 2024, and 2023.\" Values in thousands.",
+      "## Cash flow data for 2024.\nOperating: $(38,390). Investing: $(175,774). Financing: $301,428. Net increase: $87,264. Ending cash: $97,132.",
+      "## Scenario.\nFinancing activities increase by 25%: 301,428 * 1.25 = 376,785.",
+      "## New net increase.\n-38,390 + -175,774 + 376,785 = 162,621.",
+      "## Beginning balance.\n97,132 - 87,264 = 9,868.",
+      "## Projected ending balance.\n9,868 + 162,621 = 172,489. Result: $172,489 thousand."
+    ],
+    "ai_prob": 0.0192,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 41,
+    "ann": 2,
+    "id": "OKLO_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nOKLO 2024 10-K, page 73. Business Combination section. Values are in thousands.",
+      "## Original values.\nCash proceeds: 276,210. Adjustments total: 1,878. Transaction costs and advisor fees: 14,662. Earnout advisor fees: 1,906. Accounts payable: 12. Accrued expenses: 45. Excise tax: 2,159. Income taxes payable: 349.",
+      "## Adjusted values.\nTransaction costs (up 10%): 14,662 * 1.10 = 16,128.20. Accrued expenses (up 20%): 45 * 1.20 = 54. Income taxes payable (up 50%): 349 * 1.50 = 523.50.",
+      "## Net assets.\nAssets side: 276,210 + 1,878 - 16,128.20 - 1,906 = 260,053.80. Liabilities: 12 + 54 + 2,159 + 523.50 = 2,748.50. Net: 260,053.80 - 2,748.50 = 257,305.30 thousand."
+    ],
+    "ai_prob": 0.117,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 42,
+    "ann": 0,
+    "id": "CTS_2025",
+    "action": "already_pass",
+    "ai_prob": 0.0351,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 44,
+    "ann": 0,
+    "id": "BMO_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0162,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 44,
+    "ann": 1,
+    "id": "BMO_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Table.\nPage 136. \"Consolidated Statement of Income.\" Canadian dollars in millions except as noted. Year ended October 31, 2024.",
+      "## Numbers.\nTotal Revenue: 32,795. Employee Compensation: 10,872. Professional Fees: 583. Total Expenses: 19,499. Provision for Credit Losses: 3,761.",
+      "## Projected changes.\nRevenue * 1.10 = 36,074.5. Compensation * 1.50 = 16,308. Professional fees * 0.90 = 524.7.",
+      "## New total expenses.\n19,499 - 10,872 + 16,308 - 583 + 524.7 = 24,876.7.",
+      "## Earnings before tax.\n36,074.5 - 3,761 - 24,876.7 = 7,436.8 million."
+    ],
+    "ai_prob": 0.399,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 45,
+    "ann": 1,
+    "id": "RH_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Statements of Operations.\nPage 73, RH 2024 10-K. Table: \"CONSOLIDATED STATEMENTS OF INCOME.\" Figures are in thousands. Year ended February 1, 2025 (fiscal 2024).",
+      "## Net revenues.\n\"Net revenues\" for year ended February 1, 2025: $3,180,753 thousand.",
+      "## Net income.\n\"Net income\" row for year ended February 1, 2025: $72,412 thousand.",
+      "## Asset and lease impairments.\nPage 76, table \"CONSOLIDATED STATEMENTS OF CASH FLOWS.\" Row \"Asset impairments\" for year ended February 1, 2025: $37,570 thousand.",
+      "## Adjusted net income.\nNet income plus impairments: 72,412 + 37,570 = 109,982 thousand.",
+      "## Adjusted net profit margin.\n109,982 / 3,180,753 * 100 = 3.46%."
+    ],
+    "ai_prob": 0.092,
+    "predicted_class": "human",
+    "logic_flag": "Step 1 contains leftover AI meta-text: 'I've have changed this reasoning point according to your instructions. They should be good to go!' This editorial note is not part of the solution logic."
+  },
+  {
+    "rec": 46,
+    "ann": 0,
+    "id": "VMC_2016",
+    "action": "already_pass",
+    "ai_prob": 0.2008,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 46,
+    "ann": 1,
+    "id": "VMC_2016",
+    "action": "already_pass",
+    "ai_prob": 0.0028,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 47,
+    "ann": 0,
+    "id": "SSKN_2023",
+    "action": "already_pass",
+    "ai_prob": 0.000146,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 47,
+    "ann": 1,
+    "id": "SSKN_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Balance sheet location.\nPage 66, \"STRATA Skin Sciences, Inc. and Subsidiary Consolidated Balance Sheets.\" Units: in thousands, except share and per share data. Date: December 31, 2023.",
+      "## Total debt.\nNo current portion of long-term debt is listed under current liabilities. The only interest-bearing debt is \"Long-term debt, net.\" Value for 2023: $15,044 thousand.",
+      "## Total stockholders' equity.\n\"Total Stockholders' Equity\" on page 66 for December 31, 2023: $12,688 thousand.",
+      "## Values summary.\nLong-term debt, net (total debt): $15,044 thousand. Total Stockholders' Equity: $12,688 thousand.",
+      "## Debt-to-equity ratio.\n15,044 / 12,688 = 1.1857. Total debt is $15,044 thousand and total equity is $12,688 thousand. The debt-to-equity ratio is 1.1857."
+    ],
+    "ai_prob": 0.176,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 48,
+    "ann": 0,
+    "id": "COKE_2024",
+    "action": "already_pass",
+    "ai_prob": 0.000419,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 49,
+    "ann": 0,
+    "id": "ZWS_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nPages 46-47. \"Consolidated Statements of Stockholders' Equity.\"",
+      "## Values from the statements.\nNet income for 2024: $160.2 million. Stock-based compensation expense: $37.9 million. Repurchase of common stock: $(150.7) million. Common stock dividends paid: $(56.7) million.",
+      "## Direction of each item.\nNet income increases equity. Stock-based comp increases equity (it is a non-cash item). Repurchases reduce equity. Dividends paid reduce equity.",
+      "## Net change from the four components.\n160.2 + 37.9 - 150.7 - 56.7 = -9.3. Change in equity from the four specified items: negative $9.3 million."
+    ],
+    "ai_prob": 0.44,
+    "predicted_class": "human",
+    "logic_flag": "Solution step 1 notes equity at Dec 31 2023 as $1,602.8M and step 2 computes total change as -16.0M; but the answer requested covers only 4 components and nets to -9.3M, which is internally consistent. However step 1 introduces a full equity change (-16.0M) that differs from the 4-component answer (-9.3M) without explicitly reconciling the remaining -6.7M from other equity movements."
+  },
+  {
+    "rec": 51,
+    "ann": 0,
+    "id": "AXP_2019",
+    "action": "already_pass",
+    "ai_prob": 0.1546,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 51,
+    "ann": 1,
+    "id": "AXP_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Income statement location.\n\"CONSOLIDATED STATEMENTS OF INCOME\" starts on page 89. Units: millions of dollars.",
+      "## Card Member rewards expense.\n\"Expenses\" section, \"Card Member rewards\" line, 2019 column: $10,439 million.",
+      "## Discount revenue.\n\"Non-interest revenues\" section, \"Discount revenue\" line, 2019 column: $26,167 million.",
+      "## Ratio.\n10,439 / 26,167 = 0.40."
+    ],
+    "ai_prob": 6.14e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 52,
+    "ann": 0,
+    "id": "BLMN_2022",
+    "action": "already_pass",
+    "ai_prob": 0.1089,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 53,
+    "ann": 0,
+    "id": "GRBK_2021",
+    "action": "already_pass",
+    "ai_prob": 5.27e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 53,
+    "ann": 1,
+    "id": "GRBK_2021",
+    "action": "already_pass",
+    "ai_prob": 0.000302,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 53,
+    "ann": 2,
+    "id": "GRBK_2021",
+    "action": "already_pass",
+    "ai_prob": 0.000592,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 54,
+    "ann": 0,
+    "id": "DOCU_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Chart on page 42.\nTitle: \"COMPARISON OF CUMULATIVE TOTAL RETURN.\" Covers April 27, 2018 to January 29, 2021. Tracks DocuSign, S&P 500, and S&P 500 Information Technology Index. Y-axis: value of $100 investment from $0 to $700.",
+      "## Values at January 29, 2021.\nDocuSign ends at approximately $600. S&P 500 IT ends at approximately $200.",
+      "## Cumulative returns.\nDocuSign: (600 - 100) / 100 = 500%. S&P 500 IT: (200 - 100) / 100 = 100%.",
+      "## Difference.\n500% - 100% = 400 percentage points. DocuSign outperformed the S&P 500 IT Index by approximately 400 percentage points."
+    ],
+    "ai_prob": 0.0676,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 54,
+    "ann": 1,
+    "id": "DOCU_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Chart on page 42.\nTitle: \"COMPARISON OF CUMULATIVE TOTAL RETURN.\" Covers April 27, 2018 to January 29, 2021. Tracks DocuSign, S&P 500, and S&P 500 Information Technology Index. Y-axis: value of $100 investment from $0 to $700.",
+      "## Values at January 29, 2021.\nDocuSign ends at approximately $650. S&P 500 IT ends at approximately $200.",
+      "## Cumulative returns.\nDocuSign: (650 - 100) / 100 = 550%. S&P 500 IT: (200 - 100) / 100 = 100%.",
+      "## Difference.\n550% - 100% = 450 percentage points. DocuSign outperformed the S&P 500 IT Index by approximately 450 percentage points."
+    ],
+    "ai_prob": 0.1815,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 55,
+    "ann": 0,
+    "id": "BRKR_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Stock Price Performance Graph.\nDocument page 72. \"Stock Price Performance Graph.\" Shows Bruker Corporation five-year cumulative total return relative to Nasdaq US Benchmark TR Index and SIC Code 3826 Laboratory Analytical Instruments Index. Y-axis: $0 to $250. X-axis: 2019 to 2024.",
+      "## Data table.\nTable \"Cumulative Total Return Index for:\" is on page 72, below the graph. Shows return from $100 base investment at December 31, 2019.",
+      "## Values for Bruker Corporation.\n12/31/2023: $145.89. 12/31/2024: $116.73.",
+      "## Percentage decline.\n(116.73 - 145.89) / 145.89 * 100 = -29.16 / 145.89 * 100 = -19.99%. Bruker Corporation's cumulative total return declined by 19.99% from 2023 to 2024."
+    ],
+    "ai_prob": 0.323,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 56,
+    "ann": 1,
+    "id": "HAYW_2021",
+    "action": "already_pass",
+    "ai_prob": 0.3561,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 57,
+    "ann": 0,
+    "id": "SCVL_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0049,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 58,
+    "ann": 0,
+    "id": "NYSE: PH_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0036,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 59,
+    "ann": 0,
+    "id": "PACB_2023",
+    "action": "already_pass",
+    "ai_prob": 2.95e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 59,
+    "ann": 1,
+    "id": "PACB_2023",
+    "action": "already_pass",
+    "ai_prob": 0.001497,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 60,
+    "ann": 0,
+    "id": "AKR_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Interest expense in 2024.\nPage 108, ACADIA REALTY TRUST 2024 10-K. Table: \"ACADIA REALTY TRUST AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF OPERATIONS.\" Units: in thousands except per share amounts. Interest expense for 2024: $(92,557) thousand.",
+      "## Scenario.\nDue to refinancing or rate hikes, interest expense increases 15% in fiscal year 2025.",
+      "## Formula.\nProjected Interest Expense = Interest Expense_2024 * (1 + 0.15).",
+      "## Calculation.\n92,557 * 1.15 = 106,440.55 thousand, or $(106.44) million."
+    ],
+    "ai_prob": 0.000871,
+    "predicted_class": "human"
+  }
+]
