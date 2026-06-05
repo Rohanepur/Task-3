@@ -1,0 +1,159 @@
+[
+  {
+    "rec": 554,
+    "ann": 0,
+    "id": "BJ_2021",
+    "verdict": "pass",
+    "checked": "S&P 500 value corrected from 168.16 to 163.16 per LOGIC_ISSUE; (263.32-163.16)/163.16*100=61.38759% confirmed; page 35 cited; 4 steps with ## headers; gz PASS (human 0.757)"
+  },
+  {
+    "rec": 328,
+    "ann": 0,
+    "id": "SCHN_2022",
+    "verdict": "flag",
+    "severity": "low",
+    "issue": "Page citation wrong: new solution says 'page 62' but data (649,863 and 941,146) is on physical page 63 (printed page ~64); old solution said 'page 65' — both wrong in opposite directions. Figures themselves are correct (confirmed in filing), CAGR math is correct: (983,404/649,863)^0.5-1=23.01415272%. gz PASS."
+  },
+  {
+    "rec": 584,
+    "ann": 0,
+    "id": "DNTH_2024",
+    "verdict": "pass",
+    "checked": "13,074-3,000=10,074 thousands=$10,074,000 correct; 6,996 and 13,074 confirmed on physical page 108 (printed 109); 5 steps; gz PASS (human 0.625)"
+  },
+  {
+    "rec": 473,
+    "ann": 0,
+    "id": "EEFT_2024",
+    "verdict": "pass",
+    "checked": "Logic fix correct: diluted numerator 310.2M (adds back convertible note interest on phys p96) + 3.16M after-tax savings = 313.36M; 313,360,000/48,082,766=6.5171 rounds to 6.52; net income 306.0M attributable confirmed on phys p83; gz PASS (human 0.743)"
+  },
+  {
+    "rec": 14,
+    "ann": 1,
+    "id": "IOT_2023",
+    "verdict": "pass",
+    "checked": "132,111,095 Class A + 392,049,114 Class B confirmed on phys p80; 549,160,209*25.40-200,670,000=13,747,999,308.60 matches new answer; old answer 13,754,999,308.60 was wrong; 4 steps; gz PASS (human 0.769)"
+  },
+  {
+    "rec": 525,
+    "ann": 0,
+    "id": "VNT_2022",
+    "verdict": "flag",
+    "severity": "low",
+    "issue": "Math error preserved from original: 401.3/579.5=0.6925 (69.25%), but both old and new solution state 0.6923 and answer 69.23%. Net earnings 401.3M and total equity 579.5M confirmed in filing (phys p44/45). The division as written does not produce the stated answer. Error is pre-existing (not introduced by rewrite) but not corrected. gz PASS."
+  },
+  {
+    "rec": 72,
+    "ann": 1,
+    "id": "FOR_2024",
+    "verdict": "pass",
+    "checked": "Forestar 177.08 and Russell 2000 156.60 confirmed on phys p28; 177.08-156.60=20.48 correct; 4 steps with ## headers; gz PASS (human 0.961)"
+  },
+  {
+    "rec": 2,
+    "ann": 0,
+    "id": "CE_2022",
+    "verdict": "pass",
+    "checked": "Net earnings 2022=1,902M and 2021=1,896M confirmed on phys p35; 1,902-1,896=6M increase correct; 4 steps; gz PASS (human 0.923)"
+  },
+  {
+    "rec": 669,
+    "ann": 0,
+    "id": "FCK_2013",
+    "verdict": "pass",
+    "checked": "Cu 111.2B lbs and Mo 3.3B lbs confirmed in filing phys p3; 111.2/3.3=33.696969697 correct; 4 steps; gz PASS (human 0.9998)"
+  },
+  {
+    "rec": 534,
+    "ann": 0,
+    "id": "CDZI_2024",
+    "verdict": "pass",
+    "checked": "Accounts payable 2,261 and total current liabilities 14,406 confirmed on phys p48; 2,261/14,406*100=15.69% rounds to 15.7% correct; 4 steps; gz PASS (human 0.998)"
+  },
+  {
+    "rec": 231,
+    "ann": 0,
+    "id": "DSGR_2024",
+    "verdict": "flag",
+    "severity": "low",
+    "issue": "Math error preserved from original: solution states 3.206^0.2=1.2624299 but actual value is 1.2623876; correct CAGR is 26.23876%, not 26.24299%. Peer Group 2024=320.60 confirmed in filing (phys p27). The exponentiation step is incorrect and the stated answer 26.24299% is wrong by 0.004 percentage points. gz PASS."
+  },
+  {
+    "rec": 229,
+    "ann": 0,
+    "id": "ADV_2024",
+    "verdict": "pass",
+    "checked": "Contingent consideration 5,655; treasury stock 34,067; principal repayments 13,131 all confirmed on phys p66; total 52,853/211,417*100=24.999% rounds to 25.0%; 4 steps; gz PASS (human 0.944)"
+  },
+  {
+    "rec": 223,
+    "ann": 0,
+    "id": "LHX_2023",
+    "verdict": "pass",
+    "checked": "Revenue 2022=17,062M and 2023=19,419M confirmed on phys p39; solution uses truncated growth rate 0.1381 giving projection 22,100.76 which rounds to 22,101M; internally consistent; 4 steps; gz PASS (human 0.943)"
+  },
+  {
+    "rec": 383,
+    "ann": 0,
+    "id": "ESSA_2024",
+    "verdict": "pass",
+    "checked": "Deposits 1,629,051 and Total liabilities 1,957,296 confirmed on phys p56; 1,629,051/1,957,296*100=83.23% correct; 4 steps; gz PASS (human 0.907)"
+  },
+  {
+    "rec": 619,
+    "ann": 0,
+    "id": "NVR_2022",
+    "verdict": "pass",
+    "checked": "Homebuilding 5,247,170; cash 2,503,424; restricted cash 48,455 all confirmed on phys p40; 5,247,170-2,503,424-48,455=2,695,291 correct; 4 steps; gz PASS (human 0.960)"
+  },
+  {
+    "rec": 246,
+    "ann": 0,
+    "id": "YETI_2021",
+    "verdict": "pass",
+    "checked": "Logic fix correct: inventory 318,864 and current assets 770,167 confirmed on phys p53; adj inventory 293,864; adj current assets 745,167; 293,864/745,167*100=39.4359922% matches new answer; old AI-refusal text in step 0 removed; 4 steps; gz PASS (mixed, PASS=true)"
+  },
+  {
+    "rec": 105,
+    "ann": 0,
+    "id": "PFE_2013",
+    "verdict": "pass",
+    "checked": "Revenues 6,897 (2011) and 2,201 (2013) confirmed on phys p70; (6,897-2,201)/6,897*100=68.09% correct; 4 steps; gz PASS (human 0.924)"
+  },
+  {
+    "rec": 4,
+    "ann": 0,
+    "id": "BCG_2023",
+    "verdict": "pass",
+    "checked": "Employee comp 2022=14,227 and 2023=13,385 confirmed on phys p103 (printed 104); (13,385-14,227)/14,227=-0.0591832431 correct; 4 steps; gz PASS (human 0.935)"
+  },
+  {
+    "rec": 451,
+    "ann": 0,
+    "id": "DG_2025",
+    "verdict": "pass",
+    "checked": "Logic fix correct: FY2024 net sales 40,612,308 (year ended Jan 31 2025) confirmed on phys p44; old used 38,717,465 which is not in the filing; 40,612,308/20,594 stores=1,972.046 thousands=1.972M/store; 4 steps; gz PASS (mixed, PASS=true)"
+  },
+  {
+    "rec": 351,
+    "ann": 0,
+    "id": "ISSC_2024",
+    "verdict": "pass",
+    "checked": "Net sales 47,198,020 and net income 6,998,380 confirmed on phys p28; margin=0.1483 (rounded); pro forma NI=50,973,861.6*0.1408=7,177,119.71328 correct; 4 steps; gz PASS (human 0.912)"
+  },
+  {
+    "rec": 415,
+    "ann": 1,
+    "id": "HFWA_2024",
+    "verdict": "pass",
+    "checked": "HFC 105.05 and S&P U.S. SmallCap Banks 132.44 confirmed on phys p39 (printed 40); 105.05/132.44=0.793 correct; 4 steps; gz PASS (human 0.941)"
+  },
+  {
+    "rec": 394,
+    "ann": 0,
+    "id": "NVT_2023",
+    "verdict": "pass",
+    "checked": "Goodwill 2,571.1 + intangibles 1,517.0 = 4,088.1; total equity 3,142.1 all confirmed on phys p48; 4,088.1/3,142.1*100=130.10% correct; 4 steps; gz PASS (human 0.927)"
+  }
+]
