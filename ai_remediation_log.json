@@ -1,0 +1,158 @@
+[
+  {
+    "id": "AKR_2024",
+    "rec": 60,
+    "ann": 1,
+    "action": "humanized",
+    "before_ai": 0.517,
+    "after_ai": 0.026
+  },
+  {
+    "id": "TECK_2024",
+    "rec": 360,
+    "ann": 0,
+    "action": "humanized",
+    "before_ai": 0.604,
+    "after_ai": 0.299
+  },
+  {
+    "id": "LSF_2023",
+    "rec": 703,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.0117
+  },
+  {
+    "id": "YEXT_2024",
+    "rec": 403,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.4088
+  },
+  {
+    "id": "CVGW_2024",
+    "rec": 271,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.4239
+  },
+  {
+    "id": "UAA_2019",
+    "rec": 462,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.006
+  },
+  {
+    "id": "HD_2022",
+    "rec": 704,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.0941
+  },
+  {
+    "id": "ZSPC_2024",
+    "rec": 103,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.4431
+  },
+  {
+    "id": "MAIN_2024",
+    "rec": 242,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.0029
+  },
+  {
+    "id": "MOG.A_2024",
+    "rec": 128,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.2103
+  },
+  {
+    "id": "LNG_2024",
+    "rec": 258,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.322
+  },
+  {
+    "id": "AEO_2022",
+    "rec": 524,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.0025
+  },
+  {
+    "id": "BIRD_2023",
+    "rec": 260,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.4676
+  },
+  {
+    "id": "GPC_2024",
+    "rec": 3,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.0008
+  },
+  {
+    "id": "PK_2023",
+    "rec": 147,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.0421
+  },
+  {
+    "id": "PFE_2013",
+    "rec": 105,
+    "ann": 1,
+    "action": "already_passes_current_model",
+    "after_ai": 0.2851
+  },
+  {
+    "id": "LLY_2024",
+    "rec": 247,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.1062
+  },
+  {
+    "id": "HALO_2024",
+    "rec": 353,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.3101
+  },
+  {
+    "id": "BKKT_2023",
+    "rec": 443,
+    "ann": 1,
+    "action": "already_passes_current_model",
+    "after_ai": 0.0896
+  },
+  {
+    "id": "IDXX_2023",
+    "rec": 19,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.0079
+  },
+  {
+    "id": "WCC_2024",
+    "rec": 71,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.1522
+  },
+  {
+    "id": "LMNR_2012",
+    "rec": 424,
+    "ann": 0,
+    "action": "already_passes_current_model",
+    "after_ai": 0.1345
+  }
+]

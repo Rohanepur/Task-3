@@ -1,0 +1,1092 @@
+[
+  {
+    "rec": 80,
+    "ann": 0,
+    "id": "BRBR_2022",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 0,
+    "severity": 0.5342,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 703,
+    "ann": 0,
+    "id": "LSF_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 0,
+    "severity": 0.6195,
+    "live_class": "human",
+    "live_ai": 0.0117
+  },
+  {
+    "rec": 45,
+    "ann": 0,
+    "id": "RH_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 1,
+    "severity": 0.6239,
+    "live_class": "ai",
+    "live_ai": 0.7405
+  },
+  {
+    "rec": 403,
+    "ann": 0,
+    "id": "YEXT_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 1,
+    "severity": 0.8117,
+    "live_class": "human",
+    "live_ai": 0.4088
+  },
+  {
+    "rec": 392,
+    "ann": 0,
+    "id": "VRTX_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 1,
+    "severity": 0.9992,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 271,
+    "ann": 0,
+    "id": "CVGW_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.5057,
+    "live_class": "human",
+    "live_ai": 0.4239
+  },
+  {
+    "rec": 72,
+    "ann": 0,
+    "id": "FOR_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.5172,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 462,
+    "ann": 0,
+    "id": "UAA_2019",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.5201,
+    "live_class": "human",
+    "live_ai": 0.006
+  },
+  {
+    "rec": 89,
+    "ann": 0,
+    "id": "PAYC_2022",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.5205,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 522,
+    "ann": 0,
+    "id": "NOG_2020",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.5424,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 457,
+    "ann": 0,
+    "id": "DVN_2025",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.552,
+    "live_class": "ai",
+    "live_ai": 0.7939
+  },
+  {
+    "rec": 360,
+    "ann": 0,
+    "id": "TECK_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.563,
+    "live_class": "ai",
+    "live_ai": 0.6038
+  },
+  {
+    "rec": 616,
+    "ann": 0,
+    "id": "UDR_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.5743,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 370,
+    "ann": 0,
+    "id": "CAT_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.5951,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 106,
+    "ann": 1,
+    "id": "AZPN_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.6832,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 64,
+    "ann": 0,
+    "id": "NUE_2020",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.6921,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 704,
+    "ann": 0,
+    "id": "HD_2022",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.7305,
+    "live_class": "human",
+    "live_ai": 0.0941
+  },
+  {
+    "rec": 544,
+    "ann": 0,
+    "id": "STX_2023",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.7334,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 324,
+    "ann": 0,
+    "id": "GCO_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.7419,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 195,
+    "ann": 0,
+    "id": "CLPT_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.7555,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 493,
+    "ann": 0,
+    "id": "QCOM (NASDAQ)_2001",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.7562,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 103,
+    "ann": 0,
+    "id": "ZSPC_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.766,
+    "live_class": "human",
+    "live_ai": 0.4431
+  },
+  {
+    "rec": 242,
+    "ann": 0,
+    "id": "MAIN_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.8357,
+    "live_class": "human",
+    "live_ai": 0.0029
+  },
+  {
+    "rec": 582,
+    "ann": 0,
+    "id": "KNSA_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.8438,
+    "live_class": "ai",
+    "live_ai": 0.6393
+  },
+  {
+    "rec": 533,
+    "ann": 0,
+    "id": "INTC_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.8466,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 118,
+    "ann": 0,
+    "id": "TXT_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.848,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 144,
+    "ann": 0,
+    "id": "ADC_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.8501,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 588,
+    "ann": 0,
+    "id": "NASDAQ: PATK_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.8524,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 618,
+    "ann": 0,
+    "id": "R_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.872,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 128,
+    "ann": 0,
+    "id": "MOG.A_2024",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.8784,
+    "live_class": "human",
+    "live_ai": 0.2103
+  },
+  {
+    "rec": 186,
+    "ann": 0,
+    "id": "AX_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.8839,
+    "live_class": "ai",
+    "live_ai": 0.534
+  },
+  {
+    "rec": 20,
+    "ann": 0,
+    "id": "RGTI_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.8846,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 258,
+    "ann": 0,
+    "id": "LNG_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.889,
+    "live_class": "human",
+    "live_ai": 0.322
+  },
+  {
+    "rec": 564,
+    "ann": 0,
+    "id": "RGR_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.8907,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 683,
+    "ann": 0,
+    "id": "VVV_2021",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.8925,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 554,
+    "ann": 0,
+    "id": "BJ_2021",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9006,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 328,
+    "ann": 0,
+    "id": "SCHN_2022",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9049,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 524,
+    "ann": 0,
+    "id": "AEO_2022",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.906,
+    "live_class": "human",
+    "live_ai": 0.0025
+  },
+  {
+    "rec": 584,
+    "ann": 0,
+    "id": "DNTH_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9195,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 381,
+    "ann": 0,
+    "id": "PLTR_2022",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.922,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 473,
+    "ann": 0,
+    "id": "EEFT_2024",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9245,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 197,
+    "ann": 0,
+    "id": "KULR_2024",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9251,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 382,
+    "ann": 0,
+    "id": "PLTK_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.928,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 260,
+    "ann": 0,
+    "id": "BIRD_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9324,
+    "live_class": "human",
+    "live_ai": 0.4676
+  },
+  {
+    "rec": 365,
+    "ann": 0,
+    "id": "OC_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9347,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 14,
+    "ann": 1,
+    "id": "IOT_2023",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9439,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 3,
+    "ann": 0,
+    "id": "GPC_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9482,
+    "live_class": "human",
+    "live_ai": 0.0008
+  },
+  {
+    "rec": 525,
+    "ann": 0,
+    "id": "VNT_2022",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9487,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 147,
+    "ann": 0,
+    "id": "PK_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9589,
+    "live_class": "human",
+    "live_ai": 0.0421
+  },
+  {
+    "rec": 72,
+    "ann": 1,
+    "id": "FOR_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9593,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 2,
+    "ann": 0,
+    "id": "CE_2022",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9602,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 105,
+    "ann": 1,
+    "id": "PFE_2013",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9696,
+    "live_class": "human",
+    "live_ai": 0.2851
+  },
+  {
+    "rec": 240,
+    "ann": 1,
+    "id": "COHU_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9796,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 669,
+    "ann": 0,
+    "id": "FCK_2013",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9801,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 247,
+    "ann": 0,
+    "id": "LLY_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9815,
+    "live_class": "human",
+    "live_ai": 0.1062
+  },
+  {
+    "rec": 145,
+    "ann": 0,
+    "id": "JNPR_2021",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9825,
+    "live_class": "ai",
+    "live_ai": 0.7827
+  },
+  {
+    "rec": 353,
+    "ann": 0,
+    "id": "HALO_2024",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9828,
+    "live_class": "human",
+    "live_ai": 0.3101
+  },
+  {
+    "rec": 534,
+    "ann": 0,
+    "id": "CDZI_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9838,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 231,
+    "ann": 0,
+    "id": "DSGR_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9866,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 229,
+    "ann": 0,
+    "id": "ADV_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9889,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 223,
+    "ann": 0,
+    "id": "LHX_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9893,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 383,
+    "ann": 0,
+    "id": "ESSA_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9906,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 330,
+    "ann": 0,
+    "id": "FUBO_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9907,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 587,
+    "ann": 1,
+    "id": "ORCL_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9912,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 443,
+    "ann": 1,
+    "id": "BKKT_2023",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9918,
+    "live_class": "human",
+    "live_ai": 0.0896
+  },
+  {
+    "rec": 16,
+    "ann": 0,
+    "id": "NSC_2021",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9925,
+    "live_class": "ai",
+    "live_ai": 0.7108
+  },
+  {
+    "rec": 619,
+    "ann": 0,
+    "id": "NVR_2022",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9935,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 246,
+    "ann": 0,
+    "id": "YETI_2021",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9937,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 676,
+    "ann": 0,
+    "id": "HROW_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9937,
+    "live_class": "ai",
+    "live_ai": 0.8261
+  },
+  {
+    "rec": 326,
+    "ann": 0,
+    "id": "UNP_2022",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9947,
+    "live_class": "ai",
+    "live_ai": 0.6228
+  },
+  {
+    "rec": 336,
+    "ann": 0,
+    "id": "OLLI_2022",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9947,
+    "live_class": "ai",
+    "live_ai": 0.7008
+  },
+  {
+    "rec": 105,
+    "ann": 0,
+    "id": "PFE_2013",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.995,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 4,
+    "ann": 0,
+    "id": "BCG_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9953,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 451,
+    "ann": 0,
+    "id": "DG_2025",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9954,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 351,
+    "ann": 0,
+    "id": "ISSC_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9955,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 691,
+    "ann": 0,
+    "id": "PMT/PRA_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9958,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 31,
+    "ann": 0,
+    "id": "ALLY_2016",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9962,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 415,
+    "ann": 1,
+    "id": "HFWA_2024",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9962,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 394,
+    "ann": 0,
+    "id": "NVT_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9963,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 122,
+    "ann": 1,
+    "id": "STSS_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9964,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 252,
+    "ann": 0,
+    "id": "GEO_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9969,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 122,
+    "ann": 0,
+    "id": "STSS_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.997,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 19,
+    "ann": 0,
+    "id": "IDXX_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9979,
+    "live_class": "human",
+    "live_ai": 0.0079
+  },
+  {
+    "rec": 36,
+    "ann": 0,
+    "id": "JJSF_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9979,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 60,
+    "ann": 1,
+    "id": "AKR_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9982,
+    "live_class": "ai",
+    "live_ai": 0.5171
+  },
+  {
+    "rec": 124,
+    "ann": 0,
+    "id": "CDNS_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9982,
+    "live_class": "ai",
+    "live_ai": 0.9436
+  },
+  {
+    "rec": 375,
+    "ann": 0,
+    "id": "CARL-B.CO_2024",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9983,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 344,
+    "ann": 0,
+    "id": "BLZE_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9984,
+    "live_class": "ai",
+    "live_ai": 0.7511
+  },
+  {
+    "rec": 511,
+    "ann": 0,
+    "id": "IQV_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9984,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 139,
+    "ann": 0,
+    "id": "PATH_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9985,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 421,
+    "ann": 0,
+    "id": "SHO_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9986,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 412,
+    "ann": 0,
+    "id": "XEL_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9987,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 414,
+    "ann": 0,
+    "id": "CDRE_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9987,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 71,
+    "ann": 0,
+    "id": "WCC_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9988,
+    "live_class": "human",
+    "live_ai": 0.1522
+  },
+  {
+    "rec": 26,
+    "ann": 0,
+    "id": "ABP_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.999,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 584,
+    "ann": 1,
+    "id": "DNTH_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.999,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 43,
+    "ann": 0,
+    "id": "AAOI_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9991,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 288,
+    "ann": 0,
+    "id": "6010.SR_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9991,
+    "live_class": "ai",
+    "live_ai": 1.0
+  },
+  {
+    "rec": 109,
+    "ann": 0,
+    "id": "XNCR_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9992,
+    "live_class": "ai",
+    "live_ai": 0.6312
+  },
+  {
+    "rec": 424,
+    "ann": 0,
+    "id": "LMNR_2012",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9992,
+    "live_class": "human",
+    "live_ai": 0.1345
+  },
+  {
+    "rec": 547,
+    "ann": 0,
+    "id": "RHI_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9992,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 611,
+    "ann": 1,
+    "id": "CPRX_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9992,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 104,
+    "ann": 0,
+    "id": "PLD_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9993,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 293,
+    "ann": 0,
+    "id": "AYX_2022",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9994,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 631,
+    "ann": 0,
+    "id": "BILL_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9994,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 356,
+    "ann": 1,
+    "id": "K_2023",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9995,
+    "live_class": "ai",
+    "live_ai": 0.8879
+  },
+  {
+    "rec": 50,
+    "ann": 0,
+    "id": "AFL_2021",
+    "kind": "P2_logic_ai",
+    "humanization_attempts": 3,
+    "severity": 0.9996,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 158,
+    "ann": 0,
+    "id": "CELC_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9996,
+    "live_class": "ai",
+    "live_ai": 1
+  },
+  {
+    "rec": 678,
+    "ann": 0,
+    "id": "HWM_2024",
+    "kind": "P3_ai_only",
+    "humanization_attempts": 3,
+    "severity": 0.9999,
+    "live_class": "ai",
+    "live_ai": 1
+  }
+]

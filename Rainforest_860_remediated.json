@@ -178,8 +178,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9481755002074574
+              "isAI": false,
+              "probability": 0.0008
             }
           },
           "ai_content_fixed": true
@@ -943,8 +943,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9978509131596516
+              "isAI": false,
+              "probability": 0.0079
             }
           },
           "ai_content_fixed": true
@@ -2989,11 +2989,10 @@
         "question": "What was the year-over-year change in net cash provided by operating activities from fiscal year 2023 to fiscal year 2024?",
         "answer": "$(15,310) thousands",
         "solution": [
-          "## Obtaining net cash provided by operating activities for fiscal year 2024.\nThe 10-K Form of Acadia Realty Trust, identified by the ticker AKR, corresponding to the fiscal year ended December 31, 2024, was accessed. The table of contents is located on page 4 of the document. According to said index, Item 8 – Financial Statements and Supplementary Data begins on page 101. On page 112, within this item, the table \"Consolidated Statements of Cash Flows\" presents “Net cash provided by operating activities” for 2024, which reports a value of $140,448, expressed in thousands (USD), as indicated below the table heading.",
-          "## Obtaining net cash provided by operating activities for fiscal year 2023.\nThe 10-K Form of Acadia Realty Trust, identified by the ticker AKR, corresponding to the fiscal year ended December 31, 2024, was accessed. The table of contents is located on page 4 of the document. According to said index, Item 8 – Financial Statements and Supplementary Data begins on page 101. On page 112, within this item, the table \"Consolidated Statements of Cash Flows\" presents “Net cash provided by operating activities” for 2023, which reports a value of $155,758, expressed in thousands (USD), as indicated below the table heading.",
-          "## Identifying the formula for year-over-year change.\nThe absolute change in value between two consecutive periods is calculated using the following formula: Year-over-Year Change = Value_2024 – Value_2023.",
-          "## Substituting values and performing the calculation.\n$140,448 – $155,758 = $(15,310) thousand.",
-          "## Stating the final result.\nNet cash provided by operating activities from fiscal year 2023 to fiscal year 2024 decreased by\n$15,310"
+          "## Net cash provided by operating activities for 2024\nThe Consolidated Statements of Cash Flows for Acadia Realty Trust appears on page 112 of the 10-K. The statement reports net cash provided by operating activities of $140,448 thousand for the year ended December 31, 2024.",
+          "## Net cash provided by operating activities for 2023\nThe same Consolidated Statements of Cash Flows on page 112 reports net cash provided by operating activities of $155,758 thousand for the year ended December 31, 2023.",
+          "## Year-over-year change calculation\nThe year-over-year change is found by subtracting the 2023 value from the 2024 value. The calculation is $140,448 thousand minus $155,758 thousand.",
+          "## Result\nThe result of the calculation is negative $15,310 thousand. Net cash provided by operating activities decreased by $15,310 thousand from fiscal year 2023 to fiscal year 2024."
         ],
         "metadata": {
           "page_numbers": [
@@ -3010,8 +3009,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9981927930431895
+              "isAI": false,
+              "probability": 0.026
             }
           },
           "ai_content_fixed": true
@@ -3565,8 +3564,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9988499763749606
+              "isAI": false,
+              "probability": 0.1522
             }
           },
           "ai_content_fixed": true
@@ -5193,8 +5192,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.7659986266258358
+              "isAI": false,
+              "probability": 0.4431
             }
           },
           "ai_content_fixed": true
@@ -5329,8 +5328,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9696060209735763
+              "isAI": false,
+              "probability": 0.2851
             }
           },
           "ai_content_fixed": true
@@ -6426,8 +6425,8 @@
           "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.8784430292145882
+              "isAI": false,
+              "probability": 0.2103
             }
           },
           "ai_content_fixed": true
@@ -7332,8 +7331,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.958941760951421
+              "isAI": false,
+              "probability": 0.0421
             }
           },
           "ai_content_fixed": true
@@ -11530,8 +11529,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.8356908705261552
+              "isAI": false,
+              "probability": 0.0029
             }
           },
           "ai_content_fixed": true
@@ -11742,8 +11741,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9814927638697717
+              "isAI": false,
+              "probability": 0.1062
             }
           },
           "ai_content_fixed": true
@@ -12144,8 +12143,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.8890166608192552
+              "isAI": false,
+              "probability": 0.322
             }
           },
           "ai_content_fixed": true
@@ -12217,8 +12216,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9324244861136031
+              "isAI": false,
+              "probability": 0.4676
             }
           },
           "ai_content_fixed": true
@@ -12707,8 +12706,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.505668840002154
+              "isAI": false,
+              "probability": 0.4239
             }
           },
           "ai_content_fixed": true
@@ -16182,8 +16181,8 @@
           "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9828018494669712
+              "isAI": false,
+              "probability": 0.3101
             }
           },
           "ai_content_fixed": true
@@ -16513,11 +16512,10 @@
         "question": "What is the ratio between ANTAMINA product in FY 2024 and ANTAMINA SALES IN FY 2022?",
         "answer": "0.95",
         "solution": [
-          "## Step 1: Locate the “Production” table for the Copper segment.\nThe Annual report contains a table which displays Copper segment production data by mine on page 16 at the bottom. The table displays production data in units of thousand tonnes.",
-          "## Step 2: Identify the “Production” for Antamina in FY 2024.\nThe \"Production\" section includes \"Antamina\" which you need to locate.\nThe value for \"2024\" appears in this section.\nThe Antamina mine generated 96 thousand tonnes of production during the 2024 fiscal year.",
-          "##  Identify Antamina's \"Sales\" in FY 2022.\nThe \"Sales\" section includes \"Antamina\" as the relevant information source.\nThe \"2022\" value exists within this section.\nThe sales output from Antamina operations during FY 2022 reached 101 thousand tonnes.",
-          "## Calculate the Ratio.\nThe required ratio needs Antamina to calculate FY 2024 production output based on FY 2022 sales data.\nThe ratio needs Antamina to calculate FY 2024 production output through division of FY 2022 sales data.\nThe ratio calculation involves dividing 96 thousand tonnes by 101 thousand tonnes.\nThe ratio equals 0.950495.",
-          "## Step 5: Calculate the ratio between Antamina's Production in FY 2024 and Antamina's Sales in FY 2022.\nThe production ratio between FY 2024 and FY 2022 sales at Antamina amounts to 96 thousand tonnes divided by 101 thousand tonnes which results in 0.95."
+          "## Locate the copper segment production table\nTeck Resources reports copper segment production and sales by mine. The relevant table is at the bottom of page 16 of the annual report. The data is stated in thousand tonnes.",
+          "## Antamina production for 2024\nThe production section of the table on page 16 includes the Antamina mine. The 2024 production value for Antamina is 96 thousand tonnes.",
+          "## Antamina sales for 2022\nThe sales section of the table on page 16 includes the Antamina mine. The 2022 sales value for Antamina is 101 thousand tonnes.",
+          "## Ratio calculation\nThe ratio is the 2024 Antamina production divided by the 2022 Antamina sales. The calculation is 96 divided by 101. The result is 0.95."
         ],
         "metadata": {
           "page_numbers": [
@@ -16534,8 +16532,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.5629665877404872
+              "isAI": false,
+              "probability": 0.299
             }
           },
           "ai_content_fixed": true
@@ -18376,8 +18374,8 @@
           "humanization_attempts": 1,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.8116917382918346
+              "isAI": false,
+              "probability": 0.4088
             }
           },
           "ai_content_fixed": true
@@ -19241,8 +19239,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9991671341441325
+              "isAI": false,
+              "probability": 0.1345
             }
           },
           "ai_content_fixed": true
@@ -20056,8 +20054,8 @@
           "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9917545523816027
+              "isAI": false,
+              "probability": 0.0896
             }
           },
           "ai_content_fixed": true
@@ -20794,8 +20792,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.5200933620365923
+              "isAI": false,
+              "probability": 0.006
             }
           },
           "ai_content_fixed": true
@@ -23417,8 +23415,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9059635582102353
+              "isAI": false,
+              "probability": 0.0025
             }
           },
           "ai_content_fixed": true
@@ -30521,8 +30519,8 @@
           "question_type": "ratio_calculation",
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.6194921035708356
+              "isAI": false,
+              "probability": 0.0117
             }
           }
         }
@@ -30559,8 +30557,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.7304629395767591
+              "isAI": false,
+              "probability": 0.0941
             }
           },
           "ai_content_fixed": true
