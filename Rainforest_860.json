@@ -1046,6 +1046,7 @@
             "Table",
             "Table",
             "Table",
+            "Table",
             "Table"
           ],
           "question_type": "advanced_percentage",
@@ -1319,6 +1320,7 @@
             27
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "simple_percentage",
@@ -1804,6 +1806,7 @@
             82
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "given_assumption",
@@ -2000,6 +2003,7 @@
             73
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "scenario_model",
@@ -2479,6 +2483,7 @@
             89
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "financial_projection",
@@ -4084,6 +4089,7 @@
             59
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "advanced_amount",
@@ -5010,6 +5016,7 @@
             74
           ],
           "grounding_elements": [
+            "Table",
             "Table",
             "Chart"
           ],
@@ -8629,6 +8636,7 @@
             126
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "advanced_percentage",
@@ -9828,6 +9836,7 @@
             78
           ],
           "grounding_elements": [
+            "Chart",
             "Table"
           ],
           "question_type": "",
@@ -9902,6 +9911,7 @@
             33
           ],
           "grounding_elements": [
+            "Chart",
             "Chart"
           ],
           "question_type": "chart_question",
@@ -10152,6 +10162,7 @@
             66
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "advanced_amount",
@@ -11783,6 +11794,7 @@
             33
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "scenario_model",
@@ -12041,6 +12053,7 @@
             92
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "ratio_calculation",
@@ -12449,6 +12462,7 @@
             51
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "ratio_calculation",
@@ -13350,6 +13364,8 @@
             118
           ],
           "grounding_elements": [
+            "Table",
+            "Table",
             "Table"
           ],
           "question_type": "simple_percentage",
@@ -13533,6 +13549,7 @@
             69
           ],
           "grounding_elements": [
+            "Table",
             "Table",
             "Table"
           ],
@@ -14060,6 +14077,7 @@
             103
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "advanced_amount",
@@ -14283,6 +14301,7 @@
             198
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "advanced_percentage",
@@ -14429,6 +14448,7 @@
             127
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "ratio_calculation",
@@ -14776,6 +14796,7 @@
             67
           ],
           "grounding_elements": [
+            "Chart",
             "Chart"
           ],
           "question_type": "advanced_percentage",
@@ -15664,6 +15685,7 @@
             132
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "advanced_percentage",
@@ -15735,6 +15757,8 @@
             86
           ],
           "grounding_elements": [
+            "Table",
+            "Table",
             "Table",
             "Table"
           ],
@@ -16941,6 +16965,7 @@
           ],
           "grounding_elements": [
             "Table",
+            "Table",
             "Table"
           ],
           "question_type": "ratio_calculation",
@@ -17186,6 +17211,8 @@
             64
           ],
           "grounding_elements": [
+            "Table",
+            "Table",
             "Table",
             "Table"
           ],
@@ -18083,6 +18110,7 @@
           ],
           "grounding_elements": [
             "Table",
+            "Table",
             "Table"
           ],
           "question_type": "advanced_percentage",
@@ -18151,6 +18179,7 @@
             59
           ],
           "grounding_elements": [
+            "Table",
             "Table",
             "Table"
           ],
@@ -18476,6 +18505,7 @@
             60
           ],
           "grounding_elements": [
+            "Table",
             "Table",
             "Table"
           ],
@@ -19195,6 +19225,7 @@
             145
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "scenario_model",
@@ -19759,6 +19790,7 @@
             63
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "given_assumption",
@@ -20783,6 +20815,7 @@
             42
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "simple_percentage",
@@ -21211,6 +21244,7 @@
           "grounding_elements": [
             "Table",
             "Table",
+            "Table",
             "Table"
           ],
           "question_type": "ratio_calculation",
@@ -21323,6 +21357,7 @@
             48
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "simple_percentage",
@@ -21953,6 +21988,7 @@
             79
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "financial_projection",
@@ -22623,6 +22659,7 @@
             81
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "financial_projection",
@@ -22838,6 +22875,7 @@
             50
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "financial_projection",
@@ -23328,6 +23366,7 @@
             73
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "ratio_calculation",
@@ -24578,6 +24617,8 @@
             56
           ],
           "grounding_elements": [
+            "Table",
+            "Table",
             "Table"
           ],
           "question_type": "simple_percentage",
@@ -24864,6 +24905,7 @@
             47
           ],
           "grounding_elements": [
+            "Table",
             "Table",
             "Table"
           ],
@@ -25555,6 +25597,7 @@
             87
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "advanced_percentage",
@@ -26341,6 +26384,7 @@
             "Table",
             "Table",
             "Table",
+            "Table",
             "Table"
           ],
           "question_type": "advanced_percentage",
@@ -26528,6 +26572,7 @@
             347
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "given_assumption",
@@ -26767,6 +26812,7 @@
             64
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "advanced_percentage",
@@ -27127,6 +27173,7 @@
             92
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "advanced_percentage",
@@ -28233,6 +28280,8 @@
             59
           ],
           "grounding_elements": [
+            "Table",
+            "Table",
             "Table"
           ],
           "question_type": "advanced_amount",
@@ -28970,6 +29019,8 @@
           ],
           "grounding_elements": [
             "Table",
+            "Table",
+            "Table",
             "Table"
           ],
           "question_type": "ratio_calculation",
@@ -29574,6 +29625,7 @@
             71
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "advanced_amount",
@@ -29645,6 +29697,7 @@
             84
           ],
           "grounding_elements": [
+            "Table",
             "Table"
           ],
           "question_type": "financial_projection",
