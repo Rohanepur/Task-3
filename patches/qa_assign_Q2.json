@@ -1,0 +1,259 @@
+[
+  {
+    "rec": 158,
+    "ann": 0,
+    "kinds": [
+      "ai"
+    ],
+    "ans_changed": false
+  },
+  {
+    "rec": 170,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 186,
+    "ann": 0,
+    "kinds": [
+      "ai"
+    ],
+    "ans_changed": false
+  },
+  {
+    "rec": 187,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 187,
+    "ann": 1,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 197,
+    "ann": 0,
+    "kinds": [
+      "logic",
+      "ai"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 200,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 200,
+    "ann": 1,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 203,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 207,
+    "ann": 1,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 209,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 210,
+    "ann": 1,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 226,
+    "ann": 1,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 232,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 240,
+    "ann": 1,
+    "kinds": [
+      "ai"
+    ],
+    "ans_changed": false
+  },
+  {
+    "rec": 246,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 261,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 267,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 284,
+    "ann": 1,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 306,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 313,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 315,
+    "ann": 1,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 317,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 322,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 324,
+    "ann": 0,
+    "kinds": [
+      "ai"
+    ],
+    "ans_changed": false
+  },
+  {
+    "rec": 326,
+    "ann": 0,
+    "kinds": [
+      "ai"
+    ],
+    "ans_changed": false
+  },
+  {
+    "rec": 328,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 333,
+    "ann": 1,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 336,
+    "ann": 0,
+    "kinds": [
+      "ai"
+    ],
+    "ans_changed": false
+  },
+  {
+    "rec": 340,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  },
+  {
+    "rec": 344,
+    "ann": 0,
+    "kinds": [
+      "ai"
+    ],
+    "ans_changed": false
+  },
+  {
+    "rec": 346,
+    "ann": 0,
+    "kinds": [
+      "logic"
+    ],
+    "ans_changed": true
+  }
+]
