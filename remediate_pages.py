@@ -25,7 +25,8 @@ ROWS = "audit_results.json"
 CACHE = "/tmp/rf_pdfs"
 os.makedirs(CACHE, exist_ok=True)
 
-page_pat = re.compile(r"pages?\s+(\d+)", re.I)
+page_pat = re.compile(
+    r"\b(?:pages?|pg)\b\.?\s*(?:nos?\.?|numbers?|num|#)?\.?\s*(\d+)", re.I)
 # Salient figures a solution might cite: comma-grouped numbers, percentages,
 # $-amounts, and bare 4+ digit integers (years excluded as too noisy).
 comma_pat = re.compile(r"\b\d{1,3}(?:,\d{3})+(?:\.\d+)?\b")

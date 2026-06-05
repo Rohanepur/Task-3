@@ -9,7 +9,11 @@ from collections import Counter
 DATA = "Rainforest_860.json"
 AI_THRESHOLD = 0.50
 
-page_pat = re.compile(r"pages?\s+(\d+)", re.I)
+# Recognise the page-citation phrasings annotators actually use: "page 5",
+# "pages 5", "page no 5", "page no. 5", "page number 103", "pg 93", "pg. 11",
+# "page #5". A bare "p. 5" is intentionally not matched (too noisy).
+page_pat = re.compile(
+    r"\b(?:pages?|pg)\b\.?\s*(?:nos?\.?|numbers?|num|#)?\.?\s*(\d+)", re.I)
 
 
 def sol_ai_prob(a):
