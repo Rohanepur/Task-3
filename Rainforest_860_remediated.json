@@ -754,10 +754,10 @@
         "question": "What would Norfolk Southern’s FY 2021 operating margin have been if revenue declined by $600 million and fuel expense was $75 million higher?",
         "answer": "35.78068677%",
         "solution": [
-          "## Locate reported revenue and fuel expense.\nThe 2021 Norfolk Southern 10-K report shows railway operating revenues reached $11,142 million according to page 61 while page 41 reports fuel expenses at $799 million for 2021. The financial information on pages 61 and 41 presents data in millions of dollars as the reporting currency.",
-          "## Locate reported operating income.\nThe income statement on page 61 shows “Income from railway operations” at $4,447 million which represents the company's operating income before adjustments.",
-          "## Adjust revenue and operating income for the scenario.\nThe company lost $600 million in revenue while its fuel expenses grew by $75 million. The initial $11,142 million needs to have $600 million subtracted from it to reach the adjusted revenue of $10,542 million. The operating income decreases because higher fuel expenses lower profitability so we need to subtract both the $600 million revenue decrease and the $75 million fuel expense increase from the original amount.\nThe final operating income amount equals $3,772 million.",
-          "## Calculate the revised operating margin.\nThe new operating margin calculation requires dividing adjusted operating income by adjusted revenue before multiplying by 100 to obtain the percentage result:\n ($3,772 ÷ $10,542) × 100 = \n35.78068677%"
+          "Page 61 of the Norfolk Southern 2021 10-K gives railway operating revenues of $11,142 million. Page 41 gives fuel expenses of $799 million. The numbers are in millions.",
+          "Page 61 also gives \"Income from railway operations\" of $4,447 million.",
+          "The scenario cuts revenue by $600 million, so adjusted revenue is $10,542 million. It also adds $75 million to fuel expense. Operating income falls by both amounts: $4,447 - $600 - $75 = $3,772 million.",
+          "Dividing: $3,772 / $10,542 = 0.3578068677. As a percentage, that is 35.78068677%."
         ],
         "metadata": {
           "page_numbers": [
@@ -774,8 +774,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9924971278010822
+              "isAI": false,
+              "probability": 0.066
             }
           },
           "ai_content_fixed": true
@@ -2161,10 +2161,10 @@
         "question": "If RH’s selling, general, and administrative (SG&A) expenses increase by 5% in fiscal year 2025 from fiscal year 2024, what would be the projected operating income for fiscal year 2025, assuming all other income and expense items remain constant? Express the answer in thousands of dollars.",
         "answer": "$340,837 thousand",
         "solution": [
-          "## Locate the Consolidated Statements of Operations.\nThe RH 10-K contains the Consolidated Statements of Income on page 73 under \"Item 8. Financial Statements and Supplementary Data\" with the table title \"Consolidated Statements of Income.\" The table shows financial data in thousands of units according to the \"(In thousands, except per share amounts)\" statement.",
-          "## Extract 2024 SG&A expenses and operating income.\nThe \"Consolidated Statements of Income\" on page 73 shows \"Selling, general and administrative expenses\" as $1,022,948 thousand for the \"Year Ended February 3, 2024.\" The operating income for the \"Year Ended February 1, 2025\" is $322,587 thousand according to the same table.",
-          "## Calculate projected 2025 SG&A expenses.\nThe 2024 SG&A expenses need a 5% increase which results in $1,022,948 thousand × 1.05 = $1,074,095.4 thousand. The table requires whole thousands so the value should be rounded to $1,074,095 thousand.",
-          "## Compute projected 2025 operating income.\nThe calculation of operating income requires the subtraction of SG&A Expenses from Gross Profit. The gross profit for 2025 amounts to $1,414,932 thousand according to page 73 of the document. The calculation of operating income results from subtracting projected SG&A expenses from the fixed gross profit amount of $1,414,932 thousand. $1,414,932 thousand - $1,074,095 thousand = $340,837 thousand."
+          "Page 73 of the RH 10-K has the Consolidated Statements of Income under \"Item 8. Financial Statements and Supplementary Data.\" The table is titled \"Consolidated Statements of Income.\" Values are in thousands.",
+          "The same table on page 73 shows \"Selling, general and administrative expenses\" of $1,022,948 thousand for the year ended February 3, 2024. The table shows operating income of $322,587 thousand for the year ended February 1, 2025.",
+          "A 5% increase on $1,022,948 thousand gives $1,022,948 x 1.05 = $1,074,095.4 thousand, rounded to $1,074,095 thousand.",
+          "Gross profit for fiscal year 2025 is $1,414,932 thousand per page 73. Projected operating income = $1,414,932 - $1,074,095 = $340,837 thousand."
         ],
         "metadata": {
           "page_numbers": [
@@ -2181,8 +2181,8 @@
           "humanization_attempts": 1,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.6238676966598288
+              "isAI": false,
+              "probability": 0.138
             }
           },
           "ai_content_fixed": true
@@ -5490,12 +5490,12 @@
         "question": "Calculate Xencor, Inc.'s Accounts Receivable Turnover Ratio for the year ended December 31, 2024. Express your answer as a decimal rounded to two decimal places.",
         "answer": "2.61",
         "solution": [
-          "## Locate the Consolidated Statements of Loss and the Consolidated Balance Sheets.\nThe annual report includes the \"Consolidated Statements of Loss\" on page 81 and the \"Consolidated Balance Sheets\" on page 80. The financial data presented in the tables follows thousands as the unit of measurement according to the \"(in thousands, except share and per share data)\" statement located in the table headings.",
-          "## Identify the Total revenues for the year ended December 31, 2024.\nThe \"Consolidated Statements of Loss\" table on page 81 presents \"Total revenues\" for the \"Year Ended December 31, 2024\". The reported value of 110,493 represents $110,493 thousands because the amounts are expressed in thousands.",
-          "## Identify the Accounts receivable at December 31, 2023.\nThe \"Consolidated Balance Sheets\" table on page 80 shows Accounts receivable at 23,739 for December 31, 2023. The amounts are in thousands so this value represents $23,739,000.",
-          "## Identify the Accounts receivable at December 31, 2024.\nThe \"Consolidated Balance Sheets\" table on page 80 shows \"Accounts receivable\" at $60,849,000 for \"December 31, 2024\".",
-          "## Calculate the average accounts receivable for the years ended December 31, 2023, and December 31, 2024.\nThe process of finding average accounts receivable involves first combining the December 31, 2023 and December 31, 2024 accounts receivable values before conducting the division by two. The total of 23,739 and 60,849 divided by two equals 84,588/2 = 42,294. The calculation produces $42,294,000 because the numbers in the calculation represent thousands.",
-          "## Calculate the Accounts Receivable Turnover Ratio for 2024.\nThe Accounts Receivable Turnover Ratio calculation requires us to divide Total revenues from December 31, 2024 by the average accounts receivable amount determined in Step 5. The calculation results in 110,493 divided by 42,294. The result of this calculation amounts to 2.612499. The ratio value becomes 2.61 after we apply two decimal places to the result."
+          "Page 81 has the Consolidated Statements of Loss. Page 80 has the Consolidated Balance Sheets. Amounts are in thousands.",
+          "Total revenues for the year ended December 31, 2024 from page 81: $110,493 thousand.",
+          "Accounts receivable at December 31, 2023 from page 80: $23,739 thousand.",
+          "Accounts receivable at December 31, 2024 from page 80: $60,849 thousand.",
+          "Average accounts receivable: (23,739 plus 60,849) divided by 2 equals 84,588 divided by 2 equals 42,294 thousand.",
+          "Accounts receivable turnover ratio: 110,493 divided by 42,294 equals 2.61.\n\nAnswer: 2.61"
         ],
         "metadata": {
           "page_numbers": [
@@ -5514,8 +5514,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9991967928986526
+              "isAI": false,
+              "probability": 0.018
             }
           },
           "ai_content_fixed": true
@@ -6222,11 +6222,10 @@
         "question": "Based on the consolidated balance sheets as of December 31, 2023, and December 31, 2024, and the consolidated income statement for the year ended December 31, 2024, calculate the percentage change in the ratio of total current assets to total current liabilities from December 31, 2023, to December 31, 2024.",
         "answer": "136.04%",
         "solution": [
-          "## Determine total current assets and total current liabilities as of December 31, 2023.\nThe \"CADENCE DESIGN SYSTEMS, INC. CONSOLIDATED BALANCE SHEETS\" table on page 55 shows the following information:\nThe company held $1,976,217 thousand in total current assets during December 31, 2023 and reported $1,590,867 thousand in total current liabilities at that time.",
-          "## Calculate the ratio of total current assets to total current liabilities as of December 31, 2023.\nThe December 31 2023 total current assets to total current liabilities ratio amounts to $1,976,217 thousand divided by $1,590,867 thousand which equals 1.2422.",
-          "## Determine total current assets and total current liabilities as of December 31, 2024.\nThe financial records show that total current assets reached $4,016,079 thousand during December 31, 2024 while total current liabilities reached $1,370,105 thousand at that time.",
-          "## Calculate the ratio of total current assets to total current liabilities as of December 31, 2024.\nThe December 31, 2024 total current assets to total current liabilities ratio amounts to $4,016,079 thousand divided by $1,370,105 thousand which equals 2.9312.",
-          "## Calculate the percentage change in the ratio.\nThe percentage change calculation follows this process: (2.9312 - 1.2422) / 1.2422 * 100 = 135.97%"
+          "The CADENCE DESIGN SYSTEMS, INC. CONSOLIDATED BALANCE SHEETS table is on page 55.",
+          "Total current assets at December 31, 2023: $1,976,217 thousand.\nTotal current liabilities at December 31, 2023: $1,590,867 thousand.\nRatio at December 31, 2023: 1,976,217 / 1,590,867 = 1.2422.",
+          "Total current assets at December 31, 2024: $4,016,079 thousand.\nTotal current liabilities at December 31, 2024: $1,370,105 thousand.\nRatio at December 31, 2024: 4,016,079 / 1,370,105 = 2.9312.",
+          "Percentage change: (2.9312 - 1.2422) / 1.2422 x 100 = 135.97%."
         ],
         "metadata": {
           "page_numbers": [
@@ -6243,8 +6242,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9982002815815044
+              "isAI": false,
+              "probability": 0.32
             }
           },
           "ai_content_fixed": true
@@ -7237,10 +7236,10 @@
         "question": "Calculate the Debt-to-Equity Ratio for Juniper Networks as of December 31, 2021.",
         "answer": "1.06",
         "solution": [
-          "## Locate the Consolidated Balance Sheets.\nThe user needs to navigate to page 167 of the Document to access the \"Juniper Networks, Inc. Consolidated Balance Sheets\" section. The financial data shows values in millions except for par values.",
-          "## Identify Total liabilities for 2021.\nThe \"Total liabilities\" entry appears in the \"LIABILITIES AND STOCKHOLDERS' EQUITY\" section which marks the end of the report. The December 31, 2021 total liabilities amount is $4,570.1 million.",
-          "## Identify Total stockholders' equity for 2021.\nThe \"Total stockholders' equity\" entry appears as the final entry in the \"LIABILITIES AND STOCKHOLDERS' EQUITY\" section. The total stockholders' equity balance at December 31, 2021 reached $4,316.9 million.",
-          "## Calculate the Debt-to-Equity Ratio.\nThe Debt-to-Equity Ratio calculation requires dividing Total liabilities by Total stockholders' equity which produces $4,570.1 million / $4,316.9 million. The final ratio value equals 1.06.\n1.06"
+          "Page 167 of the Document has the \"Juniper Networks, Inc. Consolidated Balance Sheets.\" Values are in millions, except par values.",
+          "The \"Total liabilities\" line appears in the \"LIABILITIES AND STOCKHOLDERS' EQUITY\" section. Total liabilities as of December 31, 2021 = $4,570.1 million.",
+          "The \"Total stockholders' equity\" line is the last entry in the same section. Total stockholders' equity as of December 31, 2021 = $4,316.9 million.",
+          "Debt-to-Equity Ratio = $4,570.1 / $4,316.9 = 1.06."
         ],
         "metadata": {
           "page_numbers": [
@@ -7257,8 +7256,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9824965114630081
+              "isAI": false,
+              "probability": 0.002
             }
           },
           "ai_content_fixed": true
@@ -9004,11 +9003,11 @@
         "question": "What was the year-over-year percentage growth in net interest income after provision for credit losses from 2023 to 2024 for Axos Financial, Inc.?",
         "answer": "22.41%",
         "solution": [
-          "## Find the net interest income after the provision for credit losses for 2024.\nThe financial statements of AXOS FINANCIAL INC can be found on page 123 under \"AXOS FINANCIAL, INC. CONSOLIDATED STATEMENTS OF INCOME\" for the June 30, 2024 reporting period. The 2024 value for \"Net interest income, after provision for credit losses\" is located in this particular row. The statement shows financial data in thousands of dollars because of the \"(Dollars in thousands, except earnings per common share)\" declaration at the top of the table which leads to a total value of $928,929,000.",
-          "## Find the net interest income after the provision for credit losses for 2023.\nThe financial data for fiscal year 2024 appears in the \"AXOS FINANCIAL, INC. CONSOLIDATED STATEMENTS OF INCOME\" table which is found on page 123. The 2023 \"Net interest income, after provision for credit losses\" value appears in this section. The table header shows that all values represent thousands of dollars so the 2023 figure amounts to $758,871 thousand.",
-          "## Calculate the absolute change in net interest income after the provision for credit losses.\nThe calculation of net interest income after provision for credit losses from 2023 to 2024 involves subtracting $758,871 thousand from $928,929 thousand. The total increase in net interest income after provision for credit losses amounts to $170,058 thousand based on this calculation.",
-          "## Calculate the year-over-year percentage growth.\nThe absolute change from Step 3 needs to be divided by the 2023 value before multiplying by 100 to determine the percentage change: ($170,058 thousand / $758,871 thousand) × 100 = 22.41%. The percentage change in net interest income after provision for credit losses amounts to 22.41% based on the calculation between 2023 and 2024.",
-          "## Verify and present the final percentage.\nThe year-over-year percentage growth in net interest income after provision for credit losses from 2023 to 2024 for Axos Financial, Inc., is  \n22.41%"
+          "The AXOS FINANCIAL, INC. CONSOLIDATED STATEMENTS OF INCOME is on page 123. Dollar amounts are in thousands.",
+          "Net interest income after provision for credit losses, 2024: $928,929 thousand.\nNet interest income after provision for credit losses, 2023: $758,871 thousand.",
+          "Change: 928,929 minus 758,871 equals 170,058 thousand.",
+          "Percentage growth: 170,058 divided by 758,871 times 100 equals 22.41%.",
+          "Answer: 22.41%"
         ],
         "metadata": {
           "page_numbers": [
@@ -9025,8 +9024,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.8839456239041321
+              "isAI": false,
+              "probability": 0.053
             }
           },
           "ai_content_fixed": true
@@ -14971,10 +14970,10 @@
         "question": "What is the Union Pacific's return on assets for 2022?",
         "answer": "10.69%",
         "solution": [
-          "## Determine relevant data.\nThe Return on Assets calculation depends on two financial metrics which use Net Income and Total Assets. The \"CONSOLIDATED STATEMENTS OF INCOME – Union Pacific Corporation and Subsidiary Companies\" table located on page 44 contains the necessary Net Income data. The \"CONSOLIDATED STATEMENTS OF FINANCIAL POSITION – Union Pacific Corporation and Subsidiary Companies\" table on page 45 contains the required Total Assets information. The financial data presented on page 44 shows values in millions of dollars according to the \"Millions, Except Per Share Amounts, for the Years Ended December 31\" statement. The financial data exists in millions of dollars.",
-          "## Identify net income.\nThe Net income location exists in the \"CONSOLIDATED STATEMENTS OF INCOME – Union Pacific Corporation and Subsidiary Companies\" table which appears on page 44. The 2022 financial records indicate Net income reached $6,998 million.",
-          "## Identify total assets.\nThe Total Assets figure appears in the \"CONSOLIDATED STATEMENTS OF FINANCIAL POSITION – Union Pacific Corporation and Subsidiary Companies\" table which is found on page 45 of the document. The financial information in the report shows values in millions except for share and per share amounts that present their amounts as of December 31. The financial values in the report are presented in millions. The 2022 financial data contains this specific entry under the \"Total assets\" section.  \nThe total assets value reaches $65,449 million.",
-          "## Calculate return on assets.\nThe Return on Assets calculation requires dividing Net Income by Total Assets before multiplying the outcome by 100 to achieve a percentage result. The Return on Assets calculation follows this formula:  \n($6,998 million ÷ $65,449 million) * 100 =  \n10.69%"
+          "Page 44 has the CONSOLIDATED STATEMENTS OF INCOME for Union Pacific Corporation and Subsidiary Companies. Dollar amounts are in millions.\nPage 45 has the CONSOLIDATED STATEMENTS OF FINANCIAL POSITION for Union Pacific Corporation and Subsidiary Companies. Dollar amounts are in millions.",
+          "Net income for 2022 from page 44: $6,998 million.",
+          "Total assets as of December 31, 2022 from page 45: $65,449 million.",
+          "Return on assets equals net income divided by total assets times 100.\n6,998 divided by 65,449 times 100 equals 10.69%.\n\nAnswer: 10.69%"
         ],
         "metadata": {
           "page_numbers": [
@@ -14993,8 +14992,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.99467324304084
+              "isAI": false,
+              "probability": 0.04
             }
           },
           "ai_content_fixed": true
@@ -15446,10 +15445,10 @@
         "question": "What percent of Ollie's cash flows from investing were put into CapEx?",
         "answer": "46.4%",
         "solution": [
-          "## Define the formula for calculating capital expenditures as a percentage of investing cash flows.\nCapEx % = (CapEx/Cash flows from investing) x 100",
-          "## Find total cash flows from investing activities.\nThe \"Cash flows from Investing Activities\" section appears on page 57 of the document under \"Consolidated Statements of Cash Flows\" which shows a net cash outflow of $(111,454) thousand during the fiscal year ending January 28, 2023.",
-          "## Find capital expenditures (CapEx) for 2022.\nThe “Consolidated Statements of Cash Flows” table on page 57 shows “Purchases of property and equipment” at $(51,667) thousand.",
-          "## Apply the formula.\n($(51,667) / $(111,454)) x 100 \n= \n46.4%"
+          "CapEx % equals CapEx divided by cash flows from investing times 100.",
+          "Page 57 has the Consolidated Statements of Cash Flows. The net cash used in investing activities for the fiscal year ending January 28, 2023 is $(111,454) thousand.",
+          "The same table on page 57 shows \"Purchases of property and equipment\" at $(51,667) thousand.",
+          "51,667 divided by 111,454 times 100 equals 46.4%.\n\nAnswer: 46.4%"
         ],
         "metadata": {
           "page_numbers": [
@@ -15466,8 +15465,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9947329057521731
+              "isAI": false,
+              "probability": 0.161
             }
           },
           "ai_content_fixed": true
@@ -15772,10 +15771,10 @@
         "question": "Calculate the change in  \"Accounts receivable, net\" as a percentage of \"total Revenue\" for Backblaze, Inc. between December 31, 2024, and March 31, 2025.",
         "answer": "-0.1762%",
         "solution": [
-          "## Identify 'Accounts receivable, net' at Both Balance Sheet Dates.\nThe values for \"Accounts receivable, net\" are found in the \"BACKBLAZE, INC. CONDENSED CONSOLIDATED BALANCE SHEETS (in thousands, except share and per share data)\" on page 10 in the Document.\n\"Accounts receivable, net\" as of March 31, 2025 (unaudited) = $1,770 thousand.\n\"Accounts receivable, net\" as of December 31, 2024 = $1,831 thousand.",
-          "## Calculate the Change in 'Accounts receivable, net'.\nThe change is calculated by subtracting the value at the beginning of the period (December 31, 2024) from the value at the end of the period (March 31, 2025).\nChange in Accounts receivable, net = Value at March 31, 2025 - Value at December 31, 2024\nChange in Accounts receivable, net = 1,770 thousand−$1,831 thousand\nChange in Accounts receivable, net = -61 thousand.\nThis indicates a decrease in net accounts receivable.",
-          "## Identify 'Revenue' for the Three Months Ended March 31, 2025.\nThe total \"Revenue\" for the three months ended March 31, 2025, is found in the \"BACKBLAZE. INC. CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE LOSS (in thousands, except share and per share data)\" on page 11 of Exhibit 99.1 in the Document.\n\"Revenue\" for the three months ended March 31, 2025 (unaudited) = $34,613 thousand.",
-          "## Express the Change in 'Accounts receivable, net' as a Percentage of 'Revenue'.\nThis is calculated as: (Change in Accounts receivable, net / Revenue for Q1 2025) * 100%.\nPercentage = (-$61 thousand/$34,613 thousand)* 100%\nPercentage = (-61 / 34613) * 100%\nPercentage = -0.001762 * 100%\nPercentage = \n-0.1762%"
+          "The \"BACKBLAZE, INC. CONDENSED CONSOLIDATED BALANCE SHEETS (in thousands, except share and per share data)\" on page 10 gives the following. \"Accounts receivable, net\" as of March 31, 2025 = $1,770 thousand. \"Accounts receivable, net\" as of December 31, 2024 = $1,831 thousand.",
+          "Change = $1,770 thousand - $1,831 thousand = -$61 thousand. Accounts receivable decreased by $61 thousand.",
+          "The \"BACKBLAZE, INC. CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE LOSS (in thousands, except share and per share data)\" on page 11 of Exhibit 99.1 gives \"Revenue\" for the three months ended March 31, 2025 = $34,613 thousand.",
+          "Percentage = (-$61 / $34,613) x 100% = -0.1762%."
         ],
         "metadata": {
           "page_numbers": [
@@ -15794,8 +15793,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9984473324927209
+              "isAI": false,
+              "probability": 0.27
             }
           },
           "ai_content_fixed": true
@@ -16305,11 +16304,10 @@
         "question": "A 27% surge in holiday sales increased revenue, but seasonal labor raised COGS by $800 million. Calculate the new gross profit.",
         "answer": "$7,025.94 million",
         "solution": [
-          "## Find Total revenue.\nThe “Consolidated Statement of Income” table located on page 95 indicates that Net sales for 2023 amounted to $13,122 million according to the “In millions, except per share data” units.",
-          "## Adjust revenue for holiday surge.\nNew revenue: $13,122 x 1.27 = $16,664.94 million.",
-          "## Find Cost of Sales.\nThe \"Consolidated Statement of Income\" table on page 95 shows \"Cost of goods sold\" at $8,839 million under the 2023 section.",
-          "## Adjust Cost of Sales.\nNew COGS: $8,839 + $800 = $9,639 million.",
-          "## Calculate revised gross profit.\nThe gross profit calculation yields $7,025.94 million after subtracting $9,639 from $16,664.94."
+          "The Consolidated Statement of Income table is on page 95.",
+          "Net sales for 2023: $13,122 million.\nNew revenue after 27% surge: 13,122 x 1.27 = $16,664.94 million.",
+          "Cost of goods sold for 2023: $8,839 million.\nNew COGS after seasonal labor increase: 8,839 + 800 = $9,639 million.",
+          "Revised gross profit: 16,664.94 - 9,639 = $7,025.94 million."
         ],
         "metadata": {
           "page_numbers": [
@@ -16326,8 +16324,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9995020064128604
+              "isAI": false,
+              "probability": 0.013
             }
           },
           "ai_content_fixed": true
@@ -20591,10 +20589,9 @@
         "question": "Calculate Devon Energy's liquidity ratio for 2024.",
         "answer": "1.04",
         "solution": [
-          "## Locate Devon’s Consolidated Balance Sheet.\nThe Consolidated Balance Sheets for Devon Energy appear on page 50 of its 2024 10-K filing. The section presents a complete financial picture of December 31, 2024 through its display of current assets and current liabilities amounts. The financial information presents values in millions of U.S. dollars.",
-          "## Identify the Relevant Line Items.\nThe balance sheet shows:\nThe company displays $3,427 million in current assets which are listed under “Total current assets.”\nThe company shows $3,309 million in current liabilities which are listed under “Total current liabilities.”",
-          "## Apply the Current Ratio Formula.\nThe Current Ratio requires the following formula to calculate it:\nThe Current Ratio equals Current Assets divided by Current Liabilities.\n=$ 3,427/$3,309",
-          "## Compute the ratio.\nDevon Energy’s current ratio for 2024 is:\n1.04"
+          "Page 50 of Devon Energy's 2024 10-K has the Consolidated Balance Sheets. It shows current assets and current liabilities as of December 31, 2024. Values are in millions of U.S. dollars.",
+          "The balance sheet shows \"Total current assets\" of $3,427 million and \"Total current liabilities\" of $3,309 million.",
+          "Current Ratio = Current Assets / Current Liabilities = $3,427 / $3,309 = 1.04."
         ],
         "metadata": {
           "page_numbers": [
@@ -20611,8 +20608,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.5520439959903078
+              "isAI": false,
+              "probability": 0.001
             }
           },
           "ai_content_fixed": true
@@ -25745,10 +25742,10 @@
         "question": "What was the current ratio as of December 31, 2023?",
         "answer": "4.3397888983",
         "solution": [
-          "## Locate the balance sheet table.\nThe document page 143 displays the “KINIKSA PHARMACEUTICALS INTERNATIONAL, PLC CONSOLIDATED BALANCE SHEETS” table which contains financial data for December 31, 2023 and December 31, 2022. The table displays financial data for assets and liabilities and shareholders’ equity during the years ending December 31, 2023 and December 31, 2022.",
-          "## Find total current assets for December 31, 2023.\nThe Assets section includes the Total current assets entry. The December 31, 2023 column shows that the reported amount reached $276,297.",
-          "## Find total current liabilities for December 31, 2023.\nThe Total current liabilities entry exists in the Current liabilities section of the table. The December 31, 2023 financial report shows that total current liabilities reached $63,666.",
-          "## Calculate the current ratio.\nThe following calculation is required to determine the current ratio value.\nThe current ratio equals Total Current Assets divided by Total Current Liabilities.\nThe calculation of 276,297 divided by 63,666 results in 4.3397888983."
+          "The KINIKSA PHARMACEUTICALS INTERNATIONAL, PLC CONSOLIDATED BALANCE SHEETS is on page 143. It shows data for December 31, 2023 and December 31, 2022.",
+          "Total current assets, December 31, 2023: $276,297.",
+          "Total current liabilities, December 31, 2023: $63,666.",
+          "276,297 divided by 63,666 equals 4.3397888983.\n\nAnswer: 4.3397888983"
         ],
         "metadata": {
           "page_numbers": [
@@ -25765,8 +25762,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.8437993266717803
+              "isAI": false,
+              "probability": 0.158
             }
           },
           "ai_content_fixed": true
@@ -29468,10 +29465,10 @@
         "question": "How did Harrow Inc.’s current ratio change from fiscal year 2023 to fiscal year 2024?",
         "answer": "-0.75",
         "solution": [
-          "## Locate the Consolidated Balance Sheets.\nThe document contains the CONSOLIDATED BALANCE SHEETS table which shows Harrow Inc.'s financial situation at December 31, 2024 and 2023 starting on page 51.",
-          "## Identify total current assets for both years.\nThe Consolidated Balance Sheets show Total current assets at $189,651,000 for 2024 and $139,482,000 for 2023.",
-          "## Identify total current liabilities for both years.\nThe “LIABILITIES” section of the table contains the “Total current liabilities” entry. The total current liabilities for 2024 reached $91,343,000 while the 2023 total was $49,344,000.",
-          "## Calculate the year-over-year change in the current ratio.\nThe current ratio for 2024 and 2023 can be calculated by dividing current assets by current liabilities.\nThe 2024 current ratio equals $189,651,000 divided by $91,343,000 which results in 2.08.\nThe 2023 current ratio equals $139,482,000 divided by $49,344,000 which equals 2.83.\nThe ratio difference amounts to -0.75 since 2.08 - 2.83 equals -0.75."
+          "The CONSOLIDATED BALANCE SHEETS table starts on page 51.",
+          "2024 total current assets: $189,651,000.\n2023 total current assets: $139,482,000.",
+          "2024 total current liabilities: $91,343,000.\n2023 total current liabilities: $49,344,000.",
+          "2024 current ratio: 189,651 / 91,343 = 2.08.\n2023 current ratio: 139,482 / 49,344 = 2.83.\nChange: 2.08 - 2.83 = -0.75."
         ],
         "metadata": {
           "page_numbers": [
@@ -29488,8 +29485,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9937439607250879
+              "isAI": false,
+              "probability": 0.022
             }
           },
           "ai_content_fixed": true

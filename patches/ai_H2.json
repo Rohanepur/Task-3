@@ -1,0 +1,76 @@
+[
+  {
+    "rec": 16,
+    "ann": 0,
+    "id": "NSC_2021",
+    "action": "humanized",
+    "solution": [
+      "Page 61 of the Norfolk Southern 2021 10-K gives railway operating revenues of $11,142 million. Page 41 gives fuel expenses of $799 million. The numbers are in millions.",
+      "Page 61 also gives \"Income from railway operations\" of $4,447 million.",
+      "The scenario cuts revenue by $600 million, so adjusted revenue is $10,542 million. It also adds $75 million to fuel expense. Operating income falls by both amounts: $4,447 - $600 - $75 = $3,772 million.",
+      "Dividing: $3,772 / $10,542 = 0.3578068677. As a percentage, that is 35.78068677%."
+    ],
+    "ai_prob": 0.066,
+    "predicted_class": "human",
+    "iterations": 3
+  },
+  {
+    "rec": 45,
+    "ann": 0,
+    "id": "RH_2024",
+    "action": "humanized",
+    "solution": [
+      "Page 73 of the RH 10-K has the Consolidated Statements of Income under \"Item 8. Financial Statements and Supplementary Data.\" The table is titled \"Consolidated Statements of Income.\" Values are in thousands.",
+      "The same table on page 73 shows \"Selling, general and administrative expenses\" of $1,022,948 thousand for the year ended February 3, 2024. The table shows operating income of $322,587 thousand for the year ended February 1, 2025.",
+      "A 5% increase on $1,022,948 thousand gives $1,022,948 x 1.05 = $1,074,095.4 thousand, rounded to $1,074,095 thousand.",
+      "Gross profit for fiscal year 2025 is $1,414,932 thousand per page 73. Projected operating income = $1,414,932 - $1,074,095 = $340,837 thousand."
+    ],
+    "ai_prob": 0.138,
+    "predicted_class": "human",
+    "iterations": 1
+  },
+  {
+    "rec": 344,
+    "ann": 0,
+    "id": "BLZE_2024",
+    "action": "humanized",
+    "solution": [
+      "The \"BACKBLAZE, INC. CONDENSED CONSOLIDATED BALANCE SHEETS (in thousands, except share and per share data)\" on page 10 gives the following. \"Accounts receivable, net\" as of March 31, 2025 = $1,770 thousand. \"Accounts receivable, net\" as of December 31, 2024 = $1,831 thousand.",
+      "Change = $1,770 thousand - $1,831 thousand = -$61 thousand. Accounts receivable decreased by $61 thousand.",
+      "The \"BACKBLAZE, INC. CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE LOSS (in thousands, except share and per share data)\" on page 11 of Exhibit 99.1 gives \"Revenue\" for the three months ended March 31, 2025 = $34,613 thousand.",
+      "Percentage = (-$61 / $34,613) x 100% = -0.1762%."
+    ],
+    "ai_prob": 0.269,
+    "predicted_class": "mixed",
+    "iterations": 1
+  },
+  {
+    "rec": 145,
+    "ann": 0,
+    "id": "JNPR_2021",
+    "action": "humanized",
+    "solution": [
+      "Page 167 of the Document has the \"Juniper Networks, Inc. Consolidated Balance Sheets.\" Values are in millions, except par values.",
+      "The \"Total liabilities\" line appears in the \"LIABILITIES AND STOCKHOLDERS' EQUITY\" section. Total liabilities as of December 31, 2021 = $4,570.1 million.",
+      "The \"Total stockholders' equity\" line is the last entry in the same section. Total stockholders' equity as of December 31, 2021 = $4,316.9 million.",
+      "Debt-to-Equity Ratio = $4,570.1 / $4,316.9 = 1.06."
+    ],
+    "ai_prob": 0.002,
+    "predicted_class": "human",
+    "iterations": 1
+  },
+  {
+    "rec": 457,
+    "ann": 0,
+    "id": "DVN_2025",
+    "action": "humanized",
+    "solution": [
+      "Page 50 of Devon Energy's 2024 10-K has the Consolidated Balance Sheets. It shows current assets and current liabilities as of December 31, 2024. Values are in millions of U.S. dollars.",
+      "The balance sheet shows \"Total current assets\" of $3,427 million and \"Total current liabilities\" of $3,309 million.",
+      "Current Ratio = Current Assets / Current Liabilities = $3,427 / $3,309 = 1.04."
+    ],
+    "ai_prob": 0.001,
+    "predicted_class": "human",
+    "iterations": 1
+  }
+]

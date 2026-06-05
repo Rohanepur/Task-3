@@ -1,0 +1,80 @@
+[
+  {
+    "rec": 186,
+    "ann": 0,
+    "id": "AX_2024",
+    "action": "humanized",
+    "solution": [
+      "The AXOS FINANCIAL, INC. CONSOLIDATED STATEMENTS OF INCOME is on page 123. Dollar amounts are in thousands.",
+      "Net interest income after provision for credit losses, 2024: $928,929 thousand.\nNet interest income after provision for credit losses, 2023: $758,871 thousand.",
+      "Change: 928,929 minus 758,871 equals 170,058 thousand.",
+      "Percentage growth: 170,058 divided by 758,871 times 100 equals 22.41%.",
+      "Answer: 22.41%"
+    ],
+    "ai_prob": 0.053,
+    "predicted_class": "human",
+    "iterations": 3
+  },
+  {
+    "rec": 326,
+    "ann": 0,
+    "id": "UNP_2022",
+    "action": "humanized",
+    "solution": [
+      "Page 44 has the CONSOLIDATED STATEMENTS OF INCOME for Union Pacific Corporation and Subsidiary Companies. Dollar amounts are in millions.\nPage 45 has the CONSOLIDATED STATEMENTS OF FINANCIAL POSITION for Union Pacific Corporation and Subsidiary Companies. Dollar amounts are in millions.",
+      "Net income for 2022 from page 44: $6,998 million.",
+      "Total assets as of December 31, 2022 from page 45: $65,449 million.",
+      "Return on assets equals net income divided by total assets times 100.\n6,998 divided by 65,449 times 100 equals 10.69%.\n\nAnswer: 10.69%"
+    ],
+    "ai_prob": 0.040,
+    "predicted_class": "human",
+    "iterations": 1
+  },
+  {
+    "rec": 109,
+    "ann": 0,
+    "id": "XNCR_2024",
+    "action": "humanized",
+    "solution": [
+      "Page 81 has the Consolidated Statements of Loss. Page 80 has the Consolidated Balance Sheets. Amounts are in thousands.",
+      "Total revenues for the year ended December 31, 2024 from page 81: $110,493 thousand.",
+      "Accounts receivable at December 31, 2023 from page 80: $23,739 thousand.",
+      "Accounts receivable at December 31, 2024 from page 80: $60,849 thousand.",
+      "Average accounts receivable: (23,739 plus 60,849) divided by 2 equals 84,588 divided by 2 equals 42,294 thousand.",
+      "Accounts receivable turnover ratio: 110,493 divided by 42,294 equals 2.61.\n\nAnswer: 2.61"
+    ],
+    "ai_prob": 0.018,
+    "predicted_class": "human",
+    "iterations": 1
+  },
+  {
+    "rec": 582,
+    "ann": 0,
+    "id": "KNSA_2023",
+    "action": "humanized",
+    "solution": [
+      "The KINIKSA PHARMACEUTICALS INTERNATIONAL, PLC CONSOLIDATED BALANCE SHEETS is on page 143. It shows data for December 31, 2023 and December 31, 2022.",
+      "Total current assets, December 31, 2023: $276,297.",
+      "Total current liabilities, December 31, 2023: $63,666.",
+      "276,297 divided by 63,666 equals 4.3397888983.\n\nAnswer: 4.3397888983"
+    ],
+    "ai_prob": 0.158,
+    "predicted_class": "human",
+    "iterations": 2
+  },
+  {
+    "rec": 336,
+    "ann": 0,
+    "id": "OLLI_2022",
+    "action": "humanized",
+    "solution": [
+      "CapEx % equals CapEx divided by cash flows from investing times 100.",
+      "Page 57 has the Consolidated Statements of Cash Flows. The net cash used in investing activities for the fiscal year ending January 28, 2023 is $(111,454) thousand.",
+      "The same table on page 57 shows \"Purchases of property and equipment\" at $(51,667) thousand.",
+      "51,667 divided by 111,454 times 100 equals 46.4%.\n\nAnswer: 46.4%"
+    ],
+    "ai_prob": 0.161,
+    "predicted_class": "human",
+    "iterations": 1
+  }
+]

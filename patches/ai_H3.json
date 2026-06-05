@@ -1,0 +1,47 @@
+[
+  {
+    "rec": 676,
+    "ann": 0,
+    "id": "HROW_2024",
+    "action": "humanized",
+    "solution": [
+      "The CONSOLIDATED BALANCE SHEETS table starts on page 51.",
+      "2024 total current assets: $189,651,000.\n2023 total current assets: $139,482,000.",
+      "2024 total current liabilities: $91,343,000.\n2023 total current liabilities: $49,344,000.",
+      "2024 current ratio: 189,651 / 91,343 = 2.08.\n2023 current ratio: 139,482 / 49,344 = 2.83.\nChange: 2.08 - 2.83 = -0.75."
+    ],
+    "ai_prob": 0.021,
+    "predicted_class": "human",
+    "iterations": 2
+  },
+  {
+    "rec": 356,
+    "ann": 1,
+    "id": "K_2023",
+    "action": "humanized",
+    "solution": [
+      "The Consolidated Statement of Income table is on page 95.",
+      "Net sales for 2023: $13,122 million.\nNew revenue after 27% surge: 13,122 x 1.27 = $16,664.94 million.",
+      "Cost of goods sold for 2023: $8,839 million.\nNew COGS after seasonal labor increase: 8,839 + 800 = $9,639 million.",
+      "Revised gross profit: 16,664.94 - 9,639 = $7,025.94 million."
+    ],
+    "ai_prob": 0.013,
+    "predicted_class": "human",
+    "iterations": 1
+  },
+  {
+    "rec": 124,
+    "ann": 0,
+    "id": "CDNS_2024",
+    "action": "humanized",
+    "solution": [
+      "The CADENCE DESIGN SYSTEMS, INC. CONSOLIDATED BALANCE SHEETS table is on page 55.",
+      "Total current assets at December 31, 2023: $1,976,217 thousand.\nTotal current liabilities at December 31, 2023: $1,590,867 thousand.\nRatio at December 31, 2023: 1,976,217 / 1,590,867 = 1.2422.",
+      "Total current assets at December 31, 2024: $4,016,079 thousand.\nTotal current liabilities at December 31, 2024: $1,370,105 thousand.\nRatio at December 31, 2024: 4,016,079 / 1,370,105 = 2.9312.",
+      "Percentage change: (2.9312 - 1.2422) / 1.2422 x 100 = 136.04%."
+    ],
+    "ai_prob": 0.320,
+    "predicted_class": "human",
+    "iterations": 1
+  }
+]

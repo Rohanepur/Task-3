@@ -154,5 +154,122 @@
     "ann": 0,
     "action": "already_passes_current_model",
     "after_ai": 0.1345
+  },
+  {
+    "id": "AX_2024",
+    "rec": 186,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.053,
+    "predicted_class": "human",
+    "agent": "ai_H1"
+  },
+  {
+    "id": "UNP_2022",
+    "rec": 326,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.04,
+    "predicted_class": "human",
+    "agent": "ai_H1"
+  },
+  {
+    "id": "XNCR_2024",
+    "rec": 109,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.018,
+    "predicted_class": "human",
+    "agent": "ai_H1"
+  },
+  {
+    "id": "KNSA_2023",
+    "rec": 582,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.162,
+    "predicted_class": "human",
+    "agent": "ai_H1"
+  },
+  {
+    "id": "OLLI_2022",
+    "rec": 336,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.159,
+    "predicted_class": "human",
+    "agent": "ai_H1"
+  },
+  {
+    "id": "NSC_2021",
+    "rec": 16,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.063,
+    "predicted_class": "human",
+    "agent": "ai_H2"
+  },
+  {
+    "id": "RH_2024",
+    "rec": 45,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.139,
+    "predicted_class": "human",
+    "agent": "ai_H2"
+  },
+  {
+    "id": "BLZE_2024",
+    "rec": 344,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.269,
+    "predicted_class": "mixed",
+    "agent": "ai_H2"
+  },
+  {
+    "id": "JNPR_2021",
+    "rec": 145,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.002,
+    "predicted_class": "human",
+    "agent": "ai_H2"
+  },
+  {
+    "id": "DVN_2025",
+    "rec": 457,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.001,
+    "predicted_class": "human",
+    "agent": "ai_H2"
+  },
+  {
+    "id": "HROW_2024",
+    "rec": 676,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.022,
+    "predicted_class": "human",
+    "agent": "ai_H3"
+  },
+  {
+    "id": "K_2023",
+    "rec": 356,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.013,
+    "predicted_class": "human",
+    "agent": "ai_H3"
+  },
+  {
+    "id": "CDNS_2024",
+    "rec": 124,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.319,
+    "predicted_class": "human",
+    "agent": "ai_H3"
   }
 ]
