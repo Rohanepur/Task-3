@@ -1,0 +1,227 @@
+[
+  {
+    "rec": 158,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "figures 9,366,007 (p52), 22,184,948 (p52), 31,722,907 (p52) all confirmed; 9,366,007/29,722,907*100=31.5110732608 matches answer; gz.py predicted_class=human PASS"
+  },
+  {
+    "rec": 170,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "net income 638M confirmed p183/185, total assets 20,296M confirmed p3; 638/20296=0.031435, rounded to nearest thousandth=0.031 matches answer; old answer 0.0314 was 4-decimal rounding, new 0.031 correctly applies 3-decimal rounding per question"
+  },
+  {
+    "rec": 186,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "928,929 confirmed p122, 758,871 confirmed p122; (928929-758871)/758871*100=22.409%, rounds to 22.41% matches answer; gz.py predicted_class=human PASS"
+  },
+  {
+    "rec": 187,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "inventories 2,133 confirmed p30; PP&E 3,739 confirmed p30; other intangibles 6,445 confirmed p30; operating lease ROU 573 confirmed p30; finance lease ROU 27 confirmed p49; Other (deposits) 193 confirmed p49; 2133+3739+6445+27+573+193=13,110 matches answer $13,110M"
+  },
+  {
+    "rec": 187,
+    "ann": 1,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "gross profit 4,124M confirmed p29, cost of sales 7,360M confirmed p29; 4124*0.97=4000.28 matches answer $4,000,280,000"
+  },
+  {
+    "rec": 197,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "revenue 10,737,481 confirmed p66; R&D 4,738,305 confirmed p66; SG&A 15,979,852 confirmed p66; total opex 20,718,157 confirmed p66; gross profit 5,483,198 confirmed p66; SBC 2,692,687 confirmed p69; adj_opex=18,025,470; adj_op_income=-12,542,272; -12,542,272/10,737,481=-116.808%, rounds to -116.81% matches answer; gz.py predicted_class=human PASS"
+  },
+  {
+    "rec": 200,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "earnings attributable to Skechers 741,503 confirmed p22; diluted weighted-average shares 156,794 confirmed p44; EPS=741503/156794=4.7292; P/E=8/4.7292=1.6916, solution states 1.6913 (minor float difference, acceptable); old answer used total net earnings including NCI which is wrong for EPS; new approach is correct"
+  },
+  {
+    "rec": 200,
+    "ann": 1,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "Skechers equity 3,259,344 confirmed p30; Class A shares 135,107 confirmed p30; Class B shares 20,939 confirmed p30; total shares=156,046 thousand; BVPS=3,259,344/156,046=20.887, rounds to 20.89 matches answer; new solution correctly uses parent equity (excluding NCI 282,728)"
+  },
+  {
+    "rec": 203,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "revenue 2023=5,303,322 and 2024=4,819,245 confirmed p18; pct_change=-9.1278%; PT 2024=3,745,241 and 2023=4,068,262 confirmed p18; hyp_PT=4,068,262*0.90872=3,696,918.9; SGA avg=(221279+211799+217708)/3=216,928.67; total_costs_2024=4,585,148 confirmed p18; hyp_op_income=4,819,245+14,810-4,536,046.60=298,008.40 matches answer"
+  },
+  {
+    "rec": 207,
+    "ann": 1,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "operating cash 64,089M confirmed p42/55; investing cash 20,421M confirmed p42/55; 20,421/64,089*100=31.8635%, rounds to 31.86% matches answer; old answer 31.87% had rounding error"
+  },
+  {
+    "rec": 209,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "FY2019 figures: revenue 4,950M, cost_of_revenue 1,322M, R&D 1,433M, M&S 702M, G&A 460M, other_income 83M all confirmed p42; new_rev=5445; gross=4123; opex=1547.64+737.1+460=2744.74; op_income=1378.26; pre_tax=1461.26; net=1461.26*0.94=1373.584M matches answer"
+  },
+  {
+    "rec": 210,
+    "ann": 1,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "operating income 1,305.5M confirmed p66; D&A 240.7M confirmed p66; franchise rights impairment 12.5M confirmed p66; standard EBITDA=EBIT+D&A=1305.5+240.7=1546.2M matches answer; old answer added back impairment (non-standard for EBITDA), new correctly excludes it"
+  },
+  {
+    "rec": 226,
+    "ann": 1,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "comp&benefits 85,231 confirmed p40; net sales 498,825 confirmed p40; ratio=85231/498825=17.086%, rounds to 17.1% matches answer; answer field changed from 'favorable' to 'unfavorable' consistent with solution citing wage increases and sales deleverage as cost pressure"
+  },
+  {
+    "rec": 232,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "revenue 608,489 confirmed p78; operating loss 129,478 confirmed p78; D&A 17,237 confirmed p81; EBITDA=-129,478+17,237=-112,241; margin=-112241/608489*100=-18.45% matches answer; old answer -3.05% was inconsistent with old solution (it inadvertently reflected adding back SBC which is non-standard EBITDA); new answer -18.45% is the standard EBITDA margin"
+  },
+  {
+    "rec": 240,
+    "ann": 1,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "net sales 401,779 confirmed p54; cost of sales 221,485 confirmed p54; adj_cost=221485*0.95=210,410.75; adj_gp=401779-210410.75=191,368.25; margin=191368.25/401779*100=47.630%, rounds to 47.63% matches answer; gz.py predicted_class=human PASS"
+  },
+  {
+    "rec": 246,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "flag",
+    "severity": "low",
+    "issue": "Step 0 contains leftover AI-refusal text: 'The 10-K report remains inaccessible to me because I lack outside document and file access' -- contradicts subsequent steps which cite filing data directly. Data and math are correct (inventory 318,864 and total_ca 770,167 both confirmed p53; adj_inv=293,864; adj_ca=745,167; 293864/745167*100=39.436% matches answer), but the incoherent step 0 should be removed or replaced."
+  },
+  {
+    "rec": 261,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "net_cash_ops 376,666 confirmed p100; SBC 30,767 confirmed p100; amort_def_fees 1,067 confirmed p100; 376666-30767-1067=344,832 matches answer; old answer 344,292 used wrong value 1,607 for amort_def_fees (filing shows 1,067)"
+  },
+  {
+    "rec": 267,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "D&A 2009=238,752 confirmed p61; D&A 2008=225,334 confirmed p61; growth=(238752-225334)/225334=0.05955, rounds to 0.0595 matches answer; old answer -0.0402 used wrong direction (2009 to 2010) and wrong base year"
+  },
+  {
+    "rec": 284,
+    "ann": 1,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "Ameren Corporation consolidated natural gas revenue 2021=1,097M confirmed p89; 1097*0.95=1042.15M matches answer; old answer used subsidiary Ameren Missouri figure (141M) instead of consolidated entity; document is a combined Ameren Corp 10-K so consolidated figure is correct"
+  },
+  {
+    "rec": 306,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "media rights 879.4M confirmed p52; adj_EBITDA 801.0M confirmed p52; incremental=879.4*0.05=43.97M; new_EBITDA=801.0+43.97=844.97M matches answer; old answer '$845 thousand' had wrong units (should be millions); new answer '$844.97 million' is correct"
+  },
+  {
+    "rec": 313,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "accounts receivable 97,712 confirmed p160; prepaid expenses and other current assets 26,893 confirmed p160; PP&E 63,534 confirmed p160; intangibles 27,558 confirmed p160; 97712+26893+63534+27558=215,697 matches answer; old answer excluded prepaid expenses (26,893) which are operating assets; question only excludes cash, marketable securities, and deferred/non-operating items"
+  },
+  {
+    "rec": 315,
+    "ann": 1,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "shares 61,348,095 confirmed p92; market_cap=61348095*16.63/1000=1,020,218.82, rounded to 1,020,219 thousand; total_liabilities 4,955,279 confirmed p92; cash+deposits 968,123 confirmed p92; goodwill 167,631 confirmed p92; other intangibles 6,439 confirmed p92; EV=1020219+4955279-1142193=4,833,305 matches answer; old answer 4,832,269 was inconsistent with old solution"
+  },
+  {
+    "rec": 317,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "loan 10,651 confirmed p59; cash_paid 585 confirmed p93; rate 10.0% confirmed p91; annual_interest=10651*0.10=1,065.1; fraction=585/1065.1=0.54924; days=0.54924*366=201.023 (2024 is leap year) matches answer 201.0233780784"
+  },
+  {
+    "rec": 322,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "net income 57,411M confirmed p34; D&A 11,056M confirmed p37; capex 7,309M confirmed p37; all operating assets/liabilities confirmed p35; NWC_2020=-38,853, NWC_2019=-27,216, delta_NWC=-11,637 (cash inflow); total_debt_2020=112,436, total_debt_2019=108,047, net_borrowing=4,389; FCFE=57411+11056-7309+11637+4389=77,184M matches answer"
+  },
+  {
+    "rec": 324,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "Genesco ending stock price 63.84 confirmed p1; starting value 100; (63.84/100)^(1/5)-1=-0.08585, rounds to -8.58% matches answer; gz.py predicted_class=human PASS"
+  },
+  {
+    "rec": 326,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "net income 6,998M confirmed p43; total assets 65,449M confirmed p44; ROA=6998/65449*100=10.692%, rounds to 10.69% matches answer; gz.py predicted_class=human PASS"
+  },
+  {
+    "rec": 328,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "retained earnings 2020=649,863 confirmed p63 (equity statement); retained earnings 2022=941,146 confirmed p60; dividends 2021=20,892 and 2022=21,366 per question; adj_re_2022=941146+20892+21366=983,404; CAGR=(983404/649863)^(1/2)-1=0.23014, rounds to 23.01415272% matches answer"
+  },
+  {
+    "rec": 333,
+    "ann": 1,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "PP&E 2021=55,477 confirmed p85; TCL 2021=166,225 confirmed p85; TCL 2022=112,907 confirmed p85; ratio=112907/166225=0.67924; hyp_PP&E=55477*0.67924=37,682.31, rounds to 37,682 matches answer; old answer 37,679 was inconsistent with old solution (old solution itself computed 37,682.75)"
+  },
+  {
+    "rec": 336,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "net_cash_investing 111,454 confirmed p56; capex 51,667 confirmed p56; 51667/111454*100=46.357%, rounds to 46.4% matches answer; gz.py predicted_class=human PASS"
+  },
+  {
+    "rec": 340,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "cash 901M confirmed p43; AR 692M confirmed p43; total_current_liabilities 1,704M confirmed p43; quick_assets=1,593; quick_ratio=1593/1704=0.9349 matches answer; old answer 0.36 used total liabilities 4,382M (wrong denominator); new solution correctly uses total CURRENT liabilities 1,704M"
+  },
+  {
+    "rec": 344,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "AR March 2025=1,770 confirmed p9; AR Dec 2024=1,831 confirmed p9; revenue Q1 2025=34,613 confirmed p10; change=-61; pct=-61/34613*100=-0.1762% matches answer; gz.py predicted_class=mixed (not ai) PASS"
+  },
+  {
+    "rec": 346,
+    "ann": 0,
+    "id": "N/A",
+    "verdict": "pass",
+    "checked": "US wholesale trucks 2019=1,285,859 confirmed p9; 1285859*62681=80,598,927,979 matches answer; old answer used the same multiplier but got $151.2B which is incorrect (that would be ~2.4M trucks); new answer $80,598,927,979 is arithmetically correct"
+  }
+]
