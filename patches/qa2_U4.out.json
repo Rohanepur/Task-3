@@ -1,0 +1,151 @@
+[
+  {
+    "rec": 122,
+    "ann": 1,
+    "id": "STSS_2024",
+    "verdict": "pass",
+    "checked": "figures 9,296,202 (p35/36) and 3,016,936 (p35/38) confirmed in filing; -9,296,202/3,016,936=-3.08 matches answer; 4 steps with ## and newline; GPTZero human"
+  },
+  {
+    "rec": 252,
+    "ann": 0,
+    "id": "GEO_2024",
+    "verdict": "pass",
+    "checked": "Adjusted EBITDA 463,489 (p121) and revenue 2,423,702 (p143) confirmed; 463489/2423702=0.1912 -> 19.12% matches answer; 4 steps; GPTZero human"
+  },
+  {
+    "rec": 122,
+    "ann": 0,
+    "id": "STSS_2024",
+    "verdict": "pass",
+    "checked": "all four figures confirmed in filing (p38/39: 6,929,544; p38/46: 1,705,014; p34/37: 1,996,129; p34: 132,000); numerator -6,929,544-1,705,014=-8,634,558; denominator 1,996,129+132,000=2,128,129; -8,634,558/2,128,129=-4.06 matches answer; 7 steps; GPTZero mixed/pass"
+  },
+  {
+    "rec": 36,
+    "ann": 0,
+    "id": "JJSF_2023",
+    "verdict": "pass",
+    "checked": "net sales 1,558,829 (p49/p75), operating cash 172,279 (p52), capex 104,737 (p52) confirmed; FCF=172,279-104,737=67,542; 67,542/1,558,829*100=4.33% matches answer; 5 steps; GPTZero human"
+  },
+  {
+    "rec": 375,
+    "ann": 0,
+    "id": "CARL-B.CO_2024",
+    "verdict": "pass",
+    "checked": "net profit attributable to shareholders 9,116 (p112) and equity 27,771/23,234 (p113/114) confirmed; 9,116/((27,771+23,234)/2)*100=35.745% matches new answer 35.74551515%; logic correction valid (uses average equity and profit attributable to shareholders); 5 steps; GPTZero human"
+  },
+  {
+    "rec": 511,
+    "ann": 0,
+    "id": "IQV_2023",
+    "verdict": "flag",
+    "severity": "high",
+    "issue": "answer field is 28.65 but the solution computes 14,984/1,523=9.84 (last step explicitly states 9.84). This mismatch between the answer field and the computed solution was not corrected by the remediation. The answer field must be updated to 9.84 to be consistent with the math shown."
+  },
+  {
+    "rec": 139,
+    "ann": 0,
+    "id": "PATH_2023",
+    "verdict": "pass",
+    "checked": "total revenue 1,058,581 and subscription services cost 87,366 confirmed on physical page 82 (Consolidated Statements of Operations, year ended Jan 31 2023); 87.366/1058.581*100=8.253% matches answer; 4 steps; GPTZero human"
+  },
+  {
+    "rec": 412,
+    "ann": 0,
+    "id": "XEL_2023",
+    "verdict": "pass",
+    "checked": "NSP 64% and SPS 37% carbon-free from donut charts on page 12; 64-37=27% matches answer; 4 steps; GPTZero human"
+  },
+  {
+    "rec": 414,
+    "ann": 0,
+    "id": "CDRE_2024",
+    "verdict": "pass",
+    "checked": "Adjusted EBITDA 104,840 (p40) and interest expense 7,822 (p40) confirmed; 104,840/7,822=13.40 matches answer; 4 steps; GPTZero human"
+  },
+  {
+    "rec": 43,
+    "ann": 0,
+    "id": "AAOI_2024",
+    "verdict": "pass",
+    "checked": "AAOI 71.63% at 12/31/2020 and 162.63% at 12/31/2023 confirmed on physical page 32 (solution cites p33, one off but present in original too); 162.63-71.63=91.00% matches answer; 4 steps; GPTZero human"
+  },
+  {
+    "rec": 547,
+    "ann": 0,
+    "id": "RHI_2024",
+    "verdict": "pass",
+    "checked": "figures 32,910 (p51), 251,598 (p51), 398 (p51) confirmed; -32,910*1.25=-41,137.5; -41,137.5+398=-40,739.5; 251,598-40,739.5=210,858.5 rounds to 210,859 matches answer; 5 steps; GPTZero human"
+  },
+  {
+    "rec": 611,
+    "ann": 1,
+    "id": "CPRX_2023",
+    "verdict": "pass",
+    "checked": "total assets 470,114, current assets 219,329, total equity 387,881 on page 86; 470,114+219,329*0.10=492,046.9; 387,881/492,046.9*100=78.83% matches answer; 5 steps; GPTZero mixed/pass"
+  },
+  {
+    "rec": 104,
+    "ann": 0,
+    "id": "PLD_2023",
+    "verdict": "pass",
+    "checked": "Prologis 257.08 and S&P 500 207.21 are chart values on page 47 (not in text, expected for graphic); 257.08-207.21=49.87 matches answer; 4 steps; GPTZero human"
+  },
+  {
+    "rec": 293,
+    "ann": 0,
+    "id": "AYX_2022",
+    "verdict": "pass",
+    "checked": "2022=-104,847, 2021=63,159, 2020=74,782 (thousands) confirmed on physical page 93; rounded to millions matches stated figures; (74.8+63.2-54.8)/3*1.10=30.5M matches answer; 4 steps; GPTZero human"
+  },
+  {
+    "rec": 616,
+    "ann": 0,
+    "id": "UDR_2023",
+    "verdict": "pass",
+    "checked": "all figures (635,008 / 232,152 / 69,929 / 1,627,501) confirmed on physical page 75; math verified: revised OI=611,345.5; 611,345.5/1,627,501*100=37.56% matches answer; 5 steps; GPTZero mixed/pass"
+  },
+  {
+    "rec": 544,
+    "ann": 0,
+    "id": "STX_2023",
+    "verdict": "flag",
+    "severity": "low",
+    "issue": "Step 3 states '60.6 times 0.78 equals 47.27' without explaining where 0.78 comes from. It is (1 - 22% tax rate) per the question, but the connection is never stated in the solution. A reader unfamiliar with the setup cannot verify the 0.78 factor from the solution text alone."
+  },
+  {
+    "rec": 588,
+    "ann": 0,
+    "id": "NASDAQ: PATK_2023",
+    "verdict": "pass",
+    "checked": "revenue 4,881,872 (p54) and gross profit 1,059,938 (p54) confirmed; gross margin=1,059,938/4,881,872=0.21711; projected revenue=4,881,872*1.15=5,614,152.8; projected GP=5,614,152.8*0.21711=1,218,928.7 matches answer; 4 steps; GPTZero human"
+  },
+  {
+    "rec": 20,
+    "ann": 0,
+    "id": "RGTI_2023",
+    "verdict": "pass",
+    "checked": "total liabilities 50,325 and total assets 159,913 confirmed on physical page 96; 50,325*1.03/159,913=0.324 matches answer; 5 steps; GPTZero human"
+  },
+  {
+    "rec": 330,
+    "ann": 0,
+    "id": "FUBO_2024",
+    "verdict": "pass",
+    "checked": "equity 180,782 and shares 339,144,854 confirmed on physical pages 90/94; 180,782,000/339,144,854=0.533 matches answer; 4 steps; GPTZero mixed/pass"
+  },
+  {
+    "rec": 26,
+    "ann": 0,
+    "id": "ABP_2024",
+    "verdict": "pass",
+    "checked": "accrued professional fees 1,273, license fees 3,300, total 7,496 from page 122; payment of 2,000 exceeds balance of 1,273 so only 1,273 paid; new total 6,223; 3,300/6,223*100=53.03% matches answer; 4 steps; GPTZero human"
+  },
+  {
+    "rec": 288,
+    "ann": 0,
+    "id": "6010.SR_2023",
+    "verdict": "pass",
+    "checked": "revenue 3,196,966,537 (p108/109/120) and profit 302,064,771 (p108/109/120) confirmed; margin=0.0944848067; 3,196,966,537*1.10*0.0944848067=332,271,248.1 matches answer; 6 steps (original had 7, reduction acceptable); GPTZero human"
+  }
+]
