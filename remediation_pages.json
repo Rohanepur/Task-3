@@ -1,0 +1,1946 @@
+[
+  {
+    "id": "GTY_2013",
+    "ann": 0,
+    "company": "Getty Realty Corp.",
+    "pdf_pages": 112,
+    "meta": [
+      51
+    ],
+    "extra": [
+      16
+    ],
+    "checks": [
+      {
+        "printed_page": 16,
+        "match": "phys+0",
+        "physical_idx": 15,
+        "figure_hits": 0,
+        "n_figs": 5,
+        "printed_label_match": false,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "GTY_2013",
+    "ann": 1,
+    "company": "Getty Realty Corp.",
+    "pdf_pages": 112,
+    "meta": [
+      51
+    ],
+    "extra": [
+      16
+    ],
+    "checks": [
+      {
+        "printed_page": 16,
+        "match": "phys+0",
+        "physical_idx": 15,
+        "figure_hits": 0,
+        "n_figs": 3,
+        "printed_label_match": false,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "AL_2021",
+    "ann": 0,
+    "company": "Allegion",
+    "pdf_pages": 95,
+    "meta": [
+      61
+    ],
+    "extra": [
+      3,
+      58
+    ],
+    "checks": [
+      {
+        "printed_page": 3,
+        "match": "printed-label",
+        "physical_idx": 4,
+        "figure_hits": 0,
+        "n_figs": 7,
+        "printed_label_match": true,
+        "confidence": "LOW"
+      },
+      {
+        "printed_page": 58,
+        "match": "phys+0",
+        "physical_idx": 57,
+        "figure_hits": 0,
+        "n_figs": 7,
+        "printed_label_match": false,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "AL_2021",
+    "ann": 1,
+    "company": "Allegion",
+    "pdf_pages": 95,
+    "meta": [
+      61,
+      64
+    ],
+    "extra": [
+      3,
+      58
+    ],
+    "checks": [
+      {
+        "printed_page": 3,
+        "match": "phys+0",
+        "physical_idx": 2,
+        "figure_hits": 1,
+        "n_figs": 1,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      },
+      {
+        "printed_page": 58,
+        "match": "phys+0",
+        "physical_idx": 57,
+        "figure_hits": 1,
+        "n_figs": 1,
+        "printed_label_match": false,
+        "confidence": "MED"
+      }
+    ],
+    "to_add": [
+      3,
+      58
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "PODD_2022",
+    "ann": 0,
+    "company": "INSULET CORPORATION",
+    "pdf_pages": 122,
+    "meta": [
+      33
+    ],
+    "extra": [
+      32
+    ],
+    "checks": [
+      {
+        "printed_page": 32,
+        "match": "printed-label",
+        "physical_idx": 31,
+        "figure_hits": 3,
+        "n_figs": 6,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      32
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "AAPL_2022",
+    "ann": 0,
+    "company": "Apple Inc.",
+    "pdf_pages": 80,
+    "meta": [
+      32
+    ],
+    "extra": [
+      31
+    ],
+    "checks": [
+      {
+        "printed_page": 31,
+        "match": "phys+0",
+        "physical_idx": 30,
+        "figure_hits": 0,
+        "n_figs": 1,
+        "printed_label_match": false,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "AXP_2019",
+    "ann": 0,
+    "company": "American Express",
+    "pdf_pages": 168,
+    "meta": [
+      89
+    ],
+    "extra": [
+      79
+    ],
+    "checks": [
+      {
+        "printed_page": 79,
+        "match": "phys+9",
+        "physical_idx": 87,
+        "figure_hits": 6,
+        "n_figs": 14,
+        "printed_label_match": false,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      79
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "MC_2023",
+    "ann": 1,
+    "company": "Moelis",
+    "pdf_pages": 157,
+    "meta": [
+      50
+    ],
+    "extra": [
+      36
+    ],
+    "checks": [
+      {
+        "printed_page": 36,
+        "match": "phys+0",
+        "physical_idx": 35,
+        "figure_hits": 3,
+        "n_figs": 9,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      36
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "TJX_2017",
+    "ann": 0,
+    "company": "The TJX Companies, Inc.",
+    "pdf_pages": 128,
+    "meta": [
+      51
+    ],
+    "extra": [
+      43
+    ],
+    "checks": [
+      {
+        "printed_page": 43,
+        "match": "phys+7",
+        "physical_idx": 49,
+        "figure_hits": 2,
+        "n_figs": 3,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      43
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "GSAT_2015",
+    "ann": 0,
+    "company": "Globalstar",
+    "pdf_pages": 144,
+    "meta": [
+      81
+    ],
+    "extra": [
+      44
+    ],
+    "checks": [
+      {
+        "printed_page": 44,
+        "match": "phys+0",
+        "physical_idx": 43,
+        "figure_hits": 1,
+        "n_figs": 9,
+        "printed_label_match": false,
+        "confidence": "MED"
+      }
+    ],
+    "to_add": [
+      44
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "PFE_2020",
+    "ann": 0,
+    "company": "Pfizer, Inc",
+    "pdf_pages": 238,
+    "meta": [
+      118
+    ],
+    "extra": [
+      106,
+      117
+    ],
+    "checks": [
+      {
+        "printed_page": 106,
+        "match": "phys+11",
+        "physical_idx": 116,
+        "figure_hits": 2,
+        "n_figs": 3,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      },
+      {
+        "printed_page": 117,
+        "match": "phys+0",
+        "physical_idx": 116,
+        "figure_hits": 2,
+        "n_figs": 3,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      106,
+      117
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "BKYI_2013",
+    "ann": 1,
+    "company": "BIO-key International Inc.",
+    "pdf_pages": 165,
+    "meta": [
+      56
+    ],
+    "extra": [
+      52,
+      55
+    ],
+    "checks": [
+      {
+        "printed_page": 52,
+        "match": "phys+3",
+        "physical_idx": 54,
+        "figure_hits": 2,
+        "n_figs": 3,
+        "printed_label_match": false,
+        "confidence": "MED"
+      },
+      {
+        "printed_page": 55,
+        "match": "phys+0",
+        "physical_idx": 54,
+        "figure_hits": 2,
+        "n_figs": 3,
+        "printed_label_match": false,
+        "confidence": "MED"
+      }
+    ],
+    "to_add": [
+      52,
+      55
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "SHAK_2024",
+    "ann": 0,
+    "company": "Shake Shack",
+    "pdf_pages": 162,
+    "meta": [
+      83
+    ],
+    "extra": [
+      74,
+      82
+    ],
+    "checks": [
+      {
+        "printed_page": 74,
+        "match": "phys+0",
+        "physical_idx": 73,
+        "figure_hits": 0,
+        "n_figs": 0,
+        "printed_label_match": false,
+        "confidence": "LOW"
+      },
+      {
+        "printed_page": 82,
+        "match": "printed-label",
+        "physical_idx": 97,
+        "figure_hits": 0,
+        "n_figs": 0,
+        "printed_label_match": true,
+        "confidence": "MED"
+      }
+    ],
+    "to_add": [
+      82
+    ],
+    "all_grounded": false
+  },
+  {
+    "id": "FL_2018",
+    "ann": 0,
+    "company": "Foot Locker",
+    "pdf_pages": 112,
+    "meta": [
+      59
+    ],
+    "extra": [
+      36
+    ],
+    "checks": [
+      {
+        "printed_page": 36,
+        "match": "phys+0",
+        "physical_idx": 35,
+        "figure_hits": 6,
+        "n_figs": 25,
+        "printed_label_match": false,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      36
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "SNBR_2023",
+    "ann": 0,
+    "company": "Sleep Number Corporation",
+    "pdf_pages": 121,
+    "meta": [
+      45
+    ],
+    "extra": [
+      65
+    ],
+    "checks": [
+      {
+        "printed_page": 65,
+        "match": "phys+0",
+        "physical_idx": 64,
+        "figure_hits": 0,
+        "n_figs": 4,
+        "printed_label_match": false,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "FSLR_2022",
+    "ann": 0,
+    "company": "First Solar Inc",
+    "pdf_pages": 139,
+    "meta": [
+      132
+    ],
+    "extra": [
+      82
+    ],
+    "checks": [
+      {
+        "printed_page": 82,
+        "match": "phys+0",
+        "physical_idx": 81,
+        "figure_hits": 1,
+        "n_figs": 15,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      82
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "WU_2016",
+    "ann": 0,
+    "company": "Western Union",
+    "pdf_pages": 172,
+    "meta": [
+      92
+    ],
+    "extra": [
+      2,
+      86
+    ],
+    "checks": [
+      {
+        "printed_page": 2,
+        "match": "printed-label",
+        "physical_idx": 1,
+        "figure_hits": 0,
+        "n_figs": 1,
+        "printed_label_match": true,
+        "confidence": "LOW"
+      },
+      {
+        "printed_page": 86,
+        "match": "phys+5",
+        "physical_idx": 90,
+        "figure_hits": 1,
+        "n_figs": 1,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      86
+    ],
+    "all_grounded": false
+  },
+  {
+    "id": "QCOM_2024",
+    "ann": 0,
+    "company": "Qualcomm Inc",
+    "pdf_pages": 146,
+    "meta": [
+      60,
+      61
+    ],
+    "extra": [
+      51
+    ],
+    "checks": [
+      {
+        "printed_page": 51,
+        "match": "phys+9",
+        "physical_idx": 59,
+        "figure_hits": 4,
+        "n_figs": 12,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      51
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "OKLO_2024",
+    "ann": 2,
+    "company": "Oklo Inc.",
+    "pdf_pages": 144,
+    "meta": [
+      73
+    ],
+    "extra": [
+      43
+    ],
+    "checks": [
+      {
+        "printed_page": 43,
+        "match": "printed-label",
+        "physical_idx": 42,
+        "figure_hits": 3,
+        "n_figs": 15,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      43
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "HPQ_2019",
+    "ann": 0,
+    "company": "HP",
+    "pdf_pages": 210,
+    "meta": [
+      57,
+      60
+    ],
+    "extra": [
+      51
+    ],
+    "checks": [
+      {
+        "printed_page": 51,
+        "match": "phys+5",
+        "physical_idx": 55,
+        "figure_hits": 1,
+        "n_figs": 2,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      51
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "CMCSA_2018",
+    "ann": 0,
+    "company": "Comcast Corporation",
+    "pdf_pages": 460,
+    "meta": [
+      71
+    ],
+    "extra": [
+      67
+    ],
+    "checks": [
+      {
+        "printed_page": 67,
+        "match": "printed-label",
+        "physical_idx": 70,
+        "figure_hits": 9,
+        "n_figs": 15,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      67
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "YMHAY_2022",
+    "ann": 0,
+    "company": "Yamaha Corporation ",
+    "pdf_pages": 48,
+    "meta": [
+      43
+    ],
+    "extra": [
+      82
+    ],
+    "checks": [
+      {
+        "printed_page": 82,
+        "match": "printed-label",
+        "physical_idx": 42,
+        "figure_hits": 3,
+        "n_figs": 8,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      82
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "AAP_2018",
+    "ann": 0,
+    "company": "Advance Auto Parts Inc",
+    "pdf_pages": 88,
+    "meta": [
+      42
+    ],
+    "extra": [
+      39
+    ],
+    "checks": [
+      {
+        "printed_page": 39,
+        "match": "phys+2",
+        "physical_idx": 40,
+        "figure_hits": 6,
+        "n_figs": 8,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      39
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "VRSN _2022",
+    "ann": 0,
+    "company": "Verisign",
+    "pdf_pages": 132,
+    "meta": [
+      105
+    ],
+    "extra": [
+      100
+    ],
+    "checks": [
+      {
+        "printed_page": 100,
+        "match": "phys+0",
+        "physical_idx": 99,
+        "figure_hits": 0,
+        "n_figs": 2,
+        "printed_label_match": false,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "CI_2024",
+    "ann": 0,
+    "company": "The Cigna Group",
+    "pdf_pages": 147,
+    "meta": [
+      127
+    ],
+    "extra": [
+      116
+    ],
+    "checks": [
+      {
+        "printed_page": 116,
+        "match": "phys+10",
+        "physical_idx": 125,
+        "figure_hits": 1,
+        "n_figs": 3,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      116
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "THC_2024",
+    "ann": 0,
+    "company": "Tenet Healthcare Corporation",
+    "pdf_pages": 191,
+    "meta": [
+      33
+    ],
+    "extra": [
+      32
+    ],
+    "checks": [
+      {
+        "printed_page": 32,
+        "match": "printed-label",
+        "physical_idx": 33,
+        "figure_hits": 0,
+        "n_figs": 0,
+        "printed_label_match": true,
+        "confidence": "MED"
+      }
+    ],
+    "to_add": [
+      32
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "DOV_2019",
+    "ann": 0,
+    "company": "Dover Corporation",
+    "pdf_pages": 132,
+    "meta": [
+      2
+    ],
+    "extra": [
+      51
+    ],
+    "checks": [
+      {
+        "printed_page": 51,
+        "match": "printed-label",
+        "physical_idx": 54,
+        "figure_hits": 0,
+        "n_figs": 1,
+        "printed_label_match": true,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "VVC_2014",
+    "ann": 1,
+    "company": "Vectren Corporation",
+    "pdf_pages": 132,
+    "meta": [
+      81,
+      86
+    ],
+    "extra": [
+      66,
+      75
+    ],
+    "checks": [
+      {
+        "printed_page": 66,
+        "match": "phys+0",
+        "physical_idx": 65,
+        "figure_hits": 1,
+        "n_figs": 2,
+        "printed_label_match": false,
+        "confidence": "MED"
+      },
+      {
+        "printed_page": 75,
+        "match": "phys+0",
+        "physical_idx": 74,
+        "figure_hits": 1,
+        "n_figs": 2,
+        "printed_label_match": false,
+        "confidence": "MED"
+      }
+    ],
+    "to_add": [
+      66,
+      75
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "UAL_2017",
+    "ann": 0,
+    "company": "United Airlines",
+    "pdf_pages": 189,
+    "meta": [
+      49,
+      51,
+      52
+    ],
+    "extra": [
+      50
+    ],
+    "checks": [
+      {
+        "printed_page": 50,
+        "match": "phys+1",
+        "physical_idx": 50,
+        "figure_hits": 2,
+        "n_figs": 4,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      50
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "NXT_2024",
+    "ann": 0,
+    "company": "Nextracker",
+    "pdf_pages": 130,
+    "meta": [
+      68,
+      72
+    ],
+    "extra": [
+      67
+    ],
+    "checks": [
+      {
+        "printed_page": 67,
+        "match": "phys+0",
+        "physical_idx": 66,
+        "figure_hits": 2,
+        "n_figs": 4,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      67
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "NXT_2024",
+    "ann": 1,
+    "company": "Nextracker",
+    "pdf_pages": 130,
+    "meta": [
+      68
+    ],
+    "extra": [
+      67,
+      72
+    ],
+    "checks": [
+      {
+        "printed_page": 67,
+        "match": "phys+0",
+        "physical_idx": 66,
+        "figure_hits": 1,
+        "n_figs": 6,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      },
+      {
+        "printed_page": 72,
+        "match": "printed-label",
+        "physical_idx": 74,
+        "figure_hits": 0,
+        "n_figs": 6,
+        "printed_label_match": true,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [
+      67
+    ],
+    "all_grounded": false
+  },
+  {
+    "id": "BEN_2024",
+    "ann": 0,
+    "company": "Franklin Resources Inc",
+    "pdf_pages": 146,
+    "meta": [
+      64
+    ],
+    "extra": [
+      56
+    ],
+    "checks": [
+      {
+        "printed_page": 56,
+        "match": "phys+7",
+        "physical_idx": 62,
+        "figure_hits": 6,
+        "n_figs": 10,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      56
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "YUM_2013",
+    "ann": 0,
+    "company": "Yum! Brands",
+    "pdf_pages": 178,
+    "meta": [
+      109,
+      109
+    ],
+    "extra": [
+      107
+    ],
+    "checks": [
+      {
+        "printed_page": 107,
+        "match": "phys+0",
+        "physical_idx": 106,
+        "figure_hits": 0,
+        "n_figs": 1,
+        "printed_label_match": false,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "AEP_2023",
+    "ann": 0,
+    "company": "American Electric Power Compan",
+    "pdf_pages": 467,
+    "meta": [
+      54,
+      101
+    ],
+    "extra": [
+      52
+    ],
+    "checks": [
+      {
+        "printed_page": 52,
+        "match": "printed-label",
+        "physical_idx": 62,
+        "figure_hits": 0,
+        "n_figs": 2,
+        "printed_label_match": true,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "RF_2023",
+    "ann": 0,
+    "company": "Regions Financial Corp ",
+    "pdf_pages": 180,
+    "meta": [
+      94
+    ],
+    "extra": [
+      3,
+      89
+    ],
+    "checks": [
+      {
+        "printed_page": 3,
+        "match": "phys+0",
+        "physical_idx": 2,
+        "figure_hits": 0,
+        "n_figs": 4,
+        "printed_label_match": false,
+        "confidence": "LOW"
+      },
+      {
+        "printed_page": 89,
+        "match": "phys+4",
+        "physical_idx": 92,
+        "figure_hits": 2,
+        "n_figs": 4,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      89
+    ],
+    "all_grounded": false
+  },
+  {
+    "id": "AIZ_2024",
+    "ann": 0,
+    "company": "Assurant, Inc.",
+    "pdf_pages": 383,
+    "meta": [
+      78
+    ],
+    "extra": [
+      13
+    ],
+    "checks": [
+      {
+        "printed_page": 13,
+        "match": "phys+0",
+        "physical_idx": 12,
+        "figure_hits": 1,
+        "n_figs": 4,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      13
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "DNUT_2023",
+    "ann": 0,
+    "company": "Krispy Kreme ",
+    "pdf_pages": 347,
+    "meta": [
+      33,
+      59
+    ],
+    "extra": [
+      32
+    ],
+    "checks": [
+      {
+        "printed_page": 32,
+        "match": "printed-label",
+        "physical_idx": 32,
+        "figure_hits": 1,
+        "n_figs": 6,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      32
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "DHL_2018",
+    "ann": 0,
+    "company": "Deutsche Post",
+    "pdf_pages": 182,
+    "meta": [
+      90
+    ],
+    "extra": [
+      92
+    ],
+    "checks": [
+      {
+        "printed_page": 92,
+        "match": "phys+0",
+        "physical_idx": 91,
+        "figure_hits": 2,
+        "n_figs": 2,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      92
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "ETN_2023",
+    "ann": 0,
+    "company": "Eaton Corporation",
+    "pdf_pages": 243,
+    "meta": [
+      25,
+      27
+    ],
+    "extra": [
+      24,
+      26
+    ],
+    "checks": [
+      {
+        "printed_page": 24,
+        "match": "phys+2",
+        "physical_idx": 25,
+        "figure_hits": 3,
+        "n_figs": 7,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      },
+      {
+        "printed_page": 26,
+        "match": "printed-label",
+        "physical_idx": 26,
+        "figure_hits": 3,
+        "n_figs": 7,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      24,
+      26
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "GRPN_2024",
+    "ann": 0,
+    "company": "Groupon, Inc.",
+    "pdf_pages": 152,
+    "meta": [
+      63,
+      63,
+      65
+    ],
+    "extra": [
+      64
+    ],
+    "checks": [
+      {
+        "printed_page": 64,
+        "match": "printed-label",
+        "physical_idx": 63,
+        "figure_hits": 6,
+        "n_figs": 8,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      64
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "ENPH_2023",
+    "ann": 0,
+    "company": "Enphase Energy",
+    "pdf_pages": 213,
+    "meta": [
+      3,
+      69
+    ],
+    "extra": [
+      64
+    ],
+    "checks": [
+      {
+        "printed_page": 64,
+        "match": "phys+4",
+        "physical_idx": 67,
+        "figure_hits": 3,
+        "n_figs": 4,
+        "printed_label_match": false,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      64
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "AFL_2024",
+    "ann": 0,
+    "company": "Aflac Inc",
+    "pdf_pages": 223,
+    "meta": [
+      87
+    ],
+    "extra": [
+      82
+    ],
+    "checks": [
+      {
+        "printed_page": 82,
+        "match": "printed-label",
+        "physical_idx": 84,
+        "figure_hits": 0,
+        "n_figs": 0,
+        "printed_label_match": true,
+        "confidence": "MED"
+      }
+    ],
+    "to_add": [
+      82
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "HWM_2024",
+    "ann": 1,
+    "company": "HOWMET AEROSPACE INC.",
+    "pdf_pages": 143,
+    "meta": [
+      84
+    ],
+    "extra": [
+      52
+    ],
+    "checks": [
+      {
+        "printed_page": 52,
+        "match": "phys+8",
+        "physical_idx": 59,
+        "figure_hits": 3,
+        "n_figs": 11,
+        "printed_label_match": false,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      52
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "HLI_2024",
+    "ann": 0,
+    "company": "Houlihan Lokey, Inc.",
+    "pdf_pages": 94,
+    "meta": [
+      46,
+      47
+    ],
+    "extra": [
+      42
+    ],
+    "checks": [
+      {
+        "printed_page": 42,
+        "match": "phys+4",
+        "physical_idx": 45,
+        "figure_hits": 3,
+        "n_figs": 5,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      42
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "BBBY_2022",
+    "ann": 0,
+    "company": "Bed Bath & Beyond Inc.",
+    "pdf_pages": 138,
+    "meta": [
+      103
+    ],
+    "extra": [
+      101
+    ],
+    "checks": [
+      {
+        "printed_page": 101,
+        "match": "printed-label",
+        "physical_idx": 102,
+        "figure_hits": 6,
+        "n_figs": 13,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      101
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "EPD_2024",
+    "ann": 0,
+    "company": "Enterprise Products Partners L",
+    "pdf_pages": 224,
+    "meta": [
+      198
+    ],
+    "extra": [
+      71
+    ],
+    "checks": [
+      {
+        "printed_page": 71,
+        "match": "phys+0",
+        "physical_idx": 70,
+        "figure_hits": 2,
+        "n_figs": 4,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      71
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "QSR_2021",
+    "ann": 0,
+    "company": "Restaurant Brands Internationa",
+    "pdf_pages": 122,
+    "meta": [
+      37,
+      60,
+      61,
+      76
+    ],
+    "extra": [
+      22
+    ],
+    "checks": [
+      {
+        "printed_page": 22,
+        "match": "phys+8",
+        "physical_idx": 29,
+        "figure_hits": 1,
+        "n_figs": 11,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      22
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "RHI_2018",
+    "ann": 1,
+    "company": "ROBERT HALF INTERNATIONAL INC.",
+    "pdf_pages": 61,
+    "meta": [
+      18,
+      19,
+      34,
+      38
+    ],
+    "extra": [
+      25
+    ],
+    "checks": [
+      {
+        "printed_page": 25,
+        "match": "phys+0",
+        "physical_idx": 24,
+        "figure_hits": 5,
+        "n_figs": 28,
+        "printed_label_match": false,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      25
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "CDNS_2024",
+    "ann": 1,
+    "company": "Cadence Design Systems, Inc.",
+    "pdf_pages": 123,
+    "meta": [
+      33
+    ],
+    "extra": [
+      34
+    ],
+    "checks": [
+      {
+        "printed_page": 34,
+        "match": "printed-label",
+        "physical_idx": 35,
+        "figure_hits": 0,
+        "n_figs": 2,
+        "printed_label_match": true,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "AN_2024",
+    "ann": 0,
+    "company": "AutoNation Inc.",
+    "pdf_pages": 186,
+    "meta": [
+      66
+    ],
+    "extra": [
+      41
+    ],
+    "checks": [
+      {
+        "printed_page": 41,
+        "match": "phys+8",
+        "physical_idx": 48,
+        "figure_hits": 1,
+        "n_figs": 11,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      41
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "FBLA_2023",
+    "ann": 0,
+    "company": "Fidelity Bank PLC",
+    "pdf_pages": 348,
+    "meta": [
+      145
+    ],
+    "extra": [
+      5
+    ],
+    "checks": [
+      {
+        "printed_page": 5,
+        "match": "phys+4",
+        "physical_idx": 8,
+        "figure_hits": 1,
+        "n_figs": 7,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      5
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "XYZ_2022",
+    "ann": 0,
+    "company": "Block Inc",
+    "pdf_pages": 263,
+    "meta": [
+      75
+    ],
+    "extra": [
+      72
+    ],
+    "checks": [
+      {
+        "printed_page": 72,
+        "match": "printed-label",
+        "physical_idx": 139,
+        "figure_hits": 0,
+        "n_figs": 1,
+        "printed_label_match": true,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "XYZ_2022",
+    "ann": 1,
+    "company": "Block Inc",
+    "pdf_pages": 263,
+    "meta": [
+      73,
+      74
+    ],
+    "extra": [
+      72
+    ],
+    "checks": [
+      {
+        "printed_page": 72,
+        "match": "printed-label",
+        "physical_idx": 139,
+        "figure_hits": 3,
+        "n_figs": 3,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      72
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "PPIH_2023",
+    "ann": 1,
+    "company": "Perma-Pipe International Holdi",
+    "pdf_pages": 66,
+    "meta": [
+      22
+    ],
+    "extra": [
+      27
+    ],
+    "checks": [
+      {
+        "printed_page": 27,
+        "match": "phys+0",
+        "physical_idx": 26,
+        "figure_hits": 2,
+        "n_figs": 5,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      27
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "JCI_2023",
+    "ann": 0,
+    "company": "Johnson Controls International",
+    "pdf_pages": 198,
+    "meta": [
+      95
+    ],
+    "extra": [
+      126
+    ],
+    "checks": [
+      {
+        "printed_page": 126,
+        "match": "phys+0",
+        "physical_idx": 125,
+        "figure_hits": 2,
+        "n_figs": 4,
+        "printed_label_match": false,
+        "confidence": "MED"
+      }
+    ],
+    "to_add": [
+      126
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "VYX_2022",
+    "ann": 0,
+    "company": "NCR Corporation",
+    "pdf_pages": 376,
+    "meta": [
+      63
+    ],
+    "extra": [
+      61
+    ],
+    "checks": [
+      {
+        "printed_page": 61,
+        "match": "phys+1",
+        "physical_idx": 61,
+        "figure_hits": 4,
+        "n_figs": 6,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      61
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "GSHD_2024",
+    "ann": 0,
+    "company": "GOOSEHEAD INSURANCE, INC.",
+    "pdf_pages": 110,
+    "meta": [
+      73
+    ],
+    "extra": [
+      3
+    ],
+    "checks": [
+      {
+        "printed_page": 3,
+        "match": "phys+7",
+        "physical_idx": 9,
+        "figure_hits": 1,
+        "n_figs": 4,
+        "printed_label_match": false,
+        "confidence": "MED"
+      }
+    ],
+    "to_add": [
+      3
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "BMW.DE_2024",
+    "ann": 0,
+    "company": "BMW Group",
+    "pdf_pages": 432,
+    "meta": [
+      347
+    ],
+    "extra": [
+      346
+    ],
+    "checks": [
+      {
+        "printed_page": 346,
+        "match": "phys+0",
+        "physical_idx": 345,
+        "figure_hits": 6,
+        "n_figs": 10,
+        "printed_label_match": false,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      346
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "BMW.DE_2024",
+    "ann": 1,
+    "company": "BMW Group",
+    "pdf_pages": 432,
+    "meta": [
+      272
+    ],
+    "extra": [
+      4,
+      271
+    ],
+    "checks": [
+      {
+        "printed_page": 4,
+        "match": "phys+0",
+        "physical_idx": 3,
+        "figure_hits": 0,
+        "n_figs": 6,
+        "printed_label_match": false,
+        "confidence": "LOW"
+      },
+      {
+        "printed_page": 271,
+        "match": "phys+0",
+        "physical_idx": 270,
+        "figure_hits": 3,
+        "n_figs": 6,
+        "printed_label_match": false,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      271
+    ],
+    "all_grounded": false
+  },
+  {
+    "id": "ZBRA_2023",
+    "ann": 0,
+    "company": "Zebra Technologies Corporation",
+    "pdf_pages": 88,
+    "meta": [
+      46
+    ],
+    "extra": [
+      42
+    ],
+    "checks": [
+      {
+        "printed_page": 42,
+        "match": "printed-label",
+        "physical_idx": 44,
+        "figure_hits": 0,
+        "n_figs": 1,
+        "printed_label_match": true,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "SHW_2013",
+    "ann": 0,
+    "company": "Sherwin Williams",
+    "pdf_pages": 149,
+    "meta": [
+      92
+    ],
+    "extra": [
+      88
+    ],
+    "checks": [
+      {
+        "printed_page": 88,
+        "match": "phys+3",
+        "physical_idx": 90,
+        "figure_hits": 2,
+        "n_figs": 4,
+        "printed_label_match": false,
+        "confidence": "MED"
+      }
+    ],
+    "to_add": [
+      88
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "RIOT_2018",
+    "ann": 0,
+    "company": "Riot Blockchain",
+    "pdf_pages": 95,
+    "meta": [
+      48
+    ],
+    "extra": [
+      47
+    ],
+    "checks": [
+      {
+        "printed_page": 47,
+        "match": "phys+0",
+        "physical_idx": 46,
+        "figure_hits": 4,
+        "n_figs": 12,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      47
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "S_2022",
+    "ann": 0,
+    "company": "Sentinel One",
+    "pdf_pages": 171,
+    "meta": [
+      67
+    ],
+    "extra": [
+      66
+    ],
+    "checks": [
+      {
+        "printed_page": 66,
+        "match": "phys+7",
+        "physical_idx": 72,
+        "figure_hits": 1,
+        "n_figs": 1,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      66
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "PANW_2022",
+    "ann": 0,
+    "company": "Palo Alto Networks, Inc",
+    "pdf_pages": 223,
+    "meta": [
+      43,
+      43
+    ],
+    "extra": [
+      42
+    ],
+    "checks": [
+      {
+        "printed_page": 42,
+        "match": "printed-label",
+        "physical_idx": 152,
+        "figure_hits": 0,
+        "n_figs": 3,
+        "printed_label_match": true,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [],
+    "all_grounded": false
+  },
+  {
+    "id": "GLW_2024",
+    "ann": 0,
+    "company": "Corning Incorporated ",
+    "pdf_pages": 106,
+    "meta": [
+      57,
+      60,
+      70
+    ],
+    "extra": [
+      59,
+      92
+    ],
+    "checks": [
+      {
+        "printed_page": 59,
+        "match": "printed-label",
+        "physical_idx": 58,
+        "figure_hits": 3,
+        "n_figs": 8,
+        "printed_label_match": true,
+        "confidence": "HIGH"
+      },
+      {
+        "printed_page": 92,
+        "match": "printed-label",
+        "physical_idx": 91,
+        "figure_hits": 0,
+        "n_figs": 8,
+        "printed_label_match": true,
+        "confidence": "LOW"
+      }
+    ],
+    "to_add": [
+      59
+    ],
+    "all_grounded": false
+  },
+  {
+    "id": "TRMB_2023",
+    "ann": 0,
+    "company": "Trimble",
+    "pdf_pages": 97,
+    "meta": [
+      59
+    ],
+    "extra": [
+      47,
+      58
+    ],
+    "checks": [
+      {
+        "printed_page": 47,
+        "match": "printed-label",
+        "physical_idx": 50,
+        "figure_hits": 0,
+        "n_figs": 0,
+        "printed_label_match": true,
+        "confidence": "MED"
+      },
+      {
+        "printed_page": 58,
+        "match": "printed-label",
+        "physical_idx": 61,
+        "figure_hits": 0,
+        "n_figs": 0,
+        "printed_label_match": true,
+        "confidence": "MED"
+      }
+    ],
+    "to_add": [
+      47,
+      58
+    ],
+    "all_grounded": true
+  },
+  {
+    "id": "CYH_2024",
+    "ann": 0,
+    "company": "Community Health Systems",
+    "pdf_pages": 183,
+    "meta": [
+      79
+    ],
+    "extra": [
+      78
+    ],
+    "checks": [
+      {
+        "printed_page": 78,
+        "match": "phys+0",
+        "physical_idx": 77,
+        "figure_hits": 4,
+        "n_figs": 7,
+        "printed_label_match": false,
+        "confidence": "HIGH"
+      }
+    ],
+    "to_add": [
+      78
+    ],
+    "all_grounded": true
+  }
+]
