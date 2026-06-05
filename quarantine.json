@@ -88,5 +88,103 @@
     "rec": 277,
     "ann": 1,
     "reason": "Cumulative-total-return graph question, but page 25 has no numeric data table (graph only; solution itself uses \"estimated data points\"); the high/low values cannot be verified from the filing. Same class as HAYW/EXPE."
+  },
+  {
+    "id": "EVO_2021",
+    "rec": 316,
+    "ann": 0,
+    "reason": "The 'Top 20 Pharma = 35%' customer-mix breakdown on page 6 is from a Group-level thermometer chart, not an Evotec SE (parent-entity-only) breakdown. No SE-specific customer-type revenue split is disclosed in the filing, making it impossible to ground the question's requested figure. Applying Group percentages to SE-only revenue mixes two different entities and yields an unsupported result.",
+    "agent": "A"
+  },
+  {
+    "id": "GOLD_2014",
+    "rec": 345,
+    "ann": 0,
+    "reason": "The question asks to combine AUD and CLP currency contracts by summing their '% of expected operating-cost exposure hedged.' This is methodologically invalid: each percentage is computed relative to that currency's own exposure base, so summing them across two distinct currencies produces a meaningless composite figure (e.g., 100% hedged for one currency plus 58% for another does not equal 158% of anything meaningful). There is no unique, well-defined answer grounded in the filing. Additionally, the cited 2015 percentages appear to differ from what is actually shown in the document.",
+    "agent": "A"
+  },
+  {
+    "id": "EBAY_2020",
+    "rec": 420,
+    "ann": 0,
+    "reason": "The eBay cumulative stockholder return data for 12/31/20 is presented only as a line graph on physical page 31 of the filing; there is no accompanying numeric data table. The answer depends on visually reading the graph endpoint, which is imprecise, and the logic_issue confirms the ~$180 reading is materially wrong (actual value closer to $190–200). Per methodology, graph-only values without a supporting numeric table are quarantined.",
+    "agent": "A"
+  },
+  {
+    "id": "ZVIA_2024",
+    "rec": 471,
+    "ann": 0,
+    "reason": "Wrong document/entity: the question asks about Equity Residential's cash flow from operations and capital expenditures in 2023, but the attached filing is Zevia PBC's 10-K. Equity Residential's figures are not in this filing. The solution uses Zevia data to answer a question about a completely different company.",
+    "agent": "B"
+  },
+  {
+    "id": "DXC_2023",
+    "rec": 627,
+    "ann": 0,
+    "reason": "Underspecified projection: the question asks to project net income using the 'average growth rate' from 2021 to 2023, but DXC's net income changes sign over that period (-$149M in 2021, +$718M in 2022, -$568M in 2023). CAGR (or any compound growth rate) is mathematically undefined/unreliable when the base or endpoint is negative and the series changes sign. There is no uniquely correct method for computing a growth rate projection here, and logic_issue confirms the CAGR result is invalid without offering an alternative.",
+    "agent": "C"
+  },
+  {
+    "id": "GEV_2024",
+    "rec": 664,
+    "ann": 0,
+    "reason": "The 2023 base-year operating income is negative (−$923M), making percent-change-based operating leverage undefined/not meaningful; no standard formula yields a unique correct value in this case.",
+    "agent": "D"
+  },
+  {
+    "id": "PRU_2024",
+    "rec": 688,
+    "ann": 0,
+    "reason": "The question requires reading precise values from a bar chart on page 9 ('Adjusted Operating Revenues and GAAP Revenues'). Page 9 contains no extractable numeric text for adjusted operating revenues. GAAP revenues ($70,405M) appear in a table, but total adjusted operating revenues are only available visually from the chart. No numeric data table exists for the adjusted operating revenues figure.",
+    "agent": "D"
+  },
+  {
+    "id": "ADP_2021",
+    "rec": 702,
+    "ann": 0,
+    "reason": "ADP's fiscal year ends June 30, not December 31. The balance sheet in this 10-K shows total assets as of June 30, 2021 ($48,772.5M) and June 30, 2020 ($39,165.5M). No December 31, 2020 or December 31, 2021 balance sheet data appears in this filing; those dates fall within ADP's fiscal year and are not reported here.",
+    "agent": "D"
+  },
+  {
+    "id": "RAVE_2024",
+    "rec": 133,
+    "ann": 0,
+    "reason": "RAVE Restaurant Group's fiscal year ends in late June, not December 31. The attached filing's balance sheet shows data as of June 30, 2024 and June 25, 2023. No December 31, 2024 balance sheet data exists in this filing; the requested period is absent.",
+    "agent": "D"
+  },
+  {
+    "id": "TKO_2024",
+    "rec": 306,
+    "ann": 1,
+    "reason": "Graph-only value: the performance graph on page 48 contains only an image with no accompanying numeric data table. The ending index values for TKO and S&P 400 can only be estimated visually; no precise figures are verifiable from the filing text.",
+    "agent": "E"
+  },
+  {
+    "id": "FUBO_2024",
+    "rec": 330,
+    "ann": 1,
+    "reason": "Graph-only value: the stock performance graph on page 57-58 has no accompanying numeric data table in the filing text. End-Dec 2024 values for Fubo and the S&P Media and Entertainment Index can only be estimated visually from the graph image; no precise figures are verifiable.",
+    "agent": "E"
+  },
+  {
+    "id": "MATV_2024",
+    "rec": 546,
+    "ann": 0,
+    "reason": "Underspecified projection: the question changes the exercise price to $60 but provides no market price on the exercise date 1/29/2028. The profit on exercise depends on (market price at exercise - $60), which cannot be determined. The solution assumed the market price equals the original strike ($68.75), but this is an unsupported assumption not stated in the question.",
+    "agent": "E"
+  },
+  {
+    "id": "WHD_2024",
+    "rec": 549,
+    "ann": 0,
+    "reason": "Graph-only value: the performance graph on page 26 (physical) has no accompanying numeric data table in the filing. End-Dec 2024 values for Cactus Inc. and the PHLX Oil Service Index can only be estimated visually; no precise figures are verifiable from the filing text.",
+    "agent": "E"
+  },
+  {
+    "id": "ETSY_2021",
+    "rec": 705,
+    "ann": 0,
+    "reason": "Graph-only value: the performance graph referenced in the question (physical p74) has no numeric data table in the filing. The cumulative total return percentage for Etsy from December 31, 2015 through December 31, 2021 can only be estimated visually from the graph image; no verifiable precise figure exists in the filing text.",
+    "agent": "E"
   }
 ]

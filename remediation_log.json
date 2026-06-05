@@ -582,5 +582,1071 @@
     "after": {
       "answer": "$1,042.15 million"
     }
+  },
+  {
+    "id": "TWLO_2018",
+    "rec": 313,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "$188,804 in thousands",
+      "page_numbers": [
+        161
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$215,697 in thousands"
+    },
+    "verification": "Balance sheet on physical page 160 confirms: Accounts receivable net $97,712, Prepaid expenses and other current assets $26,893, Property and equipment net $63,534, Intangible assets net $27,558 — all four line items present; sum = $215,697 thousand."
+  },
+  {
+    "id": "HTBK_2024",
+    "rec": 315,
+    "ann": 1,
+    "agent": "A",
+    "before": {
+      "answer": "$4,832,269 thousand",
+      "page_numbers": [
+        93
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$4,833,305 thousand"
+    },
+    "verification": "Balance sheet on physical page 92 confirms: shares 61,348,095, price $16.63 → market cap $1,020,219K; total liabilities $4,955,279K; cash $968,123K, goodwill $167,631K, other intangibles $6,439K (non-operating total $1,142,193K); EV = 1,020,219 + 4,955,279 − 1,142,193 = $4,833,305K as computed in solution step 4."
+  },
+  {
+    "id": "AREN_2024",
+    "rec": 317,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "200.474133876",
+      "page_numbers": [
+        60,
+        91,
+        94
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "201.0233780784 days"
+    },
+    "verification": "Balance sheet (physical page 59) confirms Simplify Loan = $10,651K; interest expense note (physical page 93) confirms cash paid interest for Simplify Loan 2024 = $585K; Note 17 (physical page 90) confirms 10.0% per annum rate; 2024 is a leap year (366 days). Calculation: 585 / (0.10 × 10,651) × 366 = 201.023... days as computed in solution step 4."
+  },
+  {
+    "id": "AAPL_2020",
+    "rec": 322,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "$53,910 million",
+      "page_numbers": [
+        34,
+        36,
+        38
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$77,184 million"
+    },
+    "verification": "Consolidated Statements of Cash Flows (page 38) confirms D&A $11,056M and CapEx $7,309M; Consolidated Statements of Operations (page 34) confirms net income $57,411M; balance sheets (page 36) confirm debt figures (2020: $4,996+$8,773+$98,667=$112,436M; 2019: $5,980+$10,260+$91,807=$108,047M → net debt $4,389M) and NWC figures yielding ΔNWC cash inflow of $11,637M; FCFE = 57,411+11,056−7,309+11,637+4,389 = $77,184M as computed in solution step 5."
+  },
+  {
+    "id": "COOK_2022",
+    "rec": 333,
+    "ann": 1,
+    "agent": "A",
+    "before": {
+      "answer": "37,679",
+      "page_numbers": [
+        86
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "37,682"
+    },
+    "verification": "Consolidated Balance Sheets on physical page 85 confirms: PP&E net 2021 = $55,477K; Total current liabilities 2022 = $112,907K; Total current liabilities 2021 = $166,225K. Calculation: 55,477 × (112,907/166,225) = 37,682.31, rounds to 37,682."
+  },
+  {
+    "id": "ZBRA_2024",
+    "rec": 340,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "0.36",
+      "page_numbers": [
+        44
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "0.9349"
+    },
+    "verification": "Consolidated Balance Sheets on physical page 43 confirms: Cash $901M, Accounts receivable $692M, Total Current liabilities $1,704M (not $4,382M which is Total Liabilities); Quick ratio = (901+692)/1,704 = 1,593/1,704 = 0.9349."
+  },
+  {
+    "id": "F_2019",
+    "rec": 346,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "$151,199,421,605",
+      "page_numbers": [
+        10
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$80,598,927,979"
+    },
+    "verification": "\"U.S. Sales by Type\" table on physical page 9 shows U.S. Wholesales Trucks 2019 = 1,285,859 (vs. Total Vehicles 2,412,205 which the original solution incorrectly used). Revenue = 1,285,859 × $62,681 = $80,598,927,979."
+  },
+  {
+    "id": "SEAT_2021",
+    "rec": 349,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "152.32%",
+      "page_numbers": [
+        58,
+        59,
+        63
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "25.00%"
+    },
+    "verification": "Solution step 16 correctly computes the percentage increase as (25.0/20.0) − 1 = 25.00%, consistent with 5 turns of multiple expansion from 20.0x to 25.0x EBITDA. The previous answer of 152.32% was produced by incorrectly recalculating equity value from EBITDA and share count rather than applying the multiple-expansion ratio directly."
+  },
+  {
+    "id": "K_2023",
+    "rec": 356,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "$4,066 million",
+      "page_numbers": [
+        95
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$4,212 million"
+    },
+    "verification": "Consolidated Statement of Income on physical page 94 confirms: Net sales $13,122M, COGS $8,839M, original gross profit $4,283M; gross margin = 32.64%. Proportional COGS reduction: $217M × 67.36% = $146M; adjusted GP = ($13,122−$217) − ($8,839−$146) = $12,905 − $8,693 = $4,212M."
+  },
+  {
+    "id": "EOSE_2024",
+    "rec": 364,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "1.491",
+      "page_numbers": [
+        57
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "1.171"
+    },
+    "verification": "Consolidated Balance Sheets on physical page 56 confirms: Cash $74,292K, Accounts receivable net $3,038K, Grant receivable net $2,283K, Other receivables $0 → quick assets $79,613K; Total current liabilities $64,975K; +$3,000K AP increase (scenario) → adjusted current liabilities $67,975K; 79,613/67,975 = 1.171 as computed in solution step 3. Inventory decrease of $2,000K does not affect quick assets."
+  },
+  {
+    "id": "CDW_2023",
+    "rec": 388,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "1.5157",
+      "page_numbers": [
+        49
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "1.5112"
+    },
+    "verification": "Note 16 lease disclosure (physical page 71) explicitly shows current operating lease liabilities: $34.0M (2023) and $31.9M (2022), classified within Accrued expenses. Balance sheet (physical page 48) confirms total current liabilities and long-term operating lease liabilities. Corrected avg adj liabilities = $11,182.6M; avg tangible assets unchanged at $7,399.8M; ratio = 11,182.6/7,399.8 = 1.5112."
+  },
+  {
+    "id": "SLB_2023",
+    "rec": 402,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "21.36%",
+      "page_numbers": [
+        49,
+        51
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "22.19%"
+    },
+    "verification": "Consolidated Balance Sheet on physical page 50 explicitly shows 'SLB stockholders' equity' lines: $20,189M (2023) and $17,685M (2022), separate from noncontrolling interests ($1,170M and $304M). Net income attributable to SLB $4,203M confirmed on income statement. Average = $18,937M; ROE = 4,203/18,937 × 100 = 22.19%."
+  },
+  {
+    "id": "UNH_2017",
+    "rec": 418,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "15.41",
+      "page_numbers": [
+        44,
+        100
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "14.45"
+    },
+    "verification": "Consolidated Statements of Cash Flows (physical page 57) shows supplemental 'Cash paid for interest' = $1,133M for 2017; the parent-only condensed statement on page 100 shows $1,062M (different entity scope). Using $1,133M: 16,369/1,133 = 14.45x."
+  },
+  {
+    "id": "HTZ_2022",
+    "rec": 426,
+    "ann": 0,
+    "agent": "A",
+    "before": {
+      "answer": "-47.02%",
+      "page_numbers": [
+        94,
+        98
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "-49.66%"
+    },
+    "verification": "Consolidated Statements of Operations (physical page 93) confirms 2020 Income (loss) before income taxes = ($2,052M) — not ($2,059M) as in the original solution. Cash flow statement (physical page 97) confirms D&A figures. Corrected 2020 EBITDA = $1,040M; interest/EBITDA 2020 = 58.46%; 2022 ratio = 8.80%; change = 8.80% − 58.46% = −49.66 percentage points."
+  },
+  {
+    "id": "AAPL_2009",
+    "rec": 437,
+    "ann": 0,
+    "agent": "B",
+    "before": {
+      "answer": "8,431.3 million dollars",
+      "page_numbers": [
+        59,
+        61
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$8,361 million"
+    },
+    "verification": "Filing page 58 (physical): operating income $7,658m; page 60 (physical): D&A $703m. EBITDA = 7,658 + 703 = $8,361m. D&A 10% increase is a non-cash add-back so does not change EBITDA. Solution step [3] already computes $8,361m correctly; answer field synced."
+  },
+  {
+    "id": "NASDAQ: LIN_2022",
+    "rec": 438,
+    "ann": 0,
+    "agent": "B",
+    "before": {
+      "answer": "7.42%",
+      "page_numbers": [
+        17
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "10.70%"
+    },
+    "verification": "Filing page 16 (physical) confirms table: LIN $230, S5MATR $143 on Dec 31 2022 from $100 base Dec 31 2017. LIN CAGR = (230/100)^(1/5)-1 = 18.13%; S5MATR CAGR = (143/100)^(1/5)-1 = 7.43%; difference = 10.70%. Solution step [4] already computes 10.70% correctly; answer field synced."
+  },
+  {
+    "id": "VRNT_2025",
+    "rec": 447,
+    "ann": 0,
+    "agent": "B",
+    "before": {
+      "answer": "$139,966.3763 thousand",
+      "page_numbers": [
+        62,
+        63
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$39,806.3763 thousand"
+    },
+    "verification": "Filing page 61 (physical) confirms balance sheet values used in steps [2]-[6]; page 62 confirms income statement with operating income $106,387, pre-tax income $98,348, taxes $15,249. NOPAT = $89,886.3763; ΔNOA = $50,080. FCF = NOPAT - ΔNOA = $39,806.3763 thousand per step [8]. Answer field synced."
+  },
+  {
+    "id": "S_2023",
+    "rec": 448,
+    "ann": 0,
+    "agent": "B",
+    "before": {
+      "answer": "-$104,488 thousand",
+      "page_numbers": [
+        91
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "-$231,912 thousand"
+    },
+    "verification": "Filing page 90 (physical) confirms FY2023 (year ended Jan 31 2023): Revenue $422,179, Gross profit $278,002, R&D $207,008, S&M $310,848, G&A $162,722. Original steps erroneously used FY2024 figures for OpEx and wrong FY2023 gross profit ($257,026 vs $278,002). Corrected calculation: GM 65.85%, projected 2024 GP $448,666 thousand, OpEx $680,578 thousand, operating income -$231,912 thousand."
+  },
+  {
+    "id": "SBUX_2007",
+    "rec": 467,
+    "ann": 0,
+    "agent": "B",
+    "before": {
+      "answer": "10.05%",
+      "page_numbers": [
+        42
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "10.05%"
+    },
+    "verification": "Filing page 41 (physical) confirms income statement: Total net revenues $9,411,497, Income from equity investees $108,006 (added to arrive at operating income), Operating income $1,053,945. Equity investees are included in operating income per Starbucks' P&L structure. To exclude them: $1,053,945 - $108,006 = $945,939; $945,939 / $9,411,497 = 10.05%."
+  },
+  {
+    "id": "LUV_2013",
+    "rec": 477,
+    "ann": 0,
+    "agent": "B",
+    "before": {
+      "answer": "$273 million",
+      "page_numbers": [
+        88
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$717 million"
+    },
+    "verification": "Filing page 87 (physical) confirms: CFO $2,477m, Capex $1,447m, debt/capital lease repayment $313m. FCFE = $2,477 - $1,447 - $313 = $717 million. Solution step [6] already computes $717 million correctly; answer field synced."
+  },
+  {
+    "id": "DCT_2022",
+    "rec": 483,
+    "ann": 0,
+    "agent": "B",
+    "before": {
+      "answer": "$11,491.6 thousand\n\n\n\n\n",
+      "page_numbers": [
+        101
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$11,252.6 thousand"
+    },
+    "verification": "Filing page 100 (physical) confirms: 2021 U.S. Gov securities in short-term investments = $191,981 (estimated fair value); 2022 U.S. Gov securities in cash equivalents = $88,045; 2022 money market funds = $239. 40% of $191,981 = $76,792.4. Net change using only matching asset class: $88,045 - $76,792.4 = $11,252.6 thousand."
+  },
+  {
+    "id": "MAR_2021",
+    "rec": 487,
+    "ann": 0,
+    "agent": "B",
+    "before": {
+      "answer": "83.9256%",
+      "page_numbers": [
+        40
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "-83.9256%"
+    },
+    "verification": "Filing page 39 (physical) confirms: 2021 pre-tax income $1,180m, provision $81m → ETR 6.8644%; 2020 pre-tax loss ($466m), benefit $199m → ETR 42.7039%. Percent change = (6.8644% - 42.7039%) / 42.7039% × 100 = -83.9256%. The ETR decreased so the change is negative. Solution step [3] already shows -83.9256%; answer field synced."
+  },
+  {
+    "id": "NVO_2015",
+    "rec": 494,
+    "ann": 0,
+    "agent": "B",
+    "before": {
+      "answer": "39.43%\n",
+      "page_numbers": [
+        8,
+        58
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "48.11%"
+    },
+    "verification": "Filing page 57 (physical) confirms: Net sales DKK 107,927m, Operating profit DKK 49,444m, Other operating income net DKK 3,482m. Page 7 confirms 22% DKK growth and 8% local-currency growth. LC-adjusted sales = 107,927 × 1.08/1.22 = 95,542m. Adj operating profit = 49,444 - 3,482 = 45,962m. Margin = 45,962/95,542 = 48.11%. Solution step [4] already computes 48.11%; answer field synced."
+  },
+  {
+    "id": "MOS_2024",
+    "rec": 500,
+    "ann": 0,
+    "agent": "B",
+    "before": {
+      "answer": "$17,910,800,000",
+      "page_numbers": [
+        139,
+        151
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$17,869,400,000"
+    },
+    "verification": "Filing page 150 (physical) Other Financial Statement Data table confirms: Cloud computing cost 2024 = $166.3m (not $207.7m — that is the 'Other' line); MRO inventory = $169.0m; Operating lease ROU = $220.0m. Corrected total: 1113.3+2548.4+13352.6+299.8+169.0+220.0+166.3 = $17,869.4m = $17,869,400,000."
+  },
+  {
+    "id": "ET_2021",
+    "rec": 507,
+    "ann": 0,
+    "agent": "B",
+    "before": {
+      "answer": "$3.8782531981 million",
+      "page_numbers": [
+        181
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "3.8782531981"
+    },
+    "verification": "Filing page 180 (physical) confirms: Operating income $8,792m and interest expense net of interest capitalized $2,267m. Coverage ratio = 8,792 / 2,267 = 3.8782531981. This is a dimensionless ratio, not a dollar amount. Solution step [3] correctly computes the ratio; answer field updated to remove erroneous '$' and 'million' units."
+  },
+  {
+    "id": "IQV_2023",
+    "rec": 511,
+    "ann": 1,
+    "agent": "B",
+    "before": {
+      "answer": "$15,883 million\n",
+      "page_numbers": [
+        71
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$10,330 million"
+    },
+    "verification": "Filing page 70 (physical) confirms 2023 Cost of revenues = $9,745 million (not revenues of $14,984 million). $9,745 × 1.06 = $10,329.7 ≈ $10,330 million."
+  },
+  {
+    "id": "T_2016",
+    "rec": 526,
+    "ann": 1,
+    "agent": "C",
+    "before": {
+      "answer": "$368,984.41256591 million",
+      "page_numbers": [
+        49
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$378,816.41256591 million"
+    },
+    "verification": "Balance sheet on physical page 48 confirms: Debt maturing within one year = $9,832M and Long-Term Debt = $113,681M; total debt = $123,513M. Cash = $5,788M confirmed. EV = 261,091.41 + 123,513 - 5,788 = 378,816.41M."
+  },
+  {
+    "id": "ISRG_2018",
+    "rec": 529,
+    "ann": 1,
+    "agent": "C",
+    "before": {
+      "answer": "$4,251.324 million",
+      "page_numbers": [
+        64
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$4,260.096 million"
+    },
+    "verification": "Balance sheet on physical page 63 confirms: Accounts receivable = $682.3M and Total current assets = $4,333.2M. Overstatement = 682.3 * 12/112 = 73.104M; corrected total = 4,260.096M."
+  },
+  {
+    "id": "LAUR_2024",
+    "rec": 530,
+    "ann": 0,
+    "agent": "C",
+    "before": {
+      "answer": "$2,165,289,000",
+      "page_numbers": [
+        77,
+        91
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$2,121,861,000"
+    },
+    "verification": "Balance sheet on physical page 59 confirms 150,794 thousand shares outstanding at Dec 31, 2024. Debt table on physical page 76 confirms total long-term debt and finance leases = $102,145 thousand. Cash = $91.4M confirmed on physical page 44. EV = 2,111,116 + 102,145 - 91,400 = 2,121,861 thousand."
+  },
+  {
+    "id": "RENB_2024",
+    "rec": 552,
+    "ann": 0,
+    "agent": "C",
+    "before": {
+      "answer": "14,884,818",
+      "page_numbers": [
+        93
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "12,695,146"
+    },
+    "verification": "Statement of Stockholders' Equity on physical page 92 confirms FY2024 common share issuances: restricted shares for services = 3,083,760; warrant exercises = 3,951,344; private placement (debt settlement) = 5,660,042. Total = 12,695,146. The 2,189,672 shares labeled 'Shares issuable for settlement of contingent consideration' were not issued during FY2024. Excluding GEDi Cube closing shares (70,834,183) and preferred conversion (5,610,100) per the question."
+  },
+  {
+    "id": "MSGE_2020",
+    "rec": 572,
+    "ann": 0,
+    "agent": "C",
+    "before": {
+      "answer": "-146.5%",
+      "page_numbers": [
+        91
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "-146.5%"
+    },
+    "verification": "Consolidated Statements of Comprehensive Income on physical page 90 confirms: 2020 comprehensive income (loss) attributable to MSG stockholders = $10,906 thousand (positive income), 2019 = $(23,469) thousand (loss). YoY change = (10,906 - (-23,469)) / (-23,469) * 100 = -146.5%."
+  },
+  {
+    "id": "SJM_2024",
+    "rec": 583,
+    "ann": 0,
+    "agent": "C",
+    "before": {
+      "answer": "$959.55 million",
+      "page_numbers": [
+        55
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$869.43 million"
+    },
+    "verification": "STATEMENTS OF CONSOLIDATED INCOME on physical page 54 confirms: 2024 net sales = $8,178.7M, 2023 net sales = $8,529.2M (YoY growth = -4.11%), S&A 2024 = $1,446.2M, operating income 2024 = $1,305.8M. Applying -4.11% to 2024 sales and +7% to S&A: change in sales = -336.14M, change in S&A = +100.23M; projected OI = 1,305.8 - 336.14 - 100.23 = 869.43M."
+  },
+  {
+    "id": "ZLAB_2024",
+    "rec": 591,
+    "ann": 0,
+    "agent": "C",
+    "before": {
+      "answer": "$160,324 thousand",
+      "page_numbers": [
+        93
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "-$220,526 thousand"
+    },
+    "verification": "Consolidated Statements of Cash Flows on physical page 119 confirms: net cash used in operating activities = $(214,869)K; purchases of property and equipment = $(5,657)K. FCF = -214,869 - 5,657 = -220,526K."
+  },
+  {
+    "id": "GPRE_2017",
+    "rec": 599,
+    "ann": 0,
+    "agent": "C",
+    "before": {
+      "answer": "5.99%",
+      "page_numbers": [
+        73,
+        74
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "6.77%"
+    },
+    "verification": "CONSOLIDATED BALANCE SHEETS on physical page 72 confirms: Total Green Plains stockholders' equity 2017 = $942,182K and 2016 = $862,507K (separate from noncontrolling interests of $116,954K and $116,684K). Average = $902,344.5K. ROE = 61,061 / 902,344.5 = 6.77%."
+  },
+  {
+    "id": "PSNL_2022",
+    "rec": 609,
+    "ann": 0,
+    "agent": "C",
+    "before": {
+      "answer": "$11,508.912 thousand",
+      "page_numbers": [
+        105
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$25,335.072 thousand"
+    },
+    "verification": "Revenue table on physical page 104 confirms: total revenue 2022 = $65,047K; enterprise sales = $26,641K; other components sum to $38,406K. With enterprise sales grown 20% to $31,969.2K, new total = $70,375.2K. Natera at 41% per filing. Adjusted Natera% = 36%; $70,375.2 × 0.36 = $25,335.07K."
+  },
+  {
+    "id": "FRGE_2024",
+    "rec": 629,
+    "ann": 0,
+    "agent": "C",
+    "before": {
+      "answer": "−$30,409 thousand",
+      "page_numbers": [
+        56,
+        57,
+        61,
+        85
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "-$41,325 thousand"
+    },
+    "verification": "Consolidated Statements of Cash Flows on physical page 60 confirms: net cash used in operating activities = $(40,533)K; purchases of property and equipment = $(792)K. FCF = -40,533 - 792 = -41,325K. Logic_issue confirms approx. -$41.3M."
+  },
+  {
+    "id": "LULU_2016",
+    "rec": 633,
+    "ann": 0,
+    "agent": "C",
+    "before": {
+      "answer": "$512,003 thousand",
+      "page_numbers": [
+        43,
+        46
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$510,426 thousand"
+    },
+    "verification": "Consolidated Statements of Operations on physical page 42 confirms: net income = $303,381K, income tax = $119,348K, interest = $0K. Cash flow statement on physical page 45 confirms D&A = $87,697K. EBITDA = 303,381 + 0 + 119,348 + 87,697 = $510,426K. The $512,003K answer incorrectly added $1,577K other income (expense), which is not part of EBITDA."
+  },
+  {
+    "id": "SHOO_2014",
+    "rec": 638,
+    "ann": 0,
+    "agent": "C",
+    "before": {
+      "answer": "$113,319",
+      "page_numbers": [
+        43
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$118,011"
+    },
+    "verification": "Consolidated Statements of Income on physical page 42 confirms: 2014 net sales = $1,334,951K, cost of sales = $865,951K, gross profit = $469,000K, net income attributable to Steve Madden = $111,880K. With sales +5% and COGS +7%: new GP = $1,401,698.55 - $926,567.57 = $475,130.98K; delta GP = +$6,130.98K; projected NI = $111,880 + $6,130.98 = $118,010.98 ≈ $118,011K."
+  },
+  {
+    "id": "NOV_2017",
+    "rec": 640,
+    "ann": 0,
+    "agent": "D",
+    "before": {
+      "answer": "30.16 billion dollars",
+      "page_numbers": [
+        62
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "30.41 billion dollars"
+    },
+    "verification": "Balance sheet (physical page 60) states '380,104,970 shares issued and outstanding at December 31, 2017'; 380.10497 × $80 = $30,408.40M = $30.41B"
+  },
+  {
+    "id": "LKQ_2024",
+    "rec": 657,
+    "ann": 0,
+    "agent": "D",
+    "before": {
+      "answer": "2.6455128205",
+      "page_numbers": [
+        105,
+        148
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "2.5713395639"
+    },
+    "verification": "Cash flow statement shows total D&A = $406M for 2024 (vs. $361M income-statement line); long-term obligations = $4,127M confirmed on balance sheet; $4,127 / $1,605 = 2.5713"
+  },
+  {
+    "id": "LNT_2024",
+    "rec": 668,
+    "ann": 0,
+    "agent": "D",
+    "before": {
+      "answer": "$710.57 million",
+      "page_numbers": [
+        52
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$1,061.35 million"
+    },
+    "verification": "Income statement (page 52) shows income tax expense (benefit) = $(114) million and income before income taxes = $576 million; ETR = −19.79%; EBIT $886M × 1.1979 = $1,061.35M"
+  },
+  {
+    "id": "FIX_2022",
+    "rec": 684,
+    "ann": 0,
+    "agent": "D",
+    "before": {
+      "answer": "315,454 thousand",
+      "page_numbers": [
+        47,
+        49
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "267,095 thousand"
+    },
+    "verification": "CFO $301,531, capex $48,359, interest $13,352, tax benefit $(10,089) on pretax $235,858 all confirmed on pages 47 and 49; solution steps already compute ULFCF = 267,095; answer field was wrong (315,454)."
+  },
+  {
+    "id": "TSE: RY_2020",
+    "rec": 687,
+    "ann": 0,
+    "agent": "D",
+    "before": {
+      "answer": "$3,107.32",
+      "page_numbers": [
+        17,
+        30
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$2,558.97"
+    },
+    "verification": "Total revenue $47,181M and non-interest expense $24,758M confirmed on page 17 (Table 1); 17M total clients confirmed on page 2 of filing; 13.6M profitable clients, revenue per profitable client $3,469.19 − cost per profitable client $910.22 = $2,558.97 (solution already correct)"
+  },
+  {
+    "id": "WDFC_2023",
+    "rec": 692,
+    "ann": 0,
+    "agent": "D",
+    "before": {
+      "answer": "$66,573.6041 thousand",
+      "page_numbers": [
+        152
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$67,348.6041 thousand"
+    },
+    "verification": "All base figures confirmed on page 152: SG&A $154,684, adv $28,807, amort $1,005, net sales $537,255, COGS $263,035; corrected SGA 154684×1.06=163,965.04 (not 164,965.04); recomputed net income = $67,348.6041 thousand"
+  },
+  {
+    "id": "IOT_2023",
+    "rec": 14,
+    "ann": 1,
+    "agent": "D",
+    "before": {
+      "answer": "$13,754,999,308.60\n\n\n",
+      "page_numbers": [
+        81
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$13,747,999,308.60"
+    },
+    "verification": "Class A shares 132,111,095 + Class B 392,049,114 = 524,160,209; plus 25,000,000 RSUs = 549,160,209; × $25.40 = $13,948,669,308.60; minus $200,670,000 cash = $13,747,999,308.60. Step 3 of solution already states the correct value; answer field was off by $7,000,000.",
+    "ai_pending": true
+  },
+  {
+    "id": "AFL_2021",
+    "rec": 50,
+    "ann": 0,
+    "agent": "D",
+    "before": {
+      "answer": "3.94%",
+      "page_numbers": [
+        89
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "3.83%"
+    },
+    "verification": "Total shareholders' equity 2020=$33,559M, assets=$165,086M; 2021 equity=$33,253M, assets=$157,542M confirmed on page 89. Precise ratios: 0.20328 and 0.21107; pct change = 3.83% (not 3.94% from rounded ratios).",
+    "ai_pending": true
+  },
+  {
+    "id": "MOG.A_2024",
+    "rec": 128,
+    "ann": 0,
+    "agent": "D",
+    "before": {
+      "answer": "17.99%",
+      "page_numbers": [
+        51
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "14.38%"
+    },
+    "verification": "Cash flows (page 58): Depreciation 2024=$82,957K, Amortization 2024=$10,149K; 2023 Dep=$78,692K, Amort=$11,541K. EBITDA 2024=$423,031K, EBITDA 2023=$369,863K; YoY=14.38% (vs. 17.99% which is the EBIT change, not EBITDA).",
+    "ai_pending": true
+  },
+  {
+    "id": "KULR_2024",
+    "rec": 197,
+    "ann": 0,
+    "agent": "D",
+    "before": {
+      "answer": "-67.87%",
+      "page_numbers": [
+        67,
+        70
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "-116.81%"
+    },
+    "verification": "Income statement (page 67): revenue $10,737,481, gross profit $5,483,198, total op expenses $20,718,157, loss from operations $(15,234,959); cash flows (page 70): SBC $2,692,687. Correct adj op income = −$12,542,272; margin = −116.81%.",
+    "ai_pending": true
+  },
+  {
+    "id": "YETI_2021",
+    "rec": 246,
+    "ann": 0,
+    "agent": "E",
+    "before": {
+      "answer": "38.2078172655%",
+      "page_numbers": [
+        54
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "39.4359922004%"
+    },
+    "verification": "Balance sheet (physical p53): inventory $318,864 and total current assets $770,167 confirmed. Adjusted: (318,864-25,000)/(770,167-25,000) = 293,864/745,167 = 39.4359922%. Solution step 3 already states this; answer field was wrong (38.2078%).",
+    "ai_pending": true
+  },
+  {
+    "id": "SCHN_2022",
+    "rec": 328,
+    "ann": 0,
+    "agent": "E",
+    "before": {
+      "answer": "23.03735773%",
+      "page_numbers": [
+        63,
+        64
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "23.01415272%"
+    },
+    "verification": "Consolidated Statements of Equity (physical p63, printed p62): retained earnings Aug 31 2020 = $649,863K, Aug 31 2022 = $941,146K confirmed. Adjusted: 941,146 + 20,892 + 21,366 = 983,404. CAGR = (983,404/649,863)^0.5 - 1 = 23.01415272%. Answer synced from wrong 23.037% to correct 23.014%; step 0 page reference corrected from 65 to 62.",
+    "ai_pending": true
+  },
+  {
+    "id": "HALO_2024",
+    "rec": 353,
+    "ann": 0,
+    "agent": "E",
+    "before": {
+      "answer": "$46.76 million",
+      "page_numbers": [
+        74
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$82.459 million"
+    },
+    "verification": "Consolidated Balance Sheets (physical p73): Long-term debt, net = $1,499,248 thousand as of December 31, 2023 confirmed. $1,499,248K x 5.5% = $82,459K = $82.459M. Solution previously used $850,177K (wrong) giving $46.76M.",
+    "ai_pending": true
+  },
+  {
+    "id": "CARL-B.CO_2024",
+    "rec": 375,
+    "ann": 0,
+    "agent": "E",
+    "before": {
+      "answer": "36.9558172%",
+      "page_numbers": [
+        113,
+        114
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "35.74551515%"
+    },
+    "verification": "Income statement (physical p112): net profit attributable to Carlsberg A/S shareholders = DKK 9,116M confirmed. Balance sheet (physical p113): equity shareholders in Carlsberg A/S: 27,771 (2024) and 23,234 (2023) confirmed. ROE = 9,116 / ((27,771+23,234)/2) = 35.746%.",
+    "ai_pending": true
+  },
+  {
+    "id": "HFWA_2024",
+    "rec": 415,
+    "ann": 1,
+    "agent": "E",
+    "before": {
+      "answer": "0.793",
+      "page_numbers": [
+        40,
+        40
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "0.793"
+    },
+    "verification": "Data table in performance graph section (physical p39): Heritage Financial = $105.05, S&P U.S. SmallCap Banks Index = $132.44, NASDAQ Composite = $223.87 at 12/31/24 confirmed. Ratio = 105.05/132.44 = 0.7932. The logic_issue was incorrect in claiming $132.44 belonged to NASDAQ; the data table shows $132.44 is the S&P SmallCap Banks value. Solution and answer are correct.",
+    "ai_pending": true
+  },
+  {
+    "id": "BKKT_2023",
+    "rec": 443,
+    "ann": 1,
+    "agent": "E",
+    "before": {
+      "answer": "$125.83",
+      "page_numbers": [
+        83,
+        84
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$205.30"
+    },
+    "verification": "Page 83 (physical p82): transacting accounts = 3.8 million for year ended Dec 31, 2023 confirmed. Revenue (physical p83) = $780,136K confirmed. $780,136,000 / 3,800,000 = $205.30.",
+    "ai_pending": true
+  },
+  {
+    "id": "DG_2025",
+    "rec": 451,
+    "ann": 0,
+    "agent": "E",
+    "before": {
+      "answer": "$1.879 million",
+      "page_numbers": [
+        7,
+        45
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$1.972 million"
+    },
+    "verification": "Income statement (physical p44): FY2024 net sales = $40,612,308K confirmed. Store table (physical p6): 20,594 stores at end of 2024 confirmed. $40,612,308 / 20,594 = $1,972.046K = $1.972M per store. Solution previously used $38,717,465 which does not appear in the filing.",
+    "ai_pending": true
+  },
+  {
+    "id": "EEFT_2024",
+    "rec": 473,
+    "ann": 0,
+    "agent": "E",
+    "before": {
+      "answer": "$6.4359858166",
+      "page_numbers": [
+        84
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "$6.52"
+    },
+    "verification": "Income statement (physical p83): net income attributable to Euronet = $306.0M, diluted EPS = $6.45, diluted shares = 48,082,766 confirmed. Reported diluted EPS implies numerator of ~$310.2M. Add $4M x (1-0.21) = $3.16M: new numerator $313.36M / 48,082,766 = $6.5171, rounds to $6.52.",
+    "ai_pending": true
+  },
+  {
+    "id": "NOG_2020",
+    "rec": 522,
+    "ann": 0,
+    "agent": "E",
+    "before": {
+      "answer": "-88.87%",
+      "page_numbers": [
+        41,
+        42
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "-180.35 percentage points"
+    },
+    "verification": "Data table (physical p41): NOG = $22.69 and S&P 500 = $203.04 at 12/31/2020 from a $100 investment confirmed. NOG return = -77.31%, S&P return = +103.04%, shortfall = -180.35 pp. Prior answer (-88.87%) incorrectly divided the dollar difference by the S&P ending wealth value.",
+    "ai_pending": true
+  },
+  {
+    "id": "STX_2023",
+    "rec": 544,
+    "ann": 0,
+    "agent": "E",
+    "before": {
+      "answer": "$(481.7)",
+      "page_numbers": [
+        38
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "+$47.27 million (increase)"
+    },
+    "verification": "Income statement (physical p49): interest expense $313M, interest income $10M, net income $(529)M confirmed. Net interest expense = $303M; 20% reduction = $60.6M; after-tax impact = $60.6 x (1-0.22) = $47.268M increase. The answer field previously showed $(481.7)M (the new net income level), not the impact.",
+    "ai_pending": true
+  },
+  {
+    "id": "BJ_2021",
+    "rec": 554,
+    "ann": 0,
+    "agent": "E",
+    "before": {
+      "answer": "56.58896%",
+      "page_numbers": [
+        35,
+        35
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "61.38759%"
+    },
+    "verification": "Performance graph data table (physical p34, decoded): BJ's = 263.32, S&P 500 = 163.16 at Jan 29, 2022 confirmed. Solution step previously used 168.16 for S&P 500 (wrong). Correct: (263.32-163.16)/163.16 x 100 = 61.38759%.",
+    "ai_pending": true
+  },
+  {
+    "id": "VVV_2021",
+    "rec": 683,
+    "ann": 0,
+    "agent": "E",
+    "before": {
+      "answer": "23.77%\n\n",
+      "page_numbers": [
+        60
+      ],
+      "logic_validation_failed": true
+    },
+    "after": {
+      "answer": "35.64%"
+    },
+    "verification": "Consolidated Statements of Cash Flows (physical p59): total cash provided by operating activities = $404M and additions to property, plant and equipment = ($144)M for FY2021 confirmed. $144/$404 x 100 = 35.643%. Solution previously used $488M and $116M (wrong figures).",
+    "ai_pending": true
   }
 ]

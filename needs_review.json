@@ -10,5 +10,110 @@
     "rec": 294,
     "ann": 0,
     "note": "Issue says use average/period-end degree students instead of summing quarters. But the solution's quarterly counts (e.g., 13,483) are not found on the cited table page; need to read the actual Degree Students metric table to get correct counts, then decide average vs period-end. Revenue $48,671k is confirmed."
+  },
+  {
+    "id": "NKE_2020",
+    "rec": 321,
+    "ann": 0,
+    "note": "The logic_issue says amortization was omitted from EBITDA. The cash flow statement (physical page 60) shows 'Depreciation' of $721M and 'Amortization, impairment and other' of $398M separately. However, the $398M FY2020 line is dominated by a non-recurring ~$405M impairment charge related to the APLA distributor transition (vs. only $15M in FY2019 and $27M in FY2018 for the same line). Pure recurring amortization is de minimis (~$1M for finite-lived intangibles per Note 4). Adding $398M as 'amortization' would incorrectly include the non-recurring impairment; using only the tiny recurring amortization figure does not materially change the EBITDA result. Cannot determine a uniquely correct EBITDA without isolating amortization from impairment in the combined cash-flow line item.",
+    "agent": "A"
+  },
+  {
+    "id": "DKNG_2020",
+    "rec": 445,
+    "ann": 0,
+    "note": "Filing page 77 (physical) clearly shows Net loss attributable to common stockholders = $844,270 thousand and Total assets = $3,439,329 thousand (page 75). The solution correctly uses $844,270 and computes ROA = (24.55)%, which matches the answer. The logic_issue claims net loss should be ~$1,232m, but that figure does not appear anywhere in the 2020 10-K. Cannot determine the source of the $1,232m figure or confirm it is correct.",
+    "agent": "B"
+  },
+  {
+    "id": "BXP_2022",
+    "rec": 476,
+    "ann": 0,
+    "note": "The question asks for a 2022 hypothetical projection with 'all other items remaining constant' — this naturally means holding 2021 values constant and only increasing 2021 G&A by 10%, which is what the solution and answer ($555,808 thousand) correctly implement. The logic_issue says to start from actual 2022 net income, but the 2022 fiscal year data is not present in the attached filing (which is the FY2021 10-K), and the question's phrasing does not require it. Cannot apply the logic_issue's correction without data not in this filing.",
+    "agent": "B"
+  },
+  {
+    "id": "CVX_2004",
+    "rec": 480,
+    "ann": 0,
+    "note": "The logic_issue says to use Chevron's reported upstream pre-tax results to get ~$13.5/boe, but the filing only reports after-tax segment income ($3,183m US + $3,220m international) with no segment-level pre-tax breakdown. The consolidated pre-tax income ($12,770m) includes all segments. Cannot locate upstream-only pre-tax figures in this filing to verify the $13.5/boe claim.",
+    "agent": "B"
+  },
+  {
+    "id": "CHGG_2018",
+    "rec": 508,
+    "ann": 0,
+    "note": "Filing page 100 (physical) confirms EBIT = -$6,220 thousand, EBT = -$13,458 thousand, tax provision = $1,430 thousand. With a pre-tax loss and a positive tax provision, the effective tax rate = $1,430 / (-$13,458) = -10.63%. The logic_issue flags that using |EBT| to get +10.63% is incorrect, but does not specify a preferred NOPAT methodology (e.g., use -10.63% effective rate, use statutory 21%, or use 0%). Without a definitive correct approach specified, cannot determine the correct NOPAT value.",
+    "agent": "B"
+  },
+  {
+    "id": "MC_2023",
+    "rec": 510,
+    "ann": 0,
+    "note": "The 2023 10-K (this filing) only discloses client counts for FY2023 (304) and FY2022 (314). The logic_issue states 2021 had 404 clients, which would be disclosed in the FY2022 10-K (not attached). Cannot verify the 404 client count in the current document. Without confirming the 2021 client figure, cannot determine the correct revenue-per-client calculation.",
+    "agent": "B"
+  },
+  {
+    "id": "BCPC_2019",
+    "rec": 523,
+    "ann": 0,
+    "note": "logic_issue says the invested capital is misdefined (subtracts debt and goodwill) for an EVA computation, and that capital charge should apply to net operating capital that includes goodwill and excludes cash/debt. However, the question says to 'use the same definition of invested capital as in your RNOA calculation,' which refers to a prior annotation not available here. Without knowing what RNOA invested capital definition was used, there is no uniquely correct EVA value that can be verified against the filing.",
+    "agent": "C"
+  },
+  {
+    "id": "KEN_2019",
+    "rec": 531,
+    "ann": 0,
+    "note": "logic_issue correctly identifies that applying an effective tax rate derived from a negative pre-tax income base produces a nonsensical 301% rate, making the NOPAT of -$101,439k unreliable. However, logic_issue does not provide a uniquely correct NOPAT or ROIC figure. Alternative methods (e.g., using a statutory tax rate, zeroing out the tax adjustment) would each yield a different ROIC, and no single correct value is grounded in the filing.",
+    "agent": "C"
+  },
+  {
+    "id": "BGFV_2017",
+    "rec": 532,
+    "ann": 0,
+    "note": "The question says 'all other income and expense items remain unchanged' which, read literally, means cost of sales stays flat at $686,303K (giving operating income = $66,824K, matching the solution). The logic_issue argues cost of sales should scale with the 5% sales increase (applying 2017 gross margin ~32.02%), yielding operating income ≈ $32,509K. The two interpretations—literal dollar-flat vs. percentage-of-sales—give materially different results ($66,824K vs. $32,509K), and the filing confirms the 2017 base figures but does not resolve the ambiguity. The correct answer depends on which reading of the question is intended.",
+    "agent": "C"
+  },
+  {
+    "id": "SITE_2024",
+    "rec": 568,
+    "ann": 0,
+    "note": "logic_issue claims the Maintenance end-market percentage is 33% (not 35%), but the actual filing (physical page 7, Net Sales for the 2024 Fiscal Year charts) clearly shows Maintenance = 35%. The solution's use of 35% and the resulting answer of $63.57 million appear to be correct per the filing. The logic_issue appears to have misread the chart value. Cannot determine which is correct without additional validation.",
+    "agent": "C"
+  },
+  {
+    "id": "WRBY_2024",
+    "rec": 581,
+    "ann": 0,
+    "note": "logic_issue correctly notes that adding the undiscounted $13.6M TIA inflow (rather than its present value) overstates the exclusion amount. The correct adjustment requires discounting the 2025 TIA inflow at the lease discount rate. The filing (physical page 95) provides a weighted average discount rate of 5.5%, but it is not clear whether this rate should be applied to the specific 2025 TIA inflow; using 5.5% gives PV = 13,600/1.055 ≈ 12,891, yielding a corrected total of ~$238,246 thousand. However, the exact discount rate for the TIA cash flow is not directly stated, making the uniquely correct answer uncertain.",
+    "agent": "C"
+  },
+  {
+    "id": "O_2015",
+    "rec": 666,
+    "ann": 0,
+    "note": "logic_issue cites audited FY2015 total debt of $4,820,995 thousand, but this figure does not appear anywhere in the filing. The balance sheet shows Lines of credit $238,000 + Term loans $320,000 + Mortgages payable net $646,740 + Notes payable net $3,636,746 = $4,841,486 thousand, which is what the solution correctly computes. Cannot determine whether the solution is wrong or the logic_issue is citing an external supplemental figure absent from this document.",
+    "agent": "D"
+  },
+  {
+    "id": "RBLX _2023",
+    "rec": 685,
+    "ann": 0,
+    "note": "logic_issue claims Gina Mastantuono is also a member of the LDCC (giving 1 strictly-member committee), but the Board Highlights table on page 9 of the proxy shows LDCC as blank for her — only ACC is marked (as Chairperson). The filing supports the existing answer of 0 strictly-member committees. Cannot reconcile the logic_issue's assertion with the filing.",
+    "agent": "D"
+  },
+  {
+    "id": "ITGR_2021",
+    "rec": 695,
+    "ann": 0,
+    "note": "logic_issue claims correct EBITDA from continuing operations is $214,060 thousand, but the segment note on page 96 shows D&A from continuing-operations segments = $76,533 + unallocated D&A $4,836 = $81,369 thousand, which equals the total cash-flow D&A. This gives EBITDA = $135,711 + $81,369 = $217,080 as the solution computes. The logic_issue figure of $214,060 does not appear in the filing and cannot be verified.",
+    "agent": "D"
+  },
+  {
+    "id": "NOTV_2023",
+    "rec": 94,
+    "ann": 1,
+    "note": "logic_issue cites DSA FY2023 cost of revenue = $114.84M and operating expenses = $38.64M, but the filing's MD&A table on page 42 clearly shows cost of revenue = $120.7M and operating expenses = $42.1M (revenue = $185.1M). The logic_issue values are not in the filing and contradict it. The solution's values ($120.7M, $42.1M) match the filing, yielding the ratio = 42.1/(185.1-120.7) = 65.34% as stated. Cannot determine the source of the logic_issue figures.",
+    "agent": "D"
   }
 ]
