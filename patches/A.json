@@ -1,0 +1,199 @@
+[
+  {
+    "rec": 313,
+    "ann": 0,
+    "id": "TWLO_2018",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$215,697 in thousands",
+    "solution_steps": {
+      "4": "## Calculate total value of operating assets.\nTotal Value of Operating Assets = $97,712 + $26,893 + $63,534 + $27,558 = $215,697 in thousands"
+    },
+    "verification": "Balance sheet on physical page 160 confirms: Accounts receivable net $97,712, Prepaid expenses and other current assets $26,893, Property and equipment net $63,534, Intangible assets net $27,558 — all four line items present; sum = $215,697 thousand."
+  },
+  {
+    "rec": 315,
+    "ann": 1,
+    "id": "HTBK_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$4,833,305 thousand",
+    "verification": "Balance sheet on physical page 92 confirms: shares 61,348,095, price $16.63 → market cap $1,020,219K; total liabilities $4,955,279K; cash $968,123K, goodwill $167,631K, other intangibles $6,439K (non-operating total $1,142,193K); EV = 1,020,219 + 4,955,279 − 1,142,193 = $4,833,305K as computed in solution step 4."
+  },
+  {
+    "rec": 316,
+    "ann": 0,
+    "id": "EVO_2021",
+    "kind": "P1",
+    "action": "quarantine",
+    "reason": "The 'Top 20 Pharma = 35%' customer-mix breakdown on page 6 is from a Group-level thermometer chart, not an Evotec SE (parent-entity-only) breakdown. No SE-specific customer-type revenue split is disclosed in the filing, making it impossible to ground the question's requested figure. Applying Group percentages to SE-only revenue mixes two different entities and yields an unsupported result."
+  },
+  {
+    "rec": 317,
+    "ann": 0,
+    "id": "AREN_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "201.0233780784 days",
+    "verification": "Balance sheet (physical page 59) confirms Simplify Loan = $10,651K; interest expense note (physical page 93) confirms cash paid interest for Simplify Loan 2024 = $585K; Note 17 (physical page 90) confirms 10.0% per annum rate; 2024 is a leap year (366 days). Calculation: 585 / (0.10 × 10,651) × 366 = 201.023... days as computed in solution step 4."
+  },
+  {
+    "rec": 321,
+    "ann": 0,
+    "id": "NKE_2020",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "The logic_issue says amortization was omitted from EBITDA. The cash flow statement (physical page 60) shows 'Depreciation' of $721M and 'Amortization, impairment and other' of $398M separately. However, the $398M FY2020 line is dominated by a non-recurring ~$405M impairment charge related to the APLA distributor transition (vs. only $15M in FY2019 and $27M in FY2018 for the same line). Pure recurring amortization is de minimis (~$1M for finite-lived intangibles per Note 4). Adding $398M as 'amortization' would incorrectly include the non-recurring impairment; using only the tiny recurring amortization figure does not materially change the EBITDA result. Cannot determine a uniquely correct EBITDA without isolating amortization from impairment in the combined cash-flow line item."
+  },
+  {
+    "rec": 322,
+    "ann": 0,
+    "id": "AAPL_2020",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$77,184 million",
+    "verification": "Consolidated Statements of Cash Flows (page 38) confirms D&A $11,056M and CapEx $7,309M; Consolidated Statements of Operations (page 34) confirms net income $57,411M; balance sheets (page 36) confirm debt figures (2020: $4,996+$8,773+$98,667=$112,436M; 2019: $5,980+$10,260+$91,807=$108,047M → net debt $4,389M) and NWC figures yielding ΔNWC cash inflow of $11,637M; FCFE = 57,411+11,056−7,309+11,637+4,389 = $77,184M as computed in solution step 5."
+  },
+  {
+    "rec": 333,
+    "ann": 1,
+    "id": "COOK_2022",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "37,682",
+    "solution_steps": {
+      "3": "## Calculate the hypothetical value of \"Property, plant, and equipment, net\" as of December 31, 2022.\nThe value of PP&E in 2022 will follow the same percentage change pattern as Total Current Liabilities experienced from 2021 to 2022.\nThe base value of PP&E for 2021 amounts to $55,477 thousand.\nThe ratio of TCL 2022 to TCL 2021 is 112,907 / 166,225 = 0.679241.\nThe hypothetical PP&E value for 2022 equals the 2021 PP&E amount multiplied by that ratio.\nThe calculation results in $55,477 × (112,907 / 166,225) = $37,682.31 thousand.",
+      "4": "## Round to the nearest whole thousand.\n$37,682.31 thousand rounds to\n37,682"
+    },
+    "verification": "Consolidated Balance Sheets on physical page 85 confirms: PP&E net 2021 = $55,477K; Total current liabilities 2022 = $112,907K; Total current liabilities 2021 = $166,225K. Calculation: 55,477 × (112,907/166,225) = 37,682.31, rounds to 37,682."
+  },
+  {
+    "rec": 340,
+    "ann": 0,
+    "id": "ZBRA_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "0.9349",
+    "solution_steps": {
+      "4": "## Locate Total Current Liabilities.\nIn the table titled \"Consolidated balance sheets,\" the data is in millions, except share data. This information is available directly below the table's title. The \"Total Current liabilities\" for 2024 are 1,704. We know that the units are in millions from the description below the title, and we also know that the amounts are in US dollars from the dollar sign \"$\". So, we have total current liabilities of $1,704 million for ZBRA in FY 2024. Note: the $4,382 million figure on the balance sheet is Total Liabilities (including long-term), not Total Current Liabilities.",
+      "5": "## Compute Quick Ratio from Quick Assets and Total Current Liabilities.\nDetermine ZBRA's quick ratio for FY 2024 using the following formula: divide quick assets by total current liabilities. So, divide $1,593 million by $1,704 million to get approximately 0.9349. Thus, Zebra Technologies Corporation's quick ratio for FY 2024 is\n0.9349"
+    },
+    "verification": "Consolidated Balance Sheets on physical page 43 confirms: Cash $901M, Accounts receivable $692M, Total Current liabilities $1,704M (not $4,382M which is Total Liabilities); Quick ratio = (901+692)/1,704 = 1,593/1,704 = 0.9349."
+  },
+  {
+    "rec": 345,
+    "ann": 0,
+    "id": "GOLD_2014",
+    "kind": "P1",
+    "action": "quarantine",
+    "reason": "The question asks to combine AUD and CLP currency contracts by summing their '% of expected operating-cost exposure hedged.' This is methodologically invalid: each percentage is computed relative to that currency's own exposure base, so summing them across two distinct currencies produces a meaningless composite figure (e.g., 100% hedged for one currency plus 58% for another does not equal 158% of anything meaningful). There is no unique, well-defined answer grounded in the filing. Additionally, the cited 2015 percentages appear to differ from what is actually shown in the document."
+  },
+  {
+    "rec": 346,
+    "ann": 0,
+    "id": "F_2019",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$80,598,927,979",
+    "solution_steps": {
+      "1": "## Locate the sales figures for Ford's wholesale truck sales in the U.S. in 2019.\nNavigate to the table on the bottom of page 10 titled \"U.S. Sales by Type\". The table segregates U.S. Wholesales by Trucks, SUVs, and Cars. Extract the data for \"Trucks\" under \"U.S. Wholesales\" for \"2019\". The value is 1,285,859.",
+      "3": "## Calculate the revenue from 2019 wholesale truck sales at the assumed price.\nTo calculate the revenue from 2019 wholesale truck sales at the assumed price, we must multiply the total wholesale truck sales in 2019 by the assumed price per truck of $62,681. The calculation is 1,285,859 × 62,681 =\n$80,598,927,979"
+    },
+    "verification": "\"U.S. Sales by Type\" table on physical page 9 shows U.S. Wholesales Trucks 2019 = 1,285,859 (vs. Total Vehicles 2,412,205 which the original solution incorrectly used). Revenue = 1,285,859 × $62,681 = $80,598,927,979."
+  },
+  {
+    "rec": 349,
+    "ann": 0,
+    "id": "SEAT_2021",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "25.00%",
+    "verification": "Solution step 16 correctly computes the percentage increase as (25.0/20.0) − 1 = 25.00%, consistent with 5 turns of multiple expansion from 20.0x to 25.0x EBITDA. The previous answer of 152.32% was produced by incorrectly recalculating equity value from EBITDA and share count rather than applying the multiple-expansion ratio directly."
+  },
+  {
+    "rec": 356,
+    "ann": 0,
+    "id": "K_2023",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$4,212 million",
+    "solution_steps": {
+      "4": "## Calculate adjusted COGS and revised gross profit.\nWhen online sales are halted, the associated cost of goods sold also decreases proportionally. The gross margin rate is ($13,122 − $8,839) / $13,122 = $4,283 / $13,122 = 32.64%. Therefore the lost gross profit on the $217 million of lost revenue is $217 × 32.64% = $70.8 million, and the lost COGS is $217 − $70.8 = $146.2 million.\nAdjusted COGS = $8,839 − $146 = $8,693 million.\nAdjusted Gross Profit = $12,905 − $8,693 =\n$4,212 million"
+    },
+    "verification": "Consolidated Statement of Income on physical page 94 confirms: Net sales $13,122M, COGS $8,839M, original gross profit $4,283M; gross margin = 32.64%. Proportional COGS reduction: $217M × 67.36% = $146M; adjusted GP = ($13,122−$217) − ($8,839−$146) = $12,905 − $8,693 = $4,212M."
+  },
+  {
+    "rec": 364,
+    "ann": 0,
+    "id": "EOSE_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "1.171",
+    "verification": "Consolidated Balance Sheets on physical page 56 confirms: Cash $74,292K, Accounts receivable net $3,038K, Grant receivable net $2,283K, Other receivables $0 → quick assets $79,613K; Total current liabilities $64,975K; +$3,000K AP increase (scenario) → adjusted current liabilities $67,975K; 79,613/67,975 = 1.171 as computed in solution step 3. Inventory decrease of $2,000K does not affect quick assets."
+  },
+  {
+    "rec": 388,
+    "ann": 0,
+    "id": "CDW_2023",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "1.5112",
+    "solution_steps": {
+      "1": "## Locate and Extract to Adjust Total Liabilities (excluding lease liabilities).\nWe first locate the \"Consolidated Balance Sheets\" for the fiscal year December 31, 2023 in the document page 49. The figures are in millions as indicated (dollars and shares in millions, except per share amounts).\nWe extract from the fiscal year ended December 31, 2023.\n• Total Current Liabilities = $5,442.0 million\n• Total Long-Term Liabilities = $5,800.1 million\n• Operating Lease Liabilities (long-term) = $164.0 million (per balance sheet)\n• Current Operating Lease Liabilities = $34.0 million (per Note 16 lease disclosure, classified within Accrued expenses and other current liabilities - Other)\n• Total operating lease liabilities to exclude = $164.0 + $34.0 = $198.0 million\n• Adjusted 2023 Liabilities = $5,442.0 + $5,800.1 − $198.0 = $11,044.1 million.\nWe extract from the fiscal year ended December 31, 2022. We use the same criteria above to locate and extract since we are using the same items.\n• Total Current Liabilities = $4,947.1 million\n• Total Long-Term Liabilities = $6,581.1 million\n• Operating Lease Liabilities (long-term) = $175.2 million\n• Current Operating Lease Liabilities = $31.9 million (per Note 16 lease disclosure)\n• Total operating lease liabilities to exclude = $175.2 + $31.9 = $207.1 million\n• Adjusted 2022 Liabilities = $4,947.1 + $6,581.1 − $207.1 = $11,321.1 million.",
+      "2": "## Calculate average adjusted liabilities.\n($11,044.1 + $11,321.1) / 2 = $11,182.6 million.",
+      "5": "## Compute the adjusted Debt-to-Asset ratio.\nNow apply the adjusted formula:\nAdjusted Debt-to-Tangible Asset Ratio\n= $11,182.6 million ÷ $7,399.8 million =\n1.5112"
+    },
+    "verification": "Note 16 lease disclosure (physical page 71) explicitly shows current operating lease liabilities: $34.0M (2023) and $31.9M (2022), classified within Accrued expenses. Balance sheet (physical page 48) confirms total current liabilities and long-term operating lease liabilities. Corrected avg adj liabilities = $11,182.6M; avg tangible assets unchanged at $7,399.8M; ratio = 11,182.6/7,399.8 = 1.5112."
+  },
+  {
+    "rec": 402,
+    "ann": 0,
+    "id": "SLB_2023",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "22.19%",
+    "solution_steps": {
+      "1": "## Find the SLB stockholders' equity for the fiscal year ended December 31, 2023.\nNavigate to page 51 and locate the \"CONSOLIDATED BALANCE SHEET.\" We look at the \"SLB stockholders' equity\" line item (which excludes noncontrolling interests). The value for 2023 is $20,189 million. Note: Total Equity is $21,359 million but that includes $1,170 million of noncontrolling interests; ROE should use only SLB stockholders' equity.",
+      "2": "## Find the SLB stockholders' equity for the fiscal year ended December 31, 2022.\nNavigate to page 51 and locate the \"CONSOLIDATED BALANCE SHEET.\" We look at the \"SLB stockholders' equity\" line item for 2022. This value is $17,685 million. Note: Total Equity for 2022 was $17,989 million, which includes $304 million of noncontrolling interests.",
+      "3": "## Calculate Average SLB Stockholders' Equity for 2023 and 2022.\nAdd the values from both years and divide by 2: ($20,189 + $17,685) ÷ 2 = $18,937 million.",
+      "4": "## Calculate the ROE ratio for the fiscal year ended December 31, 2023.\nDivide Net Income attributable to SLB for 2023 (from Step 1, $4,203 million) by Average SLB Stockholders' Equity ($18,937 million) and multiply by 100: ($4,203 ÷ $18,937) × 100 =\n22.19%"
+    },
+    "verification": "Consolidated Balance Sheet on physical page 50 explicitly shows 'SLB stockholders' equity' lines: $20,189M (2023) and $17,685M (2022), separate from noncontrolling interests ($1,170M and $304M). Net income attributable to SLB $4,203M confirmed on income statement. Average = $18,937M; ROE = 4,203/18,937 × 100 = 22.19%."
+  },
+  {
+    "rec": 418,
+    "ann": 0,
+    "id": "UNH_2017",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "14.45",
+    "solution_steps": {
+      "0": "## Locate Consolidated Cash Paid for Interest.\nNavigate to page 57 of the document to the table titled \"Consolidated Statements of Cash Flows\" and find the supplemental disclosure row \"Cash paid for interest\" to get the consolidated figure of $1,133 million for 2017. Note: page 100 shows a parent-entity-only condensed statement with $1,062 million, which is not the consolidated figure and should not be used.",
+      "4": "## Divide by Interest Paid.\nDivide the sum calculated in step 3 by the consolidated total cash paid for interest ($1,133 million) to determine how many times the interest expense can be covered:\n16,369 / 1,133 =\n14.45"
+    },
+    "verification": "Consolidated Statements of Cash Flows (physical page 57) shows supplemental 'Cash paid for interest' = $1,133M for 2017; the parent-only condensed statement on page 100 shows $1,062M (different entity scope). Using $1,133M: 16,369/1,133 = 14.45x."
+  },
+  {
+    "rec": 420,
+    "ann": 0,
+    "id": "EBAY_2020",
+    "kind": "P1",
+    "action": "quarantine",
+    "reason": "The eBay cumulative stockholder return data for 12/31/20 is presented only as a line graph on physical page 31 of the filing; there is no accompanying numeric data table. The answer depends on visually reading the graph endpoint, which is imprecise, and the logic_issue confirms the ~$180 reading is materially wrong (actual value closer to $190–200). Per methodology, graph-only values without a supporting numeric table are quarantined."
+  },
+  {
+    "rec": 426,
+    "ann": 0,
+    "id": "HTZ_2022",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "-49.66%",
+    "solution_steps": {
+      "3": "## Locate EBIT for 2020 and 2022.\nFor \"Income (loss) before income taxes,\" Hertz Global's 2022 income before income taxes is $2,449 million. Adding back 2022's interest expense gives Hertz Global's 2022 EBIT: $2,449 million + $328 million = $2,777 million.\nFor the same metric in 2020, the income statement shows Income (loss) before income taxes of ($2,052 million). Adding back 2020's interest expense gives Hertz Global's 2020 EBIT: ($2,052 million) + $608 million = ($1,444 million).",
+      "4": "## Calculate Each Year's EBITDA.\nTo calculate EBITDA, we must add back each year's D&A, which is located on the Consolidated Statements of Cash Flows on page 98. The relevant values are found in the rows labeled:\n\"Depreciation and reserves for revenue earning vehicles, net\"\n\"Depreciation and amortization, non-vehicle\"\nFor 2022: $809 million + $142 million = $951 million.\nFor 2020: $2,259 million + $225 million = $2,484 million.\nTherefore, for 2022, EBITDA = $2,777 million + $951 million = $3,728 million.\nFor 2020, EBITDA = ($1,444 million) + $2,484 million = $1,040 million.",
+      "5": "## Calculate % Interest Expense to EBITDA.\nNow, we calculate interest expense as a percentage of EBITDA. For 2020, this is $608 million / $1,040 million = 58.46%. For 2022, this is $328 million / $3,728 million = 8.80%.",
+      "6": "## Calculate the Change in Percentage Points.\nSubtracting 2020 Interest Expense as a percentage of EBITDA from 2022 Interest Expense as a percentage of EBITDA, we obtain 8.80% − 58.46% =\n-49.66%"
+    },
+    "verification": "Consolidated Statements of Operations (physical page 93) confirms 2020 Income (loss) before income taxes = ($2,052M) — not ($2,059M) as in the original solution. Cash flow statement (physical page 97) confirms D&A figures. Corrected 2020 EBITDA = $1,040M; interest/EBITDA 2020 = 58.46%; 2022 ratio = 8.80%; change = 8.80% − 58.46% = −49.66 percentage points."
+  }
+]

@@ -1,0 +1,196 @@
+[
+  {
+    "rec": 523,
+    "ann": 0,
+    "id": "BCPC_2019",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "logic_issue says the invested capital is misdefined (subtracts debt and goodwill) for an EVA computation, and that capital charge should apply to net operating capital that includes goodwill and excludes cash/debt. However, the question says to 'use the same definition of invested capital as in your RNOA calculation,' which refers to a prior annotation not available here. Without knowing what RNOA invested capital definition was used, there is no uniquely correct EVA value that can be verified against the filing."
+  },
+  {
+    "rec": 526,
+    "ann": 1,
+    "id": "T_2016",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$378,816.41256591 million",
+    "solution_steps": {
+      "1": "## Extract the values.\nIn the 'Consolidated Balance Sheets' table on page 49, labeled 'December 31, 2016', extract the value of $5,788 million for 'Cash and cash equivalents'. For total debt, include both the current and long-term components: 'Debt maturing within one year' of $9,832 million and 'Long-Term Debt' of $113,681 million, giving total debt = $9,832 + $113,681 = $123,513 million. Other liabilities on the balance sheet are not included in total debt as they are considered part of normal operations rather than financing activities.",
+      "4": "## Calculate the enterprise value.\nCalculate the enterprise value using the formula: Enterprise value = Market capitalization + Total debt – Cash and cash equivalents = $261,091.41256591 million + $123,513 million – $5,788 million = $378,816.41256591 million. Therefore, AT&T Inc.'s enterprise value as of December 31, 2016, is\n$378,816.41256591 million"
+    },
+    "verification": "Balance sheet on physical page 48 confirms: Debt maturing within one year = $9,832M and Long-Term Debt = $113,681M; total debt = $123,513M. Cash = $5,788M confirmed. EV = 261,091.41 + 123,513 - 5,788 = 378,816.41M."
+  },
+  {
+    "rec": 529,
+    "ann": 1,
+    "id": "ISRG_2018",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$4,260.096 million",
+    "solution_steps": {
+      "2": "## Calculate the overstatement amount.\nIf A/R is overstated by 12%, that means the reported A/R equals the true A/R multiplied by 1.12. Therefore the overstatement as a fraction of reported A/R is 12/112:\n682.3 × (12/112) = 73.104",
+      "3": "## Subtract the overstatement from total current assets.\nSubtract the overstatement from the previously reported total current assets:\n4,333.2 − 73.104 = \n$4,260.096 million"
+    },
+    "verification": "Balance sheet on physical page 63 confirms: Accounts receivable = $682.3M and Total current assets = $4,333.2M. Overstatement = 682.3 * 12/112 = 73.104M; corrected total = 4,260.096M."
+  },
+  {
+    "rec": 530,
+    "ann": 0,
+    "id": "LAUR_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$2,121,861,000",
+    "solution_steps": {
+      "0": "## Find shares outstanding at December 31, 2024.\nThe Consolidated Balance Sheet on page 59 shows: 'Common stock, par value $0.004 per share – 700,000 shares authorized, 150,794 shares issued and outstanding as of December 31, 2024.' The total number of shares outstanding at fiscal year-end is 150,794 thousand.",
+      "1": "## Calculate market capitalization using the assumed stock price.\nThe market capitalization calculation involves multiplying the December 31, 2024 shares outstanding (150,794 thousand) by the projected share price of $14.00 per share. The calculation produces a total of $2,111,116,000.",
+      "3": "## Compute the Enterprise Value (EV).\nThe EV calculation requires the following formula:\nEV = Market Capitalization + Total Debt - Cash and Cash Equivalents\nEV = $2,111,116,000 + $102,145,000 - $91,400,000 = $2,121,861,000"
+    },
+    "verification": "Balance sheet on physical page 59 confirms 150,794 thousand shares outstanding at Dec 31, 2024. Debt table on physical page 76 confirms total long-term debt and finance leases = $102,145 thousand. Cash = $91.4M confirmed on physical page 44. EV = 2,111,116 + 102,145 - 91,400 = 2,121,861 thousand."
+  },
+  {
+    "rec": 531,
+    "ann": 0,
+    "id": "KEN_2019",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "logic_issue correctly identifies that applying an effective tax rate derived from a negative pre-tax income base produces a nonsensical 301% rate, making the NOPAT of -$101,439k unreliable. However, logic_issue does not provide a uniquely correct NOPAT or ROIC figure. Alternative methods (e.g., using a statutory tax rate, zeroing out the tax adjustment) would each yield a different ROIC, and no single correct value is grounded in the filing."
+  },
+  {
+    "rec": 532,
+    "ann": 0,
+    "id": "BGFV_2017",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "The question says 'all other income and expense items remain unchanged' which, read literally, means cost of sales stays flat at $686,303K (giving operating income = $66,824K, matching the solution). The logic_issue argues cost of sales should scale with the 5% sales increase (applying 2017 gross margin ~32.02%), yielding operating income ≈ $32,509K. The two interpretations—literal dollar-flat vs. percentage-of-sales—give materially different results ($66,824K vs. $32,509K), and the filing confirms the 2017 base figures but does not resolve the ambiguity. The correct answer depends on which reading of the question is intended."
+  },
+  {
+    "rec": 552,
+    "ann": 0,
+    "id": "RENB_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "12,695,146",
+    "verification": "Statement of Stockholders' Equity on physical page 92 confirms FY2024 common share issuances: restricted shares for services = 3,083,760; warrant exercises = 3,951,344; private placement (debt settlement) = 5,660,042. Total = 12,695,146. The 2,189,672 shares labeled 'Shares issuable for settlement of contingent consideration' were not issued during FY2024. Excluding GEDi Cube closing shares (70,834,183) and preferred conversion (5,610,100) per the question."
+  },
+  {
+    "rec": 568,
+    "ann": 0,
+    "id": "SITE_2024",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "logic_issue claims the Maintenance end-market percentage is 33% (not 35%), but the actual filing (physical page 7, Net Sales for the 2024 Fiscal Year charts) clearly shows Maintenance = 35%. The solution's use of 35% and the resulting answer of $63.57 million appear to be correct per the filing. The logic_issue appears to have misread the chart value. Cannot determine which is correct without additional validation."
+  },
+  {
+    "rec": 572,
+    "ann": 0,
+    "id": "MSGE_2020",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "-146.5%",
+    "solution_steps": {
+      "3": "## Calculate the year-over-year percentage change.\nThe percentage change formula is ((2020 value - 2019 value) / |2019 value|) * 100. Per the filing, the 2020 value is a comprehensive INCOME of $10,906 thousand (positive), not a loss. The 2019 value is comprehensive loss of $(23,469) thousand.\nYear-over-year change = ($10,906 − (−$23,469)) / |−$23,469| × 100 = $34,375 / $23,469 × 100 = 146.5%.\nSince the denominator (2019) is a loss (negative), the directional change is: ($10,906 − (−$23,469)) / (−$23,469) × 100 = −146.5%.\nThe year-over-year percentage change in comprehensive loss attributable to MSG stockholders is\n−146.5%"
+    },
+    "verification": "Consolidated Statements of Comprehensive Income on physical page 90 confirms: 2020 comprehensive income (loss) attributable to MSG stockholders = $10,906 thousand (positive income), 2019 = $(23,469) thousand (loss). YoY change = (10,906 - (-23,469)) / (-23,469) * 100 = -146.5%."
+  },
+  {
+    "rec": 581,
+    "ann": 0,
+    "id": "WRBY_2024",
+    "kind": "P1",
+    "action": "needs_review",
+    "reason": "logic_issue correctly notes that adding the undiscounted $13.6M TIA inflow (rather than its present value) overstates the exclusion amount. The correct adjustment requires discounting the 2025 TIA inflow at the lease discount rate. The filing (physical page 95) provides a weighted average discount rate of 5.5%, but it is not clear whether this rate should be applied to the specific 2025 TIA inflow; using 5.5% gives PV = 13,600/1.055 ≈ 12,891, yielding a corrected total of ~$238,246 thousand. However, the exact discount rate for the TIA cash flow is not directly stated, making the uniquely correct answer uncertain."
+  },
+  {
+    "rec": 583,
+    "ann": 0,
+    "id": "SJM_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$869.43 million",
+    "verification": "STATEMENTS OF CONSOLIDATED INCOME on physical page 54 confirms: 2024 net sales = $8,178.7M, 2023 net sales = $8,529.2M (YoY growth = -4.11%), S&A 2024 = $1,446.2M, operating income 2024 = $1,305.8M. Applying -4.11% to 2024 sales and +7% to S&A: change in sales = -336.14M, change in S&A = +100.23M; projected OI = 1,305.8 - 336.14 - 100.23 = 869.43M."
+  },
+  {
+    "rec": 591,
+    "ann": 0,
+    "id": "ZLAB_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "-$220,526 thousand",
+    "solution_steps": {
+      "2": "## Plug in the values.\nFCF = Net cash used in operating activities − Purchases of property and equipment (CapEx).\nFrom the Consolidated Statements of Cash Flows (physical page 119):\nNet cash used in operating activities (2024) = $(214,869) thousand\nPurchases of property and equipment (2024) = $(5,657) thousand\nFCF = (−214,869) − 5,657 = −$220,526 thousand",
+      "3": "## Conclusion for FCF.\nZai Lab's free cash flow for 2024 is −$220,526 thousand, calculated as net cash used in operating activities of $(214,869) thousand minus capital expenditures (purchases of property and equipment) of $5,657 thousand."
+    },
+    "verification": "Consolidated Statements of Cash Flows on physical page 119 confirms: net cash used in operating activities = $(214,869)K; purchases of property and equipment = $(5,657)K. FCF = -214,869 - 5,657 = -220,526K."
+  },
+  {
+    "rec": 599,
+    "ann": 0,
+    "id": "GPRE_2017",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "6.77%",
+    "solution_steps": {
+      "3": "## Identify Green Plains Inc.'s stockholders' equity for 2016 and 2017.\nSearch for 'Total Green Plains stockholders' equity' on the CONSOLIDATED BALANCE SHEETS on page 73 (excluding noncontrolling interests). To match the numerator (net income attributable to Green Plains), we use only Green Plains' own equity:\n2017: $942,182 thousand\n2016: $862,507 thousand\nCalculate the average equity: (942,182 + 862,507) / 2 = 902,344.5 thousand.",
+      "4": "## Calculate Green Plains Inc.'s 2017 return on equity.\nUse the formula ROE = Net Income Attributable to Green Plains / Average Green Plains Stockholders' Equity.\nThus, 61,061 / 902,344.5 = 0.0677 × 100 =\n6.77%"
+    },
+    "verification": "CONSOLIDATED BALANCE SHEETS on physical page 72 confirms: Total Green Plains stockholders' equity 2017 = $942,182K and 2016 = $862,507K (separate from noncontrolling interests of $116,954K and $116,684K). Average = $902,344.5K. ROE = 61,061 / 902,344.5 = 6.77%."
+  },
+  {
+    "rec": 609,
+    "ann": 0,
+    "id": "PSNL_2022",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$25,335.072 thousand",
+    "solution_steps": {
+      "4": "## Calculate the adjusted Natera revenue in thousands.\nThe Natera percentage applies to total revenue, not just enterprise sales. Because enterprise sales grows by 20%, total revenue also changes: the other revenue components (Pharma tests and services = $29,552K, Population sequencing = $8,443K, Other = $411K) remain unchanged, while enterprise sales grows from $26,641K to $31,969.2K.\nNew total revenue = $29,552 + $31,969.2 + $8,443 + $411 = $70,375.2 thousand.\nApplying the adjusted Natera percentage of 36% to new total revenue:\n$70,375.2 thousand × 36% = $25,335.072 thousand.\nThe adjusted Natera revenue is $25,335.072 thousand."
+    },
+    "verification": "Revenue table on physical page 104 confirms: total revenue 2022 = $65,047K; enterprise sales = $26,641K; other components sum to $38,406K. With enterprise sales grown 20% to $31,969.2K, new total = $70,375.2K. Natera at 41% per filing. Adjusted Natera% = 36%; $70,375.2 × 0.36 = $25,335.07K."
+  },
+  {
+    "rec": 627,
+    "ann": 0,
+    "id": "DXC_2023",
+    "kind": "P1",
+    "action": "quarantine",
+    "reason": "Underspecified projection: the question asks to project net income using the 'average growth rate' from 2021 to 2023, but DXC's net income changes sign over that period (-$149M in 2021, +$718M in 2022, -$568M in 2023). CAGR (or any compound growth rate) is mathematically undefined/unreliable when the base or endpoint is negative and the series changes sign. There is no uniquely correct method for computing a growth rate projection here, and logic_issue confirms the CAGR result is invalid without offering an alternative."
+  },
+  {
+    "rec": 629,
+    "ann": 0,
+    "id": "FRGE_2024",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "-$41,325 thousand",
+    "solution_steps": {
+      "0": "## Identify the simplest definition of Free Cash Flow.\nFree Cash Flow (FCF) = Net cash used in operating activities − Capital expenditures (purchases of property and equipment). These figures come directly from the Consolidated Statements of Cash Flows on page 61.",
+      "1": "## Locate net cash used in operating activities for 2024.\nFrom the Consolidated Statements of Cash Flows on page 61, 'Net cash used in operating activities' for 2024 = $(40,533) thousand.",
+      "2": "## Locate capital expenditures for 2024.\nFrom the same cash flow statement, 'Purchases of property and equipment' for 2024 = $(792) thousand.",
+      "3": "## Calculate Free Cash Flow.\nFCF = Net cash used in operating activities − Purchases of property and equipment\nFCF = (−40,533) − 792 = −$41,325 thousand",
+      "4": "## Conclusion.\nForge Global's Free Cash Flow for fiscal year 2024 is −$41,325 thousand.",
+      "5": "## Summary.\nThe direct cash flow approach gives Forge Global's FCF: net cash used in operating activities of $(40,533) thousand minus capital expenditures of $792 thousand = −$41,325 thousand. The NOPAT-based unlevered FCF approach in the original steps 1–8 was flawed because (a) the tax rate was computed as tax expense / revenue rather than tax expense / pre-tax income, and (b) working capital included cash balances rather than operating working capital items only. The direct CFO minus CapEx method is the standard and correct approach here.",
+      "6": "## Not applicable.\nThis step is superseded by the corrected calculation in step 3.",
+      "7": "## Not applicable.\nThis step is superseded by the corrected calculation in step 3.",
+      "8": "## Not applicable.\nThis step is superseded by the corrected calculation in step 3."
+    },
+    "verification": "Consolidated Statements of Cash Flows on physical page 60 confirms: net cash used in operating activities = $(40,533)K; purchases of property and equipment = $(792)K. FCF = -40,533 - 792 = -41,325K. Logic_issue confirms approx. -$41.3M."
+  },
+  {
+    "rec": 633,
+    "ann": 0,
+    "id": "LULU_2016",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$510,426 thousand",
+    "verification": "Consolidated Statements of Operations on physical page 42 confirms: net income = $303,381K, income tax = $119,348K, interest = $0K. Cash flow statement on physical page 45 confirms D&A = $87,697K. EBITDA = 303,381 + 0 + 119,348 + 87,697 = $510,426K. The $512,003K answer incorrectly added $1,577K other income (expense), which is not part of EBITDA."
+  },
+  {
+    "rec": 638,
+    "ann": 0,
+    "id": "SHOO_2014",
+    "kind": "P1",
+    "action": "fix",
+    "answer": "$118,011",
+    "verification": "Consolidated Statements of Income on physical page 42 confirms: 2014 net sales = $1,334,951K, cost of sales = $865,951K, gross profit = $469,000K, net income attributable to Steve Madden = $111,880K. With sales +5% and COGS +7%: new GP = $1,401,698.55 - $926,567.57 = $475,130.98K; delta GP = +$6,130.98K; projected NI = $111,880 + $6,130.98 = $118,010.98 ≈ $118,011K."
+  }
+]
