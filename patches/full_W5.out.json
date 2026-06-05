@@ -1,0 +1,707 @@
+[
+  {
+    "rec": 264,
+    "ann": 0,
+    "id": "COYA_2024",
+    "action": "already_pass",
+    "ai_prob": 0.1004,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 265,
+    "ann": 0,
+    "id": "PARA_2019",
+    "action": "already_pass",
+    "ai_prob": 0.0042,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 266,
+    "ann": 0,
+    "id": "TJX_2017",
+    "action": "already_pass",
+    "ai_prob": 0.0081,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 266,
+    "ann": 1,
+    "id": "TJX_2017",
+    "action": "already_pass",
+    "ai_prob": 0.0213,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 267,
+    "ann": 0,
+    "id": "ANF_2010",
+    "action": "already_pass",
+    "ai_prob": 0.0014,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 267,
+    "ann": 1,
+    "id": "ANF_2010",
+    "action": "already_pass",
+    "ai_prob": 0.0,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 268,
+    "ann": 0,
+    "id": "HOLX_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: reading the balance sheet page\nPage 88 of the 10-K contains Hologic, Inc. Consolidated Balance Sheets. Numbers there are in millions of dollars.",
+      "## Step 2: current debt portion\nUnder liabilities, current portion of long-term debt for Sept 28, 2019 reads $ 271.4.",
+      "## Step 3: non-current debt\nUnder liabilities, long-term debt net of current portion for Sept 28, 2019 reads $ 2,783.6.",
+      "## Step 4: total debt\n271.4 + 2,783.6 = 3,055.0 million.",
+      "## Step 5: cash\nUnder assets, cash and cash equivalents for Sept 28, 2019 reads $ 601.8.",
+      "## Step 6: net debt\n3,055.0 minus 601.8 = 2,453.2 million. Net Debt = $2,453.2 million."
+    ],
+    "ai_prob": 0.04941628024442079,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 268,
+    "ann": 1,
+    "id": "HOLX_2019",
+    "action": "already_pass",
+    "ai_prob": 0.4073,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 269,
+    "ann": 0,
+    "id": "UONE_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0382,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 272,
+    "ann": 0,
+    "id": "AAP_2022",
+    "action": "already_pass",
+    "ai_prob": 0.1307,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 272,
+    "ann": 1,
+    "id": "AAP_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0263,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 273,
+    "ann": 0,
+    "id": "NVAX_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: net loss for 2023\nPage 110, table \"CONSOLIDATED STATEMENTS OF COMPREHENSIVE LOSS (in thousands).\" Net loss for 2023 is $(545,062).",
+      "## Step 2: foreign currency translation adjustment ratio\nSame table shows foreign currency translation adjustment of $9,099 for 2023. Ratio: $9,099 divided by $(545,062) = -0.0167 (negative 1.67%).",
+      "## Step 3: hypothetical net loss with 30% decrease\n$(545,062) times (1 minus 0.30) = $(381,543.4) thousand.",
+      "## Step 4: new foreign currency translation adjustment\n$(381,543.4) times (-0.0167) = $6,369.3 thousand.",
+      "## Step 5: hypothetical comprehensive loss\n$(381,543.4) plus $6,369.3 = $(375,174.1) thousand."
+    ],
+    "ai_prob": 0.0007375108164038516,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 273,
+    "ann": 1,
+    "id": "NVAX_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: cash flow data from 2023\nPage 87 table. 2023 values: operating $(713,967), investing $(58,806), financing $4,466, exchange rate $3,272, beginning cash $1,348,845.",
+      "## Step 2: modified operating amount\n40% reduction. 713,967 times 0.60 = 428,380.2. Operating is now $(428,380.2).",
+      "## Step 3: total net change in cash\n$(428,380.2) + $(58,806) + $4,466 + $3,272 = $(479,448.2). Net change.",
+      "## Step 4: ending balance\n$1,348,845 added to negative $479,448.2 equals $869,396.8."
+    ],
+    "ai_prob": 0.2596115217393951,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 274,
+    "ann": 0,
+    "id": "NYSE: DXC_2021",
+    "action": "already_pass",
+    "ai_prob": 0.0045,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 275,
+    "ann": 0,
+    "id": "CBOE_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: the chart is on page 97\nThis is the Stockholder Return Performance Graph. It compares cumulative total return of Cboe Global Markets, Inc. and the S&P 500 Index and a Peer Group from December 31, 2019 through December 31, 2024 with $100 invested at the start.",
+      "## Step 2: Cboe result at end of period\nThe Cboe Global Markets, Inc. line shows a value of $175.40 at December 31, 2024. That is a cumulative return of (175.40 / 100) - 1 = 75.40%.",
+      "## Step 3: S&P 500 result at end of period\nThe S&P 500 Index line shows a value of $259.05 at December 31, 2024. That is a cumulative return of (259.05 / 100) - 1 = 159.05%.",
+      "## Step 4: difference\n159.05 percent minus 75.40 percent = 83.65 percentage points."
+    ],
+    "ai_prob": 0.02870513456307454,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 276,
+    "ann": 0,
+    "id": "LEA US_2018",
+    "action": "already_pass",
+    "ai_prob": 0.0003,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 277,
+    "ann": 0,
+    "id": "CARS_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0017,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 278,
+    "ann": 0,
+    "id": "IRM_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: source table for FFO\nPage 41 of the 10-K. Table: RECONCILIATION OF NET INCOME (LOSS) TO FFO (NAREIT) AND FFO (NORMALIZED) (IN THOUSANDS). Column for year ended December 31, 2024.",
+      "## Step 2: values needed\nFFO (Nareit) = $571,464. Adjustments that add to FFO (Nareit): $35,842 + $161,359 + $14,025 + $39,159 + $118,138 + $16,705 + $13,135 minus $37,248 minus $17 = $361,098. FFO (Normalized) = $571,464 + $361,098 = $932,562.",
+      "## Step 3: reduce FFO by 2%\n$932,562 times 0.98 = $913,910.76 thousand.",
+      "## Step 4: shares outstanding from page 78\nCONSOLIDATED STATEMENTS OF OPERATIONS on page 78, units in thousands except per share data. Diluted weighted average common shares outstanding for 2024 = 296,234 thousand.",
+      "## Step 5: increase shares by 17.6%\n296,234 times 1.176 = 348,371.184 thousand shares.",
+      "## Step 6: divide for per-share result\n$913,910.76 / 348,371.184 = $2.62."
+    ],
+    "ai_prob": 0.21631033846827227,
+    "predicted_class": "human",
+    "logic_flag": "Original solution Step 0 references 'Step 1' in a forward reference (before Step 1 occurs). Also Steps 1 and 2 share the same subheader 'Identify the Adjustments from FFO (Nareit) to FFO (Normalized) for Fiscal Year 2024.' These are structural inconsistencies in the original solution."
+  },
+  {
+    "rec": 279,
+    "ann": 0,
+    "id": "CRWD_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0012,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 280,
+    "ann": 0,
+    "id": "CHE_2019",
+    "action": "already_pass",
+    "ai_prob": 0.0039,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 280,
+    "ann": 1,
+    "id": "CHE_2019",
+    "action": "already_pass",
+    "ai_prob": 0.0002,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 281,
+    "ann": 0,
+    "id": "MLR_2020",
+    "action": "already_pass",
+    "ai_prob": 0.0559,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 282,
+    "ann": 0,
+    "id": "ODD_2024",
+    "action": "already_pass",
+    "ai_prob": 0.2297,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 283,
+    "ann": 0,
+    "id": "WLK_2020",
+    "action": "already_pass",
+    "ai_prob": 0.0062,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 284,
+    "ann": 0,
+    "id": "AEE_2021",
+    "action": "already_pass",
+    "ai_prob": 0.0082,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 284,
+    "ann": 1,
+    "id": "AEE_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: source\nPage 90, AMEREN CORPORATION CONSOLIDATED STATEMENT OF INCOME AND COMPREHENSIVE INCOME. Data in millions.",
+      "## Step 2: 2021 natural gas revenue\nUnder Operating Revenues, the \"Natural gas\" row for 2021 = $1,097 million.",
+      "## Step 3: 5% decline amount\n$1,097 times 0.05 = $54.85 million.",
+      "## Step 4: projected 2022 revenue\n$1,097 minus $54.85 = $1,042.15 million."
+    ],
+    "ai_prob": 0.00827970830781654,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 285,
+    "ann": 0,
+    "id": "PFE_2020",
+    "action": "already_pass",
+    "ai_prob": 0.0633,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 286,
+    "ann": 0,
+    "id": "BMBL_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0001,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 287,
+    "ann": 0,
+    "id": "MMYT_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0009,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 289,
+    "ann": 0,
+    "id": "AEP_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 290,
+    "ann": 0,
+    "id": "ENPH_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 291,
+    "ann": 0,
+    "id": "QUBT_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0177,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 292,
+    "ann": 0,
+    "id": "MAT_2015",
+    "action": "already_pass",
+    "ai_prob": 0.0001,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 295,
+    "ann": 0,
+    "id": "A_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: Agilent balance sheet\nPage 58 has the AGILENT TECHNOLOGIES, INC. CONSOLIDATED BALANCE SHEET. In millions. Column: October 31.",
+      "## Step 2: key values for 2022\nCash and cash equivalents = 1,053 million. Total current liabilities = 1,861 million.",
+      "## Step 3: as-reported cash ratio\n1,053 / 1,861 = 0.5658x.",
+      "## Step 4: corrected cash after fixing error\nError was an understatement of $1.1 billion = $1,100 million. Correct balance = 1,053 + 1,100 = 2,153 million.",
+      "## Step 5: corrected ratio\n2,153 / 1,861 = 1.1569x.",
+      "## Step 6: margin change\n1.1569 minus 0.5658 = 0.5911x."
+    ],
+    "ai_prob": 0.37936263928002434,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 296,
+    "ann": 0,
+    "id": "HCA_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: chart location\nPage 97. Chart title: Stock Performance Graph - Comparison of 5 Year Cumulative Total Return. Covers December 31, 2019 to December 31, 2024 for HCA Healthcare, Inc. and S&P 500 Index and S&P 500 Health Care Index.",
+      "## Step 2: chart layout\nX-axis has six time points: 12/31/2019, 12/31/2020, 12/31/2021, 12/31/2022, 12/31/2023, 12/31/2024. Y-axis shows dollar value in $20 steps from $80 to $220. HCA Healthcare uses solid lines with square markers. S&P 500 uses dashed lines with triangular markers.",
+      "## Step 3: values from table below chart\nThe table below the graph shows exact values for 12/31/2024. HCA Healthcare, Inc. = $211.12. S&P 500 = $197.02.",
+      "## Step 4: calculate percentage outperformance\n(211.12 minus 197.02) divided by 197.02 times 100 = 14.10 / 197.02 = 7.1566338443%."
+    ],
+    "ai_prob": 0.1716570362586255,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 297,
+    "ann": 0,
+    "id": "HSBC_2023",
+    "action": "already_pass",
+    "ai_prob": 0.098,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 298,
+    "ann": 0,
+    "id": "HAS_2019",
+    "action": "already_pass",
+    "ai_prob": 0.071,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 299,
+    "ann": 0,
+    "id": "DRI_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0222,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 300,
+    "ann": 0,
+    "id": "CROX_2016",
+    "action": "already_pass",
+    "ai_prob": 0.0002,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 300,
+    "ann": 1,
+    "id": "CROX_2016",
+    "action": "already_pass",
+    "ai_prob": 0.4812,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 301,
+    "ann": 0,
+    "id": "CASY_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0101,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 302,
+    "ann": 0,
+    "id": "SFIX\t_2021",
+    "action": "already_pass",
+    "ai_prob": 0.0018,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 303,
+    "ann": 0,
+    "id": "BOSCHLTD _2024",
+    "action": "already_pass",
+    "ai_prob": 0.0453,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 304,
+    "ann": 0,
+    "id": "BBBY_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: base data from page 103\nConsolidated Statements of Operations in thousands, fiscal year ended February 27, 2021. Net sales 9,233,028. Cost of sales 6,114,947. SGA 3,224,363. Impairments 127,341. Restructuring expenses 102,202. Loss on sale of businesses 1,062.",
+      "## Step 2: net sales adjusted\n9,233,028 times 0.90 = 8,309,725.",
+      "## Step 3: cost and expense adjustments\nCost of sales 6,114,947 times 0.92 = 5,625,751. SGA 3,224,363 times 0.95 = 3,063,145. Impairments 127,341 times 1.25 = 159,176. Restructuring 102,202 times 1.10 = 112,422. Loss on sale stays 1,062.",
+      "## Step 4: gross profit\n8,309,725 minus 5,625,751 = 2,683,974.",
+      "## Step 5: operating loss\n2,683,974 minus 3,063,145 minus 159,176 minus 112,422 minus 1,062 = -651,831 thousand."
+    ],
+    "ai_prob": 0.48285599669191753,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 305,
+    "ann": 0,
+    "id": "ACCEL_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0031,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 306,
+    "ann": 0,
+    "id": "TKO_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: segment table location\nPage 53. The UFC segment results table. Units are in millions. The Segment Results of Operations section on page 52 contains the notation \"(In millions).\"",
+      "## Step 2: Media rights and content revenue for 2024\nThe row \"Media rights and content\" in the UFC table on page 53 shows 879.4 for year ended December 31, 2024. That is 879.4 million dollars.",
+      "## Step 3: Adjusted EBITDA for 2024\nThe row \"Adjusted EBITDA\" in the same table shows 801.0 for year ended December 31, 2024. That is 801.0 million dollars.",
+      "## Step 4: incremental revenue from 5% growth\n879.4 times 0.05 = 43.97 million dollars.",
+      "## Step 5: new Adjusted EBITDA\nAll other items stay the same. New Adjusted EBITDA = 801.0 + 43.97 = 844.97 million dollars."
+    ],
+    "ai_prob": 0.08572341201601014,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 307,
+    "ann": 0,
+    "id": "MNPR_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: original total assets\nPage 57 shows Consolidated Balance Sheets as of December 31, 2022. Total assets = $13,226,954 (in USD).",
+      "## Step 2: reclassify the lease liability\n$8,408 non-current operating lease is moved from liability to prepaid expense (current asset). This raises assets by $8,408. Running total = 13,235,362.",
+      "## Step 3: count the share proceeds\n500,000 new shares at $1.50 each = $750,000 in cash. Par = $0.001 per share, so $500 par and $749,500 APIC. All $750,000 flows into assets as cash.",
+      "## Step 4: total\n13,235,362 + 750,000 = $13,985,362."
+    ],
+    "ai_prob": 0.013795493870590137,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 308,
+    "ann": 0,
+    "id": "ADP_2025",
+    "action": "already_pass",
+    "ai_prob": 0.0016,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 309,
+    "ann": 0,
+    "id": "EPD_2024",
+    "action": "already_pass",
+    "ai_prob": 0.2959,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 309,
+    "ann": 1,
+    "id": "EPD_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: gross operating margin\nTable at bottom of page 74. Paragraph above says dollars are in millions. NGL Pipelines and Services 2024 gross operating margin = $5,548 million.",
+      "## Step 2: pipeline volume\nTable on page 75. NGL pipeline transportation volumes (MBPD), 2024 = 4,355. Page 4 defines MBPD as thousand barrels per day.",
+      "## Step 3: annual barrels\n4,355 x 1,000 = 4,355,000 barrels daily. 2024 = leap year = 366 days. 4,355,000 x 366 = 1,593,930,000 barrels.",
+      "## Step 4: per barrel\n$5,548,000,000 / 1,593,930,000 = $3.4807049243 per barrel."
+    ],
+    "ai_prob": 0.1550791863039801,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 310,
+    "ann": 0,
+    "id": "CHRD_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: operating cash flow from page 89\nThe Consolidated Statement of Cash Flows is on page 89. Net cash provided by operating activities for 2024 = $2,097,227 thousand.",
+      "## Step 2: capital expenditure and acquisition items\nUnder cash flows from investing activities on page 89. Capital expenditures = negative $1,179,075 thousand. Acquisitions net of cash acquired = negative $655,023 thousand.",
+      "## Step 3: confirm these are cash transactions\nPage 90 shows supplemental non-cash transactions. Non-cash consideration exchanged in business combinations = $3,732,137. The $655,023 acquisition figure is a separate cash-based transaction and is not included in that non-cash item.",
+      "## Step 4: total cash outflows\n1,179,075 + 655,023 = 1,834,098 thousand.",
+      "## Step 5: percentage of operating cash\n1,834,098 / 2,097,227 times 100 = 87.45%."
+    ],
+    "ai_prob": 0.0023931225305615757,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 311,
+    "ann": 0,
+    "id": "EXPO_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: where the chart is\nDocument page 31. Chart title: TOTAL SHAREHOLDER RETURNS. Covers 2018 to 2023. Base investment = $100 on December 31, 2018.",
+      "## Step 2: Exponent endpoint\nThe Exponent line ends at $190 at year 2023. Return = 90%.",
+      "## Step 3: S&P 500 endpoint\nThe S&P 500 line ends at $205 at year 2023. Return = 105%.",
+      "## Step 4: the difference\n105% minus 90% = 15 percentage points."
+    ],
+    "ai_prob": 0.019123370996703647,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 312,
+    "ann": 0,
+    "id": "CI_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0012,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 313,
+    "ann": 0,
+    "id": "TWLO_2018",
+    "action": "already_pass",
+    "ai_prob": 0.3783,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 314,
+    "ann": 0,
+    "id": "BX_2015",
+    "action": "already_pass",
+    "ai_prob": 0.0004,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 315,
+    "ann": 0,
+    "id": "HTBK_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: source page\nPage 94. Consolidated Statements of Income. In thousands.",
+      "## Step 2: deposits interest expense\n2024 value = 76,899. 15% raise = 11,534.85. New figure = 88,433.85.",
+      "## Step 3: total interest expense\nOther interest = 2,152. Total = 88,433.85 + 2,152 = 90,585.85.",
+      "## Step 4: net interest income\nInterest income = 242,699. Net = 242,699 minus 90,585.85 = 152,113.15.",
+      "## Step 5: after provision\nProvision = 2,139. After provision = 152,113.15 minus 2,139 = 149,974.15.",
+      "## Step 6: pre-tax income\nNoninterest income = 8,748. Noninterest expense = 113,583. Pre-tax = 149,974.15 + 8,748 minus 113,583 = 45,139.15."
+    ],
+    "ai_prob": 0.0046658057045253,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 315,
+    "ann": 1,
+    "id": "HTBK_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: shares outstanding\nPage 93, shareholders equity section, December 31, 2024. Common shares outstanding = 61,348,095.",
+      "## Step 2: market cap\n61,348,095 times $16.63 per share = $1,020,219 thousand.",
+      "## Step 3: total liabilities\nPage 93 balance sheet. Total liabilities = $4,955,279 thousand.",
+      "## Step 4: non-operating assets to exclude\nCash and due from banks = $29,864. Other investments and interest-bearing deposits = $938,259. Cash equivalents total = $968,123. Goodwill = $167,631. Other intangible assets = $6,439. Total non-operating assets = 968,123 + 167,631 + 6,439 = $1,142,193 thousand.",
+      "## Step 5: enterprise value\nEV = Market Cap + Total Liabilities minus Non-Operating Assets. 1,020,219 + 4,955,279 minus 1,142,193 = $4,833,305 thousand."
+    ],
+    "ai_prob": 0.1090568433690686,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 317,
+    "ann": 0,
+    "id": "AREN_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0004,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 318,
+    "ann": 0,
+    "id": "AI.PA_2012",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: where\nPage 34 in the 2012 Air Liquide reference document, in the 2012 Income Statement section, in the table called Revenue. The note \"(in millions of euros)\" appears above the table.",
+      "## Step 2: Gas & Services value\n2012: 13,912 million euros.",
+      "## Step 3: Total Revenue value\n2012: 15,326 million euros.",
+      "## Step 4: answer\n13912 / 15326 * 100 = 90.77384836%."
+    ],
+    "ai_prob": 0.01667348519573814,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 318,
+    "ann": 1,
+    "id": "AI.PA_2012",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: find chart\nPage 18. Donut chart: \"2012 Industrial Merchant revenue by end market.\" Center = 5,193 million euros total.",
+      "## Step 2: each slice\nTechnology and Research = 11%. Craftsmen and Network = 15%. Food and Pharmaceuticals = 15%. Materials and Energy = 30%. Automotive and Manufacturing = 29%.",
+      "## Step 3: which are under 20%\n11%, 15%, and 15%. The 30% and 29% slices are excluded.",
+      "## Step 4: total\n11 + 15 + 15 = 41%."
+    ],
+    "ai_prob": 0.10488012076546825,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 319,
+    "ann": 0,
+    "id": "VEEV_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 320,
+    "ann": 0,
+    "id": "S_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 322,
+    "ann": 0,
+    "id": "AAPL_2020",
+    "action": "already_pass",
+    "ai_prob": 0.4957,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 323,
+    "ann": 0,
+    "id": "BROS_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 325,
+    "ann": 0,
+    "id": "ATCO-A_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: balance sheet on page 104\nConsolidated Balance Sheet, Atlas Copco, page 104. Amounts in MSEK.",
+      "## Step 2: total equity and liabilities for 2024\nTotal equity = 113,760. Non-current liabilities = 39,363. Current liabilities = 55,415. Total liabilities = 94,778. Trade payables within current liabilities = 16,788.",
+      "## Step 3: original ratio\n94,778 / 113,760 = 0.833.",
+      "## Step 4: ratio without accounts payable\nLiabilities minus 16,788 = 77,990. Ratio = 77,990 / 113,760 = 0.6855610479.",
+      "## Step 5: impact on ratio\n0.833 minus 0.6855610479 = 0.147573736."
+    ],
+    "ai_prob": 0.014129339600564842,
+    "predicted_class": "human",
+    "logic_flag": "Original solution states adjusted ratio as 0.6855610479 but 77,990/113,760 = 0.6855661041; the stated 0.6855610479 is a minor rounding error in the intermediate step. The final answer 0.147573736 is within rounding tolerance of the actual 0.14757384."
+  },
+  {
+    "rec": 327,
+    "ann": 0,
+    "id": "AON_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0107,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 329,
+    "ann": 0,
+    "id": "HUBS_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0001,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 332,
+    "ann": 0,
+    "id": "INTU_2018",
+    "action": "already_pass",
+    "ai_prob": 0.0128,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 333,
+    "ann": 0,
+    "id": "COOK_2022",
+    "action": "already_pass",
+    "ai_prob": 0.2299,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 333,
+    "ann": 1,
+    "id": "COOK_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Step 1: data table\nTRAEGER, INC. CONSOLIDATED BALANCE SHEETS, page 86. Figures in thousands.",
+      "## Step 2: the numbers\n2021: PP&E net = 55,477; total current liabilities = 166,225.\n2022: PP&E net = 55,510; total current liabilities = 112,907.",
+      "## Step 3: the ratio\n112,907 / 166,225 = 0.679241.",
+      "## Step 4: apply to PP&E\n55,477 x 0.679241 = 37,682. Answer = 37,682 thousand."
+    ],
+    "ai_prob": 0.2992089714605967,
+    "predicted_class": "human",
+    "logic_flag": "The question text begins with 'f the year-over-year...' (missing leading 'I'). This appears to be a data entry error in the question field, not a solution logic issue. The math and answer are consistent."
+  },
+  {
+    "rec": 334,
+    "ann": 0,
+    "id": "RUN_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0001,
+    "predicted_class": "human"
+  }
+]
