@@ -1,0 +1,159 @@
+[
+  {
+    "rec": 457,
+    "ann": 0,
+    "id": "DVN_2025",
+    "verdict": "pass",
+    "checked": "figures $3,427M and $3,309M confirmed by solution; 3427/3309=1.0357 rounds to 1.04 matches answer; 4 steps, all ## + newline; GPTZero human 0.87"
+  },
+  {
+    "rec": 480,
+    "ann": 0,
+    "id": "CVX_2004",
+    "verdict": "pass",
+    "checked": "logic fix: answer changed $11.96->$13.55; Table III worldwide pre-tax 12,475 confirmed on physical page 58; production 2,523 MBOED confirmed page 5 'Total Including Affiliates'; 12475/(2523*1000*365/1e6)=13.55 correct; 5 steps all ## + newline; GPTZero human 0.88"
+  },
+  {
+    "rec": 533,
+    "ann": 0,
+    "id": "INTC_2023",
+    "verdict": "pass",
+    "checked": "CA=43269-1100=42169; CL=28053-950+((9595*1.10)-8578)=29079.5; 42169/29079.5=1.45 matches answer; 6 steps all ## + newline; GPTZero human 0.91"
+  },
+  {
+    "rec": 564,
+    "ann": 0,
+    "id": "RGR_2023",
+    "verdict": "pass",
+    "checked": "RGR pct=(114.49-147.45)/147.45*100=-22.35%; Russell pct=(160.85-172.90)/172.90*100=-6.97%; diff=-15.38 pp matches answer; 4 steps all ## + newline; GPTZero human 0.64"
+  },
+  {
+    "rec": 582,
+    "ann": 0,
+    "id": "KNSA_2023",
+    "verdict": "pass",
+    "checked": "276297/63666=4.3397888983 matches answer; 4 steps all ## + newline; GPTZero human 1.00"
+  },
+  {
+    "rec": 587,
+    "ann": 1,
+    "id": "ORCL_2024",
+    "verdict": "pass",
+    "checked": "15353/3514=4.37 matches answer; figures on physical page 65 (doc page 64); solution cites page 66 for interest expense which is wrong but both values are on same page 64—minor citation inconsistency, figures correct; 4 steps all ## + newline; GPTZero human 0.98"
+  },
+  {
+    "rec": 631,
+    "ann": 0,
+    "id": "BILL_2024",
+    "verdict": "flag",
+    "severity": "low",
+    "issue": "Step 1 states 'Bill shows $150. The S&P 500 Index shows $170.' as if reading from a table, but no data table exists on that page—these values are visual estimates from the graph image. The original solution explicitly said 'visual inspection...estimated returns'; the rewrite drops all hedging language and presents the estimates as verified facts. Math is internally consistent ((-20)/170=-11.76%) and answer is unchanged, but the reader cannot verify where $150 and $170 come from."
+  },
+  {
+    "rec": 676,
+    "ann": 0,
+    "id": "HROW_2024",
+    "verdict": "pass",
+    "checked": "2024 CR=189651/91343=2.08; 2023 CR=139482/49344=2.83; change=2.08-2.83=-0.75 matches answer; 4 steps all ## + newline; GPTZero human 0.84"
+  },
+  {
+    "rec": 678,
+    "ann": 0,
+    "id": "HWM_2024",
+    "verdict": "pass",
+    "checked": "469.20-197.02=272.18 matches answer; figures cited page 32; 4 steps all ## + newline; GPTZero human 1.00"
+  },
+  {
+    "rec": 688,
+    "ann": 0,
+    "id": "PRU_2024",
+    "verdict": "flag",
+    "severity": "low",
+    "issue": "Logic fix verified correct: 68053-70405=-2352M=-2.4B matches answer. However, solution cites 'Note 23, page 216' for the $68,053 adjusted operating revenues figure, but that figure does not appear on physical page 216; it appears on physical page 7 (Financial Highlights) and physical page 217 (segment reconciliation table). Wrong page citation, though the number itself is grounded in the filing."
+  },
+  {
+    "rec": 691,
+    "ann": 0,
+    "id": "PMT/PRA_2024",
+    "verdict": "pass",
+    "checked": "12470206/1938500=6.4329; *100=643.29% matches answer; figures on page 182 table F-5; 4 steps all ## + newline; GPTZero human 0.78"
+  },
+  {
+    "rec": 80,
+    "ann": 0,
+    "id": "BRBR_2022",
+    "verdict": "pass",
+    "checked": "139.27-186.36=-47.09 matches answer; figures cited page 37 Performance Graph Data table; 5 steps all ## + newline; GPTZero human 0.91"
+  },
+  {
+    "rec": 392,
+    "ann": 0,
+    "id": "VRTX_2024",
+    "verdict": "pass",
+    "checked": "4.3/9.9=0.4343; 5.1/11.0=0.4636; diff=-0.0293 rounds to -0.03 matches answer; 5 steps all ## + newline; GPTZero human 0.94"
+  },
+  {
+    "rec": 89,
+    "ann": 0,
+    "id": "PAYC_2022",
+    "verdict": "pass",
+    "checked": "(1375218-783798)/1375218=0.43=43% matches answer; 4 steps all ## + newline; GPTZero human 0.96"
+  },
+  {
+    "rec": 522,
+    "ann": 0,
+    "id": "NOG_2020",
+    "verdict": "pass",
+    "checked": "logic fix: answer changed from -88.87% to -180.35 ppts; NOG 5yr return=(22.69-100)/100=-77.31%; S&P500=(203.04-100)/100=103.04%; -77.31-103.04=-180.35 pp matches answer; figures confirmed on filing page 42; 4 steps all ## + newline; GPTZero human 0.86"
+  },
+  {
+    "rec": 370,
+    "ann": 0,
+    "id": "CAT_2024",
+    "verdict": "flag",
+    "severity": "high",
+    "issue": "Solution step 4 computes '11,866.8 divided by 87,764 times 100 equals 13.521262005' but the answer field says '13.5262750102%'. These are different values. 13.5262750102 corresponds to using Profit=10,792 (attributable to Caterpillar, after subtracting NCI) while the solution uses 'Profit of consolidated and affiliated companies'=10,788. The inconsistency existed pre-remediation and was not fixed: the final answer in the solution body (13.521262005) does not match the answer field (13.5262750102%)."
+  },
+  {
+    "rec": 106,
+    "ann": 1,
+    "id": "AZPN_2024",
+    "verdict": "pass",
+    "checked": "(207.62-206.41)/206.41*100=0.59% matches answer; figures $206.41 and $207.62 cited page 65; 4 steps all ## + newline; GPTZero human 0.75"
+  },
+  {
+    "rec": 195,
+    "ann": 0,
+    "id": "CLPT_2023",
+    "verdict": "pass",
+    "checked": "margin=-22089/23955=-0.9221; new margin=-0.9146; required NI=-0.85*24605212=-20914430.2; required rev=-20914430.2/-0.9146=22867198.9; growth=22867198.9/23955000-1=-4.541019% matches answer; 4 steps all ## + newline; GPTZero human 0.99"
+  },
+  {
+    "rec": 493,
+    "ann": 0,
+    "id": "QCOM (NASDAQ)_2001",
+    "verdict": "pass",
+    "checked": "105.0-16.0=89.0M matches answer; figures cited page 2 bar chart; 4 steps all ## + newline; GPTZero human 0.51"
+  },
+  {
+    "rec": 118,
+    "ann": 0,
+    "id": "TXT_2024",
+    "verdict": "pass",
+    "checked": "avg inv=(4071+3914)/2=3992.5; turnover=9403/3992.5=2.3552; days=365/2.3552=154.978 matches answer; 5 steps all ## + newline; GPTZero human 0.95"
+  },
+  {
+    "rec": 618,
+    "ann": 0,
+    "id": "R_2024",
+    "verdict": "pass",
+    "checked": "0.23*(0.23/0.39)=0.135641; 0.16*(0.16/0.39)=0.065641; sum=0.201282=20.13% matches answer; 5 steps all ## + newline; GPTZero human 0.59"
+  },
+  {
+    "rec": 683,
+    "ann": 0,
+    "id": "VVV_2021",
+    "verdict": "pass",
+    "checked": "logic fix: answer changed 23.77%->35.64%; filing page 59 confirms OCF=$404M and capex=$144M; 144/404*100=35.64% matches answer; 4 steps all ## + newline; GPTZero human 0.97"
+  }
+]
