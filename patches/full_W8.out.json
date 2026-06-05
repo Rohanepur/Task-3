@@ -265,11 +265,12 @@
   {"rec": 551, "ann": 0, "id": "BKYI_2013", "action": "already_pass", "ai_prob": 0.00019889553159390763, "predicted_class": "human"},
   {"rec": 551, "ann": 1, "id": "BKYI_2013", "action": "rewritten",
    "solution": [
-     "## Document sections.\nPage 52 has \"Summary of Significant Accounting Policies.\" Page 55 has \"Accounting for Stock-Based Compensation.\" Page 56 has the expense breakdown table.",
-     "## 2013 data from page 56.\nYear ended December 31, 2013: \"Research, development, and engineering\" is 21,491. Total stock-based compensation is 81,642.",
-     "## Proportion.\n21,491 divided by 81,642, times 100: 26.32%."
+     "## Pages in the report.\n\"Summary of Significant Accounting Policies\" begins on page 52. \"Accounting for Stock-Based Compensation\" is on page 55.",
+     "## Table on page 56.\nAt the top of page 56, there is a table of stock-based compensation expenses. The table shows amounts for Year ended December 31, 2013 in separate columns from other years.",
+     "## Numbers from 2013.\nFor 2013: \"Research, development, and engineering\" is $21,491. The total figure at the bottom of the table for 2013 is $81,642.",
+     "## Result.\n21,491 divided by 81,642, times 100, equals 26.32%."
    ],
-   "ai_prob": 0.02952385743371095, "predicted_class": "human"},
+   "ai_prob": 0.12554537246104513, "predicted_class": "human"},
   {"rec": 552, "ann": 0, "id": "RENB_2024", "action": "rewritten",
    "solution": [
      "## Document.\nPage 93, \"RENOVARO INC. AND SUBSIDIARIES CONSOLIDATED STATEMENT OF STOCKHOLDERS' EQUITY for the Years Ended June 30, 2024, and June 30, 2023.\"",
