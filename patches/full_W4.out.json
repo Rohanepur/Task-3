@@ -1,0 +1,759 @@
+[
+  {
+    "rec": 191,
+    "ann": 0,
+    "id": "NX_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Page and units.\nPage 39 has the CONSOLIDATED STATEMENTS OF INCOME (LOSS). Values are in thousands except per share amounts.",
+      "## Pulling numbers.\nYear Ended October 31, 2021: Net sales row reads $1,072,149 thousand. Operating income (loss) row reads $81,870 thousand.",
+      "## Margin.\n81,870 over 1,072,149 is 0.07636 or 7.64%. New margin is 7.64 plus 2 which equals 9.64%.",
+      "## New income.\n0.0964 times 1,072,149 is 103,355.1636. Answer is $103,355.1636 thousand."
+    ],
+    "ai_prob": 0.010659503422300091,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 191,
+    "ann": 1,
+    "id": "NX_2021",
+    "action": "already_pass",
+    "ai_prob": 0.17557552593979486,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 192,
+    "ann": 0,
+    "id": "KAYS_2021",
+    "action": "already_pass",
+    "ai_prob": 0.062060114467058725,
+    "predicted_class": "human",
+    "logic_flag": "Solution removes $400,000 from the 'Salaries and wages' line item (step 1), but the actual reported salaries and wages balance is only $370,034. The reclassification exceeds the stated line-item total, which is arithmetically impossible unless the $400,000 was spread across multiple expense lines. The question states the assumption, but the solution does not reconcile this discrepancy."
+  },
+  {
+    "rec": 193,
+    "ann": 0,
+    "id": "BURL_2021",
+    "action": "already_pass",
+    "ai_prob": 0.00984974453858258,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 193,
+    "ann": 1,
+    "id": "BURL_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Getting revenue.\nThe Consolidated Statements of Income (Loss) is on page 51, with values in thousands. Net sales for Fiscal Year Ended January 29, 2022 is $9,306,549 thousand.",
+      "## Getting fixed assets.\nThe Consolidated Balance Sheets are on page 53, values in thousands. Property and equipment, net at January 29, 2022 is $1,552,237 thousand. Property and equipment, net at January 30, 2021 is $1,438,863 thousand.",
+      "## Average.\nSum is 1,552,237 plus 1,438,863 equals 2,991,100. Average is 2,991,100 divided by 2 equals 1,495,550 thousand.",
+      "## Ratio.\n9,306,549 divided by 1,495,550 equals 6.2228270535."
+    ],
+    "ai_prob": 0.0038742920196456715,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 194,
+    "ann": 0,
+    "id": "SEIC_2024",
+    "action": "already_pass",
+    "ai_prob": 0.47308552197178905,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 196,
+    "ann": 0,
+    "id": "K_2019",
+    "action": "already_pass",
+    "ai_prob": 0.02947418056113214,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 198,
+    "ann": 0,
+    "id": "WBA_2018",
+    "action": "already_pass",
+    "ai_prob": 0.0002891236482903638,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 199,
+    "ann": 0,
+    "id": "CVRX_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00010096491365552834,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 199,
+    "ann": 1,
+    "id": "CVRX_2024",
+    "action": "already_pass",
+    "ai_prob": 2.7600956154554336e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 200,
+    "ann": 0,
+    "id": "SKX_2021",
+    "action": "already_pass",
+    "ai_prob": 0.10697847972599163,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 200,
+    "ann": 1,
+    "id": "SKX_2021",
+    "action": "already_pass",
+    "ai_prob": 0.00017095125220807617,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 201,
+    "ann": 0,
+    "id": "PXLW_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0001788280875201719,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 202,
+    "ann": 0,
+    "id": "CAKE_2023",
+    "action": "already_pass",
+    "ai_prob": 0.00047995597921875904,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 203,
+    "ann": 0,
+    "id": "LSTR_2025",
+    "action": "already_pass",
+    "ai_prob": 0.04429430708756921,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 204,
+    "ann": 0,
+    "id": "AIZ_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Employees.\nPage 13, Human Capital Resources, second paragraph: Assurant had 14,200 employees from more than 80 countries across 21 global markets as of December 31, 2024.",
+      "## Revenue.\nPage 78, Consolidated Statements of Operations, values in millions. Total revenues for 2024 is $11,877.5 million. That converts to $11,877,500,000.",
+      "## Division.\n$11,877,500,000 divided by 14,200 employees equals $836,443.66.",
+      "## Answer.\nAverage total revenue per employee in 2024 is $836,443.66 per employee."
+    ],
+    "ai_prob": 0.2617528586335907,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 204,
+    "ann": 1,
+    "id": "AIZ_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Chart on page 46.\nPage 46 has the Comparison of Cumulative Total Returns chart. Five series are shown: Assurant Inc. Common Stock, S&P 500 Index, S&P MidCap 400 Index, S&P 500 Multi-line Insurance Index, S&P 1500 P&C Index. All start at $100 in 2019.",
+      "## Values from the table under the chart.\nFor 2024: Assurant, Inc. Common Stock is $178.36. S&P 1500 P&C Index is $214.39.",
+      "## Math.\n178.36 minus 214.39 is negative 36.03.",
+      "## Answer.\n-$36.03"
+    ],
+    "ai_prob": 0.024840930178832855,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 205,
+    "ann": 0,
+    "id": "THC_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Page 33 chart.\nPage 33 has the COMPARISON OF FIVE-YEAR CUMULATIVE TOTAL RETURN chart. Page 32 states each $100 investment starts on December 31, 2019. Four series: Tenet Healthcare Corporation, S&P 500, S&P Health Care, Peer Group. X-axis covers 12/19 through 12/24. Y-axis goes from $0 to $300 in $100 steps.",
+      "## Reading Tenet Healthcare at 12/24.\nThe circle data points for Tenet Healthcare at 12/24 sit above the $300 line, approximately $330.",
+      "## Reading Peer Group at 12/24.\nThe rectangle data points for Peer Group at 12/24 sit just above the $200 mark, approximately $205.",
+      "## Difference.\n330 minus 205 equals $125."
+    ],
+    "ai_prob": 0.1037193096099408,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 206,
+    "ann": 0,
+    "id": "CAR_2024",
+    "action": "already_pass",
+    "ai_prob": 0.011071877953712084,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 207,
+    "ann": 0,
+    "id": "NVDA_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source of data.\nPage 43 of the 10-K has the Liquidity and Capital Resources table. Values are in millions of US dollars.",
+      "## Numbers.\nAt 01/26/25 marketable securities are $34,621 million. At 01/28/24 marketable securities are $18,704 million.",
+      "## Change.\n34,621 minus 18,704 equals 15,917.",
+      "## Percentage.\n15,917 divided by 18,704 equals 0.850994. Rounded to two decimal places that is 85.10%."
+    ],
+    "ai_prob": 0.15627038733475002,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 207,
+    "ann": 1,
+    "id": "NVDA_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source table.\nPage 43 of the 10-K has the Liquidity and Capital Resources table. Values are in millions of US dollars.",
+      "## Numbers.\nAt 01/26/25 net cash provided by operating activities is $64,089 million. Net cash used in investing activities is $20,421 million (shown as (20,421) in the table).",
+      "## Division.\n20,421 divided by 64,089 equals 0.31863.",
+      "## Answer.\nRounded to two decimal places that is 31.86%."
+    ],
+    "ai_prob": 0.015535218695272784,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 207,
+    "ann": 2,
+    "id": "NVDA_2024",
+    "action": "already_pass",
+    "ai_prob": 0.3443382434754155,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 208,
+    "ann": 0,
+    "id": "NUS_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Cost of sales source.\nPage 71 has the NU SKIN ENTERPRISES, INC. Consolidated Statements of Income. The header says \"(U.S. dollars in thousands, except per share amounts).\" Cost of sales for 2024 is $550,233 thousand.",
+      "## Inventory source.\nPage 70 has the NU SKIN ENTERPRISES, INC. Consolidated Balance Sheets. The header says \"(U.S. dollars in thousands).\" The Inventories, net row shows $190,242 thousand at December 31, 2024 and $279,978 thousand at December 31, 2023.",
+      "## Formula.\nNet Credit Purchases equals Cost of Goods Sold plus Ending Inventory minus Beginning Inventory.",
+      "## Calculation.\nCost of sales is $550,233 thousand. Ending Inventory is $190,242 thousand. Beginning Inventory is $279,978 thousand. 550,233 plus 190,242 equals 740,475. 740,475 minus 279,978 equals $460,497 thousand."
+    ],
+    "ai_prob": 0.16494331366484238,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 209,
+    "ann": 0,
+    "id": "EA_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Base year figures.\nThe Year Ended March 31 table on page 23 of the 10-K shows Net revenue of $4,950 million for 2019. The CONSOLIDATED STATEMENTS OF OPERATIONS table on page 43 (in millions) shows Cost of revenue $1,322 million, Research and development $1,433 million, Marketing and sales $702 million, General and administrative $460 million, and Interest and other income, net $83 million for 2019.",
+      "## Revenue and gross profit.\nNet revenue increases by 10%: $4,950 million times 1.10 equals $5,445 million. Cost of revenue stays at $1,322 million. Gross profit is $5,445 million minus $1,322 million equals $4,123 million.",
+      "## Operating expenses.\nResearch and development increases 8%: $1,433 million times 1.08 equals $1,547.64 million. Marketing and sales increases 5%: $702 million times 1.05 equals $737.1 million. General and administrative stays at $460 million. Total operating expenses: 1,547.64 plus 737.1 plus 460 equals $2,744.74 million.",
+      "## Operating income plus other income.\nGross profit minus operating expenses: $4,123 minus $2,744.74 equals $1,378.26 million. Interest and other income, net stays at $83 million. Pre-tax income: 1,378.26 plus 83 equals $1,461.26 million.",
+      "## Tax and net income.\nTax at 6%: $1,461.26 million times 0.06 equals $87.676 million. Net income: $1,461.26 minus $87.676 equals $1,373.584 million."
+    ],
+    "ai_prob": 0.0008510714995207494,
+    "predicted_class": "mixed",
+    "logic_flag": "Step 2 header in the original solution says 'Increase all operating expenses by 6%' but the actual increases applied are 8% for R&D, 5% for Marketing and sales, and 0% for G&A. The header is inconsistent with the underlying calculation, though the numbers used are correct per the question assumptions."
+  },
+  {
+    "rec": 210,
+    "ann": 0,
+    "id": "AN_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Data source.\nAUTONATION, INC. CONSOLIDATED BALANCE SHEETS is on page 66 of the 10-K, as of December 31, 2024, in millions.",
+      "## Asset figures.\nReceivables, net: 1,066.3. Inventory: 3,360.0. Other current assets: 211.9. Auto loans receivable: 1,057.1. Property and equipment, net: 3,791.9. Operating lease assets: 391.1. Other assets: 704.8. Goodwill: 1,452.9. Other intangible assets: 905.9. All figures in millions.",
+      "## Addition.\n1,066.3 + 3,360.0 + 211.9 + 1,057.1 + 3,791.9 + 391.1 + 704.8 + 1,452.9 + 905.9 = 12,941.9.",
+      "## Answer.\n$12,941.9 million."
+    ],
+    "ai_prob": 0.0283490194797172,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 210,
+    "ann": 1,
+    "id": "AN_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nPage 67 of the 10-K, AUTONATION INC. CONSOLIDATED STATEMENTS OF INCOME, values in millions.",
+      "## Operating income.\n2024 Operating income on page 67: $1,305.5 million.",
+      "## D&A.\nDepreciation and amortization on page 67 for 2024: $240.7 million. The franchise rights impairment is non-recurring and not added back.",
+      "## EBITDA total.\n1,305.5 plus 240.7 equals $1,546.2 million."
+    ],
+    "ai_prob": 0.07848282973979792,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 211,
+    "ann": 0,
+    "id": "MGNI_2022",
+    "action": "rewritten",
+    "solution": [
+      "## The balance sheet.\nMAGNITE INC. CONSOLIDATED BALANCE SHEETS is on page 66 of the 2022 10-K. The note says \"(In thousands, except par values).\"",
+      "## Numbers from the table.\nAt December 31, 2022: total current assets are $1,326,261 thousand. Total current liabilities are $1,125,032 thousand.",
+      "## The reclassification.\n$150,000 thousand of current accounts payable is reclassified to long-term. That makes adjusted current liabilities equal to 1,125,032 minus 150,000 which is 975,032 thousand.",
+      "## The ratio.\n1,326,261 over 975,032 is 1.36x."
+    ],
+    "ai_prob": 0.1847850363958405,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 213,
+    "ann": 0,
+    "id": "TROW_2024",
+    "action": "stuck",
+    "solution": [
+      "## AUM in 2022 and 2024.\nThe bar chart on page 4 displays assets under management by client type. Two segments appear per year. For 2022: yellow $705.5 billion plus red $569.2 billion equals $1,274.7 billion. For 2024: yellow $940.8 billion plus red $665.8 billion equals $1,606.6 billion.",
+      "## Ratio.\nEnding value over starting value: 1606.6 over 1274.7 is 1.26037.",
+      "## Time and root.\nThe span is 2 years so the exponent is 1 divided by 2 which is 0.5. 1.26037 to the power 0.5 is 1.12266.",
+      "## Conclusion.\n1.12266 minus 1 is 12.266%. The CAGR of AUM from 2022 to 2024 is 12.266%."
+    ],
+    "ai_prob": 0.6733698318332368,
+    "predicted_class": "ai"
+  },
+  {
+    "rec": 214,
+    "ann": 0,
+    "id": "EQR_2022",
+    "action": "already_pass",
+    "ai_prob": 0.001071603612420921,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 215,
+    "ann": 0,
+    "id": "GM_2016",
+    "action": "already_pass",
+    "ai_prob": 0.016220498787029015,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 216,
+    "ann": 0,
+    "id": "ODFL_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00042932163696517156,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 217,
+    "ann": 0,
+    "id": "DAL_2021",
+    "action": "already_pass",
+    "ai_prob": 0.000128215704345115,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 217,
+    "ann": 1,
+    "id": "DAL_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Page 35 has the stock performance graph.\nThe DAL 2021 10-K document page 35 has a section called \"Stock Performance Graph\" with a chart named \"Cumulative Total Returns.\" It shows cumulative total shareholder return starting from a $100 investment on December 31, 2016 for Delta Air Lines Inc. (DAL), S&P 500 INDEX (SPX), and NYSE ARCA AIRLINE (XAL).",
+      "## Graph structure.\nX-axis shows 12/31/2016 through 12/31/2021. Y-axis shows dollar values from $50 to $250.",
+      "## Reading the values at 12/31/2021.\nThe Delta Air Lines (circle marker) endpoint at 12/31/21 is at $75 on the y-axis. The S&P 500 (square marker) endpoint at 12/31/21 is at $240 on the y-axis.",
+      "## Dollar difference.\n$240 minus $75 equals $165.",
+      "## Percentage underperformance.\n$165 divided by $240 times 100 equals 68.75%. Delta Air Lines underperformed the S&P 500 Index by 68.75%."
+    ],
+    "ai_prob": 0.4730668195851662,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 218,
+    "ann": 0,
+    "id": "SWK_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00026526834405376723,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 219,
+    "ann": 0,
+    "id": "NTGR_2024",
+    "action": "already_pass",
+    "ai_prob": 0.07942563100278556,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 220,
+    "ann": 0,
+    "id": "XOM_2013",
+    "action": "already_pass",
+    "ai_prob": 0.048079594323377606,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 220,
+    "ann": 1,
+    "id": "XOM_2013",
+    "action": "already_pass",
+    "ai_prob": 0.19208928534614572,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 221,
+    "ann": 0,
+    "id": "INSM_2022",
+    "action": "already_pass",
+    "ai_prob": 1.84425832871446e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 222,
+    "ann": 0,
+    "id": "MCO_2023",
+    "action": "already_pass",
+    "ai_prob": 0.025404841709685294,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 224,
+    "ann": 0,
+    "id": "SNOW_2025",
+    "action": "already_pass",
+    "ai_prob": 0.06148697504507589,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 225,
+    "ann": 0,
+    "id": "SMP_2021",
+    "action": "already_pass",
+    "ai_prob": 0.0009981109981180118,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 226,
+    "ann": 1,
+    "id": "KIRK_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0002553879445588484,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 227,
+    "ann": 0,
+    "id": "OUT_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Cash on page 66.\nConsolidated Statements of Financial Position, page 66: Cash and cash equivalents at December 31, 2024 is 46.9 million. Values are in millions.",
+      "## Debt on page 83.\nNote 8. Debt, bottom of page 83: Total debt, net at December 31, 2024 is 2,492.5 million.",
+      "## Lease liabilities on page 81.\nNote 5. Leases, page 81: Short-term operating lease liabilities at December 31, 2024 is 168.7 million. Non-current operating lease liabilities at December 31, 2024 is 1,351.8 million. Sum is 1,520.5 million.",
+      "## Net debt plus leases.\n2,492.5 plus 1,520.5 minus 46.9 equals 3,966.1 million.",
+      "## Adjusted OIBDA.\nPage 101, Notes to Consolidated Financial Statements: Total Adjusted OIBDA for 2024 is 464.8 million.",
+      "## Multiple.\n3,966.1 divided by 464.8 equals 8.53x."
+    ],
+    "ai_prob": 0.4006854889551012,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 228,
+    "ann": 0,
+    "id": "AVNW_2024",
+    "action": "stuck",
+    "solution": [
+      "## Chart on page 60.\nThe Aviat FY2024 Annual Report page 60 has a chart. Its name is \"AVNW Net Income vs. Compensation Actually Paid.\" The left scale measures Compensation Actually Paid in $ million. The right scale measures Net Income Paid in $ thousand. Dark bars = PEO CAP. Light line = Net Income.",
+      "## Data I read off the chart.\nFor 2021: PEO is $6,480 thousand and net income is $110,139 thousand.\nFor 2022: PEO is $3,140 thousand and net income is $21,160 thousand.\nFor 2023: PEO is $5,900 thousand and net income is $10,170 thousand.\nFor 2024: PEO is $2,170 thousand and net income is $10,759 thousand.",
+      "## Percentage for each year.\n2021 gives 6,480 / 110,139 which is 5.88%. 2022 gives 3,140 / 21,160 which is 14.84%. 2023 gives 5,900 / 10,170 which is 58.01%. 2024 gives 2,170 / 10,759 which is 20.17%.",
+      "## Highest figure.\n58.01% in 2023 is the highest of the four."
+    ],
+    "ai_prob": 0.9629205797736525,
+    "predicted_class": "ai"
+  },
+  {
+    "rec": 230,
+    "ann": 0,
+    "id": "NDLS_2023",
+    "action": "already_pass",
+    "ai_prob": 0.0008315420658080565,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 232,
+    "ann": 0,
+    "id": "ESTC_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Source documents.\nPage 79 of the document has the Consolidated Statements of Operations for fiscal years ended April 30, 2021, 2020, and 2019. All figures are in thousands. Page 82 has the Consolidated Statements of Cash Flows, also in thousands.",
+      "## Key figures for year ended April 30, 2021.\nFrom page 79: Total revenue $608,489 thousand. Operating loss $(129,478) thousand. From page 82: Depreciation and amortization $17,237 thousand.",
+      "## EBITDA.\nEBITDA equals Operating Loss plus Depreciation and Amortization. Negative 129,478 plus 17,237 equals negative 112,241 thousand which is negative $112.241 million.",
+      "## EBITDA margin.\nNegative 112.241 divided by 608.489 times 100 equals negative 18.45%."
+    ],
+    "ai_prob": 0.12143718455440325,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 233,
+    "ann": 0,
+    "id": "ARE_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Data from the chart.\nThe bar chart \"Funds From Operations Per Share - Diluted, as Adjusted\" shows FFO per share at $6.96 for 2019 and $9.47 for 2024.",
+      "## Period.\nThe data spans from 2019 to 2024 which is 5 years.",
+      "## CAGR formula inputs.\nEnding value is $9.47. Beginning value is $6.96. Years is 5. CAGR equals (9.47 divided by 6.96) raised to the power of 0.2 minus 1.",
+      "## Computation.\n9.47 divided by 6.96 is 1.36063. 1.36063 raised to 0.2 is 1.06353. Minus 1 is 6.35%."
+    ],
+    "ai_prob": 0.34472999662286946,
+    "predicted_class": "human",
+    "logic_flag": "Step 3 of the original solution contains Lithuanian-language text ('Kai 1,3606321839 pakeliama i 0,2 laipsni, gaunama 1,063526153; atimant 1, lieka 0,063526153.') which is inconsistent with an English-language financial document. The underlying math is correct but the original prose suggests foreign-language artifacts."
+  },
+  {
+    "rec": 234,
+    "ann": 0,
+    "id": "LMT_2024",
+    "action": "rewritten",
+    "solution": [
+      "## The method.\nShares Outstanding is found by dividing Net Earnings by EPS. EPS is $20 per the question.",
+      "## Page 56.\nPage 56 has Consolidated Statements of Earnings. The note says In Millions Except Per Share Data.",
+      "## 2024 Net earnings.\nUnder the 2024 column, the Net earnings row shows 5,336. This is 5,336 million dollars or 5,336,000,000 dollars.",
+      "## Final answer.\n5,336,000,000 over 20 is 266,800,000 shares."
+    ],
+    "ai_prob": 0.12940134576141943,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 235,
+    "ann": 0,
+    "id": "KEQU_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Table location.\nPage 29 of the document has the KEWAUNEE SCIENTIFIC CORPORATION CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY. Units are in thousands.",
+      "## Stock compensation amounts.\nRow \"Stock based compensation\": April 30, 2021 column = 477 thousands. April 30, 2022 column = 744 thousands. Sum: 477 + 744 = 1,221 thousands.",
+      "## Retained earnings.\nRow \"Retained Earnings\": Balance at April 30, 2020 = 37,821 thousands. Balance at April 30, 2022 = 28,023 thousands. Decrease: 37,821 minus 28,023 equals 9,798 thousands.",
+      "## Ratio.\n1,221 over 9,798 equals 0.1246."
+    ],
+    "ai_prob": 0.4852229775949787,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 236,
+    "ann": 0,
+    "id": "VAL_2024",
+    "action": "rewritten",
+    "solution": [
+      "## The 2024 cash flow page.\nPage 43 has the 2024 year-end cash flow statement. Values in millions. Ten items carry forward unchanged into the 2025 forecast.",
+      "## Those ten items and their values.\nDepreciation 122.1. ARO accretion (40.0). Stock compensation 27.7. ARO equity in losses 11.0. Deferred tax 5.8. Property sale gain/loss 0.2. Contract liabilities change (31.7). Deferred costs change 39.3. Other 9.3. Pension plan contributions (21.5). Their total is 122.2.",
+      "## 2025 specific numbers.\nNet income: 380.0. Accounts receivable: (70.0). Other assets: 25.0. Liabilities: (100.0). The three working capital items net to negative 145.0 million.",
+      "## Grand total.\n380.0 + 122.2 + (145.0) = 357.2. Projected net cash provided by operating activities is $357.2 million."
+    ],
+    "ai_prob": 0.03512745901541871,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 237,
+    "ann": 0,
+    "id": "CF_2019",
+    "action": "rewritten",
+    "solution": [
+      "## Going to page 6.\nPage 6 of the Annual Report. The title of the chart on page 6 is FREE CASH FLOW YIELD (1).",
+      "## Axis.\nThe y-axis shows free cash flow yield percentages: marks at -4%, -2%, 0%, 2%, 4%, 6%, 8%, 10%.",
+      "## Bar values from the chart.\nCF LTM 4Q19 = 10.9%. YAR LTM 4Q19 = 6.7%. NTR LTM 4Q19 = 7.1%. MOS LTM 4Q19 = -2.4%. OCI LTM 3Q19 = 5.6%.",
+      "## Lowest positive in LTM 4Q19 group.\nFor LTM 4Q19 the bars are CF, YAR, NTR, MOS. MOS is negative. The smallest positive is YAR at 6.7%. CF at 10.9% minus YAR at 6.7% equals 4.2%."
+    ],
+    "ai_prob": 0.04116545369603575,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 238,
+    "ann": 0,
+    "id": "HRL_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0001645960723953979,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 239,
+    "ann": 0,
+    "id": "FARM_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Balance sheet.\nThe Consolidated Balance Sheets are on page 44 of the document. Header says values are in thousands except share and per share data.",
+      "## Fixed asset values.\nProperty, plant and equipment, net at June 30, 2024: $34,002 thousand. Property, plant and equipment, net at June 30, 2023: $33,782 thousand.",
+      "## Average.\n(34,002 plus 33,782) divided by 2. Sum is 67,784. Average is $33,892 thousand.",
+      "## Net sales.\nThe Consolidated Statements of Operations is on page 45. Net Sales for the fiscal year ending June 30, 2024: $341,094 thousand.",
+      "## Ratio.\n$341,094 divided by $33,892 equals 10.0641449309."
+    ],
+    "ai_prob": 0.3182467122888685,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 240,
+    "ann": 0,
+    "id": "COHU_2024",
+    "action": "already_pass",
+    "ai_prob": 0.032204209875563605,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 241,
+    "ann": 0,
+    "id": "ORCL_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Market cap.\nPage 67 has the Consolidated Statements of Operations in millions. Diluted shares for year ended May 31, 2023: 2,766 million. Share price given: $117.00. Market cap: 2,766 times 117 equals $323,622 million.",
+      "## Enterprise value.\nPage 66 has the CONSOLIDATED BALANCE SHEETS in millions. Cash and cash equivalents at May 31, 2023: $9,765 million. Total debt: $90,481 million (given). EV = 323,622 plus 90,481 minus 9,765 equals $404,338 million.",
+      "## EBITDA.\nOperating income for May 31, 2023 on page 67: $13,093 million. Page 70 has the Consolidated Statements of Cash Flows in millions. Depreciation for year ended May 31, 2023: $2,526 million. Amortization of intangibles: $3,582 million. EBITDA: 13,093 plus 2,526 plus 3,582 equals $19,201 million.",
+      "## Ratio.\n404,338 divided by 19,201 equals 21.06 EV/EBITDA."
+    ],
+    "ai_prob": 0.01916475666573647,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 243,
+    "ann": 0,
+    "id": "BKNG_2016",
+    "action": "rewritten",
+    "solution": [
+      "## Where to look.\nPage 33 has the COMPARISON OF 5 YEAR CUMULATIVE TOTAL RETURN chart. The investment starts at $100 on December 31, 2011 and reinvests dividends.",
+      "## Table below the chart.\nThe Priceline Group Inc. value at December 31, 2016: 313.45. RDG Internet Composite Index at December 31, 2016: 277.56. These are return index values.",
+      "## Scaling to the actual investment.\nThe initial investment here is $111,999.89 rather than $100. Priceline final value: (313.45 / 100) times 111,999.89 equals $351,063.66. RDG final value: (277.56 / 100) times 111,999.89 equals $310,866.89.",
+      "## Difference.\n$351,063.66 minus $310,866.89 equals $40,196.77."
+    ],
+    "ai_prob": 0.060584562076310695,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 243,
+    "ann": 1,
+    "id": "BKNG_2016",
+    "action": "already_pass",
+    "ai_prob": 0.40870966696558125,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 244,
+    "ann": 0,
+    "id": "DOW_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Revenue data.\nPage 87 of the document has the \"Net Trade Sales by Segment and Business\" section. The note at the top says \"In millions.\"",
+      "## Segment revenues for 2022.\nPackaging and Specialty Plastics: $29,260 million. Industrial Intermediates & Infrastructure: $16,606 million. Performance Materials & Coatings: $10,764 million.",
+      "## Total combined revenue.\n29,260 plus 16,606 plus 10,764 equals $56,630 million.",
+      "## Weighted contribution margin.\nWeights: Packaging and Specialty Plastics is 29,260 / 56,630 = 0.5168. Industrial Intermediates is 16,606 / 56,630 = 0.2933. Performance Materials is 10,764 / 56,630 = 0.1900. Weighted margin: (0.5168 times 0.35) plus (0.2933 times 0.28) plus (0.1900 times 0.22) equals 0.1809 plus 0.0821 plus 0.0418 equals 0.3048 which is 30.48%."
+    ],
+    "ai_prob": 0.01655773804105095,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 245,
+    "ann": 0,
+    "id": "MOV_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00026585181504066387,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 248,
+    "ann": 0,
+    "id": "PODD_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0020328189663117633,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 249,
+    "ann": 0,
+    "id": "FAF_2021",
+    "action": "rewritten",
+    "solution": [
+      "## The graph.\nPage 26 of the document has this chart: Comparison of Cumulative Total Returns Among First American Financial Corp., Custom Peer Group, Russell 1000 Index and S&P 400 MidCap Index. X-axis from Dec-16 to Dec-21. Y-axis from $100 to $260.",
+      "## Russell 1000 line.\nIt starts at $100 at December 31, 2016. At December 31, 2021 the line is at about $233.",
+      "## Years.\nDec-16 to Dec-21 is 5 years.",
+      "## CAGR.\n233 over 100 to the 0.2 power minus 1. 2.33 to the 0.2 power is 1.184325783. Subtracting 1 and multiplying by 100 gives 18.43%."
+    ],
+    "ai_prob": 0.0027802756487763044,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 250,
+    "ann": 0,
+    "id": "KTOS_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Finding the numbers on page 79.\nPage 79 shows CONSOLIDATED STATEMENTS OF OPERATIONS for year ended December 29, 2024, in millions. SG&A line reads $214.0 million. Net income line reads $16.3 million. Diluted weighted average shares reads 150.9 million.",
+      "## Savings.\n214.0 times 0.07 is 14.98. 14.98 times 0.79 is 11.8342 after-tax savings.",
+      "## Income and share adjustments.\n16.3 plus 11.8342 is 28.1342 pro forma net income. 11.8342 over 16 is 0.7396375 million shares repurchased. 150.9 minus 0.7396375 is 150.1603625 million adjusted shares.",
+      "## EPS.\n28.1342 over 150.1603625 equals $0.19."
+    ],
+    "ai_prob": 0.2974093596979764,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 251,
+    "ann": 0,
+    "id": "J_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Formula and data needed.\nROE = Net Earnings / Average Total Equity.",
+      "## Net earnings from page 82.\nPage 82 of the PDF has the CONSOLIDATED STATEMENTS OF EARNINGS, in thousands. Year ending September 29, 2023: Net earnings attributable to Jacobs is $665,777 thousand.",
+      "## Equity from page 81.\nPage 81 has Consolidated Balance Sheets in thousands. Total Jacobs stockholders' equity at September 30, 2022: $6,060,145 thousand. At September 29, 2023: $6,546,192 thousand.",
+      "## Average equity.\n6,060,145 plus 6,546,192 equals 12,606,337. Divided by 2 equals 6,303,169 thousand.",
+      "## Result.\n665,777 over 6,303,169 equals 0.1056 or 10.56%."
+    ],
+    "ai_prob": 0.20334628326504128,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 253,
+    "ann": 0,
+    "id": "BFLY_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0001365519581997361,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 254,
+    "ann": 0,
+    "id": "CAT_2016",
+    "action": "already_pass",
+    "ai_prob": 0.00169348635039712,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 255,
+    "ann": 0,
+    "id": "DHL_2018",
+    "action": "already_pass",
+    "ai_prob": 0.10673626092857755,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 256,
+    "ann": 0,
+    "id": "CVX_2020",
+    "action": "already_pass",
+    "ai_prob": 0.0018313636039150904,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 257,
+    "ann": 0,
+    "id": "EYE_2020",
+    "action": "already_pass",
+    "ai_prob": 0.0006241461879502193,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 259,
+    "ann": 0,
+    "id": "RTX_2024",
+    "action": "already_pass",
+    "ai_prob": 0.011034390970099998,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 261,
+    "ann": 0,
+    "id": "ENSG_2023",
+    "action": "rewritten",
+    "solution": [
+      "## The statement.\nPage 101 has the Consolidated Statements of Cash Flows in thousands. The Operating Activities section from 2023 is used here.",
+      "## Starting amount.\nNet cash provided by operating activities in 2023 is 376,666 thousand.",
+      "## What to remove.\nThe question asks to exclude Stock-Based Compensation and Amortization of Deferred Financing Fees. Stock-Based Compensation for 2023 is 30,767 thousand. Amortization of Deferred Financing Fees is 1,067 thousand. Together they total 31,834 thousand.",
+      "## The answer.\n376,666 minus 31,834 is 344,832 thousand."
+    ],
+    "ai_prob": 0.125361655425839,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 262,
+    "ann": 0,
+    "id": "TXRH_2023",
+    "action": "already_pass",
+    "ai_prob": 0.033561356273186176,
+    "predicted_class": "human"
+  }
+]

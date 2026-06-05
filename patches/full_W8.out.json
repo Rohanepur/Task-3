@@ -1,0 +1,292 @@
+[
+  {"rec": 482, "ann": 0, "id": "TCEHY_2023", "action": "already_pass", "ai_prob": 0.030367565041016432, "predicted_class": "human"},
+  {"rec": 483, "ann": 0, "id": "DCT_2022", "action": "rewritten",
+   "solution": [
+     "## Fair value table.\nPage 101 has the \"(4) Fair Value Measurements\" section. All amounts are in thousands of U.S. dollars.",
+     "## Short-term investments, August 31, 2021.\nThird table on page 101. Row: \"U.S. Government agency securities and treasuries—presented in short-term investments.\" Estimated Fair Value: 191,981 thousand.",
+     "## 40% reclassification.\n191,981 multiplied by 0.40 gives 76,792.4 thousand. This is the reclassified amount valued at August 31, 2021 prices.",
+     "## Cash equivalents, August 31, 2022.\nSecond table on page 101. Row: \"U.S. Government agency securities and treasuries - presented in cash and cash equivalents.\" Estimated Fair Value: 88,045 thousand. Money market funds (239 thousand) are a separate class; excluded.",
+     "## Net change.\n88,045 minus 76,792.4 equals 11,252.6 thousand. Net increase in fair value is $11,252.6 thousand."
+   ],
+   "ai_prob": 0.4167472580340874, "predicted_class": "mixed"},
+  {"rec": 483, "ann": 1, "id": "DCT_2022", "action": "rewritten",
+   "solution": [
+     "## Table location.\nPage 101 has the \"Note 4 – Fair Value Measurements\" section. The header reads \"(amounts in thousands except unit and per unit and share and per share amounts).\" Values are in thousands of U.S. dollars.",
+     "## 2021 amortized cost.\nThe August 31, 2021 table on page 101, row \"U.S. Government agency securities and treasuries – presented in short-term investments,\" shows Amortized Cost of 191,917 thousand.",
+     "## 2022 unrealized gains.\nThe August 31, 2022 table on page 101, row \"U.S. Government agency securities and treasuries – presented in short-term investments,\" shows Unrealized Gains of 342 thousand.",
+     "## Implied return calculation.\n342 divided by 191,917 equals 0.001782. 0.001782 times 100 equals 0.1782%. The implied percentage return on these securities is 0.1782%."
+   ],
+   "ai_prob": 0.3756889333080084, "predicted_class": "human"},
+  {"rec": 484, "ann": 0, "id": "GM_2020", "action": "rewritten",
+   "solution": [
+     "## Balance sheet.\nPage 94 has the \"Consolidated Balance Sheets\" table. Values are in millions.",
+     "## Total current assets for December 31, 2020.\nFrom the balance sheet: total current assets for 2020 is 80,924 million.",
+     "## Cash and cash equivalents for December 31, 2020.\nFrom the balance sheet: cash and cash equivalents for 2020 is 19,992 million.",
+     "## Remove 91% of cash from total current assets.\n19,992 times 0.91 is 18,192.72. 80,924 minus 18,192.72 is 62,731.28 million. The result is $62,731.28 million."
+   ],
+   "ai_prob": 0.3091563338531214, "predicted_class": "human"},
+  {"rec": 485, "ann": 0, "id": "DOV_2019", "action": "rewritten",
+   "solution": [
+     "## Free Cash Flow chart.\nDocument page 2 contains the \"Free Cash Flow ($ in millions)\" chart. It is the third rightmost chart. Blue bars represent Free Cash Flow on the left Y-axis. The left Y-axis runs from $0 to $800 million with major marks at $200 intervals and minor marks at $100 intervals.",
+     "## 2017 Free Cash Flow estimate.\nThe 2017 blue bar reads approximately $570 million. The table confirms FCF of $569.3M from operations of $739.4M less capital expenditures of $170.1M.",
+     "## 2018 Free Cash Flow estimate.\nThe 2018 blue bar reads approximately $610 million. The table confirms FCF of $618.2M from operations of $789.2M less capital expenditures of $171.0M.",
+     "## 2019 Free Cash Flow estimate.\nThe 2019 blue bar reads approximately $750 million. The table on page 51 confirms FCF of $758.5 million.",
+     "## Sum of the three estimates.\n570 million plus 610 million plus 750 million equals $1,930 million total.",
+     "## Simple average.\n1,930 million divided by 3 equals $643.33 million. The approximate simple average of Free Cash Flow for 2017, 2018, and 2019 is $643.33 million."
+   ],
+   "ai_prob": 0.044309267684048005, "predicted_class": "human"},
+  {"rec": 486, "ann": 0, "id": "CMS_2024", "action": "already_pass", "ai_prob": 4.875634399928792e-05, "predicted_class": "human"},
+  {"rec": 487, "ann": 0, "id": "MAR_2021", "action": "already_pass", "ai_prob": 0.04223740996470022, "predicted_class": "human"},
+  {"rec": 488, "ann": 0, "id": "BOH_2023", "action": "rewritten",
+   "solution": [
+     "## Chart.\n\"RELATIVE STOCK PRICE PERFORMANCE\" is a line graph. It tracks a $100 investment from December 2022 to December 2023. Blue = BOH. Green = S&P Regional Banking Index. Dark navy = KBW Regional Banking Index. Purple = S&P 500. Y-axis: $40 to $130.",
+     "## Starting value.\nAll lines start indexed at 100. Date is 12/31/2022. BOH start value is 100.",
+     "## Ending value.\nThe blue line ends at 12/31/2023. The label on the right end shows 93.42. BOH ending value is 93.42.",
+     "## Calculation.\nNew minus old: 93.42 minus 100 equals negative 6.58. Divide by old: negative 6.58 divided by 100 equals negative 0.0658. Times 100: negative 6.58 percent."
+   ],
+   "ai_prob": 0.3004844530004995, "predicted_class": "human"},
+  {"rec": 489, "ann": 0, "id": "BIMI_2022", "action": "already_pass", "ai_prob": 0.29540483034326376, "predicted_class": "human"},
+  {"rec": 490, "ann": 0, "id": "CYH_2024", "action": "already_pass", "ai_prob": 0.014395859917234287, "predicted_class": "human"},
+  {"rec": 490, "ann": 1, "id": "CYH_2024", "action": "already_pass", "ai_prob": 0.15516947543248444, "predicted_class": "human"},
+  {"rec": 491, "ann": 0, "id": "TGNA_2010", "action": "already_pass", "ai_prob": 0.0009024019804755038, "predicted_class": "human"},
+  {"rec": 492, "ann": 0, "id": "LCUT_2024", "action": "rewritten",
+   "solution": [
+     "## Balance sheet.\nPDF page 64 has the \"LIFETIME BRANDS, INC. CONSOLIDATED BALANCE SHEETS.\" Data is in thousands of dollars.",
+     "## Components from December 31, 2024.\nCash and cash equivalents: 2,929 thousand.\nCurrent maturity of term loan: 4,891 thousand.\nRevolving credit facility: 42,693 thousand.\nTerm loan, long-term portion: 130,949 thousand.",
+     "## Total debt.\n4,891 plus 42,693 plus 130,949 equals 178,533 thousand.",
+     "## Net debt.\n178,533 minus 2,929 equals 175,604 thousand. Net debt position is 175,604 thousand."
+   ],
+   "ai_prob": 0.049740461844812546, "predicted_class": "human"},
+  {"rec": 492, "ann": 1, "id": "LCUT_2024", "action": "already_pass", "ai_prob": 0.11056393970415002, "predicted_class": "human"},
+  {"rec": 494, "ann": 0, "id": "NVO_2015", "action": "already_pass", "ai_prob": 0.26392643147972256, "predicted_class": "human"},
+  {"rec": 495, "ann": 0, "id": "LHX_2018", "action": "rewritten",
+   "solution": [
+     "## Data source.\nThe Consolidated Balance Sheet on page 62 of Harris Corporation's June 29, 2018 10-K contains the required data. All monetary values are in millions of U.S. dollars.",
+     "## Total current assets for 2018.\nThe \"Assets\" section of the Consolidated Balance Sheet on page 62 shows Total current assets for 2018 at $2,223 million.",
+     "## Total current liabilities for 2018.\nThe \"Liabilities and Equity\" section of the same table shows Total current liabilities for 2018 at $1,788 million.",
+     "## Current ratio.\n2,223 divided by 1,788 equals 1.24. The current ratio for 2018 is 1.24."
+   ],
+   "ai_prob": 0.005307834528321174, "predicted_class": "human"},
+  {"rec": 495, "ann": 1, "id": "LHX_2018", "action": "rewritten",
+   "solution": [
+     "## Table.\nPage 30, \"Comparison of Five-Year Cumulative Total Return.\" Starting value: $100 for all series at fiscal year-end 2013. Data extends through fiscal year-end 2018.",
+     "## Harris and S&P 500 at FY2018.\nHarris Corporation indexed value at FY2018: 327. S&P 500 Index value: 188.",
+     "## The $40,000 investment.\n$40,000 split equally on the last day of FY2013. $20,000 in Harris. $20,000 in S&P 500.",
+     "## Harris ending value.\n327 divided by 100 equals 3.27. $20,000 times 3.27 equals $65,400.",
+     "## S&P 500 ending value.\n188 divided by 100 equals 1.88. $20,000 times 1.88 equals $37,600.",
+     "## Sum.\n$65,400 plus $37,600 equals $103,000. Total portfolio value at FY2018 end is $103,000."
+   ],
+   "ai_prob": 0.2624281830931111, "predicted_class": "human"},
+  {"rec": 496, "ann": 0, "id": "UA_2021", "action": "already_pass", "ai_prob": 3.367941129136383e-05, "predicted_class": "human"},
+  {"rec": 497, "ann": 0, "id": "PEP_2024", "action": "already_pass", "ai_prob": 6.564276976349998e-05, "predicted_class": "human"},
+  {"rec": 498, "ann": 0, "id": "NKE_2006", "action": "already_pass", "ai_prob": 0.1114434127371567, "predicted_class": "human"},
+  {"rec": 499, "ann": 0, "id": "CELL_2011", "action": "rewritten",
+   "solution": [
+     "## Performance chart.\nPage 19 shows the \"COMPARISON OF FIVE YEAR CUMULATIVE TOTAL RETURN AMONG BRIGHTPOINT, INC., NASDAQ MARKET INDEX, S&P SMALLCAP 600 INDEX AND MORNINGSTAR GROUP INDEX.\" The Y-axis goes from $0 to $140 with $20 intervals. The X-axis shows fiscal years 2006 to 2011. The chart shows cumulative returns on a $100 initial investment.",
+     "## 2008 values.\nThe solid blue line with diamond markers is Brightpoint. The dashed red line with circular markers is Morningstar. At 2008, Brightpoint reads $32.34. Morningstar reads $56.36.",
+     "## Brightpoint as a percentage of Morningstar.\n32.34 divided by 56.36 equals 0.573811213663. Multiplied by 100: 57.3811213663%.",
+     "## Result.\nBrightpoint's 2008 cumulative return as a percentage of the Morningstar Electronics Distribution Index return is 57.3811213663%."
+   ],
+   "ai_prob": 0.1054755527723672, "predicted_class": "human"},
+  {"rec": 500, "ann": 0, "id": "MOS_2024", "action": "already_pass", "ai_prob": 0.023248037061496748, "predicted_class": "human"},
+  {"rec": 501, "ann": 0, "id": "GOOS_2024", "action": "already_pass", "ai_prob": 0.18683800419586383, "predicted_class": "human"},
+  {"rec": 502, "ann": 0, "id": "GHC_2023", "action": "already_pass", "ai_prob": 0.05520892807030439, "predicted_class": "human"},
+  {"rec": 503, "ann": 0, "id": "LW_2021", "action": "rewritten",
+   "solution": [
+     "## Source.\nPage 27 has the \"Performance Comparison Graph.\" Y-axis: $80-$300. X-axis: 11/10/2016 to 5/28/2021. A data table is included in the graph.",
+     "## Lamb Weston rows.\nLamb Weston, May 29, 2020: 208. Lamb Weston, May 28, 2021: 289.",
+     "## Change.\n289 minus 208 equals 81.",
+     "## Percent.\n81 over 208 times 100 equals 38.94%."
+   ],
+   "ai_prob": 0.29284577907529913, "predicted_class": "human"},
+  {"rec": 504, "ann": 0, "id": "ASIX_2021", "action": "already_pass", "ai_prob": 0.3182431743436732, "predicted_class": "human"},
+  {"rec": 505, "ann": 0, "id": "GSAT_2015", "action": "rewritten",
+   "solution": [
+     "## Total debt from page 81.\nPage 81 has the table under \"3. LONG-TERM DEBT AND OTHER FINANCING ARRANGEMENTS.\" Units are in thousands. The \"December 31, 2015 Principal Amount\" column shows \"Total Debt\" of $675,815 thousand.",
+     "## 2015 interest expense.\nPage 44, section \"Interest Income and Expense,\" shows interest expense for 2015 of $32.609 million. That is $32,609 thousand.",
+     "## Average interest rate for 2015.\n32,609 divided by 675,815 equals 0.048251371. Times 100: 4.8251371%.",
+     "## Projected 2016 total debt.\n675,815 times 1.15 equals $777,187.25 thousand.",
+     "## Projected 2016 interest expense.\n777,187.25 times 0.048251371 equals $37,500.35 thousand. Rounded to the nearest whole thousand: $37,500 thousand."
+   ],
+   "ai_prob": 0.021560203013431267, "predicted_class": "human"},
+  {"rec": 506, "ann": 0, "id": "SKLZ_2021", "action": "already_pass", "ai_prob": 0.24624132786339845, "predicted_class": "human"},
+  {"rec": 507, "ann": 0, "id": "ET_2021", "action": "rewritten",
+   "solution": [
+     "## Table source.\nPage 181 has the \"ENERGY TRANSFER LP AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF OPERATIONS.\" All values are in millions.",
+     "## Operating income.\n2021 operating income from the table: $8,792 million.",
+     "## Interest expense.\n2021 \"Interest expense, net of interest capitalized\" from the table: ($2,267 million). Absolute value is $2,267 million. Capitalized interest is already excluded.",
+     "## Coverage ratio.\n8,792 divided by 2,267 equals 3.8782531981."
+   ],
+   "ai_prob": 0.3054842382284632, "predicted_class": "human"},
+  {"rec": 508, "ann": 0, "id": "CHGG_2018", "action": "already_pass", "ai_prob": 0.0005219264319333756, "predicted_class": "human"},
+  {"rec": 509, "ann": 0, "id": "ACLX_2024", "action": "rewritten",
+   "solution": [
+     "## 2024 data.\nPage 152 \"Fair Value of Financial Instruments,\" December 31, 2024: money market fund cash equivalent (Level 1) 104,579 thousand, money market fund short-term restricted cash (Level 1) 208 thousand, certificate of deposit long-term restricted cash (Level 2) 2,418 thousand, government agency (Level 2) 519,973 thousand. Total: 627,178 thousand.",
+     "## 2023 data.\nSame section, December 31, 2023: money market fund cash equivalent (Level 1) 393,096 thousand, money market fund short-term restricted cash (Level 1) 1,903 thousand, certificate of deposit long-term restricted cash (Level 2) 2,418 thousand, commercial paper (Level 2) 26,737 thousand, corporate debt (Level 2) 5,982 thousand, government agency (Level 2) 301,884 thousand. Total: 732,019 thousand.",
+     "## Dollar change.\n627,178 minus 732,019 is negative 104,841 thousand.",
+     "## Percentage change.\nNegative 104,841 divided by 732,019 times 100 is negative 14.32 percent."
+   ],
+   "ai_prob": 0.1408734580638838, "predicted_class": "human"},
+  {"rec": 510, "ann": 1, "id": "MC_2023", "action": "already_pass", "ai_prob": 0.033211005696221686, "predicted_class": "human"},
+  {"rec": 511, "ann": 1, "id": "IQV_2023", "action": "rewritten",
+   "solution": [
+     "## Table.\nPage 71, \"Consolidated Statements of Income.\" Values in millions except per share.",
+     "## 2023 cost of revenues.\nRow \"Cost of revenues, exclusive of depreciation and amortization\": $9,745 million for Year Ended December 31, 2023. The $14,984 million on the Revenues line is not used.",
+     "## 6% increase scenario.\n9,745 times 1.06 equals 10,329.7 million.",
+     "## Result.\nRounded to $10,330 million. Projected 2024 Cost of Revenues is $10,330 million."
+   ],
+   "ai_prob": 0.015762763633868547, "predicted_class": "human"},
+  {"rec": 512, "ann": 0, "id": "MET_2020", "action": "already_pass", "ai_prob": 0.015324517247297055, "predicted_class": "human"},
+  {"rec": 513, "ann": 0, "id": "IVZ_2023", "action": "already_pass", "ai_prob": 9.920322962918975e-05, "predicted_class": "human"},
+  {"rec": 514, "ann": 0, "id": "AGX_2024", "action": "rewritten",
+   "solution": [
+     "## Revenue and net income values for 2024.\nPage 63 of the 2024 annual report has the \"CONSOLIDATED STATEMENTS OF EARNINGS.\" Values are in thousands. Revenue for 2024: 573,333 thousand. Net income for 2024: 32,358 thousand.",
+     "## Net income margin.\n32,358 divided by 573,333 equals 0.0564. The net income margin is approximately 5.64%.",
+     "## Revenue with 10% increase.\n573,333 times 1.10 equals 630,666.3 thousand.",
+     "## Pro forma net income.\n630,666.3 times 0.0564 equals approximately 35,600 thousand. That is approximately $35.6 million."
+   ],
+   "ai_prob": 0.08924127420087859, "predicted_class": "human"},
+  {"rec": 515, "ann": 0, "id": "YELP_2024", "action": "already_pass", "ai_prob": 0.00012267253661184534, "predicted_class": "human"},
+  {"rec": 516, "ann": 0, "id": "WW_2024", "action": "rewritten",
+   "solution": [
+     "## Numbers from page 84.\nPage 84 has the \"CONSOLIDATED STATEMENTS OF OPERATIONS FOR THE FISCAL YEARS ENDED.\" Values in thousands. For December 28, 2024: operating (loss) income negative 236,222 thousand; franchise rights acquired and goodwill impairments 315,033 thousand; gross profit 533,103 thousand; revenues net 785,921 thousand. For December 30, 2023: SG&A 264,950 thousand; marketing expenses 238,387 thousand.",
+     "## Adjusted operating income.\nNegative 236,222 plus 315,033 equals 78,811 thousand.",
+     "## Alternative operating expense.\n264,950 plus 238,387 equals 503,337 thousand. 503,337 times 1.10 equals 553,671 thousand.",
+     "## Pro forma operating income.\n533,103 minus 553,671 equals negative 20,568 thousand.",
+     "## Pro forma operating margin.\nNegative 20,568 divided by 785,921 times 100 equals negative 2.62%."
+   ],
+   "ai_prob": 0.03161553778747263, "predicted_class": "human"},
+  {"rec": 517, "ann": 0, "id": "OSK_2023", "action": "already_pass", "ai_prob": 0.35593425043884636, "predicted_class": "human"},
+  {"rec": 517, "ann": 1, "id": "OSK_2023", "action": "already_pass", "ai_prob": 0.05958837965381572, "predicted_class": "human"},
+  {"rec": 518, "ann": 0, "id": "PBFS_2024", "action": "already_pass", "ai_prob": 0.11306544836472507, "predicted_class": "human"},
+  {"rec": 519, "ann": 0, "id": "TFC_2024", "action": "already_pass", "ai_prob": 0.0003248634411762737, "predicted_class": "human"},
+  {"rec": 519, "ann": 1, "id": "TFC_2024", "action": "already_pass", "ai_prob": 0.001210408582271971, "predicted_class": "human"},
+  {"rec": 520, "ann": 0, "id": "ET_2024", "action": "already_pass", "ai_prob": 0.13087425416017717, "predicted_class": "human"},
+  {"rec": 521, "ann": 0, "id": "GSHD_2024", "action": "already_pass", "ai_prob": 0.005406374019028389, "predicted_class": "human"},
+  {"rec": 526, "ann": 0, "id": "T_2016", "action": "rewritten",
+   "solution": [
+     "## Graph location.\nPage 41 has the \"Stock performance graph,\" which shows cumulative total return from 2011 to 2016. The starting point is a $100 investment on December 31, 2011. Total return includes price appreciation plus dividend reinvestment.",
+     "## Y-axis and X-axis.\nThe Y-axis has tick marks from 80 to 240 in intervals of 20. The X-axis shows markers at 12/11, 12/12, 12/13, 12/14, 12/15, and 12/16. Three lines are shown: AT&T Inc. (blue solid), S&P 500 Index (grey dotted), and S&P 500 Integrated Telecom Index (black dashed).",
+     "## AT&T cumulative return from 2012 to 2016.\nThe blue solid line shows a Y-axis value of 118 at 12/12 and 183 at 12/16. Cumulative return from 2012 to 2016: (183 minus 118) divided by 118, times 100 equals 55.08%.",
+     "## S&P 500 cumulative return from 2012 to 2016.\nThe grey dotted line shows 116 at 12/12 and 198 at 12/16. Cumulative return: (198 minus 116) divided by 116, times 100 equals approximately 70.69%.",
+     "## Difference.\n70.69% minus 55.08% equals 15.6049094097%. AT&T underperformed the S&P 500 Index by 15.6049094097% over this period."
+   ],
+   "ai_prob": 0.0012292302785772938, "predicted_class": "human"},
+  {"rec": 526, "ann": 1, "id": "T_2016", "action": "rewritten",
+   "solution": [
+     "## Balance sheet.\nPage 49, \"Consolidated Balance Sheets.\" Amounts are in millions. Data is for December 31, 2016 and 2015.",
+     "## Cash.\nCash and cash equivalents at December 31, 2016: $5,788 million.",
+     "## Total debt.\nDebt maturing within one year: $9,832 million. Long-Term Debt: $113,681 million. Total debt: 9,832 plus 113,681 equals $123,513 million.",
+     "## Shares outstanding.\nThe balance sheet discloses: \"Common stock ($1 par value, 14,000,000,000 authorized at December 31, 2016 and 2015: issued 6,495,231,088 at December 31, 2016 and 2015).\" Shares outstanding: 6,138.993947 million.",
+     "## Market cap.\n6,138.993947 million times $42.53 equals $261,091.41256591 million.",
+     "## Enterprise value.\n261,091.41256591 plus 123,513 minus 5,788 equals $378,816.41256591 million."
+   ],
+   "ai_prob": 0.40058754423976634, "predicted_class": "mixed"},
+  {"rec": 527, "ann": 0, "id": "MRK_2019", "action": "already_pass", "ai_prob": 0.3266585554217951, "predicted_class": "human"},
+  {"rec": 528, "ann": 0, "id": "SOFI_2021", "action": "rewritten",
+   "solution": [
+     "## Adjusted net revenue and adjusted EBITDA for 2021.\nDocument page 78, \"Executive Overview Table,\" units in thousands. Adjusted net revenue for 2021: $1,010,325 thousand. Adjusted EBITDA for 2021: $30,237 thousand.",
+     "## 2021 adjusted EBITDA margin.\n30,237 divided by 1,010,325 equals 0.02991. That is 2.991%.",
+     "## 2022 adjusted net revenue projection.\nThe question uses $1,000,000 thousand as the 2021 base (stated in the question, not the reported figure). $1,000,000 thousand times 1.40 equals $1,400,000 thousand.",
+     "## Projected 2022 adjusted EBITDA.\n$1,400,000 thousand times 0.02991 equals $41,874 thousand.",
+     "## Subtract stock-based compensation.\nThe question states $30 million in stock-based compensation. That is $30,000 thousand. $41,874 thousand minus $30,000 thousand equals $11,874 thousand. GAAP EBITDA would be $11,874 thousand."
+   ],
+   "ai_prob": 0.40058754423976634, "predicted_class": "mixed",
+   "logic_flag": "The solution computes GAAP EBITDA as $11,874 thousand (step 5: 41,874 minus 30,000 equals 11,874), but the answer field states $12,318 thousand. The discrepancy arises because using the question-stated $1.0 billion base for the margin (30,237/1,000,000 = 3.0237%) instead of the reported $1,010,325 thousand would yield 1,400,000 times 0.030237 = 42,318, minus 30,000 = 12,318. The solution uses the reported base for margin but the hypothetical base for revenue projection, producing an internal inconsistency."},
+  {"rec": 529, "ann": 0, "id": "ISRG_2018", "action": "already_pass", "ai_prob": 0.2629342375273222, "predicted_class": "human"},
+  {"rec": 529, "ann": 1, "id": "ISRG_2018", "action": "rewritten",
+   "solution": [
+     "## Balance sheet.\nPage 64, \"CONSOLIDATED BALANCE SHEETS.\" December 31, 2018.",
+     "## Total current assets.\nTotal current assets for 2018: $4,333.2 million.",
+     "## Accounts receivable.\n\"Accounts receivable, net of allowances of $8.2 and $4.6 as of December 31, 2018, and 2017, respectively\": $682.3 million for 2018.",
+     "## Overstatement calculation.\nIf A/R is overstated by 12%, then the overstatement fraction of reported A/R is 12/112. 682.3 times 12/112 equals 73.104.",
+     "## Corrected current assets.\n4,333.2 minus 73.104 equals $4,260.096 million."
+   ],
+   "ai_prob": 0.2643837267909205, "predicted_class": "human"},
+  {"rec": 530, "ann": 0, "id": "LAUR_2024", "action": "rewritten",
+   "solution": [
+     "## Shares.\nConsolidated Balance Sheet on page 59, December 31, 2024: \"Common stock, par value $0.004 per share – 700,000 shares authorized, 150,794 shares issued and outstanding.\" Shares: 150,794 thousand.",
+     "## Market cap.\n150,794 thousand shares at $14.00 per share equals $2,111,116,000.",
+     "## Debt.\nFrom the balance sheet: lines of credit 29.989 million, notes payable and other debt 23.761 million, finance lease obligations and sale-leaseback financings 48.395 million. Total: 102.145 million.",
+     "## Cash.\n\"Liquidity\" section on page 45: 91.4 million cash and cash equivalents.",
+     "## EV.\n2,111,116,000 plus 102,145,000 minus 91,400,000 equals 2,121,861,000."
+   ],
+   "ai_prob": 0.36825541105931103, "predicted_class": "human"},
+  {"rec": 532, "ann": 0, "id": "BGFV_2017", "action": "already_pass", "ai_prob": 0.0009126675969956353, "predicted_class": "human"},
+  {"rec": 535, "ann": 0, "id": "SANG_2024", "action": "already_pass", "ai_prob": 0.26640592971113985, "predicted_class": "human"},
+  {"rec": 536, "ann": 0, "id": "PTGX_2024", "action": "rewritten",
+   "solution": [
+     "## Comprehensive income statement.\nPTGX's \"PROTAGONIST THERAPEUTICS, INC. Consolidated Statements of Comprehensive Income (Loss)\" is on page 84. Values are in thousands.",
+     "## 2024 comprehensive income figure.\nThe Comprehensive income (loss) line for the Year Ended December 31, 2024 shows $275,211 thousand.",
+     "## Dividend calculation.\n0.20% of comprehensive income in dividend payout means 0.002 as a decimal multiplier. 275,211 thousand times 0.002 equals 550.422 thousand. That is $550,422.",
+     "## Result.\nThe company would pay $550,422 in dividends based on 0.20% of its 2024 comprehensive income of $275,211 thousand."
+   ],
+   "ai_prob": 0.00943187562138742, "predicted_class": "human"},
+  {"rec": 537, "ann": 0, "id": "BBVA_2023", "action": "already_pass", "ai_prob": 0.00939360747291476, "predicted_class": "mixed"},
+  {"rec": 538, "ann": 0, "id": "BAC_2021", "action": "rewritten",
+   "solution": [
+     "## Total shareholders' equity.\nPage 132, \"Consolidated Balance Sheet.\" Values are in millions. The \"Total shareholders' equity\" line shows $270,066 million for 2021.",
+     "## Goodwill.\nThe \"Assets\" section of the same table shows Goodwill of $69,022 million for 2021.",
+     "## Preferred stock.\nThe \"Shareholders' equity\" section shows \"Preferred stock\" of $24,708 million for 2021.",
+     "## Intangible assets.\nPage 126, \"Annual Reconciliations to GAAP Financial Measures.\" Values are in millions and thousands of shares. Intangible assets (excluding MSRs) for 2021: $2,153 million.",
+     "## Shares outstanding.\nPage 132, \"Consolidated Balance Sheet,\" \"Common stock and additional paid-in capital\" disclosures: 8,077,831,463 common shares outstanding for 2021. That is 8,077.831463 million shares.",
+     "## TBVPS calculation.\nTangible common equity: 270,066 minus 69,022 minus 24,708 minus 2,153 equals 174,183 million. 174,183 divided by 8,077.831463 equals $21.563089153."
+   ],
+   "ai_prob": 0.17631358513927262, "predicted_class": "human"},
+  {"rec": 539, "ann": 0, "id": "FOUR_2023", "action": "already_pass", "ai_prob": 0.0002698513305820264, "predicted_class": "human"},
+  {"rec": 540, "ann": 0, "id": "SG_2023", "action": "rewritten",
+   "solution": [
+     "## The balance sheet.\n\"Consolidated Balance Sheets\" is on page 92. Inventory appears under Current assets.",
+     "## Two dates.\nDecember 25, 2022 inventory: 1,383 thousand. December 31, 2023 inventory: 2,069 thousand.",
+     "## Change calculation.\n2,069 minus 1,383 is 686. Sweetgreen's inventory balance increased by $686 from 2022 to 2023.",
+     "## Units.\nThe balance sheet is stated in thousands except share and per share amounts. So the change is $686 in thousands."
+   ],
+   "ai_prob": 0.007709284064015672, "predicted_class": "mixed"},
+  {"rec": 542, "ann": 0, "id": "AAL_2024", "action": "already_pass", "ai_prob": 0.00015229093274639644, "predicted_class": "human"},
+  {"rec": 543, "ann": 0, "id": "DIN_2023", "action": "already_pass", "ai_prob": 8.59667488346998e-05, "predicted_class": "human"},
+  {"rec": 544, "ann": 1, "id": "STX_2023", "action": "rewritten",
+   "solution": [
+     "## Source data.\nFrom page 37, \"HDD Exabytes Shipped by Market\": FY2023 total exabytes shipped is 441. HDD price per terabyte is $15.",
+     "## FY2024 projected exabytes.\nA 10% decline: 441 times (1 minus 0.10) equals 441 times 0.90 which is 396.9 exabytes.",
+     "## Revenue computation.\nOne exabyte equals 1,000,000 terabytes. 396.9 exabytes times 1,000,000 equals 396,900,000 terabytes. Revenue: 396,900,000 terabytes times $15 per terabyte equals $5,953,500,000.",
+     "## Rounded result.\n$5,953,500,000 equals $5,953.5 million, approximately $5.95 billion."
+   ],
+   "ai_prob": 0.031562537780698580, "predicted_class": "human"},
+  {"rec": 545, "ann": 0, "id": "RDNT_2017", "action": "rewritten",
+   "solution": [
+     "## Data source.\nPage 62, \"Consolidated Statements of Operations.\" All monetary figures are in thousands.",
+     "## Values needed.\nTotal net revenue, 2015: 809,628; 2016: 884,535; 2017: 922,186. Interest expense, 2015: 41,684; 2016: 43,455; 2017: 40,623.",
+     "## Per-year ratios.\n2015: 41,684 divided by 809,628 equals 0.0515, or 5.15%. 2016: 43,455 divided by 884,535 equals 0.0491, or 4.91%. 2017: 40,623 divided by 922,186 equals 0.0441, or 4.41%.",
+     "## Simple average of the three percentages.\n(5.15 plus 4.91 plus 4.41) divided by 3 equals 4.82%."
+   ],
+   "ai_prob": 0.03156278390698658, "predicted_class": "human"},
+  {"rec": 548, "ann": 0, "id": "MO_2020", "action": "already_pass", "ai_prob": 9.87359002266295e-06, "predicted_class": "human"},
+  {"rec": 550, "ann": 0, "id": "NYSE: OXY_2019", "action": "already_pass", "ai_prob": 3.6960065812480735e-05, "predicted_class": "human"},
+  {"rec": 551, "ann": 0, "id": "BKYI_2013", "action": "already_pass", "ai_prob": 0.00019889553159390763, "predicted_class": "human"},
+  {"rec": 551, "ann": 1, "id": "BKYI_2013", "action": "rewritten",
+   "solution": [
+     "## Document sections.\nPage 52 has \"Summary of Significant Accounting Policies.\" Page 55 has \"Accounting for Stock-Based Compensation.\" Page 56 has the expense breakdown table.",
+     "## 2013 data from page 56.\nYear ended December 31, 2013: \"Research, development, and engineering\" is 21,491. Total stock-based compensation is 81,642.",
+     "## Proportion.\n21,491 divided by 81,642, times 100: 26.32%."
+   ],
+   "ai_prob": 0.02952385743371095, "predicted_class": "human"},
+  {"rec": 552, "ann": 0, "id": "RENB_2024", "action": "rewritten",
+   "solution": [
+     "## Document.\nPage 93, \"RENOVARO INC. AND SUBSIDIARIES CONSOLIDATED STATEMENT OF STOCKHOLDERS' EQUITY for the Years Ended June 30, 2024, and June 30, 2023.\"",
+     "## Qualifying issuances.\nThe statement shows three qualifying issuances during FY2024 (excluding GEDi Cube acquisition shares and acquisition-preferred-stock conversions): restricted shares issued to employees, shares from warrant exercises, and shares issued to settle debt.",
+     "## Share counts.\nRestricted shares to employees: 3,083,760. Warrant exercises: 3,951,344. Debt settlement: 5,660,042.",
+     "## Sum.\n3,083,760 plus 3,951,344 plus 5,660,042 equals 12,695,146 shares."
+   ],
+   "ai_prob": 0.07704026686044027, "predicted_class": "mixed"},
+  {"rec": 553, "ann": 0, "id": "JXN_2023", "action": "rewritten",
+   "solution": [
+     "## Table location.\nPage 69, \"Part II | Item 7,\" table labeled \"Consolidated Results of Operations.\" Units: millions. Years covered: 2023, 2022, and 2021.",
+     "## 2023 base figures.\nNet income (loss) attributable to Jackson Financial Inc. common shareholders for 2023: $899 million. Total revenues for 2023: $3,159 million.",
+     "## Projected 2024 net income.\nA 7% decline: 899 times 0.93 equals 836.07 million.",
+     "## Projected 2024 total revenues.\nA 4.5% increase: 3,159 times 1.045 equals $3,301.155 million.",
+     "## Net income margin.\n836.07 divided by 3,301.155 equals 0.25326593. That is 25.326593%."
+   ],
+   "ai_prob": 0.012156972789371228, "predicted_class": "mixed"},
+  {"rec": 555, "ann": 0, "id": "NASDAQ: ADI_2023", "action": "already_pass", "ai_prob": 9.285924954855633e-05, "predicted_class": "human"},
+  {"rec": 556, "ann": 0, "id": "ARES_2021", "action": "already_pass", "ai_prob": 0.0006804604915888245, "predicted_class": "human"}
+]

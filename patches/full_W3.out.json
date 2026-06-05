@@ -1,0 +1,776 @@
+[
+  {
+    "rec": 129,
+    "ann": 1,
+    "id": "PLNT_2021",
+    "action": "already_pass",
+    "ai_prob": 0.0016036272229995824,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 130,
+    "ann": 0,
+    "id": "NASDAQ: MELI_2022",
+    "action": "already_pass",
+    "ai_prob": 6.04144760992017e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 131,
+    "ann": 0,
+    "id": "MWA_2024",
+    "action": "already_pass",
+    "ai_prob": 0.019376632878804277,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 131,
+    "ann": 1,
+    "id": "MWA_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0006932757840632508,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 132,
+    "ann": 0,
+    "id": "ENS_2024",
+    "action": "already_pass",
+    "ai_prob": 0.016597578225017316,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 134,
+    "ann": 0,
+    "id": "POOL_2015",
+    "action": "already_pass",
+    "ai_prob": 0.0005612462205215334,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 135,
+    "ann": 0,
+    "id": "ADEA_2024",
+    "action": "already_pass",
+    "ai_prob": 0.04945455239593949,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 136,
+    "ann": 0,
+    "id": "EFX_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Where to find the data.\nEquifax 10-K page 62 has the Consolidated Balance Sheets. Units are millions of U.S. dollars.",
+      "## Line items used.\nOperating assets here means: trade accounts receivable, prepaid expenses, other current assets, property and equipment net, and other assets net. Not included: cash, goodwill, intangibles, deferred tax assets.",
+      "## Raw figures, December 31 2021.\nTrade accounts receivable $727.6 million. Prepaid expenses $108.4 million. Other current assets $60.2 million. Property and equipment net $1,315.9 million. Other assets net $353.1 million.",
+      "## Addition.\n$727.6 + $108.4 + $60.2 + $1,315.9 + $353.1 = $2,565.2 million. That is the total operating assets figure."
+    ],
+    "ai_prob": 0.04754511266761413,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 136,
+    "ann": 1,
+    "id": "EFX_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Table location.\nThe Consolidated Balance Sheets appear on page 62 of the Equifax 10-K. Units are millions of dollars except par values.",
+      "## Current assets.\nThe ASSETS section row \"Total current assets\" shows 1,120.9 for 2021. So total current assets are $1,120.9 million.",
+      "## Current liabilities.\nThe LIABILITIES AND EQUITY section row \"Total current liabilities\" shows 2,291.3 for 2021. So total current liabilities are $2,291.3 million.",
+      "## Ratio.\n1,120.9 divided by 2,291.3 equals 0.49. The current ratio for 2021 is 0.49."
+    ],
+    "ai_prob": 0.4935053707552657,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 137,
+    "ann": 0,
+    "id": "HES_2015",
+    "action": "already_pass",
+    "ai_prob": 0.039217204168455116,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 137,
+    "ann": 1,
+    "id": "HES_2015",
+    "action": "already_pass",
+    "ai_prob": 0.0006734167025307324,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 138,
+    "ann": 0,
+    "id": "ALG_2015",
+    "action": "already_pass",
+    "ai_prob": 0.020164218147104486,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 140,
+    "ann": 0,
+    "id": "ACBM_2022",
+    "action": "already_pass",
+    "ai_prob": 0.4040137397000973,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 141,
+    "ann": 0,
+    "id": "GTY_2013",
+    "action": "already_pass",
+    "ai_prob": 3.121501850604738e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 141,
+    "ann": 1,
+    "id": "GTY_2013",
+    "action": "already_pass",
+    "ai_prob": 0.00011927541300424514,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 142,
+    "ann": 0,
+    "id": "GRPN_2024",
+    "action": "already_pass",
+    "ai_prob": 0.07708458307835109,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 142,
+    "ann": 1,
+    "id": "GRPN_2024",
+    "action": "rewritten",
+    "solution": [
+      "## 2023 data from page 63.\nValues are in thousands. The year ended December 31, 2023 shows revenue of 514,910 and marketing of 110,505.",
+      "## Marketing percentage in 2023.\n110,505 over 514,910 is 0.2146.",
+      "## 2024 marketing at 2023 rate.\n2024 revenue: 492,557. At 0.2146 that is 105,702.7322.",
+      "## Effect on 2024 operating income.\nActual 2024 marketing: 144,207. Actual 2024 operating income: 8,794. Saving from lower marketing: 144,207 minus 105,702.7322 is 38,504.2678. Adjusted income: 8,794 plus 38,504.2678 is 47,298.2678. Rounded to nearest thousand: $47,298 thousand."
+    ],
+    "ai_prob": 0.42972523111270644,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 143,
+    "ann": 0,
+    "id": "HCAT_2020",
+    "action": "already_pass",
+    "ai_prob": 0.1531536541541356,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 143,
+    "ann": 1,
+    "id": "HCAT_2020",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nPage 92 has the Health Catalyst Consolidated Statements of Operations. Header says in thousands except per share data.",
+      "## 2020 value.\n\"Total operating expenses\" row, year ended December 31, 2020: $186,893 thousand.",
+      "## Multiply by 1.1.\n186,893 times 1.1 equals 205,582.3.",
+      "## Answer.\nProjected total operating expenses for 2021 with a 10% rise: $205,582.3 thousand."
+    ],
+    "ai_prob": 0.16189523244000786,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 146,
+    "ann": 0,
+    "id": "TSLA_2015",
+    "action": "rewritten",
+    "solution": [
+      "## Page 48.\nTesla's 2015 annual report. Consolidated Statements of Operations, page 48. Dollar amounts in thousands.",
+      "## Numbers to use.\nAutomotive was $3,740,973. Total revenue was $4,046,025. Regulatory credits built into automotive: $168,743.",
+      "## Remove credits from automotive.\n$3,740,973 take away $168,743 leaves $3,572,230.",
+      "## Divide by total revenue.\n$3,572,230 divided by $4,046,025 times 100. That comes out to 88.2898647%."
+    ],
+    "ai_prob": 0.35636828510464047,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 148,
+    "ann": 0,
+    "id": "DKNG_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Where stock-based compensation is reported.\nPage 60 of the DraftKings 10-K has a table going from \"Net Loss\" through \"Adjusted EBITDA.\" Units are thousands. The \"Stock-based compensation\" row for the year ended December 31, 2022 reads $578,799 thousand.",
+      "## Operating expense lines from page 62.\nThe Results of Operations table on page 62 gives these 2022 figures in thousands. Cost of revenue: $1,484,273. Sales and marketing: $1,185,977. Product and technology: $318,247. General and administrative: $763,720.",
+      "## Adding up operating expenses.\n1,484,273 plus 1,185,977 plus 318,247 plus 763,720 equals 3,752,217 thousand.",
+      "## Ratio calculation.\n578,799 over 3,752,217 times 100 equals 15.43%."
+    ],
+    "ai_prob": 0.02016965116131333,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 149,
+    "ann": 0,
+    "id": "BYND_2020",
+    "action": "already_pass",
+    "ai_prob": 0.22733069830901803,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 150,
+    "ann": 0,
+    "id": "CROX_2018",
+    "action": "rewritten",
+    "solution": [
+      "## Table location.\nPage 87 of the Crocs 10-K has a table under the heading \"The following table sets forth income reconciliations of the statutory federal income tax rate to actual rates based on income or loss before income taxes.\" Look at the 2017 column.",
+      "## Positive line items in the 2017 column.\nEnacted changes: $17,645. Non-deductible items: $6,006. Change in valuation allowance: $24,400. Uncertain tax positions: $1,054. Audit settlements: $354. Stock compensation windfall: $882. Deferred adjustments: $2,679. Other: $681.",
+      "## Federal and state items excluded.\nThe $6,363 for Federal and $53 for State, net of federal benefits are not included per the question.",
+      "## Total.\n17,645 plus 6,006 plus 24,400 plus 1,054 plus 354 plus 882 plus 2,679 plus 681 equals 53,701. The total is $53,701 thousand."
+    ],
+    "ai_prob": 0.07764711043687594,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 150,
+    "ann": 1,
+    "id": "CROX_2018",
+    "action": "rewritten",
+    "solution": [
+      "## Crocs page 87 data.\nFirst table on page 87. 2017 column. Total deferred income taxes was ($3,093). Foreign deferred taxes was ($4,393). Units are thousands.",
+      "## Increase foreign by half.\n(-4,393) times 1.5 equals (-6,590).",
+      "## How much more negative the foreign figure became.\n(-6,590) minus (-4,393) gives (-2,197).",
+      "## New total.\n(-3,093) take away another 2,197 gives (-5,290). So $5,290 thousand."
+    ],
+    "ai_prob": 0.3994508268343422,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 151,
+    "ann": 0,
+    "id": "IBKR_2023",
+    "action": "rewritten",
+    "solution": [
+      "## 2023 base figures.\nPage 90, Consolidated Statements of Comprehensive Income. Units are millions. Commissions revenue was $1,360 million. Execution and clearing expenses were $386 million.",
+      "## Project commissions to 2025.\nCommissions grow at 4% per year for two years. $1,360 times (1.04)^2 equals $1,360 times 1.0816 equals $1,471.0 million.",
+      "## Project execution costs to 2025.\nExecution and clearing expenses grow at 5% per year for two years. $386 times (1.05)^2 equals $386 times 1.1025 equals $425.57 million.",
+      "## 2025 gross profit from operations.\n$1,471.0 minus $425.57 equals $1,045.43 million.",
+      "## Reinvest 10% of each year's gross profit at 3% compound.\n2023 gross profit: $1,360 minus $386 equals $974 million. 10% is $97.4 million. Held 2 years at 3%: $97.4 times (1.03)^2 equals $97.4 times 1.0609 equals $103.33166 million.\n2024 gross profit: ($1,360 times 1.04) minus ($386 times 1.05) equals $1,414.4 minus $405.3 equals $1,009.1 million. 10% is $100.91 million. Held 1 year at 3%: $100.91 times 1.03 equals $103.94 million. 2025 reinvestment earns no return yet.",
+      "## Total gross profit plus cumulative investment returns.\nInvestment returns: ($103.33166 minus $97.4) plus ($103.94 minus $100.91) equals $5.93166 plus $3.03 equals $8.96166 million. Final total: $1,045.43 plus $8.96166 equals $1,054.39166 million."
+    ],
+    "ai_prob": 0.4418393915346343,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 152,
+    "ann": 0,
+    "id": "AAPL_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0025976036251183863,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 153,
+    "ann": 0,
+    "id": "SAH_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0001790654281504211,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 154,
+    "ann": 0,
+    "id": "AWK_2012",
+    "action": "already_pass",
+    "ai_prob": 0.4343352321635358,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 155,
+    "ann": 0,
+    "id": "SEDG_2024",
+    "action": "already_pass",
+    "ai_prob": 9.892130704106206e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 156,
+    "ann": 0,
+    "id": "OPEN_2023",
+    "action": "already_pass",
+    "ai_prob": 0.20716557437091168,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 157,
+    "ann": 0,
+    "id": "SQSP_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Operating cash flow figures.\nThe CONSOLIDATED STATEMENTS OF CASH FLOWS on page 65 shows net cash provided by operating activities. In 2022 it was $164,219 thousand. In 2021 it was $123,157 thousand.",
+      "## Average cash flow.\n($164,219 plus $123,157) divided by 2 equals $143,688 thousand.",
+      "## First cap: 50% of average cash flow.\n$143,688 times 0.50 equals $71,844 thousand.",
+      "## Second cap: 8% of projected 2023 revenue.\nResults of operations table on page 42 shows 2022 revenue of $866,972 thousand. Projected 2023 revenue: $866,972 times 1.10 equals $953,669.20 thousand. 8% of that: $953,669.20 times 0.08 equals $76,293.54 thousand.",
+      "## Binding constraint.\n$71,844 is less than $76,293.54. The maximum allowable stock-based compensation for 2023 that meets both constraints is $71,844 thousand."
+    ],
+    "ai_prob": 0.014999962630486322,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 159,
+    "ann": 0,
+    "id": "TRNS_2016",
+    "action": "rewritten",
+    "solution": [
+      "## Where the numbers come from.\nPage 34, RESULTS OF OPERATIONS. FY2016 data. Operating income: 5.2% of revenue. Selling, Marketing and Warehouse Expenses: 11.1% of revenue. Administrative expenses: 7.5% of revenue.",
+      "## Definition of the ratio.\nAdjusted operating leverage ratio equals operating income divided by (total operating expenses minus administrative expenses). With administrative excluded, the denominator is just Selling, Marketing and Warehouse Expenses.",
+      "## Division.\n0.052 divided by 0.111 equals 0.4685.",
+      "## Answer.\nThe adjusted operating leverage ratio for FY2016 is 0.4685."
+    ],
+    "ai_prob": 0.0026332851896645913,
+    "predicted_class": "human",
+    "logic_flag": "Step 2 of the original solution contained garbled/non-English text ('Dividint 0.052 per 0.111, s'arriba a 0.4685') that appears to be code-switched Catalan/Spanish. The numerical result 0.4685 is correct based on the stated percentages."
+  },
+  {
+    "rec": 160,
+    "ann": 0,
+    "id": "PDFS_2020",
+    "action": "already_pass",
+    "ai_prob": 0.00023585443131371957,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 161,
+    "ann": 0,
+    "id": "POST_2023",
+    "action": "stuck",
+    "solution": [
+      "## Liabilities.\nPage 145. Statement of Financial Position. Canadian dollars in millions. As at December 31, 2023. Total liabilities: $7,943.",
+      "## Equity items.\nPage 146. Same table. Contributed Capital $1,155. Retained Earnings $3,337.",
+      "## Equity total.\n$1,155 + $3,337 = $4,492 million.",
+      "## Debt-to-equity.\n$7,943 / $4,492 = 1.768. Rounded = 1.77."
+    ],
+    "ai_prob": 0.5455272259415355,
+    "predicted_class": "ai",
+    "logic_flag": "The answer format uses '$1.77' with a dollar sign for a debt-to-equity ratio, which is a dimensionless number; no currency symbol should apply. The numerical value 1.77 is consistent with the stated inputs."
+  },
+  {
+    "rec": 162,
+    "ann": 0,
+    "id": "DLB_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Inventories.\nDocument page 50. CONSOLIDATED BALANCE SHEETS. ASSETS section. \"Inventories, net\" for 2022: $23,549 thousand.",
+      "## Accounts receivable.\nSame page and table. ASSETS section. \"Accounts receivable, net of allowance for credit losses of $11,834 and $8,744\" for 2022: $243,593 thousand.",
+      "## Accounts payable.\nPage 50. CONSOLIDATED BALANCE SHEETS. LIABILITIES section. \"Accounts payable\" for 2022: $14,171 thousand.",
+      "## Total cost of revenue and total revenue.\nPage 51. CONSOLIDATED STATEMENTS OF OPERATIONS. \"Total cost of revenue\" for 2022: $141,360 thousand. \"Total revenue\" for 2022: $1,253,793 thousand.",
+      "## DIO, DSO, and DPO.\nDIO equals 23,549 divided by 141,360 times 365 equals 60.804 days. DSO equals 243,593 divided by 1,253,793 times 365 equals 70.91 days. DPO equals 14,171 divided by 141,360 times 365 equals 36.59 days.",
+      "## CCC.\nCCC equals DIO plus DSO minus DPO. 60.804 plus 70.91 minus 36.59 equals 95.12 days."
+    ],
+    "ai_prob": 0.03657374204465103,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 162,
+    "ann": 1,
+    "id": "DLB_2022",
+    "action": "already_pass",
+    "ai_prob": 0.47385051069948925,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 163,
+    "ann": 0,
+    "id": "ADEN_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Data on page 73.\nNote 17 in Notes to the Consolidated Financial Statements. \"Information about geographic areas.\" Units are thousands of US dollars per the table header.",
+      "## Revenue by segment.\nCanada external revenue: $175,080 thousand. United States external revenue: $1,441,119 thousand.",
+      "## Add them up.\n175,080 plus 1,441,119 equals 1,616,199 thousand.",
+      "## Divide by 2.\nTwo segments total. 1,616,199 divided by 2 equals $808,100 thousand per segment. That is the 2021 average revenue per geographic segment."
+    ],
+    "ai_prob": 0.3239057112763909,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 164,
+    "ann": 0,
+    "id": "PGNY_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Table location.\nPage 57. \"Cumulative Total Returns since Initial Public Offering\" table. Located below the Stock Performance Graph. Initial investment of $100 on 10/24/2019.",
+      "## Progyny values.\nRow \"Progyny, Inc.\" in the table. Value at 12/31/2020: $326.08. Value at 12/31/2022: $239.62.",
+      "## Progyny growth.\n(239.62 minus 326.08) divided by 326.08 times 100. That is (-86.46 / 326.08) times 100. Equals negative 26.515%.",
+      "## S&P 500 Health Care values.\nRow \"S&P 500 Health Care\" in the table on page 57. Value at 12/31/2020: $124.56. Value at 12/31/2022: $149.16.",
+      "## S&P 500 Health Care growth.\n(149.16 minus 124.56) divided by 124.56 times 100. That is (24.60 / 124.56) times 100. Equals 19.750%.",
+      "## Difference.\nNegative 26.515% minus 19.750% equals negative 46.265 percentage points, rounded to negative 46.27 percentage points."
+    ],
+    "ai_prob": 0.08903884117850674,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 164,
+    "ann": 1,
+    "id": "PGNY_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Progyny income statement.\nPage 76. Consolidated Statements of Operations. Thousands of dollars, except per share.",
+      "## Two line items for year 2023.\nSales and marketing: $59,488. General and administrative: $117,127.",
+      "## Apply the adjustments.\nSales and marketing goes up 15%: 59,488 times 1.15 equals 68,411.2. General and administrative goes down 10%: 117,127 times 0.90 equals 105,414.3.",
+      "## Adjusted total.\n68,411.2 plus 105,414.3 equals $173,825.5 thousand."
+    ],
+    "ai_prob": 0.12239934339268116,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 165,
+    "ann": 0,
+    "id": "BL_2023",
+    "action": "already_pass",
+    "ai_prob": 0.03413911600751846,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 166,
+    "ann": 0,
+    "id": "GLW_2024",
+    "action": "already_pass",
+    "ai_prob": 0.4261553698907629,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 167,
+    "ann": 0,
+    "id": "HTZ_2023",
+    "action": "already_pass",
+    "ai_prob": 3.252457009548486e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 168,
+    "ann": 0,
+    "id": "SAIA_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Where the data lives.\nSaia 10-K. Consolidated Statements of Operations, page 58. Thousands of USD.",
+      "## Two numbers.\nIncome before income taxes for 2022: $468,048. Income tax expense for 2022: $110,626.",
+      "## Compute.\n110,626 / 468,048 = 0.236390285. Times 100 = 23.6390285%.",
+      "## Round.\n23.64%."
+    ],
+    "ai_prob": 0.12534529233095534,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 168,
+    "ann": 1,
+    "id": "SAIA_2022",
+    "action": "already_pass",
+    "ai_prob": 0.1304189386812522,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 169,
+    "ann": 0,
+    "id": "SBFG_2018",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nSB Financial Group Inc. Consolidated Balance Sheet on page 54. All figures in thousands, per \"($ in thousands).\"",
+      "## Three numbers from 2018.\nTotal stockholders' equity: $130,435. Total liabilities: $856,393. Savings line in liabilities: $104,444.",
+      "## Remove savings.\n856,393 minus 104,444 equals 751,949 thousand in adjusted liabilities.",
+      "## Ratio.\n751,949 over 130,435 equals 5.7649, rounded to 5.765."
+    ],
+    "ai_prob": 0.6432460187330841,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 170,
+    "ann": 0,
+    "id": "ADDYY_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0010249481174773552,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 170,
+    "ann": 1,
+    "id": "ADDYY_2022",
+    "action": "already_pass",
+    "ai_prob": 0.0002054166326532315,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 171,
+    "ann": 0,
+    "id": "VFC_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Financial statement.\nVF Corporation 2024 10-K. Consolidated Statements of Operations on page 58. Values in thousands.",
+      "## SG&A values.\nFiscal year 2024 Selling, General and Administrative Expenses: $4,963,718 thousand. Fiscal year 2023: $5,033,977 thousand.",
+      "## Subtraction.\n$5,033,977 minus $4,963,718 equals $70,259 thousand.",
+      "## Interpretation.\nVF Corporation's SG&A expenses dropped by $70,259 thousand from Fiscal 2023 to Fiscal 2024."
+    ],
+    "ai_prob": 0.3661948846704371,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 172,
+    "ann": 0,
+    "id": "GPRE_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Table on page 73.\nGreen Plains 2024 annual report. Table uses thousands of dollars.",
+      "## Ethanol Production gross margins.\n2024 value: $83,629. 2023 value: $118,624.",
+      "## Agribusiness and Energy Services gross margins.\n2024 value: $46,821. 2023 value: $46,127.",
+      "## Which one fell.\nEthanol Production went from $118,624 down to $83,629. Agribusiness went up slightly. Ethanol Production is the only segment with a decline.",
+      "## Percent drop for Ethanol Production.\n(83,629 - 118,624) / 118,624 x 100 = (-34,995 / 118,624) x 100 = -29.5%. Ethanol production by -29.5%."
+    ],
+    "ai_prob": 0.10947885464415956,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 173,
+    "ann": 0,
+    "id": "SVBL_2017",
+    "action": "already_pass",
+    "ai_prob": 0.009860437568214515,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 174,
+    "ann": 0,
+    "id": "NFLX_2012",
+    "action": "rewritten",
+    "solution": [
+      "## Source data.\nNetflix 2012 10-K. Page 54, CONSOLIDATED STATEMENTS OF OPERATIONS. All values in thousands.",
+      "## Reported EPS and shares.\n2012 net income: $17,152. 2012 diluted weighted-average shares: 58,904. Reported diluted EPS: $0.29.",
+      "## Repurchase math.\n$100,000 thousand buyback at $86 per share. That removes 100,000 / 86 = 1,162.79 thousand shares.",
+      "## Divide again.\nRemaining shares: 58,904 - 1,162.79 = 57,741.21 thousand. EPS: 17,152 / 57,741.21 = 0.297. Rounded: $0.30."
+    ],
+    "ai_prob": 0.08192623341614316,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 175,
+    "ann": 0,
+    "id": "sdrl_2025",
+    "action": "rewritten",
+    "solution": [
+      "## Seadrill page 247.\nFinancial performance table. Metric values in USDm. Financial Performance component weight 40. Each of 2 metrics: weight 20 toward total STIP.",
+      "## EBITDA score.\nThreshold 334, Target 418, Max 502. Actual 400. 50 + (66/84)*50 = 89.285%.",
+      "## LFCF score.\nThreshold -78, Target -60, Max -42. Actual -55. 100 + (5/18)*100 = 127.78%.",
+      "## Final.\n89.285*0.20 + 127.78*0.20 = 17.857 + 25.556 = 43.413%. Rounded to 43.414%."
+    ],
+    "ai_prob": 0.2511031719355374,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 176,
+    "ann": 0,
+    "id": "ALKS_2024",
+    "action": "already_pass",
+    "ai_prob": 3.838138622825799e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 176,
+    "ann": 1,
+    "id": "ALKS_2024",
+    "action": "already_pass",
+    "ai_prob": 9.862974580557658e-06,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 177,
+    "ann": 0,
+    "id": "VRSK_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Statements of Operations, page 61.\nVerisk Analytics 10-K. Values in millions. Figures used below are for year ended December 31, 2024.",
+      "## Actual 2024 numbers.\nRevenues: $2,881.7. Cost of revenues: $901.1. SG&A: $408.7. D&A of fixed assets: $233.6. Amortization of intangibles: $72.3. Other operating loss: $12.1.",
+      "## Revised revenues.\n$2,881.7 times 1.05 equals $3,025.785 million.",
+      "## Revised cost of revenues.\n$901.1 times 1.03 equals $928.133 million.",
+      "## Sum of all operating expenses.\n928.133 plus 408.7 plus 233.6 plus 72.3 plus 12.1 equals 1,654.833 million.",
+      "## Operating income.\n3,025.785 minus 1,654.833 equals 1,370.952 million, approximately $1,371.0 million."
+    ],
+    "ai_prob": 0.06690803620253,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 178,
+    "ann": 0,
+    "id": "JCI_2023",
+    "action": "already_pass",
+    "ai_prob": 0.025419420448579623,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 179,
+    "ann": 0,
+    "id": "CZR_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Caesars balance sheet.\nPage 62. CAESARS ENTERTAINMENT, INC. CONSOLIDATED BALANCE SHEETS. Values in millions.",
+      "## Numbers from December 31, 2022.\nTotal current assets: $2,102. Cash and cash equivalents: $1,038. Restricted cash: $131. Total current liabilities: $2,668. Current portion of long-term debt: $108.",
+      "## Two adjusted figures.\nAdjusted current assets: 2,102 minus 1,038 minus 131 equals 933. Adjusted current liabilities: 2,668 minus 108 equals 2,560.",
+      "## Net working capital.\n933 minus 2,560 equals negative 1,627 million."
+    ],
+    "ai_prob": 0.48626948420596183,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 179,
+    "ann": 1,
+    "id": "CZR_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Income statement page.\n\"CONSOLIDATED STATEMENTS OF OPERATIONS\" on page 63. Values are in millions.",
+      "## Actual 2022 figures.\nCasino expenses: $3,526 million. General and administrative expenses: $2,068 million. Operating income: $1,739 million.",
+      "## 8% increase in casino expenses.\n$3,526 times 0.08 equals $282.08 million additional.",
+      "## 8% increase in G&A expenses.\n$2,068 times 0.08 equals $165.44 million additional.",
+      "## Total additional expenses.\n$282.08 plus $165.44 equals $447.52 million.",
+      "## Resulting EBIT.\n$1,739 minus $447.52 equals $1,291.48 million."
+    ],
+    "ai_prob": 0.11795563707559917,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 180,
+    "ann": 0,
+    "id": "NOG_2019",
+    "action": "already_pass",
+    "ai_prob": 5.700152389496263e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 181,
+    "ann": 0,
+    "id": " ETD_2023",
+    "action": "already_pass",
+    "ai_prob": 0.27993313590959296,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 182,
+    "ann": 0,
+    "id": "CW_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Net earnings from page 60.\nCONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME, page 60. Values in thousands. Net earnings for 2022: $294,348 thousand.",
+      "## Diluted shares from page 82.\nNote 15: EARNINGS PER SHARE, page 82. Header: \"(In thousands, except per share data).\" Dilutive effect of deferred stock compensation in 2022 was 263 thousand. Total diluted share count: 38,649 thousand.",
+      "## Shares to repurchase.\n$100,000 thousand buyback at $120 per share. 100,000 / 120 = 833.333 thousand shares.",
+      "## Weighted-average share reduction.\nRepurchase spread evenly over 4 quarters. Weighted-average reduction = 833,333 / 2 = 416,666.5 shares. New diluted share count: 38,649,000 minus 416,666.5 equals 38,232,333.5 shares.",
+      "## Pro forma EPS.\n$294,348 thousand / 38,232.3335 thousand = $7.69892855, which is approximately $7.70."
+    ],
+    "ai_prob": 0.010313121506926972,
+    "predicted_class": "human",
+    "logic_flag": "Step 1 states 'diluted shares totaled 263 thousand' referring only to the dilutive effect of deferred stock compensation, but Step 3 uses a total diluted share count of 38,649,000. The labeling in Step 1 is ambiguous and could be misread as the full diluted share count."
+  },
+  {
+    "rec": 182,
+    "ann": 1,
+    "id": "CW_2022",
+    "action": "stuck",
+    "solution": [
+      "## Existing debt rate.\nNote 14: Debt on page 79. Table header: \"(In thousands).\" The existing bank debt rate is 3.70% shown as \"3.70% Senior notes due 2023.\"",
+      "## New bond rate.\nThe new 5-year bonds carry a 4.50% rate as stated in the problem (this rate is a refinancing assumption, not from the company tables).",
+      "## Pre-tax annual interest difference.\nRate difference: 4.50% minus 3.70% equals 0.80%. Principal: $200,000,000. Pre-tax incremental cost: 0.008 times $200,000,000 equals $1,600,000.",
+      "## Corporate tax rate.\nNote 13: Income Taxes on page 77. U.S. federal statutory tax rate for 2022: 21.0%.",
+      "## After-tax cost.\n$1,600,000 times (1 minus 0.21) equals $1,264,000."
+    ],
+    "ai_prob": 1.0,
+    "predicted_class": "ai"
+  },
+  {
+    "rec": 183,
+    "ann": 0,
+    "id": "CART_2024",
+    "action": "already_pass",
+    "ai_prob": 0.002054838390634392,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 183,
+    "ann": 1,
+    "id": "CART_2024",
+    "action": "already_pass",
+    "ai_prob": 0.01282956581868397,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 184,
+    "ann": 0,
+    "id": "H_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Operating cash flow.\nHyatt 2022 10-K. Page 107. HYATT HOTELS CORPORATION AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF CASH FLOWS. Units in millions. For 2022, \"Net cash provided by operating activities\" is $674 million.",
+      "## Capital expenditures.\nPage 87. Table under section title \"Capital Expenditures.\" For \"Year Ended December 31, 2022\" the row \"Total capital expenditures\" shows $201 million.",
+      "## Total debt.\nPage 141. Table listed as \"11. DEBT.\" \"Total debt\" as of December 31, 2022 is $3,128 million.",
+      "## Debt to Free Cash Flow.\nFree cash flow = operating cash flow minus capital expenditures = $674 minus $201 = $473 million. $3,128 divided by $473 equals 6.613x."
+    ],
+    "ai_prob": 0.2746158738136798,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 185,
+    "ann": 0,
+    "id": "GME_2010",
+    "action": "already_pass",
+    "ai_prob": 0.11988643469789753,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 187,
+    "ann": 0,
+    "id": "IFF_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0010115098702745747,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 187,
+    "ann": 1,
+    "id": "IFF_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nPage 30 of the IFF annual report. Table named \"INTERNATIONAL FLAVORS & FRAGRANCES INC. CONSOLIDATED STATEMENTS OF INCOME (LOSS) AND COMPREHENSIVE LOSS.\" Amounts in millions except per share amounts.",
+      "## Cost of sales for 2024.\nThe \"Cost of sales\" row for the year ended December 31, 2024 shows $7,360 million. That is $7,360,000,000.",
+      "## Gross profit for 2024.\nThe \"Gross profit\" row for the same year shows $4,124 million. That is $4,124,000,000.",
+      "## 2024 net sales.\nNet sales = Gross profit plus Cost of sales = $4,124,000,000 plus $7,360,000,000 = $11,484,000,000. A 3% sales reduction with constant gross margin reduces gross profit by 3%.",
+      "## Expected 2025 gross profit.\n$4,124,000,000 times (1 minus 0.03) = $4,124,000,000 times 0.97 = $4,000,280,000."
+    ],
+    "ai_prob": 0.035641459986571505,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 188,
+    "ann": 0,
+    "id": "NVAX_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source table.\nNOVAVAX, INC. CONSOLIDATED BALANCE SHEETS on page 111. Values in thousands.",
+      "## Pull two numbers for 2024.\nTotal current assets: 1,128,942. Total current liabilities: 1,154,416.",
+      "## Cut current assets.\n15% reduction: 1,128,942 times 0.85 equals 959,600.7.",
+      "## Current ratio.\n959,600.7 over 1,154,416 equals 0.83x."
+    ],
+    "ai_prob": 0.3689091735135129,
+    "predicted_class": "human",
+    "logic_flag": "Step 2 presents the calculation as $1,128,942,000 x (1-0.15) = $959,600,700, mixing the unit scale: the balance sheet reports in thousands, so the values should be 1,128,942 and 1,154,416 (thousands), not expressed as full dollars. The ratio result 0.83 is correct regardless, but the unit presentation in Step 2 is inconsistent with the 'in thousands' header."
+  },
+  {
+    "rec": 189,
+    "ann": 0,
+    "id": "BBWI_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Where to find 2021 data.\nBath and Body Works. Consolidated Statements of Income page 88. In millions. Year ended January 29, 2022.",
+      "## Three numbers.\nNet Sales 2021: $7,882 million. Cost of Goods Sold, Buying and Occupancy 2021: $4,027 million. Gross Profit 2021: $3,855 million (7,882 minus 4,027).",
+      "## Gross margin.\n3,855 over 7,882 equals 0.48908906.",
+      "## Apply 12% growth to sales.\n7,882 times 1.12 equals 8,827.84 million.",
+      "## Apply margin to new sales.\n8,827.84 times 0.489089 equals approximately $4,317.7 million."
+    ],
+    "ai_prob": 0.1732679840583612,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 190,
+    "ann": 0,
+    "id": "ROP_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00042994899523880146,
+    "predicted_class": "human"
+  }
+]

@@ -1,0 +1,736 @@
+[
+  {
+    "rec": 408,
+    "ann": 0,
+    "id": "HUBB_2024",
+    "action": "already_pass",
+    "ai_prob": 0.000623898244351854,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 409,
+    "ann": 0,
+    "id": "CSCO_2018",
+    "action": "already_pass",
+    "ai_prob": 4.247811010901361e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 410,
+    "ann": 0,
+    "id": "SLB_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Access Financial Statements.\nPage 33 of the 10-K has Item 8 which starts with the Consolidated Statement of Income (Loss). All figures in this table are in millions, per the header.",
+      "## Net Income on page 33.\nThe \"Net Income (Loss)\" row in the table on page 33 shows $1,928 million for 2021. This is the net income figure needed.",
+      "## Interest Expense on page 33.\nThe \"Interest\" section of the same table on page 33 shows interest expense of $539 million for 2021.",
+      "## Tax Expense on page 33.\nThe \"Tax expense (benefit)\" row in the same table on page 33 shows tax expense of $446 million for 2021.",
+      "## EBIT calculation.\nEBIT = Net Income + Interest + Tax Expense. 1,928 + 539 + 446 = 2,913. EBIT is $2,913 millions."
+    ],
+    "ai_prob": 0.19071884269663264,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 410,
+    "ann": 1,
+    "id": "SLB_2021",
+    "action": "rewritten",
+    "solution": [
+      "## Page 33 income statement.\nRevenue from the 2021 Consolidated Statement of Income (Loss): $22,929 million.",
+      "## Page 35 balance sheet asset data.\nTotal assets at end of 2021: $41,511 million. Total assets at end of 2020: $42,434 million. Average = (41,511 + 42,434) / 2 = 41,972.5 million.",
+      "## Revenue adjustment step.\nAn extra $1,500 million is added to reported revenue. 22,929 + 1,500 = 24,429 million.",
+      "## Asset turnover calculation.\n24,429 / 41,972.5 = 0.582."
+    ],
+    "ai_prob": 0.49653278174249005,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 411,
+    "ann": 0,
+    "id": "CHA_2024",
+    "action": "already_pass",
+    "ai_prob": 4.200146403907094e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 413,
+    "ann": 0,
+    "id": "YELP_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Chart location.\nYelp 10-K page 47. The chart title is \"Comparison of Cumulative Total Return.\" Period: Dec 31, 2018 to Dec 31, 2023. Starting value $100.",
+      "## Three lines in the chart.\nSolid blue line = Yelp Inc. Dotted red = NYSE Composite. Dashed green = NYSE Arca Tech 100 Index.",
+      "## Yelp readings at two dates.\nBlue line at Dec 31, 2020 reads approximately $93. Blue line at Dec 31, 2023 reads approximately $134. Return for this sub-period = (134 / 93) - 1 = 0.44086 = 44.086%.",
+      "## NYSE Arca Tech 100 readings at two dates.\nGreen line at Dec 31, 2020 reads approximately $150. Green line at Dec 31, 2023 reads approximately $200. Return = (200 / 150) - 1 = 0.33333 = 33.333%.",
+      "## Difference.\nReturn difference = 44.086% minus 33.333% = 10.753%, which rounds to 10.76%."
+    ],
+    "ai_prob": 0.04443588459381627,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 413,
+    "ann": 1,
+    "id": "YELP_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Net income for 2023.\nPage 77 of the Yelp 10-K has the \"Consolidated Statements of Operations\" table. The row \"Net income attributable to common stockholders\" for year ended December 31, 2023 shows $99,173 thousand. Units are thousands per the table header.",
+      "## Interest expense net of tax for 2023.\nPage 101 has a table showing the effective tax rate reconciliation. The effective tax rate for year ended December 31, 2023 is 5.62%. The Consolidated Statements of Operations on page 77 has no interest expense line item, which means interest expense for 2023 is $0. Interest expense net of tax = $0 x 5.62% = $0.",
+      "## Average total assets for 2023.\nThe \"Consolidated Balance Sheets\" on page 76 shows Total assets at December 31, 2023 = $1,014,723 thousand and Total assets at December 31, 2022 = $1,015,922 thousand. Average = (1,014,723 + 1,015,922) / 2 = $1,015,322.50 thousand. Units are thousands per the table header.",
+      "## ROA adjusted for interest expense net of tax.\nROA = (Net Income + Interest expense net of tax) / Average Total Assets x 100. Substituting: (99,173 + 0) / 1,015,322.50 x 100 = 9.7676%. Rounded to two decimal places: 9.77%."
+    ],
+    "ai_prob": 0.4630691526268596,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 415,
+    "ann": 0,
+    "id": "HFWA_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0367733936446794,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 416,
+    "ann": 0,
+    "id": "MDLZ_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00044250207240586055,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 417,
+    "ann": 0,
+    "id": "MOH_2024",
+    "action": "already_pass",
+    "ai_prob": 0.002742608030088839,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 418,
+    "ann": 0,
+    "id": "UNH_2017",
+    "action": "already_pass",
+    "ai_prob": 0.23758244620260988,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 419,
+    "ann": 0,
+    "id": "FTRE_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Comprehensive income statement location.\nThe \"Consolidated and Combined Statements of Comprehensive Income (Loss)\" appears on PDF page 75 of the Fortrea 10-K.",
+      "## Values for 2024 and 2023.\nThe table on page 75 has a \"Comprehensive income (loss)\" line. For 2024 the value is $(395.9) million. For 2023 the value is $34.1 million.",
+      "## Year-over-year dollar change.\nChange = 2024 value minus 2023 value. Negative 395.9 minus positive 34.1 equals negative 430 million. The dollar change is $(430) million.",
+      "## Year-over-year percent change.\nPercent change = dollar change divided by 2023 amount, times 100. Negative 430 divided by 34.1 equals approximately negative 12.6. Times 100 = negative 1260%. The year-over-year change is (–1260%)."
+    ],
+    "ai_prob": 0.3478972406704974,
+    "predicted_class": "human",
+    "logic_flag": "The question asks for two pieces of information (the actual 2024 total comprehensive income/loss AND the change from 2023), but the answer only provides the year-over-year % change of (–1260%). The 2024 comprehensive loss of $(395.9) million is mentioned in the solution but is not part of the answer field."
+  },
+  {
+    "rec": 422,
+    "ann": 0,
+    "id": "FBLA_2023",
+    "action": "stuck",
+    "solution": [
+      "## Balance sheet on page 145.\nContent guide page 5 references page 145. Page 145 holds the Consolidated and Separate Statement of Financial Position at 31 December 2023.",
+      "## LCR formula.\nLCR = high-liquidity assets / net cash outflow. Net cash outflow = customer deposits x 55%.",
+      "## Bank section 2023 data (N'million).\nCash = 376,595. FVTPL financial assets = 7,684. FVTOCI debt instruments = 187,751. Customer deposits = 3,926,842.",
+      "## High-liquidity assets total.\n376,595 + 7,684 + 187,751 = 572,030.",
+      "## Net cash outflow and LCR.\n3,926,842 x 0.55 = 2,159,763.1. LCR = 572,030 / 2,159,763.1 = 0.2649 = 26.49%."
+    ],
+    "ai_prob": 0.9439876116774372,
+    "predicted_class": "ai"
+  },
+  {
+    "rec": 423,
+    "ann": 0,
+    "id": "SPG_2020",
+    "action": "rewritten",
+    "solution": [
+      "## Data from page 97.\nThe Consolidated Statements of Cash Flows on page 97 shows 2020 data in thousands. Purchases of equity instruments = $(32,955). Proceeds from sale of equity instruments = $30,000. Net cash used in investing activities = $(3,978,398).",
+      "## New equity sale proceeds.\n40% higher than 2020: 30,000 x 1.40 = 42,000 thousand.",
+      "## New equity purchases.\n30% lower than 2020: 32,955 x 0.70 = 23,068.5 thousand.",
+      "## Net change from equity items.\nOld net equity cash = 30,000 - 32,955 = -2,955. New net equity cash = 42,000 - 23,068.5 = 18,931.5. Delta = 18,931.5 - (-2,955) = +21,886.5.",
+      "## Projected 2021 investing cash flow.\n-3,978,398 + 21,886.5 = -3,956,511.5 thousand."
+    ],
+    "ai_prob": 0.05760552187113955,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 425,
+    "ann": 0,
+    "id": "DRI_2017",
+    "action": "already_pass",
+    "ai_prob": 3.1102521521706146e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 426,
+    "ann": 0,
+    "id": "HTZ_2022",
+    "action": "already_pass",
+    "ai_prob": 0.07828814090466216,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 427,
+    "ann": 0,
+    "id": "PEG_2023",
+    "action": "already_pass",
+    "ai_prob": 0.48886988296720785,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 428,
+    "ann": 0,
+    "id": "VOYA_2020",
+    "action": "already_pass",
+    "ai_prob": 5.048421901351862e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 428,
+    "ann": 1,
+    "id": "VOYA_2020",
+    "action": "already_pass",
+    "ai_prob": 6.0472515242669934e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 429,
+    "ann": 0,
+    "id": "NASDAQ: BKNG_2023",
+    "action": "already_pass",
+    "ai_prob": 1.2797911124744506e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 430,
+    "ann": 0,
+    "id": "VC_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Location of the data.\nDocument page 37 contains the reconciliation of Adjusted EBITDA to net income for Visteon for the years ended December 31, 2023 and 2022. Figures are in millions.",
+      "## Selected 2023 figures from the table.\nDepreciation and amortization: $104M. Restructuring and impairment: $5M. Stock-based compensation: $34M. Adjusted EBITDA: $434M.",
+      "## Sum the three items.\n104 plus 5 plus 34 = 143M.",
+      "## Compute the percentage.\n143 divided by 434 times 100 = 32.95%."
+    ],
+    "ai_prob": 0.3151850693148159,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 431,
+    "ann": 0,
+    "id": "JLL_2015",
+    "action": "already_pass",
+    "ai_prob": 0.0008417430762849501,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 431,
+    "ann": 1,
+    "id": "JLL_2015",
+    "action": "already_pass",
+    "ai_prob": 0.057477006716612086,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 432,
+    "ann": 0,
+    "id": "CTSH_2023",
+    "action": "already_pass",
+    "ai_prob": 0.4259384281904597,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 433,
+    "ann": 0,
+    "id": "ELF_2017",
+    "action": "rewritten",
+    "solution": [
+      "## Note 5 Debt on page 11.\nTotal long-term debt at March 31, 2017: $178,376 thousand. Revolving credit facility within that total: $15,000 thousand.",
+      "## Debt adjustment step 1 and 2.\nRemove revolver: 178,376 - 15,000 = 163,376. Remove $5,000 paydown using retained earnings: 163,376 - 5,000 = 158,376.",
+      "## Debt adjustment step 3.\nReclassify $25,000 as vendor financing, excluded from financial debt: 158,376 - 25,000 = 133,376 thousand.",
+      "## Equity from balance sheet.\nCondensed Consolidated Balance Sheets shows total stockholders' equity = $149,648 thousand at March 31, 2017. Paydown reduces equity by $5,000: 149,648 - 5,000 = 144,648 thousand.",
+      "## Debt-to-equity.\n133,376 / 144,648 = 0.922073 = 0.92."
+    ],
+    "ai_prob": 0.29279676964582835,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 434,
+    "ann": 0,
+    "id": "Danone_2020",
+    "action": "already_pass",
+    "ai_prob": 0.00020160330874111957,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 435,
+    "ann": 0,
+    "id": "TIF_2020",
+    "action": "already_pass",
+    "ai_prob": 0.002308128641779305,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 436,
+    "ann": 0,
+    "id": "VYX_2022",
+    "action": "already_pass",
+    "ai_prob": 0.00018989712013118588,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 437,
+    "ann": 0,
+    "id": "AAPL_2009",
+    "action": "rewritten",
+    "solution": [
+      "## Net income from page 59.\nPage 59 has the \"CONSOLIDATED STATEMENTS OF OPERATIONS\" for three years ended September 26, 2009. Net income for 2009 = $5,704 million. Table heading states figures are \"(In millions, except share amounts)\".",
+      "## EBIT calculation using income statement items.\nSame table on page 59: income tax provision = $2,280 million; Other income and expense = $326 million. Other income is non-operating and must be removed from EBIT. EBIT = 5,704 + 2,280 - 326 = 7,658 million.",
+      "## Depreciation and amortization from page 61.\nPage 61 has the \"CONSOLIDATED STATEMENTS OF CASH FLOWS\" for three years ended September 26, 2009. Under Operating Activities, \"Depreciation, amortization, and accretion\" = $703 million for 2009. Units are millions per the heading.",
+      "## Adjusted EBITDA.\nThe question assumes D&A increased 10% due to a one-time write-down. Because EBITDA adds back D&A, a non-cash increase in D&A does not change EBITDA. Adjusted EBITDA = EBIT + reported D&A = 7,658 + 703 = $8,361 million."
+    ],
+    "ai_prob": 0.3678060064920255,
+    "predicted_class": "human",
+    "logic_flag": "The solution subtracts $326 million 'other income and expense' from EBIT on the grounds that it is non-operating. Standard EBIT = net income + income taxes + interest expense; other income is typically included in EBIT unless labeled 'below-the-line.' The treatment here may understate EBIT by $326M. If other income is left in, EBIT = 5,704 + 2,280 = 7,984 and EBITDA = 7,984 + 703 = 8,687, not 8,361."
+  },
+  {
+    "rec": 438,
+    "ann": 0,
+    "id": "NASDAQ: LIN_2022",
+    "action": "already_pass",
+    "ai_prob": 1.9916658709367715e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 439,
+    "ann": 0,
+    "id": "RF_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Find the financial statements.\nFORM 10-K INDEX on page 3 puts the financial statements at page 89. Page 89 starts Item 8: Financial Statements and Supplementary Data.",
+      "## Income statement page.\nConsolidated Statements of Income is on page 94. Header: \"(In millions, except per share data).\"",
+      "## Extract interest income figures.\n2023 total interest income: $6,897 million. 2022 total interest income: $5,102 million.",
+      "## Growth rate.\n(6,897 / 5,102 - 1) x 100 = 35.1822814582%."
+    ],
+    "ai_prob": 0.06057361941409753,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 440,
+    "ann": 0,
+    "id": "EAT_2024",
+    "action": "rewritten",
+    "solution": [
+      "## About the chart.\nThere is a five-year cumulative return chart in this filing. Time span: 6/26/2019 to 6/26/2024. Both EAT and the S&P 500 started at $100.",
+      "## Read the end values.\nThe table attached to the chart gives values at 6/26/2024. EAT = 196.09. S&P 500 = 201.54.",
+      "## Returns as percentages.\nEAT: (196.09 - 100) / 100 x 100 = 96.09%. S&P 500: 101.54%.",
+      "## Shortfall in percentage points.\n96.09 - 101.54 = -5.45 percentage points.",
+      "## Shortfall as percent of S&P 500 return.\n-5.45 / 101.54 x 100 = -5.37%."
+    ],
+    "ai_prob": 0.2515717993599312,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 441,
+    "ann": 0,
+    "id": "CARG_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Income from Operations for 2023.\nPage 83 holds the \"CarGurus, Inc. Consolidated Income Statements.\" Values are in thousands. For 2023, \"Income from operations\" = 32,627 thousand.",
+      "## Depreciation and Amortization for 2023.\nPage 86 has the \"Consolidated Statements of Cash Flows.\" Under \"Adjustments to reconcile consolidated net income to net cash provided by operating activities,\" the row \"Depreciation and amortization\" for 2023 = 48,474 thousand.",
+      "## EBITDA.\nEBITDA = 32,627 + 48,474 = 81,101 thousand.",
+      "## Cash on balance sheet.\nPage 82 has the Consolidated Balance Sheets. Under Current assets: Cash and cash equivalents = 291,363 thousand. Short-term investments = 20,724 thousand. Total cash = 312,087 thousand.",
+      "## Total debt.\nThe balance sheet on page 82 has no explicit line items for short-term borrowings, current portion of long-term debt, or long-term borrowings. Total financial debt = 0.",
+      "## Enterprise Value.\nEV = Market Cap + Total Debt - Total Cash = 2,700,000 + 0 - 312,087 = 2,387,913 thousand.",
+      "## EV/EBITDA.\nEV/EBITDA = 2,387,913 / 81,101 = 29.4436. Rounded to one decimal place: 29.4x."
+    ],
+    "ai_prob": 0.005865761140452645,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 442,
+    "ann": 0,
+    "id": "NASDAQ: ORLY_2024",
+    "action": "already_pass",
+    "ai_prob": 3.352799438870547e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 442,
+    "ann": 1,
+    "id": "NASDAQ: ORLY_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00040052422490679423,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 443,
+    "ann": 0,
+    "id": "BKKT_2023",
+    "action": "already_pass",
+    "ai_prob": 0.026284502996788434,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 444,
+    "ann": 0,
+    "id": "RPD_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Navigate to the table.\nPage 53 of the Rapid7 2023 Form 10-K has a table labeled \"Results of Operations\" covering year ended December 31 for 2021 to 2023.",
+      "## Values needed.\nTotal operating expenses and General and administrative expenses for both 2022 and 2023, all in thousands.",
+      "## Pull the numbers.\nTotal operating expenses 2022: $582,348 thousand. Total operating expenses 2023: $626,699 thousand. G&A expenses 2022: $84,969 thousand. G&A expenses 2023: $84,276 thousand.",
+      "## Adjusted expenses for each year.\n2023 excluding G&A: 626,699 - 84,276 = 542,423 thousand. 2022 excluding G&A: 582,348 - 84,969 = 497,379 thousand.",
+      "## Change.\n542,423 - 497,379 = $45,044 thousand."
+    ],
+    "ai_prob": 0.0901937208325905,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 445,
+    "ann": 0,
+    "id": "DKNG_2020",
+    "action": "already_pass",
+    "ai_prob": 3.6291739518159656e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 446,
+    "ann": 0,
+    "id": "DAKT_2013",
+    "action": "rewritten",
+    "solution": [
+      "## Source tables.\nTwo tables in Item 8 provide the data. \"DAKTRONICS, INC. AND SUBSIDIARIES CONSOLIDATED BALANCE SHEETS\" is on page 40. \"DAKTRONICS, INC. AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF OPERATIONS\" is on page 41. Units are thousands of US dollars except per share data.",
+      "## Total liabilities.\nCurrent liabilities = $114,692 thousand. Long-term liabilities = $16,480 thousand. Total liabilities = 114,692 + 16,480 = $131,172 thousand.",
+      "## Net sales.\nThe CONSOLIDATED STATEMENTS OF OPERATIONS on page 41 reports net sales of $518,322 thousand.",
+      "## Debt-to-Revenue Ratio.\nDivide total liabilities by net sales: 131,172 / 518,322 = 0.2531."
+    ],
+    "ai_prob": 0.19156140275154188,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 447,
+    "ann": 0,
+    "id": "VRNT_2025",
+    "action": "already_pass",
+    "ai_prob": 0.0003020995892852645,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 448,
+    "ann": 0,
+    "id": "S_2023",
+    "action": "already_pass",
+    "ai_prob": 0.22101473945887049,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 449,
+    "ann": 0,
+    "id": "SANM_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Source.\nSanmina 2024 10-K. Three pages: 47 (balance sheet), 48 (income statement), 51 (cash flows). Units: thousands.",
+      "## From page 47 balance sheet (September 28, 2024).\nShares outstanding = 53,921 (in thousands) = 53,921,000 shares.\nCash = 625,860.\nShort-term debt = 0.\nLong-term debt = 299,823.\nNoncontrolling interest = 164,890.",
+      "## Market cap.\n53,921,000 x $78.70 = 4,243,582.7 thousand.",
+      "## EV.\n4,243,582.7 + 299,823 + 164,890 - 625,860 = 4,082,435.7 thousand.",
+      "## From page 48 income statement and page 51 cash flows.\nOperating income = 335,494. D&A = 122,418. EBITDA = 457,912.",
+      "## EV/EBITDA.\n4,082,435.7 / 457,912 = 8.92."
+    ],
+    "ai_prob": 0.054949169529796324,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 450,
+    "ann": 0,
+    "id": "BWA_2023",
+    "action": "rewritten",
+    "solution": [
+      "## Formula.\nNet income margin = (Net Income / Net Sales) x 100.",
+      "## Source table.\nThe \"Consolidated Statements of Operations\" on page 64 of the document has the needed data. Units are millions except per share amounts.",
+      "## Revenue and net income for FY2023.\nNet Sales for 2023 = $14,198 million. Net Earnings (Net Income) for 2023 = $625 million.",
+      "## Calculation.\n625 / 14,198 x 100 = 4.4%."
+    ],
+    "ai_prob": 0.07169604593009574,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 452,
+    "ann": 0,
+    "id": "SENS_2022",
+    "action": "already_pass",
+    "ai_prob": 2.797342364934079e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 453,
+    "ann": 0,
+    "id": "LUMN_2024",
+    "action": "already_pass",
+    "ai_prob": 0.004801913544318806,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 453,
+    "ann": 1,
+    "id": "LUMN_2024",
+    "action": "already_pass",
+    "ai_prob": 0.002761339737216676,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 454,
+    "ann": 0,
+    "id": "CARG_2022",
+    "action": "already_pass",
+    "ai_prob": 0.00017564404969507997,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 455,
+    "ann": 0,
+    "id": "ALGM_2024",
+    "action": "rewritten",
+    "solution": [
+      "## Balance sheet data.\n\"ALLEGRO MICROSYSTEMS, INC. CONSOLIDATED BALANCE SHEETS\" on document page 71. Units: thousands.\nTotal assets March 29, 2024 = $1,530,603 thousand.\nTotal assets March 31, 2023 = $1,181,155 thousand.",
+      "## Revenue data.\nResults of Operations on page 49. Fiscal year ended March 29, 2024.\nTotal net sales = $1,049,367 thousand.",
+      "## Average total assets.\n(1,530,603 + 1,181,155) / 2 = 2,711,758 / 2 = $1,355,879 thousand.",
+      "## Asset turnover.\n1,049,367 / 1,355,879 = 0.7739. Rounded = 0.77."
+    ],
+    "ai_prob": 0.02515520988275566,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 456,
+    "ann": 0,
+    "id": "EXPE_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0004718820681313767,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 458,
+    "ann": 0,
+    "id": "WELL_2020",
+    "action": "rewritten",
+    "solution": [
+      "## Chart on page 64.\nThe chart title is \"Stockholder Return Performance Presentation.\" It starts in 2015 and ends in 2020. The base value for all series is $100.",
+      "## From the table below the chart.\nWelltower Inc. at end of 2015: 100.00. At end of 2020: 121.24.\nS&P 500 at end of 2015: 100.00. At end of 2020: 202.96.",
+      "## Welltower total return 2015 to 2020.\n(121.24 - 100) / 100 x 100 = 21.24%.",
+      "## S&P 500 total return 2015 to 2020.\n(202.96 - 100) / 100 x 100 = 102.96%.",
+      "## The difference.\n102.96% - 21.24% = 81.72%."
+    ],
+    "ai_prob": 0.017513871863894203,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 459,
+    "ann": 0,
+    "id": "WU_2016",
+    "action": "rewritten",
+    "solution": [
+      "## Navigate to balance sheet.\nThe 10-K table of contents on page 2 shows Part II Item 8 at page 86. Page 86 is the financial statements index. The Consolidated Balance Sheets are on page 92.",
+      "## Units.\nThe table header on page 92 says \"(in millions, except per share amounts).\" All figures are in millions.",
+      "## Total liabilities and total equity at December 31, 2016.\nTotal Liabilities row = $8,517.4 million. Total stockholders' equity row = $902.2 million. Both are under \"Liabilities and stockholders' equity/(deficit)\" on page 92.",
+      "## Ratio.\nDebt-to-equity = 8,517.4 / 902.2 = 9.440."
+    ],
+    "ai_prob": 0.016097533843955104,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 460,
+    "ann": 0,
+    "id": "NASDAQ: TMUS_2019",
+    "action": "already_pass",
+    "ai_prob": 0.0004072618471124636,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 461,
+    "ann": 0,
+    "id": "AAP_2018",
+    "action": "already_pass",
+    "ai_prob": 0.00026983487415867095,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 463,
+    "ann": 0,
+    "id": "SYY_2016",
+    "action": "rewritten",
+    "solution": [
+      "## Get the balance sheet.\nSysco 10-K for 2016. Go to page 56. This page has Consolidated Balance Sheets as of July 2, 2016. All dollars are stated in thousands.",
+      "## Rows of interest.\nTotal assets: 16,721,804. The non-operating items are cash (3,919,300), deferred income taxes (207,320), goodwill (2,121,661), net intangibles (207,461), and other assets (251,021).",
+      "## Non-operating total.\n3,919,300 + 207,320 + 2,121,661 + 207,461 + 251,021 = 6,706,763.",
+      "## Operating assets.\nTotal assets minus non-operating: 16,721,804 minus 6,706,763 = $10,015,041 thousand."
+    ],
+    "ai_prob": 0.004247758208781682,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 464,
+    "ann": 0,
+    "id": "AA_2022",
+    "action": "already_pass",
+    "ai_prob": 0.00013773806722889074,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 465,
+    "ann": 0,
+    "id": "AMZN_2023",
+    "action": "already_pass",
+    "ai_prob": 0.1394933131137935,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 466,
+    "ann": 0,
+    "id": "WST_2021",
+    "action": "already_pass",
+    "ai_prob": 0.00010769673109684839,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 467,
+    "ann": 0,
+    "id": "SBUX_2007",
+    "action": "already_pass",
+    "ai_prob": 0.00026735928703026024,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 468,
+    "ann": 0,
+    "id": "AWR_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Revenue data from page 113.\nPage 113 has a table breaking down operating revenues by segment. For the year ended December 31, 2022, the Water segment revenue = $340,602 thousand. Total operating revenues = $491,528 thousand. All figures are in thousands.",
+      "## Water revenue as a percentage of total.\n340,602 / 491,528 = 69.29%.",
+      "## Number of Water segment customers.\nCustomers are distributed in proportion to revenues. 69.29% x 504,750 = 349,741.275 water customers.",
+      "## Average revenue per water customer.\nDivide water revenue by water customers, then convert from thousands to absolute dollars. 340,602 / 349,741.275 = 0.97387 thousand per customer. Times 1,000 = $973.87 per customer."
+    ],
+    "ai_prob": 0.26063279434088577,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 469,
+    "ann": 0,
+    "id": "OKE_2024",
+    "action": "already_pass",
+    "ai_prob": 0.0025091115578672707,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 469,
+    "ann": 1,
+    "id": "OKE_2024",
+    "action": "already_pass",
+    "ai_prob": 1.6603826347650483e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 470,
+    "ann": 0,
+    "id": "SCHL_2024",
+    "action": "already_pass",
+    "ai_prob": 0.00022652535592497712,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 472,
+    "ann": 0,
+    "id": "UAL_2017",
+    "action": "already_pass",
+    "ai_prob": 0.1317859506303484,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 474,
+    "ann": 0,
+    "id": "VRSN _2022",
+    "action": "already_pass",
+    "ai_prob": 0.0012100366886790186,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 475,
+    "ann": 0,
+    "id": "RIOT_2018",
+    "action": "rewritten",
+    "solution": [
+      "## Cash flows table on page 47.\nPage 47 of the 2018 Form 10-K has \"Consolidated Statements of Cash Flows.\" Two rows are needed: Net loss and Stock-based compensation.",
+      "## 2017 values.\nNet loss: 19,970,932. Stock-based compensation: 2,589,812. Ratio = 2,589,812 / 19,970,932 = 0.129679076 = 12.9679076%.",
+      "## 2018 values.\nNet loss: 60,212,528. Stock-based compensation: 4,660,406. Ratio = 4,660,406 / 60,212,528 = 0.0773992748 = 7.73992748%.",
+      "## Year-over-year change.\n12.9679076% minus 7.73992748% = 5.22798012%."
+    ],
+    "ai_prob": 0.18427415606418288,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 476,
+    "ann": 0,
+    "id": "BXP_2022",
+    "action": "rewritten",
+    "solution": [
+      "## Income statement.\nPage 131, CONSOLIDATED STATEMENTS OF OPERATIONS. Figures in thousands.",
+      "## G&A line items.\n2021: 133,112. 2022: 151,573.",
+      "## Hypothetical G&A.\n133,112 x 1.10 = 146,423.2.",
+      "## Actual 2022 net income.\n641,771 minus noncontrolling interests of 70,806 = 570,965.",
+      "## Net income in the scenario.\n151,573 minus 146,423.2 = 5,149.8. 570,965 + 5,149.8 = 576,114.8 thousand."
+    ],
+    "ai_prob": 0.018706049475230687,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 477,
+    "ann": 0,
+    "id": "LUV_2013",
+    "action": "already_pass",
+    "ai_prob": 0.007163732721564633,
+    "predicted_class": "mixed"
+  },
+  {
+    "rec": 478,
+    "ann": 0,
+    "id": "SNBR_2023",
+    "action": "already_pass",
+    "ai_prob": 0.11821509912728212,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 479,
+    "ann": 0,
+    "id": "SHAK_2024",
+    "action": "already_pass",
+    "ai_prob": 3.375938049088657e-05,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 479,
+    "ann": 1,
+    "id": "SHAK_2024",
+    "action": "already_pass",
+    "ai_prob": 0.3351485342900085,
+    "predicted_class": "human"
+  },
+  {
+    "rec": 481,
+    "ann": 0,
+    "id": "CMG_2017",
+    "action": "rewritten",
+    "solution": [
+      "## Source table.\nPage 24 of the document has the table labeled Item 2. Properties.",
+      "## Total owned properties.\nThe bottom of the table on page 24 shows a total of 2,250 owned properties.",
+      "## Properties in regions starting with A.\nSearching the table for regions starting with A: Alabama = 12, Arizona = 78, Arkansas = 6. Total = 96.",
+      "## Percentage.\n96 / 2,250 x 100 = 4.266666667%."
+    ],
+    "ai_prob": 0.006197874073330061,
+    "predicted_class": "human"
+  }
+]
