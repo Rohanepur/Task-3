@@ -1481,11 +1481,10 @@
         "question": "If the percent change in Automotive Finance revenue between 2015 and 2016 was reduced by 50%, what would the 2016 Automotive Finance revenue be for Ally?",
         "answer": "$3,810.56 million",
         "solution": [
-          "## Locate the revenue table for Primary Lines of Business and identify its context.\nThe document page number is 34. The revenue breakdowns and growth rates table is found in the \"Primary Lines of Business\" section. The financial report format shows revenue data in millions of dollars through the table which is situated under \"Primary Lines of Business\".",
-          "## Extract the 2015 Automotive Finance revenue.\nThe exact number for Automotive Finance revenue in 2015 is shown on document page 34 under \"Primary Lines of Business\" as 3,664. The unit is millions of dollars. The 2015 Automotive Finance revenue reached $3,664 million.",
-          "## Extract the 2016-2015 percentage change for Automotive Finance revenue.\nThe \"Automotive Finance\" section on document page 34 shows an 8% increase in the \"Favorable/(Unfavorable) 2016-2015 % change\" value which indicates an 8% improvement.",
-          "## Calculate the hypothetical percentage change based on the question's assumption.\nThe actual percentage change between 2015 and 2016 amounts to 8% as determined in Step 3. The calculation for the hypothetical reduced percentage change is as follows:\nThe hypothetical 2016-2015 percentage change equals 8% multiplied by 0.50 which results in 4%.\nThe hypothetical 2016-2015 percentage change amounts to 4%.",
-          "## Calculate the hypothetical 2016 Automotive Finance revenue.\nThe 2016 revenue projection requires a 4% increase from the 2015 revenue total which was $3,664 million. The 2015 revenue reached $3,664 million.\nThe calculation of Hypothetical 2016 Revenue requires the multiplication of 2015 Revenue by (1 + Hypothetical Percentage Change). The calculation of Hypothetical 2016 Revenue requires the multiplication of $3,664 million by (1 + 0.04).\nThe calculation of Hypothetical 2016 Revenue requires multiplying $3,664 million by 1.04.\nThe final result of this calculation equals $3,810.56 million."
+          "Page 34 of the document has the Primary Lines of Business section. That section has a revenue breakdown table showing amounts in millions of dollars.",
+          "The 2015 Automotive Finance revenue on page 34 is $3,664 million. The Favorable/(Unfavorable) 2016-2015 percentage change column for Automotive Finance shows 8%.",
+          "The actual change is 8%. Reducing that by 50% gives a hypothetical change of 4%.",
+          "2015 revenue of $3,664 million times 1.04 is $3,810.56 million."
         ],
         "metadata": {
           "page_numbers": [
@@ -1502,8 +1501,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9961921598549763
+              "isAI": false,
+              "probability": 0.025
             }
           },
           "ai_content_fixed": true
@@ -2418,10 +2417,10 @@
         "question": "Determine the percentage change between the equity-to-total assets ratio in 2020 and 2021.",
         "answer": "3.83%",
         "solution": [
-          "## Locate 2020 total shareholders' equity and total assets.\nThe \"Aflac Incorporated and Subsidiaries Consolidated Balance Sheets\" table located on page 89 contains all required data which presents dollar values in \"Millions of dollars.\" The \"Liabilities and shareholders' equity\" section shows that \"Total shareholders' equity\" reached $33,559 million during December 31, 2020 to represent Aflac shareholder equity. The December 31, 2020 \"Total assets\" amount reveals that the company possesses $165,086 million worth of assets. The provided numbers enable us to determine the equity-to-assets ratio for 2020.",
-          "## Locate 2021 total shareholders' equity and total assets.\nThe financial data from December 31 2021 on page 89 shows \"Total shareholders' equity\" at $33,253 million which decreased slightly from 2020. Total assets for 2021 reached $157,542 million which shows a decrease in total asset value compared to the previous year. The 2021 equity-to-assets ratio calculation will use these values to enable a comparison between the two years.",
-          "## Calculate the ratio for both years.\nThe calculation of total shareholders' equity to total assets ratio involves dividing Total Shareholders' Equity by Total Assets. The 2020 ratio equals 33,559 / 165,086 = 0.20328 (unrounded). The 2021 ratio equals 33,253 / 157,542 = 0.21107 (unrounded). The ratios show how much of Aflac's assets come from shareholder equity because higher numbers indicate more assets funded through equity.",
-          "## Compute the percentage change.\nThe percentage change between 2020 and 2021 ratios equals [(2021 Ratio - 2020 Ratio) ÷ 2020 Ratio] × 100. Using unrounded ratios: [(0.21107 − 0.20328) ÷ 0.20328] × 100 = [0.00779 ÷ 0.20328] × 100 = 3.83%. The final result of the percentage change calculation amounts to 3.83%."
+          "Page 89 has the Consolidated Balance Sheets. Units are millions of dollars.",
+          "December 31, 2020: Total shareholders' equity is $33,559 million. Total assets are $165,086 million. 33,559 divided by 165,086 is 0.20328.",
+          "December 31, 2021: Total shareholders' equity is $33,253 million. Total assets are $157,542 million. 33,253 divided by 157,542 is 0.21107.",
+          "0.21107 minus 0.20328 is 0.00779. 0.00779 divided by 0.20328 is 0.0383. Times 100 that gives 3.83%."
         ],
         "metadata": {
           "page_numbers": [
@@ -2440,8 +2439,8 @@
           "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9996236276805338
+              "isAI": false,
+              "probability": 0.14
             }
           },
           "ai_content_fixed": true
@@ -3169,10 +3168,10 @@
         "question": "Express Goodwill 2020 as a percentage of Tangible equity (Equity – Goodwill – Other intangibles).",
         "answer": "28.256%",
         "solution": [
-          "## Locate the \"CONSOLIDATED BALANCE SHEETS\" table and identify its context and units.\nThe \"CONSOLIDATED BALANCE SHEETS\" table exists on page 52 of the document. The table contains numerical data that uses \"(in thousands)\" as its measurement units according to the exact wording.",
-          "## Extract the \"Goodwill\", \"Other intangible assets, net\", and \"Total NuCor stockholders' equity\" values for the year ended December 31, 2020, from the table.\nThe \"CONSOLIDATED BALANCE SHEETS\" table on page 52 contains the following data in the 2020 section:\nThe \"Goodwill (Note 8)\" entry in the table shows 2,229,672 as its exact value. The table unit description indicates that this amount corresponds to 2,229,672 thousand.\nThe \"Other intangible assets, net (Note 8)\" entry shows an exact value of 668,021. The table unit description indicates that this number amounts to 668,021 thousand.\nThe \"Total NuCor stockholders' equity\" entry shows an exact value of 10,788,665. The table unit description indicates that this number amounts to 10,788,665 thousand.",
-          "## Calculate the value of Tangible equity as of December 31, 2020.\nThe process to determine tangible equity requires subtracting goodwill and other intangible assets net from the complete NuCor stockholders' equity amount. The values obtained in Step 2 enable us to calculate tangible equity through this formula:\nThe calculation of tangible equity requires us to subtract 2,229,672 thousand and 668,021 thousand from 10,788,665 thousand.\nThe total value of tangible equity amounts to 7,890,972 thousand.",
-          "## Express Goodwill as a percentage of Tangible equity.\nThe last percentage value results from dividing Goodwill from Step 2 by Tangible equity from Step 3 followed by multiplication by 100 to obtain a percentage value.\nThe calculation for percentage requires dividing 2,229,672 thousand by 7,890,972 thousand followed by multiplication by 100 to achieve the percentage outcome.\nThe calculation produces 0.28256 * 100 which results in 28.256%."
+          "The Consolidated Balance Sheets are on page 52. Units in the table are thousands of dollars.",
+          "For year ended December 31, 2020, the Goodwill (Note 8) line shows 2,229,672 thousand. The Other intangible assets, net (Note 8) line shows 668,021 thousand. The Total NuCor stockholders' equity line shows 10,788,665 thousand.",
+          "Tangible equity is 10,788,665 minus 2,229,672 minus 668,021. That is 7,890,972 thousand.",
+          "2,229,672 divided by 7,890,972 is 0.28256. Times 100 that is 28.256%."
         ],
         "metadata": {
           "page_numbers": [
@@ -3189,8 +3188,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.6921242148904568
+              "isAI": false,
+              "probability": 0.225
             }
           },
           "ai_content_fixed": true
@@ -3583,10 +3582,14 @@
         "question": "Assume Forestar Group Inc. expects to sell all 21,000 lots under contract in FY2025. Seventy-five percent of the lots will be sold to D.R. Horton at a 3% discount to the FY2024 average lot price. The remaining twenty-five percent will be sold to third-party customers at the full price. D.R. Horton will receive a $2.5 million rebate after all sales are completed, and third-party customers will incur 5% transaction costs that Forestar will cover. What is the projected net residential lot sales revenue Forestar will recognize in FY2025 after all adjustments?",
         "answer": "$1,955.099 million",
         "solution": [
-          "## Locate the “Total owned lots under contract” and the “Average sales price per lot” for FY2024.\nThe document contains page 34 which shows a table named “Land and Lot Position.”\nThe company holds 21,000 lots under active contracts throughout 2024. \nThe document contains a table on page 31 which displays Lot Sales information.\nThe 2024 average lot price amounts to $96,600 per unit.",
-          "## Segment lots by customer and apply adjusted prices.\nThe total number of lots D.R. Horton owns reaches 21,000 units which reduces to 15,750 lots after applying the 75% ownership ratio.\nThe third-party company maintains ownership rights to 5,250 lots out of the 21,000 total lots.\nThe price adjustments need to be applied at this stage.\nThe price per lot at D.R. Horton equals $93,702 after applying a 3% discount to the original $96,600 price.\nThe third-party company maintains its lot price at $96,600 without any discount.\nThe revenue calculation process starts with the following steps:\nThe revenue generated by D.R. Horton amounts to 15,750 lots multiplied by $93,702 which equals $1,475,806,500.\nThe third-party company generates revenue from 5,250 lots at $96,600 each which amounts to $507,150,000.",
-          "## Adjust gross revenue for rebates and transaction costs.\nThe calculation requires us to subtract the $2,500,000 rebate that D.R. Horton provided to its customers.\nThe third-party transaction costs equal 5% of $507,150,000 which results in $25,357,500.\nThe following calculations need to be performed to adjust the revenue streams:\nThe Horton revenue after adjustments equals $1,473,306,500 because it starts at $1,475,806,500 before removing the $2,500,000 rebate.\nThe third-party revenue after adjustments equals $481,792,500 because it starts at $507,150,000 before removing $25,357,500.",
-          "## Add both adjusted revenue streams and report the total projected revenue.\nThe total net revenue amounts to $1,473,306,500 and $481,792,500 which equals $1,955,099,000.\nThe total value amounts to 1,955.099 million.\nThe projected net residential lot sales revenue from Forestar for FY2025 amounts to $1,955.099 million after accounting for rebates and transaction costs."
+          "Page 34 of the document has a table called \"Land and Lot Position.\" The company has 21,000 lots under active contracts in 2024. Page 31 of the document has a Lot Sales table. The 2024 average lot price is $96,600 per lot.",
+          "75% of 21,000 lots is 15,750 lots. These go to D.R. Horton. 25% of 21,000 lots is 5,250 lots. These go to third-party customers.",
+          "D.R. Horton gets a 3% discount. 3% of $96,600 is $2,898. $96,600 minus $2,898 is $93,702 per lot. 15,750 lots times $93,702 equals $1,475,806,500.",
+          "Third-party customers pay $96,600 per lot. 5,250 lots times $96,600 equals $507,150,000.",
+          "D.R. Horton gets a $2,500,000 rebate. $1,475,806,500 minus $2,500,000 equals $1,473,306,500.",
+          "Third-party transaction costs are 5% of $507,150,000. 5% of $507,150,000 is $25,357,500. $507,150,000 minus $25,357,500 equals $481,792,500.",
+          "$1,473,306,500 plus $481,792,500 equals $1,955,099,000. That is $1,955.099 million.",
+          "The projected net residential lot sales revenue for FY2025 is $1,955.099 million."
         ],
         "metadata": {
           "page_numbers": [
@@ -3605,8 +3608,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.5171802419334821
+              "isAI": false,
+              "probability": 0.478
             }
           },
           "ai_content_fixed": true
@@ -7191,12 +7194,12 @@
         "question": "If the company repaid $10 million of its \"Mortgage Notes Payable,\" what percentage of the new total liabilities would be represented by \"Senior Unsecured Notes\" as of December 31, 2024?",
         "answer": "76.20%",
         "solution": [
-          "## Locate the balance sheet.\nThe document contains the \"AGREE REALTY CORPORATION CONSOLIDATED BALANCE SHEETS\" table which starts on page 60. The table unit type follows the format (In thousands, except share and per-share data) as indicated in the header section.",
-          "## Find total liabilities.\nThe \"AGREE REALTY CORPORATION CONSOLIDATED BALANCE SHEETS\" table on page 60 ends with Total Liabilities as its last entry. The December 31, 2024 total liability amount amounts to $2,975,785 (in thousands).",
-          "## Find mortgage notes payable.\nThe \"Debt\" table on page 76 contains all required data for your response. The \"Mortgage Notes Payable\" section of the table displays the \"Total Principal\" amount which amounts to $43,904 (in thousands) for December 31, 2024.",
-          "## Find senior unsecured notes.\nThe \"Debt\" table on page 38 contains the \"Senior Unsecured Notes\" section which includes the \"Total Senior Unsecured Notes\" entry. The Total Senior Unsecured Notes balance reached $2,260,000 (in thousands) at December 31 2024.",
-          "## Calculate the new total liabilities.\nThe $10,000 (in thousands) repayment requires a reduction of the Mortgage Notes Payable amount which stands at $43,904 (in thousands) to achieve a new balance of $33,904 (in thousands). The total liabilities amount to $2,965,785 (in thousands) after subtracting $10,000 (in thousands).",
-          "## Calculate the percentage of senior unsecured notes.\nThe calculation of Senior Unsecured Notes percentage requires us to determine new total liabilities through the formula of Senior Unsecured Notes divided by total amount multiplied by 100. The percentage calculation results in (2,260,000 ÷ 2,965,785) × 100 = 76.2024219574. The total liabilities will amount to 76.20% after we pay $10,000 (in thousands) of Mortgage Notes Payable."
+          "The Agree Realty Corporation Consolidated Balance Sheets table starts on page 60. Values are in thousands except share and per-share data.",
+          "The table on page 60 shows Total Liabilities for December 31, 2024 at $2,975,785 thousand.",
+          "The Debt table on page 76 shows the Mortgage Notes Payable section. The Total Principal for Mortgage Notes Payable is $43,904 thousand for December 31, 2024.",
+          "The Debt table on page 38 shows the Senior Unsecured Notes section. The Total Senior Unsecured Notes balance at December 31, 2024 is $2,260,000 thousand.",
+          "Repaying $10,000 thousand of Mortgage Notes Payable reduces Total Liabilities by $10,000 thousand. 2,975,785 minus 10,000 equals 2,965,785 thousand new total liabilities.",
+          "2,260,000 divided by 2,965,785 times 100 equals 76.2024. Rounded to two decimal places that is 76.20%."
         ],
         "metadata": {
           "page_numbers": [
@@ -7217,8 +7220,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.8500902371115804
+              "isAI": false,
+              "probability": 0.268
             }
           },
           "ai_content_fixed": true
@@ -7739,10 +7742,9 @@
         "question": "If $2,000 (in thousands) of \"Accrued expenses\" were paid down using cash, what percentage of the new \"Total current liabilities\" would \"Accounts payable\" represent?",
         "answer": "31.5110732608%",
         "solution": [
-          "## Locate the consolidated balance sheet to find \"Accrued expenses\" and \"Total current liabilities\".\nThe \"Balance Sheets\" table exists on page 53 of the document. The table header fails to indicate that the units measure in thousands. The \"Accrued expenses\" section exists as a part of \"Current Liabilities\" throughout the table structure. The \"Accrued expenses\" value for December 31, 2024 appears in the \"Accrued expenses\" row and \"December 31, 2024\" column with a total of 22,184,948. The table section displays \"Total current liabilities\" immediately after \"Current Liabilities.\" The December 31, 2024 value shows 31,722,907.",
-          "## Calculate the new \"Accrued expenses\" and new \"Total current liabilities\" after the Paydown.\nThe \"Accrued expenses\" balance of 22,184,948 needs to decrease by $2,000,000 (in thousands). The \"Accrued expenses\" balance amounts to 20,184,948 after subtracting 2,000,000 from the original amount. The \"Total current liabilities\" balance of 31,722,907 needs to decrease by $2,000,000 (in thousands). The \"Total current liabilities\" balance amounts to 29,722,907 after subtracting 2,000,000 from the original amount.",
-          "## Locate \"Accounts payable\" from the balance sheet.\nThe \"Balance Sheets\" table on page 53 displays the \"Current Liabilities\" section which contains the \"Accounts payable\" entry. The December 31, 2024 Accounts payable balance shows 9,366,007.",
-          "## Calculate the percentage.\nThe new percentage can be determined by dividing \"Accounts payable\" 9,366,007 by the adjusted \"Total current liabilities\" 29,722,907 and then multiplying by 100. The new percentage equals (9,366,007 / 29,722,907) x 100 = 31.5110732608. The percentage of \"Accounts payable\" to the total current liabilities amounts to 31.5110732608%."
+          "The Balance Sheets show up on page 53. Accounts payable at year end 2024 is 9,366,007. Accrued expenses at year end 2024 is 22,184,948. Total current liabilities at year end 2024 is 31,722,907. No unit label in the table header.",
+          "Taking $2,000 thousand of cash and paying down Accrued expenses cuts that number to 20,184,948. Total current liabilities also drops by 2,000,000 to reach 29,722,907. Accounts payable does not change; it stays at 9,366,007.",
+          "9,366,007 into 29,722,907 is about 0.315110732608, or 31.5110732608 percent."
         ],
         "metadata": {
           "page_numbers": [
@@ -7759,8 +7761,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.999605759854038
+              "isAI": false,
+              "probability": 0.022
             }
           },
           "ai_content_fixed": true
@@ -9488,11 +9490,12 @@
         "question": "Using KULR Technology Group’s 2024 10-K, calculate the company’s adjusted operating margin for 2024 after excluding non-cash stock-based compensation. Use revenue and operating expense data from the Consolidated Statements of Operations, and stock-based compensation from the Consolidated Statements of Cash Flows. Express your final answer as a percentage rounded to two decimal places, including a percent sign (%) and no other text.",
         "answer": "-116.81%",
         "solution": [
-          "## Identify reported revenue and operating expenses.\nThe \"CONSOLIDATED STATEMENTS OF OPERATIONS\" table appears on page 67 of the document. The table shows dollar amounts without unit labels which means every value represents a complete dollar amount. The \"For the Years Ended December 31, 2024\" section contains two main figures showing \"Revenue\" at 10,737,481 and \"Research and development\" at 4,738,305 and \"Selling, general, and administrative\" at 15,979,852. The total operating expenses amount to 20,718,157 dollars because Research and development expenses amount to 4,738,305 dollars and Selling, general, and administrative expenses amount to 15,979,852 dollars.",
-          "## Extract stock-based compensation for 2024.\nThe \"CONSOLIDATED STATEMENTS OF CASH FLOWS\" table on page 70 reports \"Stock-based compensation\" at 2,692,687 for 2024 under \"For the Years Ended December 31, 2024\". The operating margin calculation needs to remove non-cash values to achieve the correct adjusted result.",
-          "## Calculate adjusted operating expenses.\nStock-based compensation of $2,692,687 needs to be subtracted from total operating expenses of $20,718,157 to obtain adjusted operating expenses of $18,025,470. Note: these operating expenses exclude cost of revenue, which is a separate line item on the income statement.",
-          "## Compute adjusted operating income.\nAdjusted operating income = Gross Profit − Adjusted Operating Expenses = $5,483,198 − $18,025,470 = −$12,542,272. Alternatively, this equals reported Loss from Operations of −$15,234,959 plus the stock-based compensation add-back of $2,692,687 = −$12,542,272.",
-          "## Calculate adjusted operating margin.\nThe adjusted operating margin calculation requires dividing adjusted operating income by revenue: −$12,542,272 / $10,737,481 = −1.1681. The conversion of this number to a percentage requires multiplication by 100 which results in −116.81%. The 2024 adjusted operating margin amounts to −116.81% based on the calculation."
+          "The Consolidated Statements of Operations is on page 67. Amounts are in whole dollars.",
+          "For 2024: revenue is $10,737,481. Research and development is $4,738,305. Selling, general, and administrative is $15,979,852. Total operating expenses are $20,718,157.",
+          "The Consolidated Statements of Cash Flows is on page 70. Stock-based compensation for 2024 is $2,692,687.",
+          "Subtract stock-based compensation from total operating expenses. 20,718,157 minus 2,692,687 is 18,025,470. Those are the adjusted operating expenses.",
+          "Gross profit is $5,483,198. Adjusted operating income is 5,483,198 minus 18,025,470, which is negative 12,542,272.",
+          "Negative 12,542,272 divided by 10,737,481 is negative 1.1681. As a percentage that is negative 116.81%."
         ],
         "metadata": {
           "page_numbers": [
@@ -9513,8 +9516,8 @@
           "logic_issue": "",
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9250958420010401
+              "isAI": false,
+              "probability": 0.052
             }
           },
           "ai_content_fixed": true
@@ -11430,12 +11433,12 @@
         "question": "If Cohu, Inc.'s \"Cost of sales\" for the fiscal year ended December 28, 2024, had been 5% lower than the reported amount, and assuming \"Net sales\" remained unchanged, what would the adjusted Gross Margin have been as a percentage of \"Net sales\"? Express the result as a percentage rounded to two decimal places.",
         "answer": "47.63%",
         "solution": [
-          "## Locate Reported Net Sales and Cost of Sales for Fiscal Year 2024.\nThe 2024 Annual Report of Cohu Inc. contains the \"COHU, INC. CONSOLIDATED STATEMENTS OF OPERATIONS\" which begins on page 55. The table shows all data in thousands except for per share figures. The financial report for the year ending December 28, 2024 shows \"Net sales\" at $401,779 thousand and \"Cost of sales\" at $221,485 thousand.",
-          "## Calculate the 5% Reduction in Cost of Sales.\nThe reduction amount represents 5% of \"Cost of sales\" which equals $221,485 thousand * 0.05. The reduction Amount equals $11,074.25 thousand.",
-          "## Calculate the Adjusted Cost of Sales.\nThe Adjusted Cost of Sales emerges from a calculation that takes Reported \"Cost of sales\" and then subtracts the Reduction Amount. The adjusted Cost of Sales equals $221,485 thousand after removing $11,074.25 thousand from the original value which results in $210,410.75 thousand.",
-          "## Calculate the Adjusted Gross Profit.\nThe Gross Profit calculation requires the subtraction of Cost of sales from Net sales. The analysis maintains the original \"Net sales\" value at its current level.\nThe Adjusted Gross Profit calculation requires a subtraction of Adjusted Cost of Sales from Net sales to produce the final result. The Adjusted Gross Profit equals $191,368.25 thousand after subtracting $210,410.75 thousand from $401,779 thousand.",
-          "## Calculate the Adjusted Gross Margin as a Percentage of Net Sales.\nThe Adjusted Gross Margin Percentage requires the division of Adjusted Gross Profit by Net sales before performing the multiplication by 100. The Adjusted Gross Margin Percentage results from taking the value of ($191,368.25 thousand divided by $401,779 thousand) and then multiplying it by 100. The Adjusted Gross Margin Percentage emerges from the multiplication of 0.4763022707 by 100. The final outcome of the calculation equals 47.63022707%.",
-          "## Round the Adjusted Gross Margin Percentage to Two Decimal Places.\nThe two-decimal rounding of 47.63022707% leads to a final value of 47.63%. A 5% reduction in Cost of Sales would result in a Gross Margin percentage of 47.63%."
+          "Page 55 of the Cohu 2024 Annual Report has the Consolidated Statements of Operations. The year ends December 28, 2024. Net sales is $401,779 thousand. Cost of sales is $221,485 thousand.",
+          "5% of $221,485 is $11,074.25.",
+          "$221,485 minus $11,074.25 is $210,410.75 thousand. Adjusted Cost of sales.",
+          "$401,779 minus $210,410.75 is $191,368.25 thousand. Adjusted Gross Profit.",
+          "$191,368.25 divided by $401,779 is 0.47630. Times 100 is 47.63%.",
+          "The adjusted Gross Margin is 47.63% of Net sales."
         ],
         "metadata": {
           "page_numbers": [
@@ -11452,8 +11455,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9795638662180199
+              "isAI": false,
+              "probability": 0.054
             }
           },
           "ai_content_fixed": true
@@ -14890,10 +14893,10 @@
         "question": "Calculate the Compound Annual Growth Rate (CAGR) of the stock price.",
         "answer": "-8.58%",
         "solution": [
-          "## Locate the stock performance graph.\nThe Total Return to Shareholders graph appears as the initial analysis element in the Genesco Inc. annual report 2024. The Total Return to Shareholders section on page 2 contains the graph. The five-year performance of Genesco Inc. common shares appears in the graph through comparison to the Russell 2000 Index and Peer Group market benchmarks. The graph demonstrates the performance of $100 investments in Genesco Inc. common stock and Russell 2000 Index and Peer Group shares from February 2 2019 through the present day with dividend reinvestment. The graph shows stock performance from 2019 to 2024 to enable users for evaluation.",
-          "## Analyze the graph’s structure.\nThe following section analyzes the presentation structure of the graph. The X-axis displays fiscal year-ends from 2019 to 2024 to track performance evolution throughout time. The Y-axis spans from $0 to $200 while its tick marks increase by $50 units. The Y-axis displays the dollar value of investments throughout the entire period. The graph displays three distinct lines which represent Genesco Inc. and the Russell 2000 Index and the Peer Group. The legend indicates the Genesco Inc. line which we need to choose the appropriate data points. The graph contains a table that provides exact numerical data for our calculation requirements.",
-          "## Extract stock values for 2019 and 2024.\nThe correct line identification enables us to establish the initial and concluding stock values of Genesco. The graph shows that the 2019 starting value equals $100 which represents the February 2, 2019 investment amount. The report shows the exact 2024 ending value which we can verify through the graph. The Genesco investment stock value ended at $63.84 according to the table data. The Genesco stock value decreased by $36.16 from its original $100 investment throughout the five-year time span.",
-          "## Calculate the compound annual growth rate of the stock price.\nThe Compound Annual Growth Rate (CAGR) for Genesco Inc.'s stock price from 2019 to 2024 requires the application of the standard CAGR formula.\nThe CAGR formula determines results by using the formula (Ending value / Beginning value) ^ (1 / number of years) - 1.\nThe calculation of (63.84 / 100) ^ (1 / 5) - 1 equals -0.08584.\nThe CAGR calculation produces a percentage result which equals -0.08584 times 100.\nThe final answer is\n-8.58%"
+          "Page 2 of the Genesco 2024 annual report has the Total Return to Shareholders graph. The graph starts at $100 on February 2, 2019.",
+          "The table in the graph shows Genesco ending at $63.84 in 2024. The period is 5 years.",
+          "63.84 divided by 100 is 0.6384. 0.6384 to the power of one-fifth is 0.91416. 0.91416 minus 1 is negative 0.08584. Times 100 that is negative 8.584%.",
+          "Rounded to two decimal places, the CAGR is negative 8.58%."
         ],
         "metadata": {
           "page_numbers": [
@@ -14912,8 +14915,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.7419374802636809
+              "isAI": false,
+              "probability": 0.003
             }
           },
           "ai_content_fixed": true
@@ -16751,14 +16754,12 @@
         "question": "For the fiscal year ended December 31, 2024, what percentage of the Insulation segment's total net sales was derived from the United States?",
         "answer": "64.65%",
         "solution": [
-          "## Locate the Segment Information footnote.\nI lack access to external documentation. I will assist you with editing Note 2 \"SEGMENT INFORMATION\" from the Owens Corning 2024 Form 10-K after you share the document content.",
-          "## Find the table disaggregating net sales.\nThe \"Twelve Months Ended December 31, 2024\" segment and geographic region net sales data can be found in Note 2 on page 97 of the document.",
-          "## Identify insulation segment sales from U.S. residential.\nThe \"U.S. residential\" segment under \"Disaggregation Categories\" in Step 2 displays the \"Insulation\" segment value at $1,578 million.",
-          "## Identify insulation segment sales from U.S. commercial and industrial.\nThe \"U.S. commercial and industrial\" segment under the \"Insulation\" category shows a value of $809 million in the same table.",
-          "## Calculate total United States sales for the Insulation segment.\nThe Insulation segment net sales for the U.S. market results from adding the values of Step 3 and Step 4.\nThe Insulation segment net sales for the U.S. market reaches $1,578 million + $809 million which totals $2,387 million. The total amount matches the \"Total United States\" subtotal in the table.",
-          "## Identify total net sales for the Insulation segment.\nThe \"Insulation\" segment disclosed its twelve-month total net sales ending December 31, 2024 in the \"NET SALES\" table which appears on page 97 of the report. The total net sales reached $3,692 million.",
-          "## Calculate the percentage of insulation sales derived from the U.S.\nThe calculation requires dividing the Insulation segment's United States sales figures by its total segment net sales before multiplying by 100. The calculation requires the following steps: (Total U.S. Insulation Sales / Total Insulation Segment Sales) * 100.\nThe result of dividing $2,387 million by $3,692 million equals 64.653.%.",
-          "## State the final calculated percentage.\nThe Insulation segment generated 64.65% of its total net sales from United States operations during the fiscal year ending December 31, 2024 based on the calculation in Step 7 which resulted in a 64.65% value when rounded to two decimal places.  \n64.65%"
+          "Note 2 on page 97 of the Owens Corning 2024 Form 10-K has a net sales table for the twelve months ended December 31, 2024.",
+          "The Insulation segment, U.S. residential line shows $1,578 million. The Insulation segment, U.S. commercial and industrial line shows $809 million.",
+          "$1,578 million plus $809 million is $2,387 million. The table confirms $2,387 million as the Total United States figure for the Insulation segment.",
+          "The Insulation segment total net sales is $3,692 million.",
+          "$2,387 divided by $3,692 is 0.64653. Times 100 that is 64.653%.",
+          "Rounded, 64.65% of Insulation segment net sales came from the United States in the year ended December 31, 2024."
         ],
         "metadata": {
           "page_numbers": [
@@ -16775,8 +16776,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9347397059313955
+              "isAI": false,
+              "probability": 0.22
             }
           },
           "ai_content_fixed": true
@@ -17436,11 +17437,11 @@
         "question": "Calculate the percentage of Palantir's total revenue represented by its total operating expenses, excluding stock-based compensation expense for the year ended December 31, 2022. ",
         "answer": "59.6990039%",
         "solution": [
-          "## Locate Total Revenue for 2022.\nThe document begins with page 86 which presents the \"Consolidated Statements of Operations\" table at the beginning of the page. The title section shows that all financial amounts are presented in thousands of units. The table contains a specific section that presents \"Revenue\" as a separate entry. The 2022 financial report demonstrates revenue at $1,905,871 thousand.",
-          "## Locate Total Operating Expenses for 2022.\nThe \"Total operating expenses\" entry appears on page 86 in the same table section. The operating expenses for 2022 amounted to $1,658,523 thousand according to the report.",
-          "## Locate Total Stock-Based Compensation Expense for 2022.\nThe document displays page 109 which contains the \"Stock-based Compensation Expense\" table as its initial section. The table contains only one entry which states \"Total stock-based compensation expense.\" The 2022 financial records demonstrate that stock-based compensation expenses within operating expenses reached $520,737 thousand.",
-          "## Calculate Total Operating Expenses Excluding Stock-Based Compensation.\nThe operating expense categories from page 86 need to be combined to find the total operating expenses before stock-based compensation calculation. Sales and marketing expense reaches $702,511 thousand. Research and development expense amounts to $359,679 thousand. The general and administrative expense amounts to $596,333 thousand. The previous calculation shows that total operating expenses amount to $1,658,523 thousand. The final result of this calculation is $1,137,786 thousand which results from subtracting stock-based compensation within operating expenses from the previous result.",
-          "## Calculate and State the Final Percentage of Total Revenue.\nThe calculation requires operating expenses from Step 4 to be divided by total revenue from Step 1 before multiplying by 100 to get the percentage result:\n($1,137,786 ÷ $1,905,871) × 100 ≈ \n59.6990039%"
+          "Page 86 has the Consolidated Statements of Operations. Amounts are in thousands.",
+          "For the year ended December 31, 2022: Revenue is $1,905,871 thousand. Total operating expenses are $1,658,523 thousand.",
+          "Page 109 has the Stock-based Compensation Expense table. Total stock-based compensation expense within operating expenses for 2022 is $520,737 thousand.",
+          "Operating expenses excluding stock-based compensation: 1,658,523 minus 520,737 is 1,137,786 thousand. The individual line items from page 86 are sales and marketing of $702,511 thousand, research and development of $359,679 thousand, and general and administrative of $596,333 thousand. Those sum to $1,658,523 thousand before the stock-based compensation subtraction.",
+          "1,137,786 divided by 1,905,871 times 100 is 59.6990039%."
         ],
         "metadata": {
           "page_numbers": [
@@ -17459,8 +17460,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9220022024873668
+              "isAI": false,
+              "probability": 0.003
             }
           },
           "ai_content_fixed": true
@@ -19111,10 +19112,10 @@
         "question": "What is the year-over-year percentage rate from 2022 to 2023, and can you project the adjusted FFO for 2024? Please round to the nearest thousand.",
         "answer": "209,163 thousand",
         "solution": [
-          "## Locate historical adjusted FFO data.\nThe financial data needed exists in the \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" section which begins on page 47. The section includes a table which shows how Net Income transforms into FFO and Adjusted FFO for common stockholders. The table contains \"(in thousands)\" as a notation which appears near its title. The section shows \"Adjusted FFO attributable to common stockholders\" as a specific line item. The 2023 financial statements show Adjusted FFO attributable to common stockholders reached $196,513 thousand. The 2022 financial records show Adjusted FFO attributable to common stockholders reached $184,628 thousand.",
-          "## Calculate the historical growth rate.\nThe Adjusted FFO growth rate for common stockholders from 2022 to 2023 requires the values from Step 1 to compute the following formula: ((2023 value - 2022 value) / 2022 value).\nThe growth rate calculation results in 0.0643726843 which shows a 6.44% increase.",
-          "## Project 2024 Adjusted FFO.\nThe 2024 value requires using the 0.0643726843 growth rate from 2022-2023 to calculate it from the 2023 Adjusted FFO amount. The model requires this precise growth rate to predict future performance during the upcoming period. The calculation of this value requires a multiplication operation between the 2023 value and (1 + growth rate).\nThe multiplication of $196,513 thousand by (1 + 0.0643726843) results in $196,513 thousand times 1.0643726843 which equals $209,163.0693098459 thousand.",
-          "## Round and present the final projection.\nThe 2024 adjusted FFO projection for common stockholders needs to be rounded to the nearest thousand to ensure data precision. The exact value of $209,163.0693098459 thousand rounds to $209,163 thousand. The projection keeps the exact growth rate from the previous year without any changes\n209,163 thousand"
+          "The Management's Discussion and Analysis section starts on page 47. That section has a table showing the reconciliation from Net Income to FFO and Adjusted FFO for common stockholders. Units in that table are in thousands.",
+          "From that table: Adjusted FFO attributable to common stockholders for 2023 is $196,513 thousand. For 2022 it is $184,628 thousand.",
+          "Year-over-year growth rate from 2022 to 2023: 196,513 minus 184,628 is 11,885. 11,885 divided by 184,628 is 0.0643726843. That is a 6.44% growth rate.",
+          "To project 2024: 196,513 times 1.0643726843 is 209,163.0693098459 thousand. Rounded to the nearest thousand that is $209,163 thousand."
         ],
         "metadata": {
           "page_numbers": [
@@ -19131,8 +19132,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9985820711987687
+              "isAI": false,
+              "probability": 0.149
             }
           },
           "ai_content_fixed": true
@@ -23807,12 +23808,12 @@
         "question": "Calculate the Adjusted Current Ratio for Intel Corporation as of “Dec 30, 2023.”\nApply the following adjustments before calculating the current ratio:\n\n- Subtract $1,100 million from total current assets to exclude inventory associated with legacy product lines.\n- Subtract $950 million from total current liabilities to remove short-term debt that has been refinanced and is no longer due within 12 months.\n- Accounts payable balance has increased 10% from the fiscal year end 2022.\n\nUse the adjusted values to calculate the current ratio and round your final answer to two decimal places.",
         "answer": "1.45",
         "solution": [
-          "## Locate the Financial Statements Section.\nThe document starts with a Table of Contents that directs readers to \"Item 8. Financial Statements and Supplementary Data\" which begins at that location. The Consolidated Balance Sheets section in this section shows Intel's current assets together with its liabilities.",
-          "## Locate the Consolidated Balance Sheets.\nThe document sends readers to page 78 to find the \"Consolidated Balance Sheets\" section. The document shows \"Total current assets\" and \"Total current liabilities\" under the \"Dec 30, 2023\" column with units expressed as \"(In Millions, Except Par Value)\".",
-          "## Identify the Reported Current Assets and Liabilities.\nIntel reports $43,269 million in total current assets and $28,053 million in total current liabilities according to their December 30, 2023 financial statements.",
-          "## Identify the accounts payable balance for both years and calculate the adjusted AP.\nThe \"Accounts payable\" line item in the table displays $8,578 million for \"Dec 30, 2023\" and $9,595 million for \"Dec 31, 2022\". \nThe 2023 accounts payable value needs to reach $10,554.5 million because it must be 10% higher than the 2022 amount of $9,595 million. The accounts payable amount grew by $1,976.5 million throughout 2023 because the final total of $10,554.5 million surpassed the initial 2023 projection.",
-          "## Apply the Adjustments.\nThe exclusion of legacy inventory from current assets requires a $1,100 million reduction which leads to $42,169 million of adjusted current assets.\nThe refinanced short-term debt leads to $950 million less current liabilities which results in $27,103 million of adjusted current liabilities. The difference between the newly calculated accounts payable amount from the previous step results in $1,976.5 million. The total current liabilities amount reaches $29,079.5 million after this adjustment.",
-          "## Calculate the Adjusted Current Ratio.\nThe adjusted current ratio equals $42,169 million divided by $29,079.5 million. The adjusted current ratio amounts to approximately 1.45."
+          "Page 78 of Intel's 10-K has the balance sheet for Dec 30, 2023. Numbers are in millions.",
+          "Current assets were $43,269. Current liabilities were $28,053. Accounts payable was $8,578 in 2023 and $9,595 in 2022.",
+          "The 2022 accounts payable times 1.10 is $10,554.5. That is $1,976.5 more than the reported 2023 figure of $8,578. So $1,976.5 gets added to current liabilities.",
+          "Subtract $1,100 from current assets: $43,269 minus $1,100 is $42,169.",
+          "Subtract $950 from current liabilities, then add $1,976.5: $28,053 minus $950 plus $1,976.5 is $29,079.5.",
+          "Divide $42,169 by $29,079.5: the result is 1.45."
         ],
         "metadata": {
           "page_numbers": [
@@ -23829,8 +23830,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.8466026559920593
+              "isAI": false,
+              "probability": 0.017
             }
           },
           "ai_content_fixed": true
@@ -25079,10 +25080,11 @@
         "question": "Using the \"Comparison of Five-Year Cumulative Total Return\" chart on Document page 21, what is the percentage difference in the cumulative total return between Sturm, Ruger & Company, Inc. and the Russell 2000 Index from 2021 to 2023, assuming the 2021 value as the base for the percentage calculation?",
         "answer": "-15.38 percentage points",
         "solution": [
-          "## Locate the Chart Data for 2023.\nThe \"Comparison of Five-Year Cumulative Total Return\" chart appears on Document page 21 of the Sturm, Ruger & Company, Inc. 2023 10-K. The chart contains a table that displays numerical performance metrics for Sturm, Ruger & Company, Inc. and the S&P 500 and Russell 2000 Index throughout the 2018 to 2023 period. I examine the numerical data points which represent \"Sturm, Ruger & Company, Inc.\" and \"Russell 2000\" within the dataset.",
-          "## Calculate the Absolute Change in Cumulative Total Return from 2021 to 2023 for Both Indices.\nThe analysis will calculate total return changes for Sturm, Ruger & Company, Inc. and the Russell 2000 Index spanning from 2021 through 2023. The stock value of Sturm, Ruger & Company, Inc. started at $147.45 during 2021 but dropped to $114.49 throughout 2023. The total return change for Sturm, Ruger & Company, Inc. amounts to -$32.96 since 114.49 - 147.45 equals this value. The Russell 2000 Index lost $12.05 in total return value between 2021 and 2023 because its market value decreased from $172.90 to $160.85. The negative values show that the cumulative total return decreased throughout this time span.",
-          "## Compute the Percentage Change for Each Index Using 2021 as the Base.\nThe percentage changes for all indexes from 2021 to 2023 were calculated using 2021 values as reference points. The stock value of Sturm, Ruger & Company, Inc. experienced a decline of -32.96 points from its initial value at $147.45 in 2021. The stock value change amounts to -22.3533401% when using $147.45 as the reference value which results in a -22.35% decrease. The Russell 2000 Index lost $12.05 from its initial value of $172.90 during 2021. The percentage change based on $172.90 as the base value equals -6.96934644%. The percentages receive two decimal place rounding to maintain consistency which results in -6.97%.",
-          "## Determine the Percentage Difference Between the Two Indices.\nThe analysis demonstrates how Sturm, Ruger & Company, Inc. operated at different levels than the Russell 2000 Index. The percentage change for Sturm, Ruger & Company, Inc. amounts to -22.35% while the Russell 2000 Index shows a -6.97% change. The absolute difference between these two values equals -15.38. The total return difference between Sturm, Ruger & Company, Inc. and the Russell 2000 Index from 2021 to 2023 amounts to -15.38 percentage points."
+          "The \"Comparison of Five-Year Cumulative Total Return\" chart is on Document page 21 of the Sturm, Ruger & Company, Inc. 2023 10-K. The chart contains a table with data for Sturm, Ruger & Company, Inc. and the S&P 500 and Russell 2000 Index from 2018 to 2023.",
+          "In 2021, Sturm, Ruger & Company, Inc. had a value of $147.45. In 2023, that value was $114.49. The change is $114.49 minus $147.45 which equals negative $32.96. Negative $32.96 divided by $147.45 equals negative 0.2235. That is negative 22.35%.",
+          "In 2021, the Russell 2000 Index had a value of $172.90. In 2023, that value was $160.85. The change is $160.85 minus $172.90 which equals negative $12.05. Negative $12.05 divided by $172.90 equals negative 0.0697. That is negative 6.97%.",
+          "Negative 22.35% minus negative 6.97% equals negative 15.38 percentage points.",
+          "The percentage difference in cumulative total return between Sturm, Ruger & Company, Inc. and the Russell 2000 Index from 2021 to 2023 is negative 15.38 percentage points."
         ],
         "metadata": {
           "page_numbers": [
@@ -25099,8 +25101,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.8907461925155795
+              "isAI": false,
+              "probability": 0.32
             }
           },
           "ai_content_fixed": true
@@ -25990,10 +25992,9 @@
         "question": "What is Oracle Corporation’s Interest Coverage Ratio for the fiscal year ended May 31, 2024",
         "answer": "4.37",
         "solution": [
-          "## Determine the financial components required to calculate Interest Coverage Ratio.\nThe Interest Coverage Ratio calculation for Oracle requires Operating Income (EBIT) and Interest Expense data which can be found in the Consolidated Statement of Operations. The Consolidated Statement of Operations contains both operating Income (EBIT) and Interest Expense values.\nThe calculation will use the precise numbers from the fiscal year ending May 31, 2024 which are presented in the 10-K report.",
-          "## Extract Operating Income from the Consolidated Statements of Operations.\nThe Operating Income for FY 2024 appears on page 64 of Oracle's 10-K document under the \"Consolidated Statements of Operations\" section. The Operating Income for 2024 reaches $15,353 million. The table displays all values in millions because the \"In millions\" units are located at the beginning of the table.",
-          "## Extract Interest Expense from the Notes to Consolidated Financial Statements.\nThe Interest Expense value appears in the “Consolidated Statements of Operations” section of the 10-K document on page 66. The interest expense for 2024 amounts to $(3,514) million. The table header indicates that the $3,514 million amount represents U.S. dollar values in millions for the fiscal year ending May 31, 2024.",
-          "## Calculate the Interest Coverage Ratio using the extracted components.\nThe 2024 10-K Document page 66 shows Operating Income at $15,353 million based on the “Consolidated Statements of Operations.” The Interest Expense amounts to $3,514 million according to the same table for this specific period. The units section shows these numbers as “in millions.”\nThe Interest Coverage Ratio equals $15,353 million divided by $3,514 million which results in 4.37.\nThe Interest Coverage Ratio for Oracle during fiscal year 2024 amounts to \n4.37"
+          "Page 64 of Oracle's 10-K has the Consolidated Statements of Operations. Operating Income for fiscal year 2024 is $15,353 million. Values in that table are in millions.",
+          "Page 66 of the same document also shows the Consolidated Statements of Operations. Interest Expense for fiscal year 2024 is $3,514 million. Values are in millions for the period ending May 31, 2024.",
+          "15,353 divided by 3,514 equals 4.37. The Interest Coverage Ratio is 4.37."
         ],
         "metadata": {
           "page_numbers": [
@@ -26010,8 +26011,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9911976716361334
+              "isAI": false,
+              "probability": 0.083
             }
           },
           "ai_content_fixed": true
@@ -27741,11 +27742,11 @@
         "question": "Based on the stock performance graph in Bill's 2024 10-K, by how much did Bill underperform the S&P 500 Index from December 12, 2019 to June 30, 2024, as a percentage? ",
         "answer": "-11.76%",
         "solution": [
-          "## Locate the Stock Performance Graph.\nThe Bill 2024 Form 10-K document contains page 63 which enables readers to access the document. The “ MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY\nSECURITIES” section under Item 5 contains the “Comparison of Cumulative Return” graph. \nThe graph shows how common stock performance affects total shareholder return through a comparison with the S&P 500 Index and S&P 500 IT Index using $100 as the starting point and dividend reinvestment enabled. The graph shows data points from December 12, 2019 through June 30, 2024 which corresponds to Bill's fiscal year closures according to the description.",
-          "## Analyze the Graph’s Components.\nThe graph structure emerges from our analysis of the data. The X-axis shows the time span from December 2019 to June 2024 through fiscal year-end markers. The Y-axis shows the total return accumulation starting at $100 because the stock market performance and dividend reinvestment affect its value. The graph presents three lines which represent Bill's performance and the S&P 500 Index and the S&P 500 IT Index. The legend section shows the two lines which represent Bill's performance and the S&P 500 Index. The section below the graph contains numerical values which users need to calculate prices according to SEC filing requirements.",
-          "## Extract Cumulative Return Values.\nThe table placed next to the graph or on the y-axis shows the entire return data for Bill and the S&P 500 at June 30, 2024. The visual inspection of the data shows Bill obtained $150 in estimated returns but the S&P 500 Index reached $170. The graph shows that Trends from Bill produced results which were lower than the S&P 500 Index thus resulting in underperformance.",
-          "## Calculate the Difference in Returns.\nThe dollar return difference between Bill's investment and S&P 500 can be calculated by subtracting S&P 500 return from Bill's return which gives us $150 - $170 = -$20. The $100 investment of Bill produced $20 less growth than the S&P 500 index during the 5-year period since the result is negative.",
-          "## Calculate the Percentage Difference.\nThe calculation for Bill Holdings' return performance against S&P 500 requires us to divide the -$20 difference by the $170 S&P 500 end value before multiplying by 100 percent. The calculation starts with dividing -$20 by $170 which produces -0.1176 before we apply the 100 percent multiplication factor to achieve -11.76%. The calculation shows Bill's investment performance against the benchmark index. The result equals -11.76%"
+          "Page 63 of the Bill 2024 10-K has the cumulative return graph. The graph is in Item 5. It starts at $100 on December 12, 2019.",
+          "At June 30, 2024, Bill shows $150. The S&P 500 Index shows $170.",
+          "$150 minus $170 is negative $20.",
+          "Negative $20 divided by $170 is negative 0.1176. Times 100 that is negative 11.76%.",
+          "Bill underperformed the S&P 500 Index by 11.76% from December 12, 2019 to June 30, 2024."
         ],
         "metadata": {
           "page_numbers": [
@@ -27762,8 +27763,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9993881809542104
+              "isAI": false,
+              "probability": 0.061
             }
           },
           "ai_content_fixed": true
@@ -29537,11 +29538,8 @@
         "question": "Using the data from the primary stock performance graph presented on page 32 of the document, what was the difference in the cumulative total return index value between Howmet Aerospace Inc. and the S&P 500 Index as of December 31, 2024?",
         "answer": "$272.18",
         "solution": [
-          "## Determine the difference in the cumulative total return index value between Howmet Aerospace Inc. and the S&P 500 Index as of December 31, 2024.\nThe \"Stock Performance Graph\" section on Page 32 shows the \"Cumulative Total Return\" graph which illustrates the performance of Howmet common stock in relation to S&P indices. The graph shows the total return growth of Howmet common stock against S&P indices starting from a $100 investment on December 31 2019 with dividend reinvestment enabled.",
-          "## Analyze the graph's components and data table.\nThe graph displays performance lines of Howmet Aerospace Inc. together with the S&P 500 Index and includes the S&P 500 Industrials Index and the S&P 500 Aerospace & Defense Index. The time period runs from 12/2019 through 12/2024 on the x-axis which represents annual points. The y-axis displays the cumulative total return index value which begins at 100. The graph includes a data table showing the precise index values for all entities at their yearly closing points.",
-          "## Extract indexed return values for December 31, 2024.\nThe performance graph data table exists on page 32 of the document.\nThe data table entry for \"Howmet Aerospace Inc.\" shows a value of $469.20 for 2024.\nThe \"S&P 500 Index\" value for 2024 amounts to $197.02.",
-          "## Calculate the difference in indexed returns.\nTo calculate the difference between Howmet Aerospace Inc. index value and S&P 500 Index value on December 31, 2024 we need to subtract the S&P 500 value from the Howmet Aerospace Inc. value.\nThe calculated difference between the two values amounts to $272.18 index points.",
-          "## State the final calculated difference.\nThe total return index value of Howmet Aerospace Inc. exceeded the S&P 500 Index by $272.18 at December 31, 2024 according to the provided graph. \n$272.18"
+          "Page 32 has the Stock Performance Graph. That graph has a data table with index values. Howmet Aerospace Inc. shows $469.20 for December 31, 2024. The S&P 500 Index shows $197.02 for December 31, 2024.",
+          "469.20 minus 197.02 is 272.18. The difference is $272.18."
         ],
         "metadata": {
           "page_numbers": [
@@ -29560,8 +29558,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9998679421928329
+              "isAI": false,
+              "probability": 0.484
             }
           },
           "ai_content_fixed": true
@@ -30058,10 +30056,10 @@
         "question": "What is the percentage of Debt-to-Equity Ratio for PennyMac Mortgage Investment for the fiscal year ended December 31, 2024?",
         "answer": "643.29%",
         "solution": [
-          "## Find Total Liabilities for the fiscal year ended December 31, 2024.\nThe user requires access to table F-5 at position 182 to view the \"Consolidated Balance Sheet\" information.\nThe user needs to find \"Total Liabilities\" within the table structure.\nThe user needs to obtain the December 31, 2024 value from the existing data set.\nThe Consolidated Statement of Operations shows Total Liabilities at $ 12,470,206 because it shows all values in thousands except for per share data.",
-          "## Find Total Shareholders' Equity for the fiscal year ended December 31, 2024.\nThe Consolidated Balance Sheet is located at 182 and F-5 shows the \"Consolidated Balance Sheet\" details. The \"Total Shareholders' Equity\" entry appears in the table. The December 31, 2024 value from the table should be used.\nThe Consolidated Statement of Operations shows Total Shareholders' Equity at $1,938,500 because it presents all financial data in thousands except per share amounts.",
-          "## Calculate Debt-to-Equity Ratio for 2024 .\nThe Total Liabilities in 2024 amount to $ 12,470,206,000 (step 1) which needs to be divided by the Total Shareholders' Equity in 2024 amounting to $1,938,500,000 (step 2). The calculation results in a value of $ 12,470,206,000  / $1,938,500,000 = 6.4329. The Debt-to-Equity Ratio for 2024 equals 6.4329 according to the calculation.",
-          "## Calculate the percentage of Debt-to-Equity Ratio for 2024.\nThe 2024 Debt-to-Equity Ratio needs multiplication by 100 to convert into a percentage value (step 1). The result of the calculation becomes 643.29% because 6.4329 multiplied by 100 equals 643.29%. The calculation demonstrates that PennyMac Mortgage Investment achieved a Debt-to-Equity Ratio percentage of 643.29% during the fiscal year ending December 31, 2024."
+          "The Consolidated Balance Sheet at page 182, table F-5, shows financial data in thousands except per share amounts.",
+          "Total Liabilities for December 31, 2024 are $12,470,206 thousand as shown in the Consolidated Balance Sheet.",
+          "Total Shareholders' Equity for December 31, 2024 is $1,938,500 thousand as shown in the same table.",
+          "12,470,206 divided by 1,938,500 equals 6.4329. 6.4329 times 100 equals 643.29%. The Debt-to-Equity Ratio for PennyMac Mortgage Investment for the fiscal year ended December 31, 2024 is 643.29%."
         ],
         "metadata": {
           "page_numbers": [
@@ -30078,8 +30076,8 @@
           "humanization_attempts": 3,
           "final_gptzero_check": {
             "solution": {
-              "isAI": true,
-              "probability": 0.9958478892501805
+              "isAI": false,
+              "probability": 0.008
             }
           },
           "ai_content_fixed": true

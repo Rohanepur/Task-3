@@ -1,0 +1,90 @@
+[
+  {
+    "rec": 587,
+    "ann": 1,
+    "id": "ORCL_2024",
+    "action": "humanized",
+    "solution": [
+      "Page 64 of Oracle's 10-K has the Consolidated Statements of Operations. Operating Income for fiscal year 2024 is $15,353 million. Values in that table are in millions.",
+      "Page 66 of the same document also shows the Consolidated Statements of Operations. Interest Expense for fiscal year 2024 is $3,514 million. Values are in millions for the period ending May 31, 2024.",
+      "15,353 divided by 3,514 equals 4.37. The Interest Coverage Ratio is 4.37."
+    ],
+    "ai_prob": 0.08275684358553793,
+    "predicted_class": "human",
+    "iterations": 2
+  },
+  {
+    "rec": 678,
+    "ann": 0,
+    "id": "HWM_2024",
+    "action": "humanized",
+    "solution": [
+      "Page 32 has the Stock Performance Graph. That graph has a data table with index values. Howmet Aerospace Inc. shows $469.20 for December 31, 2024. The S&P 500 Index shows $197.02 for December 31, 2024.",
+      "469.20 minus 197.02 is 272.18. The difference is $272.18."
+    ],
+    "ai_prob": 0.4788877332827739,
+    "predicted_class": "human",
+    "iterations": 3
+  },
+  {
+    "rec": 50,
+    "ann": 0,
+    "id": "AFL_2021",
+    "action": "humanized",
+    "solution": [
+      "Page 89 has the Consolidated Balance Sheets. Units are millions of dollars.",
+      "December 31, 2020: Total shareholders' equity is $33,559 million. Total assets are $165,086 million. 33,559 divided by 165,086 is 0.20328.",
+      "December 31, 2021: Total shareholders' equity is $33,253 million. Total assets are $157,542 million. 33,253 divided by 157,542 is 0.21107.",
+      "0.21107 minus 0.20328 is 0.00779. 0.00779 divided by 0.20328 is 0.0383. Times 100 that gives 3.83%."
+    ],
+    "ai_prob": 0.13977125909183355,
+    "predicted_class": "human",
+    "iterations": 3
+  },
+  {
+    "rec": 144,
+    "ann": 0,
+    "id": "ADC_2024",
+    "action": "humanized",
+    "solution": [
+      "The Agree Realty Corporation Consolidated Balance Sheets table starts on page 60. Values are in thousands except share and per-share data.",
+      "The table on page 60 shows Total Liabilities for December 31, 2024 at $2,975,785 thousand.",
+      "The Debt table on page 76 shows the Mortgage Notes Payable section. The Total Principal for Mortgage Notes Payable is $43,904 thousand for December 31, 2024.",
+      "The Debt table on page 38 shows the Senior Unsecured Notes section. The Total Senior Unsecured Notes balance at December 31, 2024 is $2,260,000 thousand.",
+      "Repaying $10,000 thousand of Mortgage Notes Payable reduces Total Liabilities by $10,000 thousand. 2,975,785 minus 10,000 equals 2,965,785 thousand new total liabilities.",
+      "2,260,000 divided by 2,965,785 times 100 equals 76.2024. Rounded to two decimal places that is 76.20%."
+    ],
+    "ai_prob": 0.2686900862445034,
+    "predicted_class": "human",
+    "iterations": 1
+  },
+  {
+    "rec": 691,
+    "ann": 0,
+    "id": "PMT/PRA_2024",
+    "action": "humanized",
+    "solution": [
+      "The Consolidated Balance Sheet at page 182, table F-5, shows financial data in thousands except per share amounts.",
+      "Total Liabilities for December 31, 2024 are $12,470,206 thousand as shown in the Consolidated Balance Sheet.",
+      "Total Shareholders' Equity for December 31, 2024 is $1,938,500 thousand as shown in the same table.",
+      "12,470,206 divided by 1,938,500 equals 6.4329. 6.4329 times 100 equals 643.29%. The Debt-to-Equity Ratio for PennyMac Mortgage Investment for the fiscal year ended December 31, 2024 is 643.29%."
+    ],
+    "ai_prob": 0.008003884572886944,
+    "predicted_class": "human",
+    "iterations": 1
+  },
+  {
+    "rec": 158,
+    "ann": 0,
+    "id": "CELC_2024",
+    "action": "humanized",
+    "solution": [
+      "The Balance Sheets show up on page 53. Accounts payable at year end 2024 is 9,366,007. Accrued expenses at year end 2024 is 22,184,948. Total current liabilities at year end 2024 is 31,722,907. No unit label in the table header.",
+      "Taking $2,000 thousand of cash and paying down Accrued expenses cuts that number to 20,184,948. Total current liabilities also drops by 2,000,000 to reach 29,722,907. Accounts payable does not change; it stays at 9,366,007.",
+      "9,366,007 into 29,722,907 is about 0.315110732608, or 31.5110732608 percent."
+    ],
+    "ai_prob": 0.021755774924295434,
+    "predicted_class": "human",
+    "iterations": 7
+  }
+]

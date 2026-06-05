@@ -1,0 +1,102 @@
+[
+  {
+    "rec": 631,
+    "ann": 0,
+    "id": "BILL_2024",
+    "action": "humanized",
+    "solution": [
+      "Page 63 of the Bill 2024 10-K has the cumulative return graph. The graph is in Item 5. It starts at $100 on December 12, 2019.",
+      "At June 30, 2024, Bill shows $150. The S&P 500 Index shows $170.",
+      "$150 minus $170 is negative $20.",
+      "Negative $20 divided by $170 is negative 0.1176. Times 100 that is negative 11.76%.",
+      "Bill underperformed the S&P 500 Index by 11.76% from December 12, 2019 to June 30, 2024."
+    ],
+    "ai_prob": 0.061,
+    "predicted_class": "human",
+    "iterations": 3
+  },
+  {
+    "rec": 564,
+    "ann": 0,
+    "id": "RGR_2023",
+    "action": "humanized",
+    "solution": [
+      "The \"Comparison of Five-Year Cumulative Total Return\" chart is on Document page 21 of the Sturm, Ruger & Company, Inc. 2023 10-K. The chart contains a table with data for Sturm, Ruger & Company, Inc. and the S&P 500 and Russell 2000 Index from 2018 to 2023.",
+      "In 2021, Sturm, Ruger & Company, Inc. had a value of $147.45. In 2023, that value was $114.49. The change is $114.49 minus $147.45 which equals negative $32.96. Negative $32.96 divided by $147.45 equals negative 0.2235. That is negative 22.35%.",
+      "In 2021, the Russell 2000 Index had a value of $172.90. In 2023, that value was $160.85. The change is $160.85 minus $172.90 which equals negative $12.05. Negative $12.05 divided by $172.90 equals negative 0.0697. That is negative 6.97%.",
+      "Negative 22.35% minus negative 6.97% equals negative 15.38 percentage points.",
+      "The percentage difference in cumulative total return between Sturm, Ruger & Company, Inc. and the Russell 2000 Index from 2021 to 2023 is negative 15.38 percentage points."
+    ],
+    "ai_prob": 0.32,
+    "predicted_class": "human",
+    "iterations": 1
+  },
+  {
+    "rec": 324,
+    "ann": 0,
+    "id": "GCO_2024",
+    "action": "humanized",
+    "solution": [
+      "Page 2 of the Genesco 2024 annual report has the Total Return to Shareholders graph. The graph starts at $100 on February 2, 2019.",
+      "The table in the graph shows Genesco ending at $63.84 in 2024. The period is 5 years.",
+      "63.84 divided by 100 is 0.6384. 0.6384 to the power of one-fifth is 0.91416. 0.91416 minus 1 is negative 0.08584. Times 100 that is negative 8.584%.",
+      "Rounded to two decimal places, the CAGR is negative 8.58%."
+    ],
+    "ai_prob": 0.0025,
+    "predicted_class": "human",
+    "iterations": 2
+  },
+  {
+    "rec": 72,
+    "ann": 0,
+    "id": "FOR_2024",
+    "action": "humanized",
+    "solution": [
+      "Page 34 of the document has a table called \"Land and Lot Position.\" The company has 21,000 lots under active contracts in 2024. Page 31 of the document has a Lot Sales table. The 2024 average lot price is $96,600 per lot.",
+      "75% of 21,000 lots is 15,750 lots. These go to D.R. Horton. 25% of 21,000 lots is 5,250 lots. These go to third-party customers.",
+      "D.R. Horton gets a 3% discount. 3% of $96,600 is $2,898. $96,600 minus $2,898 is $93,702 per lot. 15,750 lots times $93,702 equals $1,475,806,500.",
+      "Third-party customers pay $96,600 per lot. 5,250 lots times $96,600 equals $507,150,000.",
+      "D.R. Horton gets a $2,500,000 rebate. $1,475,806,500 minus $2,500,000 equals $1,473,306,500.",
+      "Third-party transaction costs are 5% of $507,150,000. 5% of $507,150,000 is $25,357,500. $507,150,000 minus $25,357,500 equals $481,792,500.",
+      "$1,473,306,500 plus $481,792,500 equals $1,955,099,000. That is $1,955.099 million.",
+      "The projected net residential lot sales revenue for FY2025 is $1,955.099 million."
+    ],
+    "ai_prob": 0.478,
+    "predicted_class": "human",
+    "iterations": 1
+  },
+  {
+    "rec": 365,
+    "ann": 0,
+    "id": "OC_2024",
+    "action": "humanized",
+    "solution": [
+      "Note 2 on page 97 of the Owens Corning 2024 Form 10-K has a net sales table for the twelve months ended December 31, 2024.",
+      "The Insulation segment, U.S. residential line shows $1,578 million. The Insulation segment, U.S. commercial and industrial line shows $809 million.",
+      "$1,578 million plus $809 million is $2,387 million. The table confirms $2,387 million as the Total United States figure for the Insulation segment.",
+      "The Insulation segment total net sales is $3,692 million.",
+      "$2,387 divided by $3,692 is 0.64653. Times 100 that is 64.653%.",
+      "Rounded, 64.65% of Insulation segment net sales came from the United States in the year ended December 31, 2024."
+    ],
+    "ai_prob": 0.222,
+    "predicted_class": "human",
+    "iterations": 2
+  },
+  {
+    "rec": 240,
+    "ann": 1,
+    "id": "COHU_2024",
+    "action": "humanized",
+    "solution": [
+      "Page 55 of the Cohu 2024 Annual Report has the Consolidated Statements of Operations. The year ends December 28, 2024. Net sales is $401,779 thousand. Cost of sales is $221,485 thousand.",
+      "5% of $221,485 is $11,074.25.",
+      "$221,485 minus $11,074.25 is $210,410.75 thousand. Adjusted Cost of sales.",
+      "$401,779 minus $210,410.75 is $191,368.25 thousand. Adjusted Gross Profit.",
+      "$191,368.25 divided by $401,779 is 0.47630. Times 100 is 47.63%.",
+      "The adjusted Gross Margin is 47.63% of Net sales."
+    ],
+    "ai_prob": 0.054,
+    "predicted_class": "human",
+    "iterations": 2
+  }
+]

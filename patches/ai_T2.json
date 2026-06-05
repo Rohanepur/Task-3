@@ -1,0 +1,97 @@
+[
+  {
+    "rec": 533,
+    "ann": 0,
+    "id": "INTC_2023",
+    "action": "humanized",
+    "solution": [
+      "Page 78 of Intel's 10-K has the balance sheet for Dec 30, 2023. Numbers are in millions.",
+      "Current assets were $43,269. Current liabilities were $28,053. Accounts payable was $8,578 in 2023 and $9,595 in 2022.",
+      "The 2022 accounts payable times 1.10 is $10,554.5. That is $1,976.5 more than the reported 2023 figure of $8,578. So $1,976.5 gets added to current liabilities.",
+      "Subtract $1,100 from current assets: $43,269 minus $1,100 is $42,169.",
+      "Subtract $950 from current liabilities, then add $1,976.5: $28,053 minus $950 plus $1,976.5 is $29,079.5.",
+      "Divide $42,169 by $29,079.5: the result is 1.45."
+    ],
+    "ai_prob": 0.017,
+    "predicted_class": "human",
+    "iterations": 4
+  },
+  {
+    "rec": 64,
+    "ann": 0,
+    "id": "NUE_2020",
+    "action": "humanized",
+    "solution": [
+      "The Consolidated Balance Sheets are on page 52. Units in the table are thousands of dollars.",
+      "For year ended December 31, 2020, the Goodwill (Note 8) line shows 2,229,672 thousand. The Other intangible assets, net (Note 8) line shows 668,021 thousand. The Total NuCor stockholders' equity line shows 10,788,665 thousand.",
+      "Tangible equity is 10,788,665 minus 2,229,672 minus 668,021. That is 7,890,972 thousand.",
+      "2,229,672 divided by 7,890,972 is 0.28256. Times 100 that is 28.256%."
+    ],
+    "ai_prob": 0.228,
+    "predicted_class": "human",
+    "iterations": 2
+  },
+  {
+    "rec": 197,
+    "ann": 0,
+    "id": "KULR_2024",
+    "action": "humanized",
+    "solution": [
+      "The Consolidated Statements of Operations is on page 67. Amounts are in whole dollars.",
+      "For 2024: revenue is $10,737,481. Research and development is $4,738,305. Selling, general, and administrative is $15,979,852. Total operating expenses are $20,718,157.",
+      "The Consolidated Statements of Cash Flows is on page 70. Stock-based compensation for 2024 is $2,692,687.",
+      "Subtract stock-based compensation from total operating expenses. 20,718,157 minus 2,692,687 is 18,025,470. Those are the adjusted operating expenses.",
+      "Gross profit is $5,483,198. Adjusted operating income is 5,483,198 minus 18,025,470, which is negative 12,542,272.",
+      "Negative 12,542,272 divided by 10,737,481 is negative 1.1681. As a percentage that is negative 116.81%."
+    ],
+    "ai_prob": 0.052,
+    "predicted_class": "human",
+    "iterations": 2
+  },
+  {
+    "rec": 381,
+    "ann": 0,
+    "id": "PLTR_2022",
+    "action": "humanized",
+    "solution": [
+      "Page 86 has the Consolidated Statements of Operations. Amounts are in thousands.",
+      "For the year ended December 31, 2022: Revenue is $1,905,871 thousand. Total operating expenses are $1,658,523 thousand.",
+      "Page 109 has the Stock-based Compensation Expense table. Total stock-based compensation expense within operating expenses for 2022 is $520,737 thousand.",
+      "Operating expenses excluding stock-based compensation: 1,658,523 minus 520,737 is 1,137,786 thousand. The individual line items from page 86 are sales and marketing of $702,511 thousand, research and development of $359,679 thousand, and general and administrative of $596,333 thousand. Those sum to $1,658,523 thousand before the stock-based compensation subtraction.",
+      "1,137,786 divided by 1,905,871 times 100 is 59.6990039%."
+    ],
+    "ai_prob": 0.003,
+    "predicted_class": "human",
+    "iterations": 1
+  },
+  {
+    "rec": 421,
+    "ann": 0,
+    "id": "SHO_2024",
+    "action": "humanized",
+    "solution": [
+      "The Management's Discussion and Analysis section starts on page 47. That section has a table showing the reconciliation from Net Income to FFO and Adjusted FFO for common stockholders. Units in that table are in thousands.",
+      "From that table: Adjusted FFO attributable to common stockholders for 2023 is $196,513 thousand. For 2022 it is $184,628 thousand.",
+      "Year-over-year growth rate from 2022 to 2023: 196,513 minus 184,628 is 11,885. 11,885 divided by 184,628 is 0.0643726843. That is a 6.44% growth rate.",
+      "To project 2024: 196,513 times 1.0643726843 is 209,163.0693098459 thousand. Rounded to the nearest thousand that is $209,163 thousand."
+    ],
+    "ai_prob": 0.150,
+    "predicted_class": "human",
+    "iterations": 1
+  },
+  {
+    "rec": 31,
+    "ann": 0,
+    "id": "ALLY_2016",
+    "action": "humanized",
+    "solution": [
+      "Page 34 of the document has the Primary Lines of Business section. That section has a revenue breakdown table showing amounts in millions of dollars.",
+      "The 2015 Automotive Finance revenue on page 34 is $3,664 million. The Favorable/(Unfavorable) 2016-2015 percentage change column for Automotive Finance shows 8%.",
+      "The actual change is 8%. Reducing that by 50% gives a hypothetical change of 4%.",
+      "2015 revenue of $3,664 million times 1.04 is $3,810.56 million."
+    ],
+    "ai_prob": 0.026,
+    "predicted_class": "human",
+    "iterations": 1
+  }
+]

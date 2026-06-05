@@ -271,5 +271,167 @@
     "after_ai": 0.319,
     "predicted_class": "human",
     "agent": "ai_H3"
+  },
+  {
+    "id": "BILL_2024",
+    "rec": 631,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.061,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "RGR_2023",
+    "rec": 564,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.32,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "GCO_2024",
+    "rec": 324,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.003,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "FOR_2024",
+    "rec": 72,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.478,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "OC_2024",
+    "rec": 365,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.22,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "COHU_2024",
+    "rec": 240,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.054,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "INTC_2023",
+    "rec": 533,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.017,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "NUE_2020",
+    "rec": 64,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.225,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "KULR_2024",
+    "rec": 197,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.052,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "PLTR_2022",
+    "rec": 381,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.003,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "SHO_2024",
+    "rec": 421,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.149,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "ALLY_2016",
+    "rec": 31,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.025,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "ORCL_2024",
+    "rec": 587,
+    "ann": 1,
+    "action": "humanized",
+    "after_ai": 0.083,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "HWM_2024",
+    "rec": 678,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.484,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "AFL_2021",
+    "rec": 50,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.14,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "ADC_2024",
+    "rec": 144,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.268,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "PMT/PRA_2024",
+    "rec": 691,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.008,
+    "predicted_class": "human",
+    "agent": "ai_T"
+  },
+  {
+    "id": "CELC_2024",
+    "rec": 158,
+    "ann": 0,
+    "action": "humanized",
+    "after_ai": 0.022,
+    "predicted_class": "human",
+    "agent": "ai_T"
   }
 ]
